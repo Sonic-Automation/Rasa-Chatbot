@@ -1,0 +1,336 @@
+version: "3.1"
+
+nlu:
+- intent: greeting
+  examples: |
+    - Ciao
+    - Buona giornata
+    - Buongiorno
+    - Buone tarde
+    - Buona notte
+    - Ciao di nuovo
+    - Di nuovo buon pomeriggio.
+    - Come stai?
+    - Come ti senti?
+    - Come stai oggi?
+    - Come stai?
+    - Come stai?
+    - Cosa c'è di nuovo?
+    - Com'è andata?
+    - Com'è andata oggi?
+    - Cosa hai fatto tutto questo tempo?
+    - Che progetti hai oggi?
+    - Come ti senti oggi?
+    - Come ti senti?
+    - Stai bene?
+    - Stai passando una bella giornata?
+    - Stai passando una buona giornata oggi?
+    - Stai passando una buona giornata finora?
+    - Come è stata la tua giornata?
+    - Com'è andata la tua giornata, finora?
+    - Stai passando una bella giornata?
+    - Come sta la tua famiglia?
+    - Come sta tuo marito/moglie?
+    - Come stanno i tuoi bambini?
+    - Come sta il tuo cane/gatto?
+    - Come ti senti oggi?
+    - Ti stai godendo la giornata?
+    - Ti stai godendo la giornata finora?
+    - Come ti senti oggi al mattino?
+    - Come ti senti oggi pomeriggio?
+    - Come ti senti stasera?
+    - Sei pronto per iniziare?
+
+- intent: pasta_e_fagioli
+  examples: |
+    - Pasta e fagioli è un buon piatto?
+    - Voglio sapere se la pasta e fagioli è un buon piatto.
+    - Qualcuno mi ha detto che la pasta e fagioli è ottima, è vero?
+    - Vorrei sapere se la pasta e fagioli è un piatto popolare.
+    - Ho sentito parlare della pasta e fagioli, è un piatto buono?
+    - Vorrei sapere se la pasta e fagioli è un piatto gustoso.
+    - Qualcuno mi ha detto che la pasta e fagioli è un piatto sostanzioso, è vero?
+    - Vorrei sapere se la pasta e fagioli è un piatto tipico italiano.
+    - Ho sentito parlare della pasta e fagioli, è un piatto tradizionale italiano?
+    - Vorrei sapere se la pasta e fagioli è un piatto popolare in Italia.
+    - Qualcuno mi ha detto che la pasta e fagioli è un piatto popolare in Toscana, è vero?
+    - Vorrei sapere se la pasta e fagioli è un piatto adatto per il pranzo.
+    - Qualcuno mi ha detto che la pasta e fagioli è un piatto adatto per la cena, è vero?
+    - Vorrei sapere se la pasta e fagioli è un piatto leggero.
+    - Qualcuno mi ha detto che la pasta e fagioli è un piatto saziante, è vero?
+    - Vorrei sapere se la pasta e fagioli è un piatto facile da preparare.
+    - Qualcuno mi ha detto che la pasta e fagioli è un piatto economico, è vero?
+    - Vorrei sapere se la pasta e fagioli è un piatto vegetariano.
+    - Qualcuno mi ha detto che la pasta e fagioli è un piatto vegano, è vero?
+- intent: abbinamento_proteine
+  examples: |
+    - Come vanno abbinati gli alimenti proteici?
+    - Vorrei sapere come abbinare gli alimenti proteici.
+    - Quali sono i modi corretti per abbinare gli alimenti proteici?
+    - Vorrei sapere come combinare gli alimenti proteici per ottenere un pasto equilibrato.
+    - Quali sono i criteri per abbinare correttamente gli alimenti proteici?
+    - Vorrei sapere se esiste una regola per abbinare gli alimenti proteici.
+    - Quali sono gli alimenti proteici che si possono abbinare tra loro?
+    - Vorrei sapere se gli alimenti proteici di origine animale si possono abbinare con quelli di origine vegetale.
+    - Quali sono le combinazioni di alimenti proteici più comuni?
+    - Vorrei sapere come abbinare la carne con i legumi.
+    - Quali sono i modi migliori per abbinare pesce e carne?
+    - Vorrei sapere come abbinare i formaggi con la carne.
+    - Quali sono i legumi più adatti per abbinare con la carne?
+    - Vorrei sapere come abbinare la carne con la pasta.
+    - Quali sono i modi migliori per abbinare la carne con le verdure.
+    - Vorrei sapere come abbinare i cereali con gli alimenti proteici.
+    - Quali sono i modi migliori per abbinare le uova con gli alimenti proteici.
+    - Vorrei sapere come abbinare i latticini con gli alimenti proteici.
+    - Quali sono i modi migliori per abbinare la soia con gli alimenti proteici.
+    - Vorrei sapere come abbinare i prodotti a base di proteine vegetali con quelli animali.
+
+- intent: costo_veganismo
+  examples: |
+    - Diventare vegani è costoso?
+    - Vorrei sapere se diventare vegani è costoso.
+    - È vero che il veganismo ha un costo elevato?
+    - Quali sono i costi principali associati al veganismo?
+    - È possibile mantenere una dieta vegana a prezzi accessibili?
+    - Quali sono i modi per mantenere una dieta vegana a basso costo?
+    - Vorrei sapere se i prodotti vegani sono più costosi di quelli non vegani.
+    - È possibile acquistare prodotti vegani a prezzi accessibili?
+    - Quali sono i negozi che vendono prodotti vegani a prezzi convenienti?
+    - Vorrei sapere se il veganismo comporta maggiori spese per la spesa alimentare.
+    - Quali sono i modi per ridurre i costi associati al veganismo?
+    - Vorrei sapere se è possibile mangiare vegano senza spendere troppo.
+    - Quali sono le alternative vegane più economiche?
+    - Vorrei sapere come risparmiare sui prodotti vegani.
+    - Quali sono i modi per ottenere prodotti vegani a prezzi più convenienti?
+    - Vorrei sapere come mantenere una dieta vegana senza spendere troppo.
+    - Quali sono i modi per ridurre i costi del veganismo senza rinunciare a una dieta equilibrata?
+    - Vorrei sapere come mantenere uno stile di vita vegano a prezzi accessibili.
+    - Quali sono i consigli per risparmiare sui prodotti vegani senza rinunciare a una dieta sana e varia?
+    - Vorrei sapere se esistono programmi o iniziative per sostenere il veganismo a prezzi accessibili.
+
+- intent: perché_ho_sempre_fame
+  examples: |
+    - Perché ho sempre fame?
+    - Non riesco mai a saziarli
+    - Ho fame anche se mangio regolarmente
+    - Non posso mai smettere di pensare al cibo
+    - Sento sempre un vuoto nello stomaco
+    - Non posso mai raggiungere la sazietà
+    - Ho sempre fame, anche se mangio abbastanza
+    - Non importa quanto mangio, ho sempre fame
+    - Non so perché ho sempre fame
+    - Vorrei sapere perché ho sempre fame
+    - Vorrei risolvere il mio problema di fame continua
+    - La mia fame è insaziabile
+    - Mi sento sempre affamato
+    - Ho bisogno di capire perché ho sempre fame
+    - Vorrei risolvere il mio problema di fame costante
+    - Non posso mai smettere di mangiare
+    - Ho fame anche se ho appena mangiato
+    - Vorrei sapere perché non riesco mai a sentirmi sazio
+    - Vorrei risolvere la mia fame continua
+
+- intent: rimediare_basso_valore_alimenti_vegetali
+  examples: |
+    - come rimediare al basso valore degli alimenti vegetali?
+    - Come posso aumentare il valore nutrizionale degli alimenti vegetali?
+    - Vorrei sapere come aumentare il valore nutrizionale della mia dieta vegetariana.
+    - Vorrei sapere come migliorare la qualità nutrizionale della mia dieta a base di vegetali.
+    - Vorrei sapere come ottenere più proteine da alimenti vegetali.
+    - Vorrei sapere come aumentare l'apporto di ferro nella mia dieta vegetariana.
+    - Vorrei sapere come aumentare l'assunzione di calcio nella mia dieta a base di vegetali.
+    - Vorrei sapere come aumentare l'assunzione di vitamine B12 nella mia dieta vegetariana.
+    - Vorrei sapere come integrare gli acidi grassi essenziali nella mia dieta a base di vegetali.
+    - Vorrei sapere come aumentare il contenuto di zinco nella mia dieta vegetariana.
+    - Vorrei sapere come aumentare l'assunzione di iodio nella mia dieta a base di vegetali.
+    - Vorrei sapere come aumentare l'assunzione di magnesio nella mia dieta vegetariana.
+    - Vorrei sapere come ottenere più proteine da alimenti vegetali.
+    - Vorrei sapere come aumentare il contenuto di selenio nella mia dieta a base di vegetali.
+    - Vorrei sapere come integrare la vitamina D nella mia dieta vegetariana.
+    - Vorrei sapere come aumentare l'assunzione di ferro nella mia dieta a base di vegetali.
+    - Vorrei sapere come aumentare l'assunzione di calcio nella mia dieta vegetariana.
+    - Vorrei sapere come aumentare l'assunzione di vitamine B12 nella mia dieta a base di vegetali.
+    - Vorrei sapere come integrare gli acidi grassi essenziali nella mia dieta vegetariana.
+    - Vorrei sapere come aumentare il contenuto di zinco nella mia dieta a base di vegetali.
+
+- intent: sentirsi_gonfi_transizione_vegana
+  examples: |
+    - è normale sentirsi gonfi all’inizio della transizione vegana?
+    - Mi sento molto gonfio da quando ho iniziato a seguire una dieta vegana
+    - Da quando sono diventato vegano mi sento sempre gonfio
+    - Il mio addome è sempre gonfio da quando ho iniziato a mangiare solo cibo vegano
+    - Ho notato che mi sento sempre più gonfio da quando ho cambiato la mia dieta
+    - Non so se è normale sentirsi gonfio durante la transizione vegana
+    - Mi sento gonfio e a volte anche dolorante da quando ho iniziato a seguire una dieta vegana
+    - Ho notato che ho un addome sempre gonfio da quando ho cambiato la mia alimentazione
+    - Ho sentito dire che è normale sentirsi gonfio durante la transizione verso una dieta vegana
+    - Vorrei sapere se è normale sentirsi sempre gonfio da quando si segue una dieta vegana
+    - Ho sentito che molti vegani si sentono gonfi all'inizio della loro transizione alimentare
+
+- intent: alimentazione_vegana_completa
+  examples: |
+    - come e quanto deve essere completa un’alimentazione vegana, per essere buona?
+    - Come posso assicurarmi che la mia alimentazione vegana sia completa?
+    - Ho bisogno di sapere come rendere la mia dieta vegana equilibrata e completa
+    - Vorrei sapere come garantire che la mia alimentazione vegana sia completa di tutti i nutrienti di cui ho bisogno
+    - Devo essere sicuro che la mia dieta vegana sia completa e bilanciata
+    - Vorrei sapere come assicurarmi che la mia alimentazione vegana sia equilibrata e completa
+    - Quali sono i modi per garantire che la mia dieta vegana sia completa di tutti i nutrienti di cui ho bisogno?
+    - Vorrei sapere come rendere la mia alimentazione vegana il più completa possibile
+    - Come posso garantire che la mia dieta vegana sia equilibrata e soddisfi tutte le mie esigenze nutrizionali?
+    - Devo essere sicuro che la mia alimentazione vegana sia completa e adeguata a tutte le mie esigenze nutrizionali
+    - Quali sono i passi per garantire che la mia dieta vegana sia completa e bilanciata?
+
+- intent: proteine_grasse
+  examples: |
+    - Quali sono le proteine grasse?
+    - Che cosa sono le proteine grasse?
+    - Vorrei sapere di più sulle proteine grasse
+    - Quali sono le fonti alimentari di proteine grasse?
+    - Ho bisogno di sapere come ottenere abbastanza proteine grasse nella mia dieta
+    - Vorrei capire l'importanza delle proteine grasse nella dieta
+    - Quali sono i beneficrittori nutrizionali delle proteine grasse?
+    - Vorrei sapere come le proteine grasse influiscono sul nostro benessere
+    - Quali sono i vantaggi delle proteine grasse?
+    - Vorrei sapere se le proteine grasse sono essenziali per la salute
+    - Che cosa devo sapere sulle proteine grasse per avere una dieta equilibrata e sana?
+
+- intent: aspetti_tecnici
+  examples: |
+    - Quali sono gli aspetti tecnici da definire?
+    - Quali sono gli aspetti tecnici da definire per un progetto?
+    - Vorrei sapere quali sono gli aspetti tecnici fondamentali per un progetto
+    - Ho bisogno di una lista degli aspetti tecnici da considerare per un progetto
+    - Vorrei sapere come definire gli aspetti tecnici di un progetto
+    - Quali sono i dettagli tecnici da considerare per un progetto?
+    - Vorrei sapere come preparare un piano per gli aspetti tecnici di un progetto
+    - Ho bisogno di una guida per definire gli aspetti tecnici di un progetto
+    - Vorrei sapere quali sono gli aspetti tecnici importanti da considerare per un progetto
+    - Quali sono i fattori tecnici da tenere in considerazione per un progetto?
+    - Vorrei sapere come gestire gli aspetti tecnici di un progetto
+    - Ho bisogno di una lista degli aspetti tecnici fondamentali per un progetto
+    - Vorrei sapere come preparare una checklist per gli aspetti tecnici di un progetto
+    - Quali sono i passi per definire gli aspetti tecnici di un progetto?
+    - Vorrei sapere come identificare gli aspetti tecnici da considerare per un progetto
+    - Quali sono i consigli per definire gli aspetti tecnici di un progetto?
+
+- intent: alimenti_serie_AB
+  examples: |
+    - Devono per forza esistere alimenti di serie A e B? 
+    - Esistono veramente gli alimenti di serie A e B?
+    - Vorrei sapere se gli alimenti di serie A e B sono una realtà
+    - Quali sono gli alimenti di serie A e B?
+    - Ho bisogno di sapere se esiste una classificazione ufficiale degli alimenti in serie A e B
+    - Vorrei sapere come funziona la classificazione degli alimenti in serie A e B
+    - Quali sono i criteri per classificare gli alimenti in serie A e B?
+    - Ho bisogno di sapere se gli alimenti di serie A e B hanno un'influenza sulla salute
+    - Vorrei sapere se esistono fonti affidabili per la classificazione degli alimenti in serie A e B
+    - Quali sono le conseguenze di seguire una dieta basata sugli alimenti di serie A e B?
+    - Vorrei sapere se la classificazione degli alimenti in serie A e B è accettata dalla comunità scientifica.
+
+# docs 03
+- intent: pasto_bilanciato
+  examples: |
+    - Esiste il “pasto bilanciato”?
+    - Che cos'è un pasto bilanciato?
+    - Vorrei sapere come funziona un pasto bilanciato
+    - Quali sono i componenti di un pasto bilanciato?
+    - Ho bisogno di sapere se esiste una formula per un pasto bilanciato
+    - Quali sono le proporzioni ideali per i componenti di un pasto bilanciato?
+    - Quali sono le raccomandazioni per un pasto bilanciato?
+    - Vorrei sapere se esiste una relazione tra il pasto bilanciato e la salute
+    - Quali sono i vantaggi di seguire una dieta basata sui pasti bilanciati?
+    - Ho bisogno di sapere se esiste una classificazione degli alimenti per il pasto bilanciato
+    - Vorrei sapere se esiste una tabella delle calorie per un pasto bilanciato
+    - Quali sono gli aspetti da considerare per un pasto bilanciato?
+    - Vorrei sapere se esistono fonti affidabili per la creazione di pasti bilanciati
+    - Quali sono le conseguenze di seguire una dieta basata sui pasti bilanciati?
+    - Vorrei sapere se esiste una relazione tra il pasto bilanciato e la perdita di peso
+    - Quali sono le raccomandazioni per il mantenimento di un pasto bilanciato nella vita quotidiana.
+
+- intent: healthy_every_size
+  examples: |
+    - Cosa ne pensi dell’Healthy every size?
+    - Che cos'è l'Healthy every size?
+    - Vorrei sapere di più sull'Healthy every size
+    - Quali sono i principi dell'Healthy every size?
+    - Ho bisogno di sapere se l'Healthy every size è un approccio scientifico
+    - Quali sono le opinioni sull'Healthy every size?
+    - Vorrei sapere se l'Healthy every size è sostenibile
+    - Quali sono i vantaggi dell'Healthy every size?
+    - Vorrei sapere se l'Healthy every size è un approccio alla salute
+    - Quali sono le fonti affidabili sull'Healthy every size?
+    - Vorrei sapere se l'Healthy every size è un approccio alla perdita di peso
+    - Quali sono le criticità dell'Healthy every size?
+    - Vorrei sapere se esistono controindicazioni per l'Healthy every size
+    - Quali sono i risultati della ricerca sull'Healthy every size?
+    - Vorrei sapere se l'Healthy every size è un approccio all'alimentazione
+    - Quali sono le opinioni dei professionisti della salute sull'Healthy every size?
+    - Vorrei sapere se l'Healthy every size è sostenibile a lungo termine.
+
+- intent: emissione_di_aria_dalla_pancia
+  examples: |
+    - Mi esce molta aria che ho in pancia. È normale?
+    - Mi esce molta aria dalla pancia, è normale?
+    - Ho sempre problemi di emissione di aria dalla pancia, cosa posso fare?
+    - La mia pancia è sempre piena di aria, cosa sta succedendo?
+    - Vorrei sapere se l'emissione di aria dalla pancia è un problema di salute
+    - Quali sono le cause dell'emissione di aria dalla pancia?
+    - Vorrei sapere se l'emissione di aria dalla pancia è normale
+    - Cosa posso fare per evitare l'emissione di aria dalla pancia?
+    - Vorrei sapere se l'emissione di aria dalla pancia è pericolosa
+    - Quali sono i rimedi per l'emissione di aria dalla pancia?
+    - Vorrei sapere se l'emissione di aria dalla pancia è legata all'alimentazione
+    - Quali sono le fonti affidabili per informazioni sull'emissione di aria dalla pancia?
+    - Vorrei sapere se esistono rimedi naturali per l'emissione di aria dalla pancia
+    - Quali sono le opinioni dei professionisti della salute sull'emissione di aria dalla pancia?
+    - Vorrei sapere se l'emissione di aria dalla pancia può essere un segnale di un problema di salute più grave
+    - Quali sono i fattori che influiscono sull'emissione di aria dalla pancia?
+
+- intent: legumi_e_verdure_come_pasto
+  examples: |
+    - Legumi + verdure va bene?
+    - Legumi e verdure va bene come pasto?
+    - Vorrei sapere se legumi e verdure sono una scelta salutare come pasto
+    - Cosa ne pensi di legumi e verdure come pasto?
+    - Quali sono i vantaggi di mangiare legumi e verdure come pasto?
+    - Quali sono gli svantaggi di mangiare legumi e verdure come pasto?
+    - Vorrei sapere se legumi e verdure sono una scelta equilibrata come pasto
+    - Quali sono le fonti affidabili per informazioni su legumi e verdure come pasto?
+    - Quali sono le opinioni dei professionisti della salute su legumi e verdure come pasto?
+    - Quali sono le alternative a legumi e verdure come pasto?
+    - Quali sono i modi per rendere legumi e verdure un pasto soddisfacente?
+    - Quali sono le combinazioni di legumi e verdure che vanno bene come pasto?
+    - Quali sono i consigli per preparare legumi e verdure come pasto?
+    - Quali sono i fattori da considerare quando si sceglie legumi e verdure come pasto?
+    - Quali sono le alternative vegetariane e vegane a legumi e verdure come pasto?
+    - Quali sono i fattori che influiscono sulla scelta di legumi e verdure come pasto?
+
+- intent: orario_migliore_per_allenamento
+  examples: |
+    - Qual è l’orario migliore per allenarsi?
+    - Qual è l'orario migliore per allenarsi?
+    - Vorrei sapere quale sia il momento ideale per allenarsi
+    - Quali sono i vantaggi di allenarsi in un determinato momento?
+    - Quali sono gli svantaggi di allenarsi in un determinato momento?
+    - Quali sono le opinioni dei professionisti sull'orario migliore per l'allenamento?
+    - Quali sono le fonti affidabili per informazioni sull'orario migliore per l'allenamento?
+    - Cosa ne pensi dell'idea di allenarsi alla stessa ora ogni giorno?
+    - Quali sono i fattori che influiscono sulla scelta dell'orario per l'allenamento?
+    - Qual è l'impatto di allenarsi al mattino o alla sera sulla qualità del sonno?
+    - Quali sono le conseguenze di allenarsi subito prima di andare a dormire?
+    - Quali sono le alternative a un determinato orario per l'allenamento?
+    - Quali sono i consigli per scegliere l'orario migliore per l'allenamento?
+    - Qual è l'effetto dell'orario per l'allenamento sulla performance?
+    - Qual è l'impatto dell'orario per l'allenamento sulla motivazione?
+    - Quali sono le alternative a un orario fisso per l'allenamento?
+
+
+- intent: bot_challenge
+  examples: |
+    - Sei un robot?
+    - Sei un essere umano?
+    - Sto parlando con un bot?
+    - Sto parlando con un essere umano?
+    - robot?
+    - umano?

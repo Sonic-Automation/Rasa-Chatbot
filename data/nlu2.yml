@@ -1,0 +1,255 @@
+version: "3.1"
+
+nlu:
+
+- intent: info_efsa
+  examples: |
+    - "Chi è l'EFSA?"
+    - "Cos'è l'EFSA?"
+    - "Cos'è l'EFSA?"
+    - "Spiegami l'EFSA"
+    - "Voglio sapere di più sull'EFSA"
+    - "Che cos'è l'EFSA?"
+
+- intent: studio_vitamina_b12
+  examples: |
+    - Quale studio ha pubblicato l'EFSA riguardo la vitamina B12?
+    - "Ha pubblicato l'EFSA uno studio sulla vitamina B12?"
+    - "Quale studio ha fatto l'EFSA sulla vitamina B12?"
+    - "Che studio ha pubblicato l'EFSA sulla vitamina B12?"
+    - "Voglio sapere se l'EFSA ha fatto uno studio sulla vitamina B12"
+    - "Cosa dice lo studio dell'EFSA sulla vitamina B12?"
+
+- intent: carenza_vitamina_d
+  examples: |
+    - "Perché c'è una carenza di vitamina D?"
+    - "Qual è la causa della carenza di vitamina D?"
+    - "Come mai c'è una carenza di vitamina D?"
+    - "Voglio sapere perché c'è una carenza di vitamina D"
+    - "Cosa causa la carenza di vitamina D?"
+  
+
+- intent: dieta_vegetale_vitamine
+  examples: |
+    - "Le diete vegetariane sono prive di alcune vitamine importanti?"
+    - "È vero che le diete vegetariane non contengono tutte le vitamine di cui abbiamo bisogno?"
+    - "La dieta vegetariana fornisce tutte le vitamine necessarie?"
+    - "È possibile che le diete vegetali siano carenti di alcune vitamine?"
+    - "C'è un rischio di carenza di vitamine con una dieta vegetariana?"
+
+- intent: iodio_sale
+  examples: |
+    - "Perché l'iodio è stato aggiunto al sale da cucina?"
+    - "Cosa ha motivato l'aggiunta di iodio al sale?"
+    - "Perché il sale da cucina viene fortificato con iodio?"
+    - "Qual è lo scopo dell'aggiunta di iodio al sale da cucina?"
+    - "Cosa rende necessaria l'aggiunta di iodio al sale?"
+
+- intent: carenza_vitamina_d_percentuale
+  examples: |
+    - "Qual è la percentuale della popolazione mondiale afflitta da carenza di vitamina D?"
+    - "Quant'è diffusa la carenza di vitamina D nel mondo?"
+    - "Qual è la quantità di persone con carenza di vitamina D?"
+    - "In quante persone si manifesta la carenza di vitamina D?"
+    - "Qual è la diffusione della carenza di vitamina D nel mondo?"
+    - "Cosa dicono le statistiche sulla carenza di vitamina D?"
+    - "Quante persone soffrono di carenza di vitamina D?"
+    - "In che percentuale della popolazione c'è carenza di vitamina D?"
+    - "Qual è la quantità di persone con bassi livelli di vitamina D?"
+    - "Cosa si sa sulla diffusione della carenza di vitamina D?"
+
+- intent: detrattori_diete_vegetali
+  examples: |
+    - "Quali sono i detrattori principali delle diete vegetali?"
+    - "Cosa dicono i critici delle diete vegetariane?"
+    - "Quali sono i principali problemi delle diete vegetariane?"
+    - "Cosa non piace delle diete vegetariane?"
+    - "Quali sono i punti deboli delle diete vegetariane?"
+    - "Perché c'è chi non sostiene le diete vegetariane?"
+    - "Cosa dice la controparte sulla dieta vegetariana?"
+    - "Quali sono le obiezioni maggiori alle diete vegetariane?"
+    - "Perché alcune persone non sono d'accordo con le diete vegetariane?"
+    - "Quali sono i motivi per cui le diete vegetariane non sono accettate da tutti?"
+
+- intent: conseguenze_dieta_omega3
+  examples: |
+    - "Quali sono le conseguenze di una dieta carente di Omega 3 a lunga catena?"
+    - "Cosa succede quando manca Omega 3 a lunga catena nella dieta?"
+    - "Quali problemi può causare la carenza di Omega 3 a lunga catena?"
+    - "Cosa si rischia con una dieta priva di Omega 3 a lunga catena?"
+    - "Quali sono gli effetti negativi di una dieta povera di Omega 3 a lunga catena?"
+    - "Cosa succede al corpo se non si assume abbastanza Omega 3 a lunga catena?"
+    - "Perché è importante integrare Omega 3 a lunga catena nella dieta?"
+    - "Cosa si perde con una dieta che non include Omega 3 a lunga catena?"
+    - "Perché una dieta carente di Omega 3 a lunga catena può essere pericolosa?"
+    - "Quali sono le implicazioni di una dieta che non fornisce Omega 3 a lunga catena?"
+
+- intent: evitare_giudizi_dieta
+  examples: |
+    - "Perché bisognerebbe evitare di stabilire se un'alimentazione è adatta o meno solo sulla base delle carenze nutrizionali?"
+    - "Cosa non va nel giudicare una dieta solo sulla base delle carenze nutrizionali?"
+    - "Perché non è corretto basare la valutazione di una dieta solo sulle carenze nutrizionali?"
+    - "Cosa non dice una valutazione di una dieta basata solo sulle carenze nutrizionali?"
+    - "Quali sono i limiti di una valutazione che considera solo le carenze nutrizionali?"
+    - "Perché non si può affidare a una valutazione basata solo sulle carenze nutrizionali?"
+    - "Cosa sfugge basando la valutazione di una dieta solo sulle carenze nutrizionali?"
+    - "Perché non è sufficiente valutare una dieta solo sulle carenze nutrizionali?"
+    - "Cosa bisognerebbe considerare oltre alle carenze nutrizionali per valutare un'alimentazione?"
+    - "Perché non bisognerebbe basare la valutazione di una dieta solo sulle carenze nutrizionali?"
+
+- intent: valutare_alimentazione
+  examples: |
+    - "Quale sarebbe il modo più sensato per valutare se un'alimentazione è adatta o meno per l'essere umano?"
+    - "Come si potrebbe valutare se un'alimentazione è salutare per l'essere umano?"
+    - "Quali sono i criteri per determinare se una dieta è adatta per l'essere umano?"
+    - "Cosa bisognerebbe considerare per valutare se un'alimentazione è sana per l'essere umano?"
+    - "Come si potrebbe stabilire se una dieta è adeguata per l'essere umano?"
+    - "Perché è importante valutare la salute di una dieta per l'essere umano?"
+    - "Quali sono le informazioni che bisognerebbe conoscere per valutare se una dieta è adeguata per l'essere umano?"
+    - "Come si potrebbe garantire che un'alimentazione sia salutare per l'essere umano?"
+    - "Quali sono le informazioni necessarie per determinare se un'alimentazione è adeguata per l'essere umano?"
+    - "Cosa bisognerebbe fare per capire se un'alimentazione è sana per l'essere umano?"
+
+- intent: impatto_dieta_vegana
+  examples: |
+    - "Qual è l'impatto della dieta vegana sulla salute?"
+    - "Cosa dice la scienza riguardo l'effetto della dieta vegana sulla salute?"
+    - "Come influisce la dieta vegana sulla salute?"
+    - "Quali sono i pro e i contro della dieta vegana per la salute?"
+    - "Cosa bisognerebbe sapere sull'impatto della dieta vegana sulla salute?"
+    - "Come può influire la dieta vegana sulla salute a lungo termine?"
+    - "Quali sono le conseguenze della dieta vegana per la salute?"
+    - "Perché la dieta vegana è vista come una scelta salutare da alcuni e come un rischio da altri?"
+    - "Cosa bisognerebbe considerare per valutare l'impatto della dieta vegana sulla salute?"
+    - "Come si potrebbe determinare l'effetto della dieta vegana sulla salute?"
+
+- intent: difficolta_dieta_vegana
+  examples: |
+    - "La dieta vegana è semplice d impostare come una dieta onnivora?"
+    - "Quanto è difficile seguire una dieta vegana rispetto a una dieta onnivora?"
+    - "Cosa bisognerebbe sapere per impostare una dieta vegana correttamente?"
+    - "Come si potrebbe garantire che una dieta vegana sia adeguata?"
+    - "Quali sono le sfide che si presentano quando si segue una dieta vegana?"
+    - "Perché alcune persone trovano difficile seguire una dieta vegana?"
+    - "Come si potrebbe superare la difficoltà di seguire una dieta vegana?"
+    - "Quali sono i consigli per seguire una dieta vegana in maniera adeguata?"
+    - "Perché la dieta vegana viene spesso considerata come complicata da seguire?"
+    - "Cosa bisognerebbe fare per rendere la dieta vegana più semplice da seguire?"
+
+
+- intent: differenze_diete
+  examples: |
+    - "Quali sono le principali differenze tra una dieta vegana, vegetariana e onnivora?"
+    - "Come differiscono le diete vegana, vegetariana e onnivora?"
+    - "Cosa bisognerebbe sapere sulla differenza tra le diete vegana, vegetariana e onnivora?"
+    - "Come si potrebbe descrivere la differenza tra una dieta vegana e una dieta onnivora?"
+    - "Cosa distingue una dieta vegetariana da una dieta onnivora?"
+    - "Perché alcune persone scelgono di seguire una dieta vegana, mentre altre preferiscono una dieta vegetariana o onnivora?"
+    - "Come potrebbe influire la scelta di seguire una dieta vegana, vegetariana o onnivora sulla salute?"
+    - "Quali sono i vantaggi e gli svantaggi di ognuna di queste diete?"
+    - "Come si potrebbe valutare la differenza tra le diete vegana, vegetariana e onnivora?"
+    - "Perché alcune persone scelgono di seguire una dieta vegana, mentre altre una dieta vegetariana o onnivora?"
+
+- intent: possibilita_nutrienti_dieta_vegana
+  examples: |
+    - "È possibile ottenere tutti i nutrienti necessari da una dieta vegana?"
+    - "Una dieta vegana è in grado di fornire tutti i nutrienti di cui abbiamo bisogno?"
+    - "Perché alcune persone ritengono che una dieta vegana sia carente di nutrienti?"
+    - "Come si potrebbe garantire che una dieta vegana sia completa di tutti i nutrienti necessari?"
+    - "Quali sono i nutrienti di cui bisognerebbe essere particolarmente consapevoli quando si segue una dieta vegana?"
+    - "Come si potrebbe evitare carenze nutrizionali quando si segue una dieta vegana?"
+    - "Quali alimenti bisognerebbe includere in una dieta vegana per garantire l'apporto di tutti i nutrienti necessari?"
+    - "Perché la dieta vegana viene spesso considerata come carente di alcuni nutrienti?"
+    - "Cosa bisognerebbe fare per garantire che una dieta vegana sia completa di tutti i nutrienti necessari?"
+    - "Quali sono i rischi per la salute di una dieta vegana che non fornisce tutti i nutrienti necessari?"
+
+- intent: problemi_scelta_alimentazione_vegana
+  examples: |
+    - "Quali sono i principali problemi nella scelta di un'alimentazione vegana?"
+    - "Perché alcune persone incontrano difficoltà quando decidono di seguire una dieta vegana?"
+    - "Quali sono le maggiori sfide che si affrontano quando si opta per un'alimentazione vegana?"
+    - "Come si potrebbero superare i problemi legati alla scelta di un'alimentazione vegana?"
+    - "Quali sono le cose da tenere in considerazione quando si sceglie di seguire una dieta vegana?"
+    - "Perché molte persone trovano difficile seguire una dieta vegana?"
+    - "Come si potrebbero evitare i problemi legati alla scelta di un'alimentazione vegana?"
+    - "Quali sono i rischi per la salute di una dieta vegana se non viene gestita correttamente?"
+    - "Perché molti esperti nutrizionisti non raccomandano la dieta vegana?"
+    - "Cosa bisognerebbe fare per garantire che un'alimentazione vegana sia sana e bilanciata?"
+
+- intent: differenze_alimentazioni
+  examples: |
+    - "Quali sono le differenze principali tra alimentazione vegana, vegetariana e onnivora?"
+    - "Come sono diverse le diete vegana, vegetariana e onnivora?"
+    - "Perché alcune persone scelgono un'alimentazione vegana, altre vegetariana e altre ancora onnivora?"
+    - "Cosa contraddistingue un'alimentazione vegana rispetto a una vegetariana o onnivora?"
+    - "Come potrei capire se un'alimentazione vegana, vegetariana o onnivora è più adatta a me?"
+    - "Cosa dovrei considerare per scegliere tra un'alimentazione vegana, vegetariana o onnivora?"
+    - "Perché alcune persone decidono di seguire una dieta vegana e altre una vegetariana o onnivora?"
+    - "Quali sono i pro e i contro di un'alimentazione vegana, vegetariana e onnivora?"
+    - "Come si potrebbe creare un'alimentazione sana e bilanciata seguendo una dieta vegana, vegetariana o onnivora?"
+    - "Cosa bisognerebbe tenere in considerazione per decidere tra un'alimentazione vegana, vegetariana o onnivora?"
+
+- intent: vantaggi_dieta_vegana
+  examples: |
+    - "Quali sono i principali vantaggi della dieta vegana per la salute?"
+    - "Perché molti scelgono di seguire una dieta vegana?"
+    - "Cosa posso guadagnare dal seguire un'alimentazione vegana?"
+    - "Come può influire positivamente una dieta vegana sulla mia salute?"
+    - "Perché la dieta vegana viene spesso raccomandata dai medici?"
+    - "Cosa rende un'alimentazione vegana vantaggiosa per la salute?"
+    - "Quali sono le ragioni per cui una dieta vegana può essere più salutare di una dieta onnivora?"
+    - "Come la dieta vegana può influire sulla prevenzione di malattie croniche?"
+    - "Cosa posso aspettarmi dal seguire una dieta vegana in termini di effetti positivi sulla mia salute?"
+    - "Quali sono i risultati più comuni ottenuti da chi segue una dieta vegana?"
+
+- intent: bilancio_nutrizionale_dieta_vegana
+  examples: |
+    - "In che modo la scelta di una dieta vegana influisce sul bilancio nutrizionale dei nutrienti?"
+    - "Quali nutrienti sono di solito più carenti in una dieta vegana?"
+    - "Cosa devo fare per evitare carenze nutrizionali nella mia dieta vegana?"
+    - "Come posso mantenere un equilibrio nutrizionale adeguato seguendo una dieta vegana?"
+    - "La dieta vegana può causare una mancanza di proteine, vitamine o minerali?"
+    - "Cosa posso fare per compensare le carenze nutrizionali nella mia dieta vegana?"
+    - "Come posso assicurarmi di ottenere tutti i nutrienti di cui ho bisogno seguendo una dieta vegana?"
+    - "Quali sono i nutrienti che devo prestare maggiore attenzione nella mia dieta vegana?"
+    - "La dieta vegana è adeguata per tutte le età e le condizioni di salute?"
+    - "Quali accorgimenti posso prendere per evitare carenze nutrizionali nella mia dieta vegana?"
+
+- intent: difficolta_bilanciare_dieta_vegetale
+  examples: |
+    - "Quali sono le difficoltà principali nell'ottenere una dieta vegetale bilanciata?"
+    - "Perché può essere difficile ottenere una dieta vegetale equilibrata?"
+    - "Come posso evitare carenze nutrizionali nella mia dieta vegetale?"
+    - "Cosa devo fare per garantire un apporto adeguato di proteine, vitamine e minerali nella mia dieta vegetale?"
+    - "Quali nutrienti devo prestare particolare attenzione nella mia dieta vegetale?"
+    - "In che modo posso compensare le eventuali carenze nutrizionali nella mia dieta vegetale?"
+    - "La dieta vegetale è adeguata per tutte le età e le condizioni di salute?"
+    - "Come posso evitare di mangiare troppi carboidrati nella mia dieta vegetale?"
+    - "Quali sono i rischi per la salute nella scelta di una dieta vegetale non bilanciata?"
+    - "Come posso garantire che la mia dieta vegetale sia equilibrata e bilanciata?"
+
+- intent: distorsione_statistica_studi_dieta_vegana
+  examples: |
+    - "Qual è la principale distorsione statistica negli studi scientifici sulla dieta vegana?"
+    - "Perché alcuni studi sulla dieta vegana sono considerati poco affidabili?"
+    - "Come si può verificare la validità degli studi scientifici sulla dieta vegana?"
+    - "Perché la dieta vegana è ancora oggetto di controversie scientifiche?"
+    - "Quali sono le criticità nella metodologia di alcuni studi sulla dieta vegana?"
+    - "Come posso distinguere tra studi scientifici affidabili e non affidabili sulla dieta vegana?"
+    - "Perché bisognerebbe prestare attenzione ai risultati degli studi sulla dieta vegana?"
+    - "In che modo gli studi sulla dieta vegana influiscono sulle opinioni e le scelte dei consumatori?"
+    - "Come posso verificare la qualità e l'affidabilità degli studi sulla dieta vegana?"
+    - "Quali sono le implicazioni per la salute delle informazioni derivanti da studi poco affidabili sulla dieta vegana?"
+
+- intent: problema_dieta_vegana_sostenibilità
+  examples: |
+    - "Qual è il problema principale nella dieta vegana per quanto riguarda la sostenibilità?"
+    - "Come la dieta vegana influisce sulla sostenibilità ambientale?"
+    - "In che modo la scelta di una dieta vegana incide sulla sostenibilità a lungo termine?"
+    - "Quali sono i rischi per la sostenibilità derivanti dalla diffusione della dieta vegana?"
+    - "Come si può equilibrare la scelta di un'alimentazione vegana con la sostenibilità ambientale?"
+    - "Perché la dieta vegana viene spesso associata alla sostenibilità ambientale?"
+    - "Come la scelta di un'alimentazione vegana influisce sulla salute del pianeta?"
+    - "In che modo la dieta vegana può essere resa più sostenibile?"
+    - "Quali sono le soluzioni per rendere la dieta vegana sostenibile a lungo termine?"
+    - "In che modo bisognerebbe affrontare i problemi di sostenibilità nella dieta vegana?"

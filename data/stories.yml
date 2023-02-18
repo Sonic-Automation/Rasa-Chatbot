@@ -1,0 +1,401 @@
+version: "3.1"
+
+stories:
+
+- story: Welcome path
+  steps:
+  - intent: greeting
+  - action: utter_greeting
+
+- story: sentirsi gonfi transizione vegana
+  steps:
+  - intent: sentirsi_gonfi_transizione_vegana
+  - action: utter_sentirsi_gonfi_transizione_vegana
+
+- story: alimentazione vegana completa
+  steps:
+  - intent: alimentazione_vegana_completa
+  - action: utter_alimentazione_vegana_completa
+
+- story: proteine grasse
+  steps:
+  - intent: proteine_grasse
+  - action: utter_proteine_grasse
+
+- story: aspetti tecnici
+  steps:
+  - intent: aspetti_tecnici
+  - action: utter_aspetti_tecnici
+
+- story: alimenti serie AB
+  steps:
+  - intent: alimenti_serie_AB
+  - action: utter_alimenti_serie_AB
+
+- story: pasta e fagioli
+  steps:
+  - intent: pasta_e_fagioli
+  - action: utter_pasta_e_fagioli
+
+- story: abbinamento proteine
+  steps:
+  - intent: abbinamento_proteine
+  - action: utter_abbinamento_proteine
+
+- story: costo veganismo
+  steps:
+  - intent: costo_veganismo
+  - action: utter_costo_veganismo
+
+- story: perché ho sempre fame
+  steps:
+  - intent: perché_ho_sempre_fame
+  - action: utter_perché_ho_sempre_fame
+
+- story: rimediare basso valore alimenti vegetali
+  steps:
+  - intent: rimediare_basso_valore_alimenti_vegetali
+  - action: utter_rimediare_basso_valore_alimenti_vegetali
+
+- story: pasto bilanciato
+  steps:
+  - intent: pasto_bilanciato
+  - action: utter_pasto_bilanciato
+
+- story: healthy every size
+  steps:
+  - intent: healthy_every_size
+  - action: utter_healthy_every_size
+
+- story: emissione di aria dalla pancia
+  steps:
+  - intent: emissione_di_aria_dalla_pancia
+  - action: utter_emissione_di_aria_dalla_pancia
+
+- story: legumi e verdure come pasto
+  steps:
+  - intent: legumi_e_verdure_come_pasto
+  - action: utter_legumi_e_verdure_come_pasto
+
+- story: orario migliore per allenamento
+  steps:
+  - intent: orario_migliore_per_allenamento
+  - action: utter_orario_migliore_per_allenamento
+
+- story: info efsa
+  steps:
+  - intent: info_efsa
+  - action: utter_info_efsa
+
+- story: studio vitamina b12
+  steps:
+  - intent: studio_vitamina_b12
+  - action: utter_studio_vitamina_b12
+
+- story: carenza vitamina d
+  steps:
+  - intent: carenza_vitamina_d
+  - action: utter_carenza_vitamina_d
+
+- story: dieta vegetale vitamine
+  steps:
+  - intent: dieta_vegetale_vitamine
+  - action: utter_dieta_vegetale_vitamine
+
+- story: iodio sale
+  steps:
+  - intent: iodio_sale
+  - action: utter_iodio_sale
+
+- story: carenza vitamina d percentuale
+  steps:
+  - intent: carenza_vitamina_d_percentuale
+  - action: utter_carenza_vitamina_d_percentuale
+
+- story: detrattori diete vegetali
+  steps:
+  - intent: detrattori_diete_vegetali
+  - action: utter_detrattori_diete_vegetali
+
+- story: conseguenze dieta omega3
+  steps:
+  - intent: conseguenze_dieta_omega3
+  - action: utter_conseguenze_dieta_omega3
+
+- story: evitare giudizi dieta
+  steps:
+  - intent: evitare_giudizi_dieta
+  - action: utter_evitare_giudizi_dieta
+
+- story: valutare alimentazione
+  steps:
+  - intent: valutare_alimentazione
+  - action: utter_valutare_alimentazione
+
+- story: impatto dieta vegana
+  steps:
+  - intent: impatto_dieta_vegana
+  - action: utter_impatto_dieta_vegana
+
+- story: difficolta dieta vegana
+  steps:
+  - intent: difficolta_dieta_vegana
+  - action: utter_difficolta_dieta_vegana
+
+- story: differenze diete
+  steps:
+  - intent: differenze_diete
+  - action: utter_differenze_diete
+
+- story: possibilita nutrienti dieta vegana
+  steps:
+  - intent: possibilita_nutrienti_dieta_vegana
+  - action: utter_possibilita_nutrienti_dieta_vegana
+
+- story: problemi scelta alimentazione vegana
+  steps:
+  - intent: problemi_scelta_alimentazione_vegana
+  - action: utter_problemi_scelta_alimentazione_vegana
+
+- story: differenze alimentazioni
+  steps:
+  - intent: differenze_alimentazioni
+  - action: utter_differenze_alimentazioni
+
+- story: vantaggi dieta vegana
+  steps:
+  - intent: vantaggi_dieta_vegana
+  - action: utter_vantaggi_dieta_vegana
+
+- story: bilancio nutrizionale dieta vegana
+  steps:
+  - intent: bilancio_nutrizionale_dieta_vegana
+  - action: utter_bilancio_nutrizionale_dieta_vegana
+
+- story: difficolta bilanciare dieta vegetale
+  steps:
+  - intent: difficolta_bilanciare_dieta_vegetale
+  - action: utter_difficolta_bilanciare_dieta_vegetale
+
+- story: distorsione statistica studi dieta vegana
+  steps:
+  - intent: distorsione_statistica_studi_dieta_vegana
+  - action: utter_distorsione_statistica_studi_dieta_vegana
+
+- story: problema dieta vegana sostenibilità
+  steps:
+  - intent: problema_dieta_vegana_sostenibilità
+  - action: utter_problema_dieta_vegana_sostenibilità
+
+- story: preoccupazioni_dieta_vegetariana_salute
+  steps:
+  - intent: preoccupazioni_dieta_vegetariana_salute
+  - action: utter_preoccupazioni_dieta_vegetariana_salute
+
+
+- story: parere_WHO_diete_vegetariane
+  steps:
+  - intent: parere_WHO_diete_vegetariane
+  - action: utter_parere_WHO_diete_vegetariane
+
+- story: gruppi_rischio_dieta_vegana
+  steps:
+  - intent: gruppi_rischio_dieta_vegana
+  - action: utter_gruppi_rischio_dieta_vegana
+
+- story: evitare_carenze_dieta_vegana
+  steps:
+  - intent: evitare_carenze_dieta_vegana
+  - action: utter_evitare_carenze_dieta_vegana
+
+- story: rischio_carenze_dieta_vegana
+  steps:
+  - intent: rischio_carenze_dieta_vegana
+  - action: utter_rischio_carenze_dieta_vegana
+
+- story: consiglio_supervisione_professionale_dieta_vegana
+  steps:
+  - intent: consiglio_supervisione_professionale_dieta_vegana
+  - action: utter_consiglio_supervisione_professionale_dieta_vegana
+
+- story: carenze_nutrizionali_dieta_vegana
+  steps:
+  - intent: carenze_nutrizionali_dieta_vegana
+  - action: utter_carenze_nutrizionali_dieta_vegana
+
+- story: supervisione_dieta_particolari
+  steps:
+  - intent: supervisione_dieta_particolari
+  - action: utter_supervisione_dieta_particolari
+
+- story: VSS cap 1 - sport path
+  steps:
+  - intent: sport_atleti_vegetariani_vegani
+  - action: utter_sport_atleti_vegetariani_vegani
+  - intent: differenze_prestazione_atletica
+  - action: utter_differenze_prestazione_atletica
+  - intent: atleti_vegetariani_e_vegani
+  - action: utter_atleti_vegetariani_e_vegani
+  - intent: supervisione_medica_atleti_vegani
+  - action: utter_supervisione_medica_atleti_vegani
+  - intent: relazione_dieta_prestazione_atletica
+  - action: utter_relazione_dieta_prestazione_atletica
+
+# VSS cap 3-2
+
+- story: body's self-regulation mechanisms and changes that have affected it
+  steps:
+  - intent: cause_weight_nutrition_issues
+  - action: utter_cause_weight_nutrition_issues
+  - intent: ask_autoregulation_changes
+  - action: utter_ask_autoregulation_changes
+  - intent: seasoned_food_overeating
+  - action: utter_seasoned_food_overeating
+  - intent: self-regulation_of_our_body
+  - action: utter_self-regulation_of_our_body
+  - intent: reasons_for_weight_fluctuations_and_nutritional_deficiencies
+  - action: utter_reasons_for_weight_fluctuations_and_nutritional_deficiencies
+  - intent: regulatory_system_changes
+  - action: utter_regulatory_system_changes
+  - intent: issues_with_intuitive_eating
+  - action: utter_issues_with_intuitive_eating
+
+- story: diet and lifestyle
+  steps:
+  - intent: ask_compensation_in_past
+  - action: utter_ask_compensation_in_past
+  - intent: why_food_scarcity
+  - action: utter_why_food_scarcity
+  - intent: why_food_less_refined
+  - action: utter_why_food_less_refined
+  - intent: what_is_intuitive_eating
+  - action: utter_what_is_intuitive_eating
+  - intent: changes_in_intuitive_eating
+  - action: utter_changes_in_intuitive_eating
+  - intent: sedentary_lifestyle_and_intuitive_eating
+  - action: utter_sedentary_lifestyle_and_intuitive_eating
+  - intent: unlimited_food_and_intuitive_eating
+  - action: utter_unlimited_food_and_intuitive_eating
+  - intent: changes_last_centuries
+  - action: utter_changes_last_centuries
+  - intent: limitazione_cibo_passato
+  - action: utter_limitazione_cibo_passato
+
+- story: refined foods and their impact on the body
+  steps:
+  - intent: refined_food_impact_on_self_regulation
+  - action: utter_refined_food_impact_on_self_regulation
+  - intent: regulation_system_issues
+  - action: utter_regulation_system_issues
+  - intent: relationship_between_hunger_and_food
+  - action: utter_relationship_between_hunger_and_food
+  - intent: brain_unable_to_adapt_to_lifestyle_changes
+  - action: utter_brain_unable_to_adapt_to_lifestyle_changes
+  - intent: problema_cibo_raffinato_meccanismi_autoregolazione
+  - action: utter_problema_cibo_raffinato_meccanismi_autoregolazione
+
+- story: animal health and lifestyle
+  steps:
+  - intent: obese_animals_in_nature
+  - action: utter_obese_animals_in_nature
+  - intent: impact_human_lifestyle_on_animal_health
+  - action: utter_impact_human_lifestyle_on_animal_health
+
+- story: food categories and portion control
+  steps:
+  - intent: categorie_alimentari
+  - action: utter_categorie_alimentari
+  - intent: alimenti_carboidrati
+  - action: utter_alimenti_carboidrati
+  - intent: alimenti_ricchi_proteine
+  - action: utter_alimenti_ricchi_proteine
+  - intent: alimenti_ricchi_di_grassi
+  - action: utter_alimenti_ricchi_di_grassi
+  - intent: cibi_bassa_densita_calorica
+  - action: utter_cibi_bassa_densita_calorica
+  - intent: espressione_porzioni_alimentari
+  - action: utter_espressione_porzioni_alimentari
+  - intent: pesare_cibo
+  - action: utter_pesare_cibo
+  - intent: calcolo_porzioni
+  - action: utter_calcolo_porzioni
+  - intent: importanza_categorie_alimentari
+  - action: utter_importanza_categorie_alimentari
+  - intent: categorie_alimentari
+  - action: utter_categorie_alimentari
+  - intent: espressione_porzioni_categoria_alimentare
+  - action: utter_espressione_porzioni_categoria_alimentare
+  - intent: pesare_alimenti
+  - action: utter_pesare_alimenti
+  - intent: vantaggi_categorie_alimentari
+  - action: utter_vantaggi_categorie_alimentari
+  - intent: requisiti_categorie_alimentari
+  - action: utter_requisiti_categorie_alimentari
+
+- story: Food catagory and traking apps
+  steps:
+  - intent: error_margin_categories
+  - action: utter_error_margin_categories
+  - intent: food_category_differences
+  - action: utter_food_category_differences
+  - intent: example_protein_differences
+  - action: utter_example_protein_differences
+  - intent: precision_nutrition
+  - action: utter_precision_nutrition
+  - intent: define_count_calories
+  - action: utter_define_count_calories
+  - intent: calorie_counter
+  - action: utter_calorie_counter
+  - intent: food_tracking_tools
+  - action: utter_food_tracking_tools
+  - intent: food_tracking_benefits
+  - action: utter_food_tracking_benefits
+  - intent: sustainable_food_tracking
+  - action: utter_sustainable_food_tracking
+  - intent: food_tracking_tutorial
+  - action: utter_food_tracking_tutorial
+  - intent: food_diary_info
+  - action: utter_food_diary_info
+  - intent: flexible_dieting
+  - action: utter_flexible_dieting
+  - intent: calorie_tracking_benefits
+  - action: utter_calorie_tracking_benefits
+  - intent: importance_of_knowing_sources
+  - action: utter_importance_of_knowing_sources
+  - intent: tdee_definition
+  - action: utter_tdee_definition
+  - intent: tdee_calculator_with_food_diary
+  - action: utter_tdee_calculator_with_food_diary
+  - intent: food_tracking_apps
+  - action: utter_food_tracking_apps
+  - intent: pros_and_cons_of_food_diaries
+  - action: utter_pros_and_cons_of_food_diaries
+  - intent: sustainable_food_diary
+  - action: utter_sustainable_food_diary
+  - intent: nutrition_errors_weight_stall
+  - action: utter_nutrition_errors_weight_stall
+
+# - story: 
+#   steps:
+#   - intent: 
+#   - action: utter_
+
+# - story: 
+#   steps:
+#   - intent: 
+#   - action: utter_
+
+# - story: 
+#   steps:
+#   - intent: 
+#   - action: utter_
+
+# - story: 
+#   steps:
+#   - intent: 
+#   - action: utter_
+
+# - story: 
+#   steps:
+#   - intent: 
+#   - action: utter_
