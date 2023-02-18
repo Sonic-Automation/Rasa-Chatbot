@@ -1,0 +1,627 @@
+version: "3.1"
+
+intents:
+  - greeting
+  - bot_challenge
+  - pasta_e_fagioli # Copia di Q&A-da 1 a 5
+  - abbinamento_proteine
+  - costo_veganismo
+  - perché_ho_sempre_fame
+  - rimediare_basso_valore_alimenti_vegetali
+  - sentirsi_gonfi_transizione_vegana # Copia di Q&A-da 6 a 10
+  - alimentazione_vegana_completa
+  - proteine_grasse
+  - aspetti_tecnici
+  - alimenti_serie_AB 
+  - pasto_bilanciato # Copia di Q&A-da 11 a 15
+  - healthy_every_size
+  - emissione_di_aria_dalla_pancia
+  - legumi_e_verdure_come_pasto
+  - orario_migliore_per_allenamento
+  - info_efsa # VSS cap 1 - 3
+  - studio_vitamina_b12
+  - carenza_vitamina_d
+  - dieta_vegetale_vitamine
+  - iodio_sale
+  - carenza_vitamina_d_percentuale
+  - detrattori_diete_vegetali
+  - conseguenze_dieta_omega3
+  - evitare_giudizi_dieta
+  - valutare_alimentazione
+  - impatto_dieta_vegana
+  - difficolta_dieta_vegana
+  - differenze_diete
+  - possibilita_nutrienti_dieta_vegana
+  - problemi_scelta_alimentazione_vegana
+  - differenze_alimentazioni
+  - vantaggi_dieta_vegana
+  - bilancio_nutrizionale_dieta_vegana
+  - difficolta_bilanciare_dieta_vegetale
+  - distorsione_statistica_studi_dieta_vegana
+  - problema_dieta_vegana_sostenibilità
+  - preoccupazioni_dieta_vegetariana_salute #VSS cap 1 - conclusioni
+  - parere_WHO_diete_vegetariane
+  - gruppi_rischio_dieta_vegana
+  - evitare_carenze_dieta_vegana
+  - rischio_carenze_dieta_vegana
+  - consiglio_supervisione_professionale_dieta_vegana
+  - carenze_nutrizionali_dieta_vegana
+  - dieta_vegetariana_bilanciata
+  - supervisione_dieta_particolari
+  - sport_atleti_vegetariani_vegani # VSS cap 1 - sport
+  - differenze_prestazione_atletica
+  - atleti_vegetariani_e_vegani
+  - supervisione_medica_atleti_vegani
+  - relazione_dieta_prestazione_atletica
+  - cause_weight_nutrition_issues # VSS cap 3-2
+  - ask_autoregulation_changes
+  - ask_compensation_in_past
+  - why_food_scarcity
+  - why_food_less_refined
+  - refined_food_impact_on_self_regulation
+  - seasoned_food_overeating
+  - what_is_intuitive_eating
+  - issues_with_intuitive_eating
+  - changes_in_intuitive_eating
+  - sedentary_lifestyle_and_intuitive_eating
+  - unlimited_food_and_intuitive_eating
+  - unrefined_food_definition
+  - refined_food_effects
+  - regulation_system_issues
+  - changes_last_centuries
+  - refined_food_negative_health
+  - obese_animals_in_nature
+  - impact_human_lifestyle_on_animal_health
+  - brain_unable_to_adapt_to_lifestyle_changes
+  - relationship_between_hunger_and_food
+  - self-regulation_of_our_body
+  - reasons_for_weight_fluctuations_and_nutritional_deficiencies
+  - regulatory_system_changes
+  - limitazione_cibo_passato
+  - problema_cibo_raffinato_meccanismi_autoregolazione
+  - alimenti_carboidrati
+  - alimenti_ricchi_proteine
+  - alimenti_ricchi_di_grassi
+  - cibi_bassa_densita_calorica
+  - espressione_porzioni_alimentari
+  - pesare_cibo
+  - calcolo_porzioni
+  - importanza_categorie_alimentari
+  - categorie_alimentari
+  - espressione_porzioni_categoria_alimentare
+  - pesare_alimenti
+  - vantaggi_categorie_alimentari
+  - requisiti_categorie_alimentari
+
+  - error_margin_categories #VSS cap 3 - 3
+  - food_category_differences
+  - example_protein_differences
+  - precision_nutrition
+  - define_count_calories
+  - calorie_counter
+  - food_tracking_tools
+  - food_tracking_benefits
+  - sustainable_food_tracking
+  - food_tracking_tutorial
+  - food_diary_info
+  - flexible_dieting
+  - calorie_tracking_benefits
+  - importance_of_knowing_sources
+  - tdee_definition
+  - tdee_calculator_with_food_diary
+  - food_tracking_apps
+  - pros_and_cons_of_food_diaries
+  - sustainable_food_diary
+  - nutrition_errors_weight_stall
+# VSS cap 3-4
+  - protein_powder_definition
+  - protein_powder_harmful
+  - processed_foods_problems
+  - processed_foods_consequences
+  - processed_foods_overconsumption
+  - refined_foods_to_avoid
+  - refined_foods_healthiness
+  - getting_nutrients_without_refined_foods
+  - improving_diet_quality
+  - benefits_of_whole_foods
+  - high_quality_foods
+  - protein_intake_from_whole_foods
+  - common_refined_foods
+  - occasional_refined_food
+  - protein_powder_effects
+  - health_effects_refined_foods
+  - protein_powder_as_meal_replacement
+  - refined_sugar_effects
+  - protein_powder
+  - refined_foods_children_health_effects
+  - whole_food_snacks
+  - health_effects_fried_foods
+
+
+
+responses: 
+  utter_greeting:
+  - text: Ciao! come posso aiutarti oggi?
+  
+  utter_pasta_e_fagioli:
+  - text: Il classico pasta e fagioli viene spesso raccomandato come piatto completo perché ha delle proteine che derivano dai cereali 
+      e delle proteine che derivano dai legumi e quindi si vanno a completare a vicenda e sono un buon piatto. Allora sì questo è vero assolutamente, 
+      il punto è ricordiamoci sempre che né i cereali, quindi né la pasta, né i legumi, quindi né i fagioli sono cibi proteici; quindi sì, avremo delle 
+      proteine, avremo anche una buona quantità di proteine, ma avremo tantissimi carboidrati. Quindi soprattutto se siamo in dieta ipocalorica per 
+      dimagrire, questo non è che sia il TOP per ottenere le proteine, perché a fine giornata se vogliamo ottenere tutte le nostre proteine dovremmo 
+      per forza mangiare tantissime calorie.
+
+  utter_abbinamento_proteine:
+  - text: Mi chiedono molto spesso come vanno abbinati i vari alimenti, soprattutto proteici, tra il pranzo e la cena, per chi fa sport, 
+      per chi vuole dimagrire eccetera. La risposta esatta a questa domanda non c’è; nel senso che non è la cosa principale come abbiniamo gli 
+      alimenti, quindi quando mettiamo i cereali, vanno messi con i legumi per completare il profilo Amminoacidico, sono tutte cose giuste ma di 
+      minima importanza in confronto a cosa mangiamo e quanto mangiamo di quegli alimenti tutto in rapporto ai nostri obbiettivi e alle nostre 
+      caratteristiche. Vi faccio un esempio- se io a pranzo ho mangiato i cereali, la sera devo mangiare i legumi allora così si completa il 
+      profilo e faccio l’abbinamento cereali-legumi? O in questo caso magari, mangiare il seitan sarebbe un errore? Il discorso è- dobbiamo vedere 
+      di arrivare prima di tutto alla quantità di proteine che ci serve e alla quantità di calorie. Vediamo che in questo senso perde un po’ di 
+      significato “mangio i legumi o mangio i cereali”. È più importante raggiungere quell’apporto proteico senza sforare con carboidrati e grassi.
+ 
+  utter_costo_veganismo:
+  - text: Per diventare vegani non servono grandi disponibilità economiche, sfatiamo questo mito. Lo so che si sente sempre dire- 
+      <<Eh ma i prodotti vegani costano tanto, dobbiamo avere “i portafogli larghi”>> non è assolutamente così! Consideriamo che la maggior parte 
+      dei prodotti vegetali costa già pochissimo, costa già molto meno di quelli animali; poi è normale che se andiamo a prendere più prodotti processati, 
+      più raffinati, costano un po’ di più. E soprattutto per gli alimenti proteici, molto spesso ci dobbiamo fare riferimento. Ma ci sono anche tantissimi 
+      alimenti proteici che in realtà non costano così tanto. Se andiamo a vedere, il seitan costerà 10-15 euro al chilo, stessa cosa il tofu- costa comunque 
+      meno della carne. Quindi se prima mangiavamo la carne, perché adesso non possiamo spendere questi soldi per questi alimenti? Ci sono per esempio i plant 
+      foods i tutt’altro, che no si discostano troppo dai prezzi che ho detto prima; quindi si può assolutamente fare un’alimentazione proteica, con le giuste 
+      proteine senza spendere tantissimo. Considerate anche che ci sono dei trucchi, ad esempio le proteine in polvere o gli amminoacidi essenziali, per abbattere 
+      ulteriormente il costo. La cosa che costa di più nell’alimentazione vegana sono le proteine. Stiamo per produrre un prodotto che serve ad abbassare l’apporto 
+      proteico, anche di più di quanto fanno gli amminoacidi. Infatti produrremmo uno stimolatore della sintesi proteica che è fatto da proteine, amminoacidi e enzimi 
+      digestivi, che serve a massimizzare la sintesi proteica. Così possiamo mangiare meno proteine, finché l’alimentazione si semplifica, perché possiamo andare a 
+      prendere poi più carboidrati e più grassi e andiamo anche a spendere meno nell’alimentazione.
+
+  utter_perché_ho_sempre_fame:
+  - text: Se hai sempre fame, con tutta probabilità è perché non stai rispettando i fabbisogni dell’organismo. 
+      Quindi di carboidrati, proteine, grassi e fibre. Ti faccio un esempio- se uno mangia sempre sano può incorrere 
+      nel problema che sì, mangia abbastanza fibre, ma non mangia abbastanza magari carboidrati o proteine; quindi che 
+      succede? Se il cervello non sente lo stimolo di sazietà dato dal fatto che ha tutti i nutrienti che gli servono, è 
+      normale che ti fa tornare abbastanza presto fame. Un altro problema potrebbe essere che il tuo corpo non sopporta 
+      bene i livelli di carboidrati e quindi non riesce nemmeno a far entrare i carboidrati nelle cellule. Quindi che succede? 
+      Che tu magari mangi anche la quantità giusta di carboidrati ma col fatto che c’è un po’ una resistenza a questo nutriente, 
+      va a finire che non entrando nelle cellule il tuo organismo dice- <<Ok ma i carboidrati comunque non me li hai dati e quindi 
+      li voglio!>>. Il problema è che non riesci a farli entrare, non che non glieli dai e quindi devi risolvere questo problema.
+
+  utter_rimediare_basso_valore_alimenti_vegetali:
+  - text: È vero che gli alimenti vegetali hanno tendenzialmente un valore biologico più basso di quello delle proteine vegetali. 
+      Questo è dovuto a due fattori- il primo è che gli alimenti vegetali hanno un profilo di amminoacidi, ovvero i mattoncini che 
+      compongono le proteine, che è un po’ squilibrato o da una parte o dall’altra. Abbiamo già fatto molte volte l’esempio del tavolino, 
+      quindi non lo rifarò qui. Il secondo motivo è che ha un po’ meno amminoacidi essenziali. Quindi per rimediare dobbiamo controbilancia 
+      questi due aspetti. Quindi- il primo si controbilancia semplicemente mangiando e variando l’alimentazione durante la giornata; il profilo 
+      amminoacidico si completa in maniera quasi automatica. A meno che veramente la nostra alimentazione non si sbilanciata. Nel secondo caso, 
+      possiamo aggiungere degli amminoacidi essenziali o aumentare l’apporto proteico.
+
+  utter_sentirsi_gonfi_transizione_vegana:
+  - text: Quando si passa a un’alimentazione vegetale, ci può stare all’inizio di sentirsi un po’ più gonfi 
+       o con qualche problema intestinale. E questo è dovuto principalmente da due ragioni- uno, l’aumento 
+       della complessità digestiva degli alimenti, in quanto si sa che quelli vegetali sono un po’ più 
+       difficili da digerire, un po’ più complessi e due, l’aumento di presenza di fibra, che anche questo 
+       è abbastanza normale. Se torniamo nella normalità entro qualche giorno o settimana al massimo tutto ok- 
+       il nostro organismo si è adattato. Viceversa, se questo non succede e continuiamo a sentirci gonfi, stiamo sbagliando qualcosa- 
+       stiamo assumendo troppe fibre o stiamo ancora facendo altri errori. Questo non si può dire a prescindere.
+
+  utter_alimentazione_vegana_completa:
+   - text: Vediamo quindi che per raggiungere i nostri obiettivi di proteine,calorie,macronutrienti ecc. 
+        dovrò per forza impostare l’alimentazione in un certo modo. E quindi fatto di- “completo, metto i 
+        legumi, metto i cereali” diventerà comunque obsoleto. È una cosa che non sarà più importante controllare. 
+        L’unica cosa che mi preme dirvi è- comunque bisogna variare. È ovvio che se io mangio sempre e solo il seitan 
+        avrò problemi. Ma questo al di là dal fatto che non si completa il profilo amminoacidico. Invece riguardo al 
+        problema di mangiare sempre le stesse cose, per variare bisogna conoscere le categorie alimentari. Quindi, 
+        quali alimenti rientrano nei cibi proteici? Quali in quelli proteici grassi? Quali nei carboidrati proteici? 
+        Quali nei carboidrati? Ecc. una volta che sappiamo distinguerli, semplicemente cosa faremo? Andremo a vedere- 
+        <<Oggi dobbiamo mangiare due porzioni di proteine.>> apriamo il nostro elenco delle proteine e scegliamo uno 
+        di questi alimenti a secondo della quantità che dobbiamo mangiare e ce lo prepariamo. Quindi diventa molto, 
+        molto, molto semplice una volta che si conoscono le categorie alimentari.
+
+  utter_proteine_grasse:
+  - text: Invece vediamo le proteine grasse. Cosa si intende per proteine grasse? Ad esempio il tofu, il tempeh, 
+       quindi i derivati della soia, perché la soia ha dei grassi al suo interno, ma anche tutti prodotti un 
+       pochettino più lavorati. Prendiamo ad esempio la maggior parte dei burger che troviamo al supermercato 
+       (ok, non saranno ottimi come qualità, ma comunque li possiamo mangiare ogni tanto) hanno dei grassi 
+       perché vengono aggiunti in fase di lavorazione. Un altro esempio, il Beyond meat, quindi la carne (tra virgolette) 
+       vegetale. Quindi tutti quei prodotti che simulano la carne e hanno anche una quantità di grassi. Ricordiamo inoltre 
+       che non tutti i cibi che hanno una quantità di proteine (ad esempio 20g) sono proteici. Quello che conta in realtà è il 
+       rapporto fra calorie e proteine che deve essere inferiore a 10(g), ovvero almeno un grammo di proteine per ogni 10 calorie. 
+       Se è superiore non è un cibo proteico. Ecco perché ad esempio i legumi, non sono un cibo proteico. O anche la frutta secca oleosa.
+
+
+  utter_aspetti_tecnici:
+  - text: Ok, questi sono aspetti un po’ tecnici e in effetti possono sembrare complicati, ma quello che serve al di là dei numeri è entrare 
+       in un certo tipo di mentalità, conoscere le categorie alimentari. Ad esempio nel nostro libro- “Vegan senza supercazzole” spieghiamo 
+       come fare tutto questo su vari livelli. Quindi se vogliamo fare le cose ipersemplici, abbiamo appunto a livello semplice che non ci 
+       richiede di fare calcoli. Se invece vogliamo andare un po’ più oltre e migliorare un pochettino, possiamo basarci sulle categorie 
+       alimentari e le porzioni. E infine chi vuole fare le cose a livello avanzato, potrà basarsi sui macronutrienti e forniamo anche dei 
+       tull per farlo. Altrimenti c’è la nostra APP “In-Forma” che racchiude questo ma anche tante altre cose, legate allo stile di vita e 
+       all’allenamento che usiamo con le persone che seguiamo per andare da zero fino all’alimentazione flessibile. E quella diciamo è il TOP 
+       e il non plus ultra della flessibilità.   
+  utter_alimenti_serie_AB:
+  - text: Mi capita spesso di leggere sui blog o sugli articoli che non devono esistere alimenti di serie A e di serie B, soprattutto 
+       nell’educazione dei bambini perché poi così si creano disturbi del comportamento alimentare, poi preferiranno le schifezze ecc. 
+       ecc. ecco, secondo me questo è un gigantesco errore. Nel senso che, vuoi o non vuoi esistono per forza alimenti di serie A, di 
+       serie B, di serie C ecc. Perché è normale- non possiamo paragonare l’insalata al cioccolato. Vorremo sempre il cioccolato! Il nostro corpo, 
+       il nostro cervello è strutturato in modo da farci preferire quei cibi. Quindi, quello che possiamo fare è consapevolizzarci, educarci a strutturare 
+       la nostra alimentazione in modo da comprendere entrambi i tipi di cibi in diverse quantità. Questo nel tempo ci porterà a diventare veramente liberi 
+       e padroni della nostra alimentazione e invece che schiavi dei vari cibi e dei nostri meccanismi mentali e soprattutto, delle varie trappolòe che ci 
+       offre l’alimentazione di oggi.
+  
+  utter_pasto_bilanciato:
+  - text: Nella V-GUIDE non c’è nessun esempio di pasto bilanciato e questa è una scelta completamente voluta. Nel senso che il pasto bilanciato non esiste. Ma prima di tutto pasto bilanciato per chi? È ovvio che se peso 50kg sarà diverso, avrò dei fabbisogni diversi rispetto a chi ne pesa 100(kg). Poi l’obbiettivo- se io penso di dimagrire avrò dei fabbisogni diversi da chi vuole aumentare di massa grassa. Stessa cosa per l’attività fisica, se non mi muovo e se mi muovo. Quindi “bilanciato” cosa vuol dire in questo caso? Secondariamente dobbiamo uscire dal concetto di “pasto”, quindi preoccuparci del “singolo” pasto e cominciare a pensare al totale dell’alimentazione. Per esempio- io potrei mangiare in un pasto anche sbilanciato, solo carboidrati e poi bilanciare con il resto dell’alimentazione; quindi mangiando le proteine e tutto il resto, per raggiungere l’apporto calorico la sera a cena. Quindi purtroppo non esiste il “pasto bilanciato”.
+  
+  utter_healthy_every_size:
+  - text: Ultimamente sta molto prendendo piede un movimento che si chiama “Healthy every size” ovvero che, fondamentalmente possiamo essere in salute a qualsiasi peso, quindi anche essere grassi o obesi. Questo fa anche molto “politicamente corretto” e anche uno dei motivi per cui va tanto di moda. Cosa ne penso io? Beh sono assolutamente CONTRARIO! Primo- scientificamente non c’è alcuna prova che si possa essere in salute in forte sovrappeso anzi, la scienza dice esattamente il contrario. Essere in forte sovrappeso già di per sé non è salute, quindi non c’è modo di essere in salute se abbiamo un eccesso, un forte eccesso di grasso. Due- questa cosa non mi piace nemmeno a livello etico, perché anche se è vero che fondamentalmente è importante avere un minimo di accettazione di sé, in realtà poi il cercare di migliorarsi continuamente, avere degli stimoli per fare qualcosa che ci spinga un po’ più in alto è la chiave per avere una vita soddisfacente. Quindi smettiamo di fare come “La volpe e l’uva”, oggi non ci sono più scuse. Chiunque voglia migliorare la propria condizione lo può fare.
+
+  utter_emissione_di_aria_dalla_pancia:
+  - text: Il meteorismo, ovvero avere tanta aria nella pancia che poi deve essere espulsa attraverso i peti, può avere diverse cause prima di tutto però voglio assicurare che produrre un po’ di aria è assolutamente normale. Questo perché il nostro intestino lavora, i batteri lavorano e quindi non ci si può fare nulla. Il problema è quando però (e nei vegani succede spesso) questa cosa è eccessiva, perché ci causa un sacco di problemi a livello sociale e nonché anche indice di una non buona salute dell’intestino. Quindi questa cosa può venire magari per uno squilibrio dell’alimentazione. Quindi o un eccesso di zuccheri, o un eccesso di fibre (che abbiamo visto è molto frequente nei vegani) o un eccesso di proteine (che al contrario è molto poco frequente). Comunque se noi abbiamo un eccesso di questi, i batteri fermenteranno l’eccesso e produrranno un sacco di gas. Ma la cosa può avvenire anche se non c’è squilibrio. Pensiamo all’intolleranza FADMAP- ci sono delle piccole molecole che tante persone non riescono a digerire, che quindi vengono fermentate causando meteorismo.
+
+  utter_legumi_e_verdure_come_pasto:
+  - text: L’altro giorno parlavo di come nell’alimentazione vegana sia molto facile sforare con i carboidrati. Ed ecco che ci troviamo con poche proteine e troppi carboidrati, quindi troppe calorie. Quindi mi chiedono- <<Allora legumi + verdure va bene?>>. Allora, è vero- i legumi hanno un po’ più proteine rispetto ai cereali. Ok? E anche un pochettino meno di carboidrati. Ma il discorso rimane sempre quello- se io devo raggiungere la quota proteica, sfruttando solo i legumi è molto probabile che le calorie saliranno molto. Poi le verdure sono ottime perché hanno un bel po’ di fibre, ma a livello di macronutrienti non ci cambiano praticamente niente. Vi faccio un esempio molto semplice e neanche troppo veritiero, ma che fa capire bene la situazione- se io devo arrivare a 100g di proteine e 200g di carboidrati durante il giorno e voglio usare solo i legumi, non ce la posso fare. Perché arrivare a 100g di proteine (a parte che servirebbero 500g di legumi, che sono una mostruosità!) ma comunque, staremmo a 250g di carboidrati, ovvero più del massimo che noi c’eravamo prefissi.
+
+
+  utter_orario_migliore_per_allenamento:
+  - text: Non ci sono momenti migliori durante il giorno per allenarsi, in modo da stimolare il metabolismo. Questo perché il metabolismo è deciso in buona parte a livello genetico e in altra parte a livello dell’allenamento che facciamo; ma del TIPO di allenamento che facciamo, non QUANDO di alleniamo! Quindi, se noi facciamo un allenamento che stimola il nostro corpo ad adattarsi a livello enzimatico, a livello muscolare, sicuramente consumeremo di più. Altro discorso è quando io rendo di più ad allenarmi. È normale che se mi sento meglio alla mattina, otterrò dei risultati migliori. Quindi crescerò di più a livello muscolare, consumerò più calorie, stimolerò di più il metabolismo. Viceversa se io sono uno che è più sveglio il pomeriggio e più attivo il pomeriggio, sarà meglio allenarsi il pomeriggio. Ma questo prescinde dallo stimolare il metabolismo a livellon assoluto.
+  
+  utter_info_efsa:
+  - text: L'EFSA è l'Autorità Europea per la Sicurezza Alimentare.
+
+  utter_studio_vitamina_b12:
+  - text: L'EFSA ha pubblicato uno studio che mostra come il 50% della popolazione abbia livelli non ottimali di vitamina B12.
+  
+  utter_carenza_vitamina_d:
+  - text: La carenza di vitamina D è endemica e affligge l'80% della popolazione mondiale.
+
+  utter_dieta_vegetale_vitamine:
+  - text: Sì, è vero che alcune vitamine sono praticamente assenti nel mondo vegetale, come la vitamina B12 e la vitamina D.
+
+  utter_iodio_sale:
+  - text: L'iodio è stato aggiunto al sale da cucina perché questo micronutriente era carente nella dieta.
+
+  utter_carenza_vitamina_d_percentuale:
+  - text: La carenza di vitamina D affligge l'80% della popolazione mondiale.
+
+  utter_detrattori_diete_vegetali:
+  - text: I principali detrattori delle diete vegetali sostengono la loro tesi affermando che, visto che alcune vitamine sono carenti nel mondo vegetale, questa alimentazione non può essere adatta al genere umano.
+
+  utter_conseguenze_dieta_omega3:
+  - text: La carenza di Omega 3 a lunga catena generalmente ha un impatto negativo sulla salute delle persone, mostrando in effetti che l'alimentazione media ne è carente.
+
+  utter_evitare_giudizi_dieta:
+  - text: Bisognerebbe evitare di stabilire se un'alimentazione è adatta o meno solo sulla base delle carenze nutrizionali perché tutte le alimentazioni possono avere i loro punti carenti.
+
+  utter_valutare_alimentazione:
+  - text: Il modo più sensato per valutare se un'alimentazione è adatta o meno per l'essere umano
+
+  utter_impatto_dieta_vegana:
+  - text: Ci sono molti studi che dimostrano una minore incidenza di malattie e una migliore salute complessiva tra i vegani, ma molti di questi studi sono viziati o traggono conclusioni errate.
+
+  utter_difficolta_dieta_vegana:
+  - text: No, la dieta vegana presenta alcune difficoltà nell'ottenere una dieta correttamente bilanciata a causa della restrizione delle scelte alimentari e del rapporto tra i nutrienti.
+  
+  utter_differenze_diete:
+  - text: La principale differenza è che la dieta vegana esclude tutti i prodotti di origine animale, mentre la dieta vegetariana esclude solo la carne e il pesce e la dieta onnivora include tutti i tipi di alimenti.
+
+  utter_possibilita_nutrienti_dieta_vegana:
+  - text: Sì, tutti i nutrienti sono presenti nel mondo vegetale, ma c'è una questione di equilibrio nella dieta che deve essere affrontata con consapevolezza.
+
+  utter_problemi_scelta_alimentazione_vegana:
+  - text: I principali problemi sono la difficoltà nell'ottenere proteine in quantità adeguata e la difficoltà nell'ottenere alcuni micronutrienti, come lo zinco, senza aumentare eccessivamente le quantità di grassi.
+
+  utter_differenze_alimentazioni:
+  - text: La principale differenza è che la dieta vegana esclude tutti i prodotti di origine animale, la dieta vegetariana esclude solo la carne, mentre la dieta onnivora include tutti i tipi di alimenti.
+
+  utter_vantaggi_dieta_vegana:
+  - text: I vantaggi della dieta vegana per la salute descritti nei vari studi sono una minor incidenza di malattie e una salute complessiva migliore, anche se molti di questi studi sono viziati o traggono conclusioni errate.
+
+  utter_bilancio_nutrizionale_dieta_vegana:
+  - text: La motivazione principale per cui è difficile ottenere una dieta vegetale correttamente bilanciata è la restrizione delle scelte dei cibi, come ad esempio la difficoltà nel reperire proteine in quantità apprezzabile o la difficoltà nel raggiungere la quota minima di alcuni micronutrienti.
+
+  utter_difficolta_bilanciare_dieta_vegetale:
+  - text: La difficoltà principale è la restrizione delle scelte dei cibi, come ad esempio la difficoltà nel reperire proteine in quantità apprezzabile o la difficoltà nel raggiungere la quota minima di alcuni micronutrienti.
+
+  utter_distorsione_statistica_studi_dieta_vegana:
+  - text: La principale distorsione statistica negli studi scientifici sulla dieta vegana è che le persone che fanno una scelta alimentare del genere tendono ad essere più attente alla salute e a prendersi cura di se stesse, il che si traduce in una distorsione statistica negli studi che porta a sopravvalutare gli effetti positivi delle diete vegetali.
+
+  utter_problema_dieta_vegana_sostenibilità:
+  - text: Il problema principale nella dieta vegana per quanto riguarda la sostenibilità è la difficoltà nel reperire tutti i nutrienti necessari in un'alimentazione sostenibile, anche economicamente.
+
+  utter_preoccupazioni_dieta_vegetariana_salute:
+  - text: La principale preoccupazione riguardo alle diete vegetariane per la salute è la carenza di Vitamina B12 e di acidi grassi DHA della serie omega-3, la cui carenza potrebbe provocare seri danni al sistema nervoso centrale dei giovani in età pediatrica.
+
+  utter_parere_WHO_diete_vegetariane:
+  - text: No, la WHO non esprime un parere in merito al tema delle diete vegetariane.
+
+  utter_gruppi_rischio_dieta_vegana:
+  - text: I gruppi di popolazione per i quali potrebbe essere più rischioso seguire una dieta vegana sono i bambini in accrescimento e le donne in gravidanza.
+
+  utter_evitare_carenze_dieta_vegana:
+  - text: Per evitare carenze nutrizionali in una dieta vegana è necessaria una pianificazione nutrizionale supervisionata da un professionista dell'alimentazione, medico o nutrizionista.
+
+  utter_rischio_carenze_dieta_vegana:
+  - text: No, il rischio di carenze nutrizionali non può essere eliminato completamente in nessun tipo di alimentazione, anche se seguendo una dieta vegana correttamente pianificata e integrata.
+
+  utter_consiglio_supervisione_professionale_dieta_vegana:
+  - text: No, è sempre consigliabile la supervisione di un professionista per seguire una dieta vegana.
+
+  utter_carenze_nutrizionali_dieta_vegana:
+  - text: Le carenze nutrizionali più comuni in una dieta vegana sono la carenza di Vitamina B12 e di acidi grassi DHA della serie omega-3.
+
+  utter_dieta_vegetariana_bilanciata:
+  - text: Sì, è possibile seguire una dieta vegetariana correttamente bilanciata per ridurre al minimo il rischio di carenze nutrizionali per la popolazione adulta.
+
+  utter_supervisione_dieta_particolari:
+  - text: La dieta di una donna incinta o di un individuo con patologie dovrebbe essere supervisionata da un medico.
+# VSS cap 1 - sport
+
+  utter_sport_atleti_vegetariani_vegani:
+  - text: Gli atleti vegetariani e vegani sono presenti ai vertici di tutti i tipi di sport, da quelli di ultra-resistenza, resistenza, tecnici, di potenza/velocità, di forza, di elasticità/agilità, di massa muscolare e di combattimento.
+
+  utter_differenze_prestazione_atletica:
+  - text: Gli studi hanno dimostrato che non esistono sostanziali differenze nella prestazione atletica tra onnivori e vegani che seguono un regime dietetico correttamente programmato.
+
+  utter_atleti_vegetariani_e_vegani:
+  - text: Sì, la presenza di atleti vegetariani e vegani ai vertici dello sport può essere osservata.
+
+  utter_supervisione_medica_atleti_vegani:
+  - text: Non viene menzionato se sia necessaria la supervisione di un medico per gli atleti vegani.
+
+  utter_relazione_dieta_prestazione_atletica:
+  - text: Sì, una dieta correttamente programmata è importante per la prestazione atletica.
+# VSS cap 3-2
+
+  utter_cause_weight_nutrition_issues:
+  - text: Il motivo principale è che questi sistemi di autoregolazione sono stati sviluppati in circostanze "naturali", mentre negli ultimi secoli ci sono stati cambiamenti così repentini nello stile di vita e nel cibo disponibile che il nostro cervello non è riuscito a stare al passo adattandosi di conseguenza.
+
+  utter_ask_autoregulation_changes:
+  - text: I cambiamenti sono stati l'aumento del sedentarismo, la disponibilità illimitata di cibo e l'utilizzo di cibi raffinati.
+
+  utter_ask_compensation_in_past:
+  - text: In passato l'uomo doveva necessariamente muoversi e fare sforzi fisici per trovare il cibo, e queste attività compensavano l'assunzione calorica.
+
+  utter_why_food_scarcity:
+  - text: La quantità di cibo era limitata perché doveva essere procurato attraverso attività fisiche e non era disponibile in quantità illimitate come oggi.
+
+  utter_why_food_less_refined:
+  - text: In passato si poteva mangiare soltanto cibo che si trovava in natura e molti degli alimenti a disposizione oggi non erano presenti.
+
+  utter_refined_food_impact_on_self_regulation:
+  - text: I cibi raffinati bypassano i nostri meccanismi di autoregolazione e ci spingono a mangiare anche quando non ne abbiamo più bisogno, aumentando l'assunzione calorica.
+
+  utter_seasoned_food_overeating:
+  - text: Gli alimenti conditi spingono a mangiare anche quando non ne abbiamo più bisogno perché il nostro cervello non è preparato alla situazione e cerca stimoli per mangiare.
+
+  utter_what_is_intuitive_eating:
+  - text: L'alimentazione intuitiva è un modo di nutrirsi basato sui segnali del proprio corpo e sui suoi bisogni, in contrapposizione a diete rigide e a regimi alimentari prestabiliti.
+
+  utter_issues_with_intuitive_eating:
+  - text: Ciò accade perché i meccanismi di autoregolazione del corpo sono stati sviluppati in circostanze "naturali", mentre i rapidi cambiamenti negli stili di vita e nei cibi disponibili negli ultimi secoli hanno reso difficile per il cervello adattarsi e mantenere l'equilibrio.
+
+  utter_changes_in_intuitive_eating:
+  - text: I cambiamenti sono stati la mancanza di movimento e sforzo fisico necessario per procurarsi il cibo, la quantità illimitata di cibo disponibile e la raffinazione del cibo.
+
+  utter_sedentary_lifestyle_and_intuitive_eating:
+  - text: La mancanza di movimento e sforzo fisico ha fatto sì che l'assunzione calorica non venga più compensata dalle calorie spese per procurarsi il cibo
+
+  utter_unlimited_food_and_intuitive_eating:
+  - text: La quantità illimitata di cibo ha reso più probabile che le persone mangino troppo invece di smettere perché il senso di sazietà è stato soddisfatto.
+
+  utter_unrefined_food_definition:
+  - text: Significa che l'uomo poteva mangiare solo ciò che era disponibile in natura e che non esistevano alimenti che bypassassero i meccanismi di autoregolazione del corpo e spingessero a mangiare quando non ce n'era più bisogno.
+
+  utter_refined_food_effects:
+  - text: La raffinazione del cibo può bypassare i meccanismi di autoregolazione e spingere a mangiare più del necessario.
+
+  utter_regulation_system_issues:
+  - text: Il motivo è che i sistemi di autoregolazione sono stati sviluppati in circostanze "naturali", mentre negli ultimi secoli sono avvenuti dei cambiamenti così repentini nello stile di vita e nel cibo disponibile che il nostro cervello non è riuscito a stare al passo adattandosi di conseguenza.
+ 
+  utter_changes_last_centuries:
+  - text: Questi cambiamenti sono l'incremento dell'assunzione calorica a costo energetico praticamente zero, la varietà illimitata di cibo disponibile e l'utilizzo di alimenti raffinati per bypassare i nostri meccanismi di autoregolazione.
+
+  utter_refined_food_negative_health:
+  - text: Il cibo raffinato è negativo perché unendo due fattori (raffinare e condire i cibi) si può andare a mangiare davvero molto più del necessario e questo può portare a obesità e malattie cardio-vascolari.
+
+  utter_obese_animals_in_nature:
+  - text: No, salvo rarissime eccezioni, in stato di "natura" i meccanismi di autoregolazione funzionano al 100%.
+
+  utter_impact_human_lifestyle_on_animal_health:
+  - text: Se gli animali passano a vivere con l'uomo e adottano il suo stesso stile di vita, si assumono anche tutti i rischi di patologie come l'obesità e le malattie cardio-vascolari.
+
+  utter_brain_unable_to_adapt_to_lifestyle_changes:
+  - text: Il nostro cervello non riesce a adattarsi ai cambiamenti nello stile di vita e nel cibo disponibile perché sono avvenuti così repentinamente negli ultimi secoli.
+
+  utter_relationship_between_hunger_and_food:
+  - text: In passato la quantità di cibo era fortemente limitata, quindi era più probabile che l'uomo dovesse smettere di mangiare perché non c'era più nulla da mettere sotto i denti
+
+  utter_self-regulation_of_our_body:
+  - text: Il nostro organismo si autoregola tramite i meccanismi di fame e sazietà, che ci portano a mangiare quando abbiamo bisogno di nutrimento e a smettere di mangiare quando siamo sazi.
+
+  utter_reasons_for_weight_fluctuations_and_nutritional_deficiencies:
+  - text: Molte persone ingrassano, dimagriscono troppo o sviluppano carenze nutrizionali perché i sistemi di autoregolazione sono stati sviluppati in circostanze "naturali" e il nostro cervello non è riuscito a stare al passo con i cambiamenti repentini nello stile di vita e nel cibo disponibile che sono avvenuti negli ultimi secoli.
+
+  utter_regulatory_system_changes:
+  - text: I cambiamenti che hanno influito sui meccanismi di autoregolazione del nostro organismo sono:- la riduzione della necessità di muoversi e fare sforzi fisici per procurarsi il cibo, la disponibilità illimitata di cibo, e l'utilizzo di cibi raffinati che bypassano i nostri meccanismi di autoregolazione, spingendoci a mangiare anche quando non ne abbiamo più bisogno.
+
+  utter_limitazione_cibo_passato:
+  - text: In passato, la quantità di cibo era limitata perché l'uomo doveva necessariamente trovarlo in natura e non c'era sempre cibo disponibile.
+
+  utter_problema_cibo_raffinato_meccanismi_autoregolazione:
+  - text: Il cibo raffinato è un problema per i meccanismi di autoregolazione del nostro organismo perché unisce due fattori:- la raffinazione e la condimento dei cibi, che portano a mangiare più del necessario, e la variazione dei cibi, che porta a soddisfare i fabbisogni di macro e micronutrienti.
+
+  utter_alimenti_carboidrati:
+  - text: Gli alimenti che rientrano nella categoria dei cibi ricchi di carboidrati sono cereali, legumi e frutta.
+
+  utter_alimenti_ricchi_proteine:
+  - text: Gli alimenti che rientrano nella categoria dei cibi ricchi di proteine sono derivati del glutine, derivati della soia, derivati della canapa, prodotti dolci, e altri prodotti come derivati dei legumi, quorn e lupini.
+
+  utter_alimenti_ricchi_di_grassi:
+  - text: Gli alimenti che rientrano nella categoria dei cibi ricchi di grassi sono olio, frutta grassa come cocco e avocado, e frutta secca oleosa e semi oleosi come noci, mandorle e semi di lino.
+  
+  utter_cibi_bassa_densita_calorica:
+  - text: Gli alimenti che rientrano nella categoria dei cibi a bassa densità calorica sono le verdure.
+
+  utter_espressione_porzioni_alimentari:
+  - text: Le porzioni di ogni categoria alimentare vengono espressi in grammi.
+
+  utter_pesare_cibo:
+  - text: No, non è necessario pesare ogni volta il cibo. Si può andare a occhio, ma l’importante è sapere quantomeno a grandi linee quello che si sta facendo, per cui le porzioni saranno sempre espresse in grammi.
+
+  utter_calcolo_porzioni:
+  - text: Sì, è possibile acquistare sul sito myvegancoach.it, il calcolatore automatico delle categorie alimentari che permette di saltare tutta la parte dei calcoli e scegliere solo cosa mangiare e in che quantità. Inoltre, a gennaio 2022 è in uscita l’app IN FORMA che avrà questa e tante altre funzioni per aiutare nella gestione dell’alimentazione e del proprio stile di vita.
+
+  utter_importanza_categorie_alimentari:
+  - text: È importante usare le categorie alimentari perché ci permettono di ottenere un’alimentazione equilibrata e finalizzata ai nostri obiettivi, basandoci sulla nostra conoscenza e consapevolezza invece che sui nostri stimoli alimentari.
+
+  utter_categorie_alimentari:
+  - text: Le categorie alimentari sono cibi ricchi di carboidrati, cibi ricchi di proteine, cibi ricchi di grassi, e cibi a bassa densità calorica. I cibi ricchi di carboidrati includono cereali, legumi e frutta; i cibi ricchi di proteine includono derivati del glutine, derivati della soia, derivati della canapa, prodotti dolci e altri prodotti i cibi ricchi di grassi includono olio, frutta grassa come cocco e avocado, e frutta secca oleosa e semi oleosi come noci, mandorle e semi di lino; i cibi a bassa densità calorica sono le verdure.
+
+  utter_espressione_porzioni_categoria_alimentare:
+  - text: La porzione di ogni categoria alimentare viene espressa in grammi.
+
+  utter_pesare_alimenti:
+  - text: No, non è necessario pesare ogni volta il cibo. Si può andare a occhio, ma l’importante è sapere quantomeno a grandi linee quello che si sta facendo, per cui le porzioni saranno sempre espresse in grammi.
+  
+  utter_vantaggi_categorie_alimentari:
+  - text: I vantaggi dell’uso delle categorie alimentari sono un’alimentazione equilibrata e finalizzata ai propri obiettivi, un livello di precisione molto superiore rispetto al livello precedente, e la possibilità di ottenere risultati migliori con un maggior sforzo nella gestione della propria alimentazione.
+
+  utter_requisiti_categorie_alimentari:
+  - text: Per seguire le categorie alimentari, è necessario essere disposti ad organizzare un minimo la propria alimentazione e avere un minimo di conoscenza dell’alimentazione.
+
+#VSS cap 3-3
+
+  utter_error_margin_categories:
+  - text: Pur utilizzando le categorie alimentari per monitorare l'apporto calorico e dei macronutrienti, c'è sempre un margine di errore dovuto alla semplificazione delle categorie.
+
+  utter_food_category_differences:
+  - text: Anche se rientrano nella stessa categoria, gli alimenti possono avere composizioni diverse, poiché le categorie alimentari sono semplificazioni.
+
+  utter_example_protein_differences:
+  - text: L'esempio citato riguarda la categoria "proteine" che include il seitan e i lupini. Il primo ha tra i 25 e i 30 grammi di proteine per 100 g, il secondo tra 10 e 15.
+
+  utter_precision_nutrition:
+  - text: Per essere precisi nella propria nutrizione si può utilizzare il calcolo delle calorie e dei macronutrienti tramite i diari alimentari o conta-calorie.
+
+  utter_define_count_calories:
+  - text: I conta-calorie sono diari alimentari in cui si registrano tutti gli alimenti consumati con il loro peso in grammi, e permettono di calcolare il totale di calorie, carboidrati, grassi e proteine assunti.
+
+  utter_calorie_counter:
+  - text: L'utilizzo dei conta-calorie viene consigliato anche per periodi di tempo limitati perché può essere molto istruttivo e consentire di conoscere meglio le fonti alimentari e individuare eventuali errori nella propria alimentazione.
+
+  utter_food_tracking_tools:
+  - text: Alcune possibili app o strumenti per utilizzare i diari alimentari o conta-calorie sono FatSecret, MyFitnessPal, il calcolatore TDEE con diario alimentare dal sito myvegancoach.it e la funzione diario alimentare della app IN FORMA.
+
+  utter_food_tracking_benefits:
+  - text: L'utilizzo dei diari alimentari o conta-calorie può consentire di conoscere meglio le fonti alimentari, individuare eventuali errori nella propria alimentazione e monitorare l'apporto calorico e dei macronutrienti.
+
+  utter_sustainable_food_tracking:
+  - text: Come descritto nei capitoli finali del testo, esiste una strada per rendere anche l'utilizzo dei diari alimentari o conta-calorie "sostenibile", ovvero adattandoli alle proprie esigenze e preferenze alimentari.
+
+  utter_food_tracking_tutorial:
+  - text: Un video tutorial sul funzionamento delle app di diario alimentare può essere trovato sul canale Youtube "Vegan Coach".
+
+  utter_food_diary_info:
+  - text: Utilizzando un diario alimentare possiamo registrare tutto ciò che mangiamo, con peso al grammo, e conoscere il totale di calorie, carboidrati, grassi e proteine assunti.
+
+  utter_flexible_dieting:
+  - text: La "dieta flessibile" è un approccio alla nutrizione che consente di monitorare l'apporto calorico e dei macronutrienti in modo preciso, adattando gli alimenti alle proprie esigenze e preferenze alimentari.
+
+  utter_calorie_tracking_benefits:
+  - text: I conta-calorie possono aiutare a raggiungere un obiettivo alimentare fornendo informazioni dettagliate sull'apporto calorico e dei macronutrienti degli alimenti e consentendo di adattare la propria alimentazione ai propri obiettivi.
+
+  utter_importance_of_knowing_sources:
+  - text: Conoscere le fonti alimentari è importante per monitorare l'apporto calorico e dei macronutrienti, individuare eventuali errori nella propria alimentazione e scegliere gli alimenti migliori per le proprie esigenze e preferenze.
+
+  utter_tdee_definition:
+  - text: TDEE sta per Total Daily Energy Expenditure, ovvero il dispendio energetico totale giornaliero, che comprende il metabolismo basale e l'energia spesa per l'attività fisica.
+
+  utter_tdee_calculator_with_food_diary:
+  - text: Il calcolatore TDEE con diario alimentare permette di monitorare il dispendio energetico e l'apporto calorico e dei macronutrienti degli alimenti consumati, registrando tutto in un unico strumento.
+
+  utter_food_tracking_apps:
+  - text: Le app consigliate nel testo per utilizzare il diario alimentare sono FatSecret, MyFitnessPal e IN FORMA.
+  
+  utter_pros_and_cons_of_food_diaries:
+  - text: Gli svantaggi dei diari alimentari sono il fatto che richiedono un certo sforzo per apprendere il funzionamento e l'utilizzo, ma i vantaggi sono che consentono di conoscere meglio le fonti alimentari, individuare eventuali errori nella propria alimentazione e monitorare l'apporto calorico e dei macronutrienti.
+
+  utter_sustainable_food_diary:
+  - text: Per rendere sostenibile l'utilizzo dei diari alimentari è possibile adattarli alle proprie esigenze e preferenze alimentari, scegliendo gli alimenti che si preferiscono e registrandoli in modo più semplice e veloce.
+
+  utter_nutrition_errors_weight_stall:
+  - text: Gli errori nella propria alimentazione, come la sottostima dell'apporto calorico, possono influire sullo stallo del peso, facendoci credere che ci sia un problema metabolico, quando in realtà si sta mangiando più di quanto si pensa
+# VSS cap 3-4
+  utter_protein_powder_definition:
+  - text: Le proteine in polvere sono ottenute a partire da alimenti come il latte, la soia o i legumi, dai quali viene isolata la parte proteica attraverso un trattamento, eliminando tutto il resto. Successivamente, la polvere ottenuta può essere aromatizzata o modificata per migliorarne il sapore o la consistenza.
+
+  utter_protein_powder_harmful:
+  - text: Non esiste un rischio diretto legato all'assunzione di proteine in polvere, ma come per ogni alimento, è importante fare attenzione alle quantità e all'inserimento nel contesto dell'alimentazione complessiva.
+
+  utter_processed_foods_problems:
+  - text: Ci sono due problemi fondamentali legati alla quantità:- la possibile carenza di micronutrienti a causa della perdita di vitamine e minerali nel processo di raffinazione, e l'alterazione dei meccanismi di fame e sazietà, con una maggiore densità calorica, un più veloce svuotamento dello stomaco e un indice glicemico più alto, che portano ad avere più fame e tentazioni di mangiare di più.
+
+  utter_processed_foods_consequences:
+  - text: L'assunzione eccessiva di cibi raffinati e processati può portare alla perdita di micronutrienti, alterare i meccanismi di fame e sazietà e aumentare il rischio di sviluppare carenze nutrizionali, stanchezza o difficoltà a mantenere un regime alimentare.
+
+  utter_processed_foods_overconsumption:
+  - text: Si possono utilizzare due metodi:- osservare se si ha sempre più fame, difficoltà a seguire la dieta, stanchezza o spossatezza, oppure utilizzare calcolatori disponibili online o app per monitorare l'alimentazione e la qualità degli alimenti consumati.
+
+  utter_refined_foods_to_avoid:
+  - text: Non esistono alimenti specifici che dovrebbero essere evitati completamente, ma è importante fare attenzione alle quantità e all'inserimento nel contesto dell'alimentazione complessiva.
+
+  utter_refined_foods_healthiness:
+  - text: I cibi raffinati non sono necessariamente malsani, ma la loro assunzione eccessiva può portare a problemi di salute. È importante quindi fare attenzione alle quantità e all'inserimento nel contesto dell'alimentazione complessiva
+
+  utter_getting_nutrients_without_refined_foods:
+  - text: È possibile ottenere i nutrienti necessari attraverso alimenti non raffinati e integrali, come cereali integrali, verdure, frutta, legumi, carne magra e pesce, e scegliere alimenti minimamente processati.
+
+  utter_improving_diet_quality:
+  - text: Per aumentare la qualità della propria alimentazione, si possono scegliere alimenti integrali e non raffinati, limitare l'assunzione di cibi processati, consumare una varietà di alimenti
+
+  utter_benefits_of_whole_foods:
+  - text: Una dieta a base di cibi non raffinati può portare a una maggiore assunzione di fibre, vitamine e minerali, aiutando a prevenire problemi di salute come malattie cardiache, obesità e diabete. Inoltre, i cibi non raffinati possono aiutare a mantenere un peso sano e un regime alimentare più equilibrato.
+
+  utter_high_quality_foods:
+  - text: Per scegliere cibi di alta qualità, è importante leggere le etichette degli alimenti e cercare di evitare quelli con un alto contenuto di zuccheri aggiunti, sale, grassi saturi e additivi. Inoltre, scegliere alimenti integrali e non raffinati e consumare una varietà di alimenti può aiutare ad aumentare la qualità della propria alimentazione.
+
+  utter_protein_intake_from_whole_foods:
+  - text: Sì, è possibile ottenere abbastanza proteine da una dieta a base di cibi non raffinati, come cereali integrali, verdure, frutta, legumi, carne magra e pesce. Questi alimenti contengono proteine di alta qualità che possono soddisfare il fabbisogno proteico giornaliero.
+
+  utter_common_refined_foods:
+  - text: I cibi raffinati più comuni nella dieta occidentale sono pane bianco, pasta bianca, riso bianco, snack salati e dolci, bibite zuccherate, cibi confezionati e fast food.
+
+  utter_occasional_refined_food:
+  - text: Sì, è possibile mangiare cibi raffinati occasionalmente, ma è importante fare attenzione alle quantità e all'inserimento nel contesto dell'alimentazione complessiva. Limitare l'assunzione di cibi raffinati può aiutare a mantenere un regime alimentare più equilibrato.
+
+  utter_protein_powder_effects:
+  - text: L'assunzione eccessiva di proteine in polvere può portare a un eccessivo carico proteico sull'organismo, con conseguente aumento del lavoro dei reni e del fegato. Inoltre, l'assunzione eccessiva di proteine in polvere può aumentare il rischio di disidratazione e di carenze nutrizionali.
+
+  utter_health_effects_refined_foods:
+  - text: L'assunzione eccessiva di cibi raffinati può portare a un maggiore rischio di obesità, malattie cardiache, diabete e altri problemi di salute. Inoltre, l'assunzione eccessiva di cibi raffinati può alterare i meccanismi di fame e sazietà, portando a una maggiore difficoltà nel mantenere un regime alimentare equilibrato.
+
+  utter_protein_powder_as_meal_replacement:
+  - text: Non è consigliabile sostituire i pasti con proteine in polvere, poiché queste non contengono tutti i nutrienti essenziali
+
+  utter_refined_sugar_effects:
+  - text: L'assunzione eccessiva di zuccheri raffinati può portare a un maggiore rischio di obesità, diabete e malattie cardiache. Inoltre, gli zuccheri raffinati possono alterare i meccanismi di fame e sazietà, portando a una maggiore difficoltà nel mantenere un regime alimentare equilibrato.
+
+  utter_protein_powder:
+  - text: Sì, le proteine in polvere possono essere utilizzate come integratore per aumentare l'apporto proteico giornaliero, ma è importante farlo sotto controllo medico e in quantità moderate.
+
+  utter_refined_foods_children_health_effects:
+  - text: L'assunzione eccessiva di alimenti raffinati può portare a un maggiore rischio di obesità, malattie cardiache e diabete anche nei bambini. Inoltre, l'assunzione eccessiva di alimenti raffinati può alterare i meccanismi di fame e sazietà, portando a una maggiore difficoltà nel mantenere un regime alimentare equilibrato.
+
+  utter_whole_food_snacks:
+  - text: Per uno spuntino veloce, si possono scegliere alimenti integrali e non raffinati come frutta fresca, verdure crude, yogurt naturale o noci e semi.
+
+  utter_health_effects_fried_foods:
+  - text: Per uno spuntino veloce, si possono scegliere alimenti integrali e non raffinati come frutta fresca, verdure crude, yogurt naturale o noci e semi.
+
+
+  utter_bot_challenge:
+  - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
+       e alimentato da Rasa.
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

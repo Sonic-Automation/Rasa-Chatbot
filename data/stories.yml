@@ -375,20 +375,60 @@ stories:
   - intent: nutrition_errors_weight_stall
   - action: utter_nutrition_errors_weight_stall
 
-# - story: 
-#   steps:
-#   - intent: 
-#   - action: utter_
+- story: Proteine in polvere
+  steps:
+  - intent: protein_powder_definition
+  - action: utter_protein_powder_definition
+  - intent: protein_powder_harmful
+  - action: utter_protein_powder_harmful
+  - intent: protein_powder_as_meal_replacement
+  - action: utter_protein_powder_as_meal_replacement
 
-# - story: 
-#   steps:
-#   - intent: 
-#   - action: utter_
+- story: Cibi raffinati e processati
+  steps:
+  - intent: processed_foods_problems
+  - action: utter_processed_foods_problems
+  - intent: processed_foods_consequences
+  - action: utter_processed_foods_consequences
+  - intent: processed_foods_overconsumption
+  - action: utter_processed_foods_overconsumption
+  - intent: refined_foods_to_avoid
+  - action: utter_refined_foods_to_avoid
+  - intent: refined_foods_healthiness
+  - action: utter_refined_foods_healthiness
+  - intent: getting_nutrients_without_refined_foods
+  - action: utter_getting_nutrients_without_refined_foods
+  - intent: common_refined_foods
+  - action: utter_common_refined_foods
+  - intent: occasional_refined_food
+  - action: utter_occasional_refined_food
+  - intent: refined_foods_children_health_effects
+  - action: utter_refined_foods_children_health_effects
+  - intent: whole_food_snacks
+  - action: utter_whole_food_snacks
 
-# - story: 
-#   steps:
-#   - intent: 
-#   - action: utter_
+
+- story: Alimentazione e salute
+  steps:
+  - intent: improving_diet_quality
+  - action: utter_improving_diet_quality
+  - intent: benefits_of_whole_foods
+  - action: utter_benefits_of_whole_foods
+  - intent: high_quality_foods
+  - action: utter_high_quality_foods
+  - intent: protein_intake_from_whole_foods
+  - action: utter_protein_intake_from_whole_foods
+  - intent: protein_powder_effects
+  - action: utter_protein_powder_effects
+  - intent: health_effects_refined_foods
+  - action: utter_health_effects_refined_foods
+  - intent: refined_sugar_effects
+  - action: utter_refined_sugar_effects
+  - intent: protein_powder
+  - action: utter_protein_powder
+  - intent: health_effects_fried_foods
+  - action: utter_health_effects_fried_foods
+
 
 # - story: 
 #   steps:
