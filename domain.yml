@@ -136,7 +136,70 @@ intents:
   - refined_foods_children_health_effects
   - whole_food_snacks
   - health_effects_fried_foods
-
+  # VSS cap 4-1
+  - weight_loss_factor #1
+  - weight_change_response #2
+  - weight_loss_challenges #3
+  - self_regulation_optimization #4
+  - overeating_consequences #5
+  - avoiding_overeating_main_meals #6
+  - benefits_of_small_meals_weight_management #7
+  - recommended_foods_small_meals #8
+  - consequences_of_overeating_small_meals #9
+  - optimizing_small_meals #10
+  - physical_activity_for_weight_management #11
+  - calorie_intake_for_healthy_weight #12
+  - foods_to_avoid_for_healthy_weight #13
+  - foods_to_choose_for_healthy_weight #14
+  - reduce_calories_during_main_meals #15
+  - health_benefits_of_maintaining_a_healthy_weight #16
+  - avoid_overeating_during_main_meals #17
+  - motivation_for_healthy_lifestyle #18
+  - benefits_of_water_for_weight_management #19
+  - consequences_of_being_underweight #20
+  - consequences_of_being_overweight #21
+  - role_of_caloric_balance_in_weight_management #22
+  - monitoring_caloric_intake #23
+  - consequences_of_overweight_during_pregnancy #24
+  - consequences_of_underweight_during_pregnancy #25
+  - benefits_of_exercise_for_weight_management_during_pregnancy #26
+  - managing_postpartum_weight_loss #27
+  - rules_for_composing_main_meals_in_intuitive_eating #28
+  - low_calorie_foods_in_intuitive_eating #29
+  - recommended_vegetables_in_intuitive_eating #30
+  - variety_in_intuitive_eating_main_meals #31
+  - moderate_high_calorie_intuitive_eating_main_meals #32
+  - intuitive_eating_calorie_choice_based_on_goals #33
+  - intuitive_eating_composing_side_meals_rules #34
+  - intuitive_eating_low_calorie_foods_side_meals #35
+  - principi_alimentazione_intuitiva #36
+  - variazioni_pastiprincipali_alimentazione_intuitiva #37
+  - food_options #38
+  - meal_balance #39
+  - bilanciare_pasti_secondari #40
+  - rules_high_calorie_foods_main_meals #41
+  - low_calorie_food_options #42
+  - balance_junk_food_with_healthy_options #43
+  - assessing_balance_of_meals #44
+  - varying_secondary_meals #45
+  - recommended_portions_main_meals #46
+  - recommended_portions_secondary_meals #47
+  - balancing_meals_for_weight_loss #48
+  - balancing_meals_for_muscle_gain #49
+  - balancing_meals_for_weight_maintenance #50
+  - benefits_of_intuitive_eating #51
+  - limitations_of_intuitive_eating #52
+  - learning_intuitive_eating #53
+  - first_tip_intuitive_eating #54
+  - self_regulation_mechanisms #55
+  - intuitive_eating_weight_management #56
+  - undereating_intuitive_eating #57
+  - intuitive_eating_80_20_rule #58
+  - intuitive_eating_protein #59
+  - who_can_follow_intuitive_eating #60
+  - weight_loss_without_exercise #61
+  - rischi_diete_restrittive #62
+  - ask_prevent_eating_disorders #63
 
 
 responses: 
@@ -615,7 +678,196 @@ responses:
 
   utter_health_effects_fried_foods:
   - text: Per uno spuntino veloce, si possono scegliere alimenti integrali e non raffinati come frutta fresca, verdure crude, yogurt naturale o noci e semi.
+#VSS cap 4-1
 
+  utter_weight_loss_factor:
+  - text: Il fattore principale che determina se guadagniamo o perdiamo peso è l'apporto calorico. Se assumiamo meno calorie di quelle che bruciamo, perderemo peso, mentre se ne mangiamo di più, aumenteremo.
+
+  utter_weight_change_response:
+  - text: Il nostro cervello ha dei meccanismi naturali che ci difendono dai cambiamenti di peso. Se mangiamo troppo poco e rischiamo di perdere peso, il cervello riduce la spesa energetica e aumenta l'appetito. Al contrario, se ingrassiamo, il cervello agisce in direzione opposta, anche se gli effetti sono minori.
+
+  utter_weight_loss_challenges:
+  - text: La qualità di ciò che mangiamo è il motivo principale per cui può essere più difficile dimagrire che ingrassare. Molti cibi industriali, soprattutto il junk food, sono progettati per bypassare i meccanismi di difesa dell'organismo, spingendoci a mangiare più del necessario.
+
+  utter_self_regulation_optimization:
+  - text: Possiamo sfruttare al meglio la parte che funziona dei meccanismi di autoregolazione seguendo delle semplici linee guida. Dobbiamo differenziare i pasti della giornata in principali (colazione, pranzo e cena) e secondari (spuntini).
+
+  utter_overeating_consequences:
+  - text: Se mangiamo troppo durante i pasti principali, il nostro organismo ha difficoltà a bruciare tutte le calorie ingerite e quindi le accumula sotto forma di grasso, portando ad un aumento di peso.
+
+  utter_avoiding_overeating_main_meals:
+  - text: Durante i pasti principali, dovremmo cercare di mangiare lentamente e di concentrarci sui sapori e sulle sensazioni fisiche del cibo. In questo modo, saremo in grado di ascoltare il nostro corpo e fermarci quando siamo sazi.
+
+  utter_benefits_of_small_meals_weight_management:
+  - text: I pasti secondari possono essere utili per la gestione del peso perché ci aiutano a mantenere costante l'apporto calorico durante la giornata. Se saltiamo i pasti secondari, potremmo avere più fame durante i pasti principali e finire per mangiare troppo.
+
+  utter_recommended_foods_small_meals:
+  - text: Durante i pasti secondari, dovremmo preferire cibi leggeri ma nutrienti, come la frutta o le verdure. In questo modo, forniremo al nostro organismo le energie di cui ha bisogno senza eccedere con le calorie.
+
+  utter_consequences_of_overeating_small_meals:
+  - text: Se mangiamo troppo durante i pasti secondari, potremmo finire per ingerire troppe calorie rispetto a quelle che bruciamo, portando ad un aumento di peso.
+
+  utter_optimizing_small_meals:
+  - text: Per sfruttare al meglio i pasti secondari, possiamo pianificare in anticipo cosa mangiare, scegliere cibi nutrienti e leggeri, e limitare gli snack poco salutari. In questo modo, saremo in grado di mantenere costante l'apporto calorico durante la giornata.
+
+  utter_physical_activity_for_weight_management:
+  - text: L'attività fisica può aiutare a bruciare le calorie in eccesso e a mantenere un peso sano. Inoltre, può migliorare la salute cardiovascolare, la resistenza muscolare e l'umore.
+
+  utter_calorie_intake_for_healthy_weight:
+  - text: La quantità di calorie giornaliere consigliata per mantenere un peso sano dipende dal sesso, dall'età, dall'altezza, dal peso e dal livello di attività fisica. In generale, si consiglia alle donne di assumere circa 2000 calorie al giorno e agli uomini di assumere circa 2500 calorie al giorno.
+
+  utter_foods_to_avoid_for_healthy_weight:
+  - text: Dovremmo evitare alimenti ricchi di zuccheri, grassi saturi e sale, come i dolci, i cibi fritti e i salumi. Inoltre, dovremmo limitare il consumo di alcol e di bevande zuccherate.
+
+  utter_foods_to_choose_for_healthy_weight:
+  - text: Dovremmo preferire alimenti ricchi di nutrienti, come frutta, verdura, cereali integrali, proteine magre e grassi sani, come quelli presenti negli oli vegetali, nei semi e negli avocado.
+
+  utter_reduce_calories_during_main_meals:
+  - text: Possiamo ridurre la quantità di calorie ingerite durante i pasti principali scegliendo porzioni più piccole, evitando le salse e i condimenti grassi, preferendo alimenti leggeri come verdure e proteine magre e limitando i carboidrati raffinati come il pane bianco e la pasta.
+
+  utter_health_benefits_of_maintaining_a_healthy_weight:
+  - text: Mantenere un peso sano può ridurre il rischio di malattie cardiache, diabete, ipertensione, apnee notturne, alcuni tipi di cancro e altre malattie croniche. Inoltre, può migliorare la salute mentale e la qualità della vita.
+
+  utter_avoid_overeating_during_main_meals:
+  - text: Per evitare di mangiare troppo durante i pasti principali, possiamo cercare di mangiare in un ambiente tranquillo e senza distrazioni, come la TV o il cellulare. Inoltre, possiamo prendere il tempo di gustare il cibo e di ascoltare il nostro corpo quando siamo sazi.
+
+  utter_motivation_for_healthy_lifestyle:
+  - text: Per motivarci a mantenere uno stile di vita sano, possiamo fissare degli obiettivi realistici, coinvolgere amici o familiari nella nostra attività fisica e ricompensarci per i progressi raggiunti.
+
+  utter_benefits_of_water_for_weight_management:
+  - text: L'acqua può aiutare a mantenere l'organismo idratato e a ridurre la sensazione di fame. Inoltre, può contribuire a eliminare le tossine e a migliorare la salute della pelle.
+
+  utter_consequences_of_being_underweight:
+  - text: Essere sottopeso può aumentare il rischio di malnutrizione, anemia, osteoporosi, problemi di fertilità e altre complicazioni mediche.
+
+  utter_consequences_of_being_overweight:
+  - text: Essere sovrappeso può aumentare il rischio di malattie cardiache, diabete, ipertensione, apnee notturne, alcuni tipi di cancro e altre complicazioni mediche.
+
+  utter_role_of_caloric_balance_in_weight_management:
+  - text: L'equilibrio calorico è fondamentale per la gestione del peso. Se assumiamo meno calorie di quelle che bruciamo, perderemo peso, mentre se ne assumiamo di più, aumenteremo di peso.
+
+  utter_monitoring_caloric_intake:
+  - text: Possiamo monitorare la quantità di calorie che assumiamo leggendo le etichette alimentari, pesando gli alimenti e tenendo un diario alimentare. Inoltre, esistono applicazioni per smartphone che ci aiutano a monitorare le calorie.
+
+  utter_consequences_of_overweight_during_pregnancy:
+  - text: Essere in sovrappeso durante la gravidanza può aumentare il rischio di complicazioni per la madre e per il feto, come il diabete gestazionale, l'ipertensione, il parto prematuro e il basso peso alla nascita.
+
+  utter_consequences_of_underweight_during_pregnancy:
+  - text: Essere sottopeso durante la gravidanza può aumentare il rischio di complicazioni per la madre e per il feto, come il parto prematuro, la nascita di un neonato con basso peso e il ritardo della crescita fetale.
+
+  utter_benefits_of_exercise_for_weight_management_during_pregnancy:
+  - text: L'attività fisica può aiutare a mantenere un peso sano durante la gravidanza, ridurre il rischio di complicazioni, migliorare la salute cardiovascolare e la salute mentale, e preparare il corpo per il parto.
+
+  utter_managing_postpartum_weight_loss:
+  - text: Dopo la gravidanza, possiamo gestire la perdita di peso seguendo una dieta equilibrata e facendo attività fisica regolarmente. Inoltre, dovremmo dare al nostro corpo il tempo di riprendersi e di adattarsi ai cambiamenti post-gravidanza.
+
+  utter_rules_for_composing_main_meals_in_intuitive_eating:
+  - text: Le regole per comporre i pasti principali nell'alimentazione intuitiva prevedono di dividere ogni pasto in due parti:- cibi a basso contenuto calorico (verdure) e cibi a medio/alto contenuto calorico (tutto il resto). È importante bilanciare le due parti in termini di peso/volume.
+
+  utter_low_calorie_foods_in_intuitive_eating:
+  - text: Nei pasti principali dell'alimentazione intuitiva, i cibi a basso contenuto calorico sono rappresentati dalle verdure, incluse anche quelle a foglia e crucifere.
+
+  utter_recommended_vegetables_in_intuitive_eating:
+  - text: Tra le verdure consigliate nell'alimentazione intuitiva per i pasti principali ci sono quelle a foglia (spinaci, bieta, rucola, lattuga, radicchio, cicoria, ecc.), crucifere (cavoli, broccoli, broccoletti, cavolfiori, ecc.) e ortaggi (pomodori, cetrioli, zucchine, melanzane, peperoni, ecc.).
+
+  utter_variety_in_intuitive_eating_main_meals:
+  - text: Nell'alimentazione intuitiva per i pasti principali è importante variare la scelta di verdure, in particolare dando peso alle crucifere e alle verdure a foglia, consumandole almeno un paio di volte a settimana.
+
+  utter_moderate_high_calorie_intuitive_eating_main_meals:
+  - text: Nei pasti principali dell'alimentazione intuitiva, i cibi a medio/alto contenuto calorico sono rappresentati da tutti gli altri cibi, nella quantità desiderata, seguendo le regole specificate nel resto del libro.
+
+  utter_intuitive_eating_calorie_choice_based_on_goals:
+  - text: La scelta dei cibi a medio/alto contenuto calorico nei pasti principali cambia in base agli obiettivi di dimagrimento, mantenimento del peso o aumento della massa muscolare. Il numero delle portate o dei cibi scelti e la loro composizione variano, ma questo sarà spiegato nei capitoli successivi.
+
+  utter_intuitive_eating_composing_side_meals_rules:
+  - text: Le regole per comporre i pasti secondari nell'alimentazione intuitiva prevedono di dividere ogni pasto in due parti:- cibi a basso contenuto calorico (frutta o eventualmente qualche verdura) e cibi a medio/alto contenuto calorico (tutto il resto, anche junk food).
+
+  utter_intuitive_eating_low_calorie_foods_side_meals:
+  - text: Nei pasti secondari dell'alimentazione intuitiva, i cibi a basso contenuto calorico sono rappresentati dalla frutta o eventualmente qualche verdura.
+
+  utter_principi_alimentazione_intuitiva:
+  - text: I principi fondamentali dell'alimentazione intuitiva per comporre pasti principali e secondari prevedono di bilanciare cibi a basso e medio/alto contenuto calorico in ogni pasto, variare la scelta di cibi a basso contenuto calorico e seguire le regole specificate nel resto del libro per la scelta di cibi a medio/alto contenuto calorico.
+
+  utter_variazioni_pastiprincipali_alimentazione_intuitiva:
+  - text: Nell'alimentazione intuitiva per i pasti principali si possono variare le verdure scelte, in particolare dando peso alle crucifere e alle verdure a foglia, consumandole almeno un paio di volte a settimana.
+
+  utter_food_options:
+  - text: Nell'alimentazione intuitiva per i pasti a medio/alto contenuto calorico si possono scegliere tutti i cibi, seguendo le regole specificate nel resto del libro.
+
+  utter_meal_balance:
+  - text: Per bilanciare le due parti del pasto nei pasti principali dell'alimentazione intuitiva, si può scegliere un peso/volume equivalente tra cibi a basso e medio/alto contenuto calorico.
+
+  utter_bilanciare_pasti_secondari:
+  - text: Anche nei pasti secondari dell'alimentazione intuitiva, è importante bilanciare le due parti del pasto scegliendo cibi a basso contenuto calorico come frutta o verdure, e cibi a medio/alto contenuto calorico come junk food, seguendo le regole specificate nel resto del libro.
+
+  utter_rules_high_calorie_foods_main_meals:
+  - text: Nell'alimentazione intuitiva per i pasti principali, le regole per la scelta di cibi a medio/alto contenuto calorico sono specificate nel resto del libro e variano in base agli obiettivi di dimagrimento, mantenimento del peso o aumento della massa muscolare.
+
+  utter_low_calorie_food_options:
+  - text: Nei pasti secondari dell'alimentazione intuitiva, i cibi a basso contenuto calorico sono rappresentati dalla frutta o eventualmente qualche verdura.
+
+  utter_balance_junk_food_with_healthy_options:
+  - text: Anche se si sceglie di mangiare junk food nei pasti secondari dell'alimentazione intuitiva, è importante bilanciare la quantità con cibi a basso contenuto calorico come frutta o verdure.
+
+  utter_assessing_balance_of_meals:
+  - text: Per capire se si sta bilanciando correttamente le due parti del pasto nell'alimentazione intuitiva, si può prestare attenzione alle quantità e al peso/volume dei cibi scelti.
+
+  utter_varying_secondary_meals:
+  - text: Nell'alimentazione intuitiva per i pasti secondari si possono variare i cibi a basso contenuto calorico scegliendo diverse varietà di frutta o verdure.
+
+  utter_recommended_portions_main_meals:
+  - text: Nell'alimentazione intuitiva, le porzioni dei pasti principali sono libere, ma è importante bilanciare le due parti in termini di peso/volume.
+
+  utter_recommended_portions_secondary_meals:
+  - text: Nell'alimentazione intuitiva, le porzioni dei pasti secondari sono libere, ma è importante bilanciare le due parti in termini di peso/volume.
+
+  utter_balancing_meals_for_weight_loss:
+  - text: Per bilanciare i pasti principali e secondari nell'alimentazione intuitiva se si ha un obiettivo di dimagrimento, si possono seguire le regole specificate nel resto del libro e variare le quantità di cibi a medio/alto contenuto calorico.
+
+  utter_balancing_meals_for_muscle_gain:
+  - text: Per bilanciare i pasti principali e secondari nell'alimentazione intuitiva se si ha un obiettivo di aumento della massa muscolare, si possono seguire le regole specificate nel resto del libro e variare le quantità e la composizione dei cibi.
+
+  utter_balancing_meals_for_weight_maintenance:
+  - text: Per bilanciare i pasti principali e secondari nell'alimentazione intuitiva se si ha un obiettivo di mantenimento del peso, si possono seguire le regole specificate nel resto del libro e mantenere un equilibrio tra cibi a basso e medio/alto contenuto calorico.
+
+  utter_benefits_of_intuitive_eating:
+  - text: Tra i benefici dell'alimentazione intuitiva ci sono il miglioramento della relazione con il cibo, la riduzione dello stress legato alla dieta, l'aumento della consapevolezza sui propri bisogni alimentari e la promozione di un approccio sano e equilibrato alla nutrizione.
+
+  utter_limitations_of_intuitive_eating:
+  - text: Gli eventuali limiti dell'alimentazione intuitiva sono la mancanza di un piano alimentare preciso, la difficoltà di mantenere un equilibrio tra i cibi scelti e l'impossibilità di raggiungere obiettivi specifici di perdita di peso o aumento di massa muscolare.
+
+  utter_learning_intuitive_eating:
+  - text: Per imparare ad adottare l'alimentazione intuitiva, si può leggere il libro Vegan Senza Supercazzole o seguire le indicazioni di un professionista esperto in materia.
+
+  utter_first_tip_intuitive_eating:
+  - text: Non avere fretta e non cercare di forzare i tempi, mangiando meno di quello che il nostro corpo ci chiede.
+
+  utter_self_regulation_mechanisms:
+  - text: Non sono perfetti, ma aderire alla regola 80-20 e all’alimentazione intuitiva ci permetterà automaticamente di assumere un quantitativo di calorie che sia abbastanza vicino al nostro fabbisogno.
+
+  utter_intuitive_eating_weight_management:
+  - text: Aiuta a entrambi, sebbene in modo differente. Se sei in sovrappeso andrai automaticamente a mangiare meno di quello che facevi prima, dimagrendo appunto, ma ad un ritmo non eccessivo. Viceversa, se eri sottopeso probabilmente nel tempo aumenterai di peso, riportando i valori di massa magra alla normalità.
+
+  utter_undereating_intuitive_eating:
+  - text: Non si deve forzare il corpo a mangiare meno, altrimenti si rischia di andare contro i meccanismi di autoregolazione e di causare problemi alla salute.
+
+  utter_intuitive_eating_80_20_rule:
+  - text: La regola 80-20 implica di seguire un'alimentazione equilibrata, consumando il 80% di cibi sani e il 20% di cibi meno salutari.
+
+  utter_intuitive_eating_protein:
+  - text: È molto importante, come vedremo nel secondo capitolo, perché svolge un ruolo fondamentale nel mantenimento della massa muscolare.
+
+  utter_who_can_follow_intuitive_eating:
+  - text: L'alimentazione intuitiva è adatta a tutti, purché si rispettino i segnali di fame e sazietà del proprio corpo.
+
+  utter_weight_loss_without_exercise:
+  - text: È possibile dimagrire seguendo l'alimentazione intuitiva, ma l'esercizio fisico è importante per mantenere la salute e la forma fisica.
+
+  utter_rischi_diete_restrittive:
+  - text: Le diete restrittive possono portare a carenze nutrizionali, problemi di salute e disturbi alimentari.
+
+  utter_ask_prevent_eating_disorders:
+  - text: Sì, l'alimentazione intuitiva aiuta a prevenire i disturbi alimentari, perché si impara ad ascoltare i segnali del proprio corpo e a mangiare in modo sano e bilanciato.
 
   utter_bot_challenge:
   - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
