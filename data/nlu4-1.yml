@@ -1,0 +1,794 @@
+version: "3.1"
+nlu:
+
+- intent: weight_loss_factor #1
+  examples: |
+    - Qual è il fattore principale che determina se guadagniamo o perdiamo peso?
+    - Cosa influenza il guadagno o la perdita di peso?
+    - Quali sono i fattori chiave che determinano il peso corporeo?
+    - Cosa determina se aumentiamo o diminuiamo di peso?
+    - Quali sono le cause principali della perdita di peso?
+    - Cosa influenza la capacità di perdere peso?
+    - Quali fattori influenzano la riduzione del peso corporeo?
+    - Cosa influenza la capacità di guadagnare o perdere peso?
+    - Quali fattori determinano la perdita di peso efficace?
+    - Cosa determina il successo o il fallimento nel perdere peso?
+
+- intent: weight_change_response #2
+  examples: |
+    - Che cosa fa il nostro cervello per difenderci dai cambiamenti di peso?
+    - Come il nostro corpo risponde ai cambiamenti di peso?
+    - Quali meccanismi attiva il nostro cervello in risposta a cambiamenti di peso?
+    - Come il nostro organismo regola il peso corporeo?
+    - Cosa accade nel nostro corpo quando guadagniamo o perdiamo peso?
+    - Quali sono le risposte fisiologiche del nostro corpo ai cambiamenti di peso?
+    - Come il nostro cervello influisce sulla regolazione del peso corporeo?
+    - Che ruolo gioca il sistema nervoso nell'adattamento ai cambiamenti di peso?
+    - Quali sono i meccanismi di adattamento del nostro organismo in risposta a cambiamenti di peso?
+    - Cosa succede nel nostro corpo quando cerchiamo di perdere peso?
+
+- intent: weight_loss_challenges #3
+  examples: |
+    - Perché può essere più difficile dimagrire che ingrassare?
+    - Quali sono le difficoltà nell'affrontare una dieta dimagrante?
+    - Cosa rende la perdita di peso così difficile?
+    - Perché molte persone lottano per dimagrire?
+    - Quali sono i fattori che influenzano la difficoltà nel perdere peso?
+    - Come può essere complicato mantenere una dieta a basso contenuto calorico?
+    - Perché le diete spesso falliscono?
+    - Quali sono le sfide comuni nel percorso di perdita di peso?
+    - Cosa rende più facile ingrassare rispetto a dimagrire?
+    - Quali sono le differenze tra guadagno e perdita di peso dal punto di vista dell'organismo?
+
+- intent: self_regulation_optimization #4
+  examples: |
+    - Come possiamo sfruttare al meglio la parte che funziona dei meccanismi di autoregolazione?
+    - Quali sono i modi per utilizzare al meglio i meccanismi di autoregolazione per raggiungere un obiettivo?
+    - Come possiamo massimizzare l'efficacia dei meccanismi di autoregolazione?
+    - Quali strategie possono aiutare a migliorare la capacità di autoregolazione?
+    - Come possiamo potenziare la nostra capacità di autoregolazione?
+    - Quali sono i fattori che influenzano l'efficacia della autoregolazione?
+    - Quali sono le tecniche più efficaci per migliorare la autoregolazione?
+    - Cosa possiamo fare per superare i limiti della nostra capacità di autoregolazione?
+    - Come possiamo utilizzare la tecnologia per migliorare la autoregolazione?
+    - Quali sono i modelli di comportamento più efficaci per ottimizzare la autoregolazione?
+
+- intent: overeating_consequences #5
+  examples: |
+    - Cosa succede se mangiamo troppo durante i pasti principali?
+    - Quali sono le conseguenze dell'iperfagia durante i pasti principali?
+    - Cosa accade al nostro corpo quando mangiamo troppo in un pasto?
+    - Quali sono i rischi per la salute di mangiare troppo durante i pasti principali?
+    - Come il sovralimentarsi durante i pasti principali influisce sul nostro organismo?
+    - Quali sono i problemi digestivi che possono verificarsi dopo aver mangiato troppo in un pasto?
+    - Come il sovraccarico di carboidrati, grassi o proteine può influire sul nostro organismo?
+    - Quali sono le conseguenze a lungo termine di mangiare troppo durante i pasti principali?
+    - Cosa possiamo fare per prevenire le conseguenze negative del sovralimentarsi durante i pasti principali?
+    - Quali sono i modi per ridurre la quantità di cibo che consumiamo durante i pasti principali?
+
+- intent: avoiding_overeating_main_meals #6
+  examples: |
+    - Cosa dovremmo fare durante i pasti principali per evitare di mangiare troppo?
+    - Quali sono i modi per evitare di mangiare troppo durante i pasti principali?
+    - Come possiamo controllare le porzioni durante i pasti principali?
+    - Quali sono le strategie per ridurre l'assunzione di calorie durante i pasti principali?
+    - Cosa possiamo fare per evitare il sovraccarico di carboidrati, grassi o proteine durante i pasti principali?
+    - Quali sono i consigli per mangiare in modo sano durante i pasti principali?
+    - Come possiamo ridurre la velocità con cui mangiamo per evitare di mangiare troppo?
+    - Quali sono le pratiche alimentari che possiamo adottare per evitare di mangiare troppo durante i pasti principali?
+    - Come possiamo gestire le porzioni di cibo durante i pasti principali quando mangiamo fuori casa?
+    - Quali sono i trucchi per evitare di mangiare troppo durante i pasti principali?
+
+- intent: benefits_of_small_meals_weight_management #7
+  examples: |
+    - Perché i pasti secondari possono essere utili per la gestione del peso?
+    - Quali sono i vantaggi di mangiare pasti più piccoli durante il giorno per la gestione del peso?
+    - Come i pasti frequenti possono aiutare a controllare l'appetito e il peso?
+    - Qual è l'effetto dei pasti frequenti sull'assunzione di calorie e sulla fame?
+    - Quali sono le ragioni per cui mangiare più volte al giorno può essere utile per dimagrire?
+    - Come mangiare più pasti durante il giorno può migliorare il metabolismo e la perdita di peso?
+    - Quali sono i motivi per cui mangiare pasti più piccoli e frequenti può essere più efficace per dimagrire rispetto a pasti più grandi e meno frequenti?
+    - Come i pasti frequenti possono influire sui livelli di zucchero nel sangue e sull'insulina?
+    - Quali sono i consigli per pianificare i pasti più piccoli e frequenti durante il giorno per la gestione del peso?
+    - Quali sono i tipi di cibi che dovremmo mangiare durante i pasti secondari per perdere peso in modo efficace?
+
+- intent: recommended_foods_small_meals #8
+  examples: |
+    - Cosa dovremmo mangiare durante i pasti secondari?
+    - Quali sono i cibi migliori da mangiare durante i pasti più piccoli durante il giorno?
+    - Come possiamo scegliere i cibi giusti per i pasti frequenti per la perdita di peso?
+    - Quali sono i cibi che possono aiutare a controllare l'appetito durante i pasti secondari?
+    - Quali sono i cibi che possono fornire energia a lunga durata durante i pasti più piccoli durante il giorno?
+    - Quali sono le opzioni di pasti più salutari per i pasti frequenti durante il giorno?
+    - Come possiamo bilanciare i nutrienti durante i pasti secondari per mantenere il controllo del peso?
+    - Quali sono i tipi di cibi che dovremmo evitare durante i pasti secondari per perdere peso in modo efficace?
+    - Quali sono i cibi ricchi di proteine che possiamo includere durante i pasti secondari per favorire la perdita di peso?
+    - Quali sono i consigli per preparare i pasti più piccoli e salutari durante il giorno?
+
+- intent: consequences_of_overeating_small_meals #9
+  examples: |
+    - Cosa succede se mangiamo troppo durante i pasti secondari?
+    - Quali sono le conseguenze di mangiare troppo durante i pasti più piccoli durante il giorno?
+    - Come può l'eccesso di cibo durante i pasti secondari influenzare il peso corporeo?
+    - Quali sono i rischi di mangiare troppo durante i pasti frequenti?
+    - Come l'eccesso di cibo durante i pasti secondari può influenzare la digestione e l'assorbimento dei nutrienti?
+    - Quali sono gli effetti dell'eccesso di cibo durante i pasti più piccoli sulla salute a lungo termine?
+    - Come l'eccesso di cibo durante i pasti frequenti può aumentare il rischio di problemi di salute?
+    - Quali sono i segnali che indicano che abbiamo mangiato troppo durante i pasti secondari?
+    - Come possiamo evitare di mangiare troppo durante i pasti più piccoli durante il giorno?
+    - Quali sono le strategie per controllare la quantità di cibo durante i pasti secondari per mantenere il controllo del peso?
+
+- intent: optimizing_small_meals #10
+  examples: |
+    - Quali sono le strategie che possiamo utilizzare per sfruttare al meglio i pasti secondari?
+    - Come possiamo ottimizzare i pasti più piccoli durante il giorno per il controllo del peso?
+    - Quali sono le tattiche per massimizzare i benefici dei pasti secondari?
+    - Come possiamo pianificare i pasti frequenti per ottenere i migliori risultati per la salute e il benessere?
+    - Quali sono gli alimenti migliori da scegliere durante i pasti secondari per il controllo del peso?
+    - Come possiamo equilibrare i pasti secondari con il resto della dieta per massimizzare i risultati per la salute?
+    - Quali sono le porzioni raccomandate per i pasti secondari?
+    - Come possiamo evitare gli spuntini poco salutari durante i pasti secondari?
+    - Quali sono le tecniche per mantenere il controllo delle calorie durante i pasti frequenti?
+    - Come possiamo pianificare i pasti secondari per mantenere stabile il livello di zuccheri nel sangue?
+
+- intent: physical_activity_for_weight_management #11
+  examples: |
+    - Qual è il ruolo dell'attività fisica nella gestione del peso?
+    - Come l'esercizio fisico può aiutare a perdere peso?
+    - Quali esercizi sono più efficaci per bruciare calorie e perdere peso?
+    - Quanto tempo dovrei dedicare all'attività fisica per controllare il mio peso?
+    - Posso perdere peso solo con l'attività fisica o devo anche seguire una dieta?
+
+- intent: calorie_intake_for_healthy_weight #12
+  examples: |
+    - Quante calorie dovrei mangiare al giorno per mantenere un peso sano?
+    - Qual è la quantità di calorie consigliata per mantenere un peso stabile?
+    - Come posso calcolare la mia necessità calorica giornaliera per mantenere il peso?
+    - Qual è la quantità di calorie giornaliere raccomandata per gli adulti?
+    - Devo mangiare di più o di meno per mantenere un peso sano?
+
+- intent: foods_to_avoid_for_healthy_weight #13
+  examples: |
+    - Quali sono gli alimenti che dovrei evitare per mantenere un peso sano?
+    - Quali alimenti sono associati all'aumento di peso?
+    - Cosa dovrei evitare di mangiare se voglio perdere peso?
+    - Quali cibi contribuiscono al sovrappeso e all'obesità?
+    - Quali sono gli alimenti ad alto contenuto calorico che dovrei limitare o evitare?
+
+- intent: foods_to_choose_for_healthy_weight #14
+  examples: |
+    - Quali sono gli alimenti che dovrei scegliere per mantenere un peso sano?
+    - Cosa dovrei mangiare per mantenere un peso stabile?
+    - Quali alimenti sono associati ad un peso sano?
+    - Quali sono i cibi ad alto contenuto proteico che posso mangiare per mantenere il peso?
+    - Cosa posso aggiungere alla mia dieta per aiutarmi a mantenere il peso forma?
+
+- intent: reduce_calories_during_main_meals #15
+  examples: |
+    - Come posso ridurre le calorie durante i pasti principali?
+    - Quali sono i modi per ridurre l'assunzione di calorie durante i pasti principali?
+    - Cosa posso fare per ridurre le calorie durante i pasti principali senza sentirsi affamato?
+    - Quali sono i cibi a basso contenuto calorico che posso includere nella mia dieta?
+    - Come posso preparare pasti salutari e a basso contenuto calorico?
+
+- intent: health_benefits_of_maintaining_a_healthy_weight #16
+  examples: |
+    - Quali sono i benefici per la salute di mantenere un peso sano?
+    - Come può mantenere un peso sano beneficiare la mia salute?
+    - Quali sono le conseguenze per la salute di un peso non sano?
+    - Cosa posso fare per mantenere un peso sano e godere di una buona salute?
+    - Quali sono le malattie croniche che potrebbero essere prevenute mantenendo un peso sano?
+
+- intent: avoid_overeating_during_main_meals #17
+  examples: |
+    - Quali sono i modi per evitare di mangiare troppo durante i pasti principali?
+    - Come posso ridurre la quantità di cibo che mangio durante i pasti principali?
+    - Cosa posso fare per evitare di mangiare troppo durante i pasti principali?
+    - Quali sono i segnali che il mio corpo invia quando ho mangiato abbastanza?
+    - Come posso praticare la consapevolezza alimentare durante i pasti principali per evitare di mangiare troppo?
+    - Ci sono degli alimenti che dovrei evitare per non mangiare troppo durante i pasti principali?
+    - Quali sono le porzioni raccomandate di cibo per un pasto principale?
+    - Quali tecniche di respirazione posso utilizzare durante i pasti principali per evitare di mangiare troppo?
+    - Quali sono i benefici di mangiare lentamente durante i pasti principali?
+    - Ci sono dei trucchi per evitare di mangiare troppo durante i pasti principali quando si è al ristorante? 
+
+- intent: motivation_for_healthy_lifestyle #18
+  examples: |
+    - Come posso trovare la motivazione per seguire uno stile di vita sano?
+    - Quali sono i benefici di uno stile di vita sano e come possono motivarmi a mantenerlo?
+    - Come posso superare la mancanza di motivazione per esercitarmi regolarmente?
+    - Quali sono gli obiettivi che posso impostare per mantenermi motivato a seguire uno stile di vita sano?
+    - Come posso coinvolgere i miei amici o familiari nella mia scelta di uno stile di vita sano per mantenermi motivato?
+    - Quali sono le app o i siti web che possono aiutarmi a mantenere uno stile di vita sano?
+    - Come posso creare una routine quotidiana che mi aiuti a seguire uno stile di vita sano e mantenermi motivato?
+    - Quali sono le strategie per superare le tentazioni alimentari e mantenere uno stile di vita sano?
+    - Come posso premiarmi quando raggiungo un obiettivo di salute per mantenermi motivato?
+    - Quali sono le storie di successo di altre persone che hanno adottato uno stile di vita sano che possono motivarmi?  
+
+- intent: benefits_of_water_for_weight_management #19
+  examples: |
+    - Quali sono i benefici dell'acqua per la gestione del peso?
+    - Come l'acqua può aiutare nella perdita di peso?
+    - Qual è il ruolo dell'acqua nella gestione del peso?
+    - L'acqua aiuta a perdere peso?
+    - Quanta acqua dovrei bere per perdere peso?
+    - L'acqua può aiutare a ridurre l'appetito?
+    - Bere acqua durante i pasti aiuta nella gestione del peso?
+    - Come l'acqua può contribuire a mantenere un peso sano?
+    - Quali sono i benefici dell'acqua rispetto alle bevande zuccherate per la gestione del peso?
+    - L'acqua può aiutare a ridurre il grasso corporeo?
+
+- intent: consequences_of_being_underweight #20
+  examples: |
+    - Quali sono le conseguenze dell'essere sottopeso?
+    - Che rischi comporta l'essere sottopeso?
+    - Cosa succede al tuo corpo se sei sottopeso?
+    - Quali sono gli effetti negativi dell'essere sottopeso?
+    - Essere sottopeso può causare problemi di salute?
+    - Che impatto ha l'essere sottopeso sulla tua salute?
+    - Quali sono le possibili complicazioni dell'essere sottopeso?
+    - Quali sono le conseguenze a lungo termine dell'essere sottopeso?
+    - Essere sottopeso può causare problemi di fertilità?
+    - Che tipo di malattie puoi sviluppare se sei sottopeso?
+
+  - intent: consequences_of_being_overweight #21
+    examples: |
+      - Quali sono le conseguenze dell'essere sovrappeso?
+      - Che rischi comporta l'essere sovrappeso?
+      - Cosa succede al tuo corpo se sei sovrappeso?
+      - Quali sono gli effetti negativi dell'essere sovrappeso?
+      - Essere sovrappeso può causare problemi di salute?
+      - Che impatto ha l'essere sovrappeso sulla tua salute?
+      - Quali sono le possibili complicazioni dell'essere sovrappeso?
+      - Quali sono le conseguenze a lungo termine dell'essere sovrappeso?
+      - Essere sovrappeso può causare problemi di fertilità?
+      - Che tipo di malattie puoi sviluppare se sei sovrappeso?
+
+  - intent: role_of_caloric_balance_in_weight_management #22
+    examples: |
+      - Qual è il ruolo dell'equilibrio calorico nella gestione del peso?
+      - Come funziona l'equilibrio calorico nel controllo del peso?
+      - Che rapporto c'è tra calorie e gestione del peso?
+      - L'equilibrio calorico è importante per perdere peso?
+      - Qual è l'importanza dell'equilibrio tra calorie consumate e calorie bruciate nella gestione del peso?
+      - Cosa succede se si mangiano più calorie di quante se ne bruciano?
+      - Qual è l'effetto dell'equilibrio calorico sulla composizione corporea?
+      - Come si può mantenere l'equilibrio calorico?
+      - L'equilibrio calorico funziona per tutti nella gestione del peso?
+      - Quali sono le conseguenze di un equilibrio calorico sbilanciato?
+
+  - intent: monitoring_caloric_intake #23
+    examples: |
+      - Come possiamo monitorare la quantità di calorie che assumiamo?
+      - Quali sono i modi migliori per tenere traccia delle calorie che si consumano?
+      - Esistono applicazioni o strumenti per il monitoraggio delle calorie?
+      - Come posso sapere quante calorie ci sono nei cibi che mangio?
+      - Ci sono tecniche per monitorare la quantità di calorie che si assumono senza contare ogni singolo alimento?
+      - Quali sono i modi più semplici per tenere traccia della mia assunzione calorica?
+      - Come si può monitorare l'assunzione calorica quando si mangia fuori casa?
+      - Quali sono gli strumenti migliori per tenere traccia delle calorie che si assumono?
+      - Esistono metodi per stimare l'assunzione calorica senza pesare gli alimenti?
+      - Quali sono le app per il monitoraggio dell'assunzione calorica più popolari?
+
+  - intent: consequences_of_overweight_during_pregnancy #24
+    examples: |
+      - Quali sono le conseguenze dell'essere in sovrappeso durante la gravidanza?
+      - Quali sono i rischi per la salute della madre e del feto se si è in sovrappeso durante la gravidanza?
+      - Essere sovrappeso influisce sulla salute del bambino durante la gravidanza?
+      - Quali sono le complicazioni legate alla gravidanza che possono verificarsi se si è in sovrappeso?
+      - Essere in sovrappeso può aumentare il rischio di aborto spontaneo?
+      - Essere in sovrappeso influisce sulla fertilità durante la gravidanza?
+      - Quali sono i rischi per la salute della madre se si è in sovrappeso durante la gravidanza?
+      - Essere in sovrappeso può causare complicazioni durante il parto?
+      - Quali sono le complicazioni legate alla gravidanza che possono verificarsi se si è in sovrappeso?
+      - Come l'essere in sovrappeso può influenzare la pressione sanguigna durante la gravidanza?
+
+  - intent: consequences_of_underweight_during_pregnancy #25
+    examples: |
+      - Quali sono le conseguenze dell'essere sottopeso durante la gravidanza?
+      - Essere sottopeso durante la gravidanza può influire sulla salute del feto?
+      - Quali sono i rischi per la salute della madre e del bambino se si è sottopeso durante la gravidanza?
+      - Essere sottopeso può influire sulla fertilità durante la gravidanza?
+      - Come l'essere sottopeso può influire sulla salute della madre durante la gravidanza?
+      - Quali sono le complicazioni legate alla gravidanza che possono verificarsi se si è sottopeso?
+      - Essere sottopeso può causare un parto prematuro?
+      - Essere sottopeso può aumentare il rischio di anomalie congenite?
+      - Come l'essere sottopeso può influire sulla produzione di latte materno?
+      - Quali sono le raccomandazioni per le donne sottopeso durante la gravidanza?
+
+  - intent: benefits_of_exercise_for_weight_management_during_pregnancy #26
+    examples: |
+      - Quali sono i benefici dell'attività fisica per la gestione del peso durante la gravidanza?
+      - Come l'esercizio fisico può aiutare a mantenere un peso sano durante la gravidanza?
+      - L'attività fisica può aiutare a controllare l'aumento di peso durante la gravidanza?
+      - Quali sono i benefici dell'esercizio fisico per la salute del feto durante la gravidanza?
+      - L'attività fisica può ridurre il rischio di complicazioni durante la gravidanza?
+      - Quali sono i tipi di esercizi consigliati durante la gravidanza per mantenere un peso sano?
+      - Come l'esercizio fisico può influire sulla pressione sanguigna durante la gravidanza?
+      - L'attività fisica può influire sulla salute mentale durante la gravidanza?
+      - Quali sono i benefici dell'esercizio fisico per il lavoro di parto e la consegna?
+      - L'attività fisica può influire sulla produzione di latte materno dopo la nascita del bambino?
+
+  - intent: managing_postpartum_weight_loss #27
+    examples: |
+      - Come possiamo gestire la perdita di peso dopo la gravidanza?
+      - Quali sono i consigli per perdere peso in modo sano dopo la gravidanza?
+      - Quanto tempo ci vuole per perdere peso dopo la gravidanza?
+      - Quali sono gli esercizi migliori per aiutare a perdere peso dopo la gravidanza?
+      - Come la dieta può aiutare a perdere peso dopo la gravidanza?
+      - Quali sono le cose da evitare quando si cerca di perdere peso dopo la gravidanza?
+      - Quali sono le raccomandazioni per l'allattamento al seno durante la perdita di peso postpartum?
+      - Come il sonno può influire sulla perdita di peso dopo la gravidanza?
+      - Quali sono i rischi di perdere peso troppo velocemente dopo la gravidanza?
+      - Come possiamo mantenere la motivazione durante la perdita di peso postpartum?
+
+  - intent: rules_for_composing_main_meals_in_intuitive_eating #28
+    examples: |
+      - Quali sono le regole per comporre i pasti principali nell'alimentazione intuitiva?
+      - Come posso bilanciare i miei pasti principali secondo i principi dell'alimentazione intuitiva?
+      - Quali sono gli alimenti che dovrei includere nei miei pasti principali nell'alimentazione intuitiva?
+      - L'alimentazione intuitiva prevede una quantità specifica di carboidrati, proteine e grassi nei pasti principali?
+      - Come posso ascoltare il mio corpo per capire cosa mangiare per il pasto principale?
+      - Quali sono le raccomandazioni per le porzioni durante i pasti principali nell'alimentazione intuitiva?
+      - Come posso fare scelte alimentari consapevoli durante i pasti principali nell'alimentazione intuitiva?
+      - Quali sono i consigli per preparare pasti principali sani e gustosi nell'alimentazione intuitiva?
+      - L'alimentazione intuitiva prevede un numero preciso di pasti principali al giorno?
+      - Quali sono le differenze tra l'alimentazione intuitiva e le diete tradizionali nel comporre i pasti principali?
+
+  - intent: low_calorie_foods_in_intuitive_eating #29
+    examples: |
+      - Cosa si intende per cibi a basso contenuto calorico nei pasti principali dell'alimentazione intuitiva?
+      - Quali sono i cibi a basso contenuto calorico che posso includere nei pasti principali dell'alimentazione intuitiva?
+      - L'alimentazione intuitiva prevede l'uso di cibi a basso contenuto calorico per i pasti principali?
+      - Come posso scegliere cibi a basso contenuto calorico per i miei pasti principali nell'alimentazione intuitiva?
+      - Quali sono gli esempi di cibi a basso contenuto calorico per i pasti principali nell'alimentazione intuitiva?
+      - Come posso bilanciare i cibi a basso contenuto calorico con gli altri alimenti nei pasti principali dell'alimentazione intuitiva?
+      - L'alimentazione intuitiva suggerisce di eliminare completamente i cibi ad alto contenuto calorico dai pasti principali?
+      - Posso includere cibi ad alto contenuto calorico nei pasti principali dell'alimentazione intuitiva insieme a cibi a basso contenuto calorico?
+      - Quali sono i benefici di includere cibi a basso contenuto calorico nei pasti principali dell'alimentazione intuitiva?
+      - L'alimentazione intuitiva prevede una quantità specifica di cibi a basso contenuto calorico nei pasti principali?
+
+  - intent: recommended_vegetables_in_intuitive_eating #30
+    examples: |
+      - Quali verdure sono consigliate nell'alimentazione intuitiva per i pasti principali?
+      - L'alimentazione intuitiva suggerisce di includere verdure nei pasti principali?
+      - Quali sono le verdure consigliate per l'alimentazione intuitiva?
+      - Come posso scegliere le verdure giuste per i pasti principali nell'alimentazione intuitiva?
+      - Quali sono gli esempi di verdure che posso includere nei pasti principali nell'alimentazione intuitiva?
+      - L'alimentazione intuitiva prevede una quantità specifica di verdure nei pasti principali?
+      - Come posso bilanciare le verdure con gli altri alimenti nei pasti principali dell'alimentazione intuitiva?
+      - Posso includere qualsiasi tipo di verdure nei pasti principali dell'alimentazione intuitiva?
+      - Quali sono i benefici di includere verdure nei pasti principali dell'alimentazione intuitiva?
+      - L'alimentazione intuitiva suggerisce di mangiare verdure crude o cotte nei pasti principali?
+
+  - intent: variety_in_intuitive_eating_main_meals #31
+    examples: |
+      - Come posso variare nell'alimentazione intuitiva per i pasti principali?
+      - L'alimentazione intuitiva prevede la varietà nei pasti principali?
+      - Quali sono i modi per introdurre la varietà nei pasti principali nell'alimentazione intuitiva?
+      - Come posso evitare la monotonia nei pasti principali dell'alimentazione intuitiva?
+      - Posso modificare i pasti principali dell'alimentazione intuitiva a seconda delle stagioni?
+      - Quali sono gli esempi di alimenti da aggiungere per introdurre varietà nei pasti principali dell'alimentazione intuitiva?
+      - Come posso includere i cibi preferiti nei pasti principali dell'alimentazione intuitiva senza compromettere l'equilibrio?
+      - L'alimentazione intuitiva prevede la rotazione degli alimenti nei pasti principali?
+      - Posso utilizzare spezie e condimenti per variare i pasti principali dell'alimentazione intuitiva?
+      - Come posso rendere i pasti principali dell'alimentazione intuitiva interessanti e gustosi?
+
+  - intent: moderate_high_calorie_intuitive_eating_main_meals #32
+    examples: |
+      - Quali sono i cibi a medio/alto contenuto calorico che posso includere nei pasti principali dell'alimentazione intuitiva?
+      - Posso consumare alimenti a medio/alto contenuto calorico nella dieta dell'alimentazione intuitiva?
+      - Cosa si intende per cibi a medio/alto contenuto calorico nella composizione dei pasti principali dell'alimentazione intuitiva?
+      - Quali sono gli esempi di alimenti a medio/alto contenuto calorico da aggiungere nei pasti principali dell'alimentazione intuitiva?
+      - Come posso bilanciare i pasti principali dell'alimentazione intuitiva con alimenti a medio/alto contenuto calorico?
+      - L'alimentazione intuitiva prevede il controllo delle calorie in ogni pasto principale?
+      - Quali sono i rischi dell'eccesso di cibi a medio/alto contenuto calorico nei pasti principali dell'alimentazione intuitiva?
+      - Quali sono i benefici di includere cibi a medio/alto contenuto calorico nei pasti principali dell'alimentazione intuitiva?
+      - Posso includere carboidrati e grassi nei pasti principali dell'alimentazione intuitiva?
+      - Quali sono le raccomandazioni per la quantità di cibi a medio/alto contenuto calorico nei pasti principali dell'alimentazione intuitiva?
+
+  - intent: intuitive_eating_calorie_choice_based_on_goals #33
+    examples: |
+      - Quali cibi a medio/alto contenuto calorico devo scegliere se voglio dimagrire?
+      - Come scelgo i cibi a medio/alto contenuto calorico se il mio obiettivo è il mantenimento del peso?
+      - Quali sono i cibi a medio/alto contenuto calorico consigliati per l'aumento della massa muscolare nell'alimentazione intuitiva?
+      - Posso mangiare cibi a medio/alto contenuto calorico se voglio dimagrire con l'alimentazione intuitiva?
+      - Quali cibi a medio/alto contenuto calorico dovrei evitare se il mio obiettivo è il dimagrimento con l'alimentazione intuitiva?
+      - Come scelgo i pasti principali dell'alimentazione intuitiva se voglio aumentare la massa muscolare?
+      - Ci sono dei cibi a medio/alto contenuto calorico da preferire durante il mantenimento del peso con l'alimentazione intuitiva?
+      - L'alimentazione intuitiva è adatta per l'aumento della massa muscolare?
+      - Quali sono i cibi a medio/alto contenuto calorico da includere nell'alimentazione intuitiva per il mantenimento del peso?
+      - Come posso gestire la quantità di cibi a medio/alto contenuto calorico nell'alimentazione intuitiva in base ai miei obiettivi?
+
+  - intent: intuitive_eating_composing_side_meals_rules #34
+    examples: |
+      - Quali sono le regole per comporre i pasti secondari nell'alimentazione intuitiva?
+      - Come posso scegliere i cibi per i pasti secondari nell'alimentazione intuitiva?
+      - Quali sono le linee guida per selezionare i pasti secondari nell'alimentazione intuitiva?
+      - Ci sono delle regole per comporre i pasti a base di frutta nell'alimentazione intuitiva?
+      - Quali cibi dovrei evitare nei pasti secondari dell'alimentazione intuitiva?
+      - Posso mangiare cibi ad alto contenuto calorico nei pasti secondari con l'alimentazione intuitiva?
+      - L'alimentazione intuitiva prevede la suddivisione dei pasti in primi e secondi?
+      - Quali sono le regole per abbinare i cibi nei pasti secondari dell'alimentazione intuitiva?
+      - Quali sono i cibi consigliati per i pasti secondari dell'alimentazione intuitiva?
+      - Come posso variare i pasti secondari nell'alimentazione intuitiva?
+
+  - intent: intuitive_eating_low_calorie_foods_side_meals #35
+    examples: |
+      - Cosa si intende per cibi a basso contenuto calorico nei pasti secondari dell'alimentazione intuitiva?
+      - Quali sono i cibi a basso contenuto calorico consigliati per i pasti secondari nell'alimentazione intuitiva?
+      - Ci sono degli snack a basso contenuto calorico che posso mangiare con l'alimentazione intuitiva?
+      - Posso mangiare frutta come spuntino con l'alimentazione intuitiva?
+      - Quali sono le verdure a basso contenuto calorico che posso scegliere per i pasti secondari nell'alimentazione intuitiva?
+      - Ci sono degli alimenti proteici a basso contenuto calorico che posso includere nei pasti secondari con l'alimentazione intuitiva?
+      - Quali sono gli snack salutari e a basso contenuto calorico che posso mangiare con l'alimentazione intuitiva?
+      - Posso mangiare cibi a basso contenuto calorico a qualsiasi ora del giorno con l'alimentazione intuitiva?
+      - Quali sono le porzioni consigliate per i cibi a basso contenuto calorico nei pasti secondari dell'alimentazione intuitiva?
+      - Come posso preparare cibi a basso contenuto calorico per i pasti secondari dell'alimentazione intuitiva?
+
+- intent: principi_alimentazione_intuitiva #36
+  examples: |
+    - Quali sono i principi fondamentali dell'alimentazione intuitiva?
+    - Quali sono i principi guida dell'alimentazione intuitiva?
+    - Cosa significa alimentazione intuitiva e quali sono i suoi principi fondamentali?
+    - Quali sono le regole dell'alimentazione intuitiva?
+    - In cosa consiste l'alimentazione intuitiva e quali sono i suoi principi chiave?
+    - Quali sono i principi base dell'alimentazione intuitiva?
+    - Cosa si intende per alimentazione intuitiva e quali sono i suoi principi fondamentali?
+    - Quali sono i principi dell'alimentazione intuitiva?
+    - Come funziona l'alimentazione intuitiva e quali sono i suoi principi fondamentali?
+    - Quali sono le linee guida dell'alimentazione intuitiva per comporre pasti equilibrati?
+
+- intent: variazioni_pastiprincipali_alimentazione_intuitiva #37
+  examples: |
+    - Come posso variare i pasti principali nell'alimentazione intuitiva?
+    - Quali sono le variazioni consigliate per i pasti principali nell'alimentazione intuitiva?
+    - Cosa posso fare per rendere i pasti principali più variegati nell'alimentazione intuitiva?
+    - Quali sono le opzioni per variare i pasti principali nell'alimentazione intuitiva?
+    - Come posso rendere i pasti principali più gustosi nell'alimentazione intuitiva?
+    - Quali sono le possibilità di variazione dei pasti principali nell'alimentazione intuitiva?
+    - Cosa posso fare per non annoiarmi nei pasti principali nell'alimentazione intuitiva?
+    - Come posso personalizzare i pasti principali nell'alimentazione intuitiva?
+    - Quali sono le alternative per i pasti principali nell'alimentazione intuitiva?
+    - Cosa posso fare per non mangiare sempre gli stessi pasti principali nell'alimentazione intuitiva?
+
+- intent: food_options #38
+  examples: |
+    - Quali cibi a medio/alto contenuto calorico posso mangiare nell'alimentazione intuitiva?
+    - Quali cibi con un contenuto calorico più elevato posso includere nella mia alimentazione intuitiva?
+    - Ci sono alimenti a medio/alto contenuto calorico che potrei considerare nell'ambito dell'alimentazione intuitiva?
+    - Come posso includere cibi a medio/alto contenuto calorico nella mia alimentazione intuitiva?
+    - Quali sono alcuni esempi di cibi a medio/alto contenuto calorico che posso includere nell'alimentazione intuitiva?
+    - L'alimentazione intuitiva prevede l'inclusione di cibi a medio/alto contenuto calorico? Quali sono?
+    - Come posso bilanciare l'apporto calorico dei cibi a medio/alto contenuto calorico nell'alimentazione intuitiva?
+    - Quali sono le opzioni di cibi a medio/alto contenuto calorico raccomandati dall'alimentazione intuitiva?
+    - Quali sono i cibi con un contenuto calorico più alto che si adattano all'alimentazione intuitiva?
+    - Come posso scegliere cibi a medio/alto contenuto calorico in modo sano nell'ambito dell'alimentazione intuitiva?
+
+- intent: meal_balance #39
+  examples: |
+    - Come posso bilanciare il pasto con cibi ad alto contenuto calorico e a basso contenuto calorico?
+    - Quali sono i modi per bilanciare il pasto con alimenti a basso e alto contenuto calorico?
+    - Come posso creare un pasto equilibrato tra alimenti a basso contenuto calorico e ad alto contenuto calorico?
+    - Quali sono i cibi ad alto contenuto calorico che possono essere abbinati a quelli a basso contenuto calorico per bilanciare un pasto?
+    - Cosa si intende per bilanciare il pasto tra alimenti a basso e alto contenuto calorico nell'alimentazione intuitiva?
+    - Come posso equilibrare un pasto con alimenti a medio/alto contenuto calorico e a basso contenuto calorico nell'alimentazione intuitiva?
+    - Quali sono i principi per creare un pasto bilanciato con alimenti a basso e alto contenuto calorico?
+    - Cosa posso fare per equilibrare il pasto con cibi ad alto contenuto calorico e a basso contenuto calorico nell'alimentazione intuitiva?
+    - Come posso combinare cibi a basso contenuto calorico e ad alto contenuto calorico per bilanciare un pasto nell'alimentazione intuitiva?
+    - Quali sono le regole per bilanciare un pasto con cibi ad alto contenuto calorico e a basso contenuto calorico nell'alimentazione intuitiva?
+
+- intent: bilanciare_pasti_secondari #40
+  examples: |
+    - Come bilanciare i pasti secondari nell'alimentazione intuitiva?
+    - Quali sono i principi per bilanciare i pasti secondari nell'alimentazione intuitiva?
+    - Come posso bilanciare le porzioni dei pasti secondari nell'alimentazione intuitiva?
+    - Quali sono le regole per bilanciare gli snack nell'alimentazione intuitiva?
+    - Come posso bilanciare i pasti leggeri nell'alimentazione intuitiva?
+    - Come si bilanciano le porzioni dei dolci nell'alimentazione intuitiva?
+    - Quali sono i cibi consigliati per bilanciare i pasti secondari nell'alimentazione intuitiva?
+    - Quali sono le dosi consigliate per bilanciare i pasti secondari nell'alimentazione intuitiva?
+    - Come si possono abbinare i cibi per bilanciare i pasti secondari nell'alimentazione intuitiva?
+    - Quali sono le alternative salutari per bilanciare i pasti secondari nell'alimentazione intuitiva?
+
+- intent: rules_high_calorie_foods_main_meals #41
+  examples: |
+    - Quali sono le regole per scegliere cibi a medio/alto contenuto calorico nei pasti principali?
+    - Quali cibi a medio/alto contenuto calorico dovrei scegliere per i pasti principali?
+    - Come posso scegliere cibi a medio/alto contenuto calorico per i pasti principali nell'alimentazione intuitiva?
+    - Cosa dovrei considerare quando scelgo cibi a medio/alto contenuto calorico per i pasti principali?
+    - Quali regole devo seguire per scegliere cibi a medio/alto contenuto calorico nei pasti principali nell'alimentazione intuitiva?
+    - Quali sono le linee guida per la scelta di cibi a medio/alto contenuto calorico per i pasti principali?
+    - Cosa devo tenere a mente quando scelgo cibi a medio/alto contenuto calorico per i pasti principali?
+    - Come posso bilanciare i cibi a medio/alto contenuto calorico con quelli a basso contenuto calorico nei pasti principali?
+    - Quali sono le migliori opzioni di cibi a medio/alto contenuto calorico per i pasti principali nell'alimentazione intuitiva?
+    - Quali sono i cibi a medio/alto contenuto calorico consigliati per i pasti principali dell'alimentazione intuitiva?
+
+- intent: low_calorie_food_options #42
+  examples: |
+    - Quali sono i cibi a basso contenuto calorico che posso mangiare per pranzo?
+    - Cosa posso mangiare di leggero per cena?
+    - Quali sono i cibi a basso contenuto calorico che mi consigli per la pausa pranzo?
+    - Quali sono i pasti secondari a basso contenuto calorico che mi consigli?
+    - Cosa mangiare per uno spuntino leggero durante la giornata?
+    - Quali sono i cibi a basso contenuto calorico che posso aggiungere alla mia dieta?
+    - Mi puoi consigliare dei cibi a basso contenuto calorico per la colazione?
+    - Cosa posso mangiare per cena senza esagerare con le calorie?
+    - Quali sono i cibi a basso contenuto calorico che posso mangiare a pranzo senza ingrassare?
+    - Quali sono i pasti secondari più leggeri che mi consigli per l'alimentazione intuitiva?
+
+- intent: balance_junk_food_with_healthy_options #43
+  examples: |
+    - Come posso bilanciare i pasti secondari dell'alimentazione intuitiva se voglio mangiare cibo spazzatura?
+    - Quali sono i modi migliori per bilanciare il junk food nei pasti secondari dell'alimentazione intuitiva?
+    - Come posso integrare il junk food nei pasti secondari senza esagerare?
+    - Come faccio a bilanciare i pasti secondari dell'alimentazione intuitiva se voglio concedermi un po' di junk food?
+    - Quali sono i cibi salutari che posso abbinare al junk food per bilanciare il pasto?
+    - Come posso mangiare cibo spazzatura senza compromettere il mio bilanciamento calorico giornaliero?
+    - Quali sono le strategie migliori per bilanciare il junk food con cibi sani?
+    - Cosa posso mangiare insieme al junk food per bilanciare il pasto?
+    - Quali sono le porzioni ideali di junk food e cibo sano per bilanciare il pasto?
+    - Come faccio a bilanciare il junk food con cibi sani nei pasti secondari dell'alimentazione intuitiva?
+
+- intent: assessing_balance_of_meals #44
+  examples: |
+    - Come posso capire se sto bilanciando correttamente le due parti del pasto nell'alimentazione intuitiva?
+    - Quali sono gli indicatori che mi dicono se sto bilanciando correttamente le due parti del pasto?
+    - Come posso valutare se sto mangiando abbastanza cibo sano e cibo indulgente?
+    - Quali sono i segni che indicano che sto bilanciando male le due parti del pasto?
+    - Come posso sapere se sto mangiando abbastanza proteine e verdure in ogni pasto?
+    - Come faccio a sapere se sto mangiando abbastanza carboidrati e grassi in ogni pasto?
+    - Quali sono i segnali che mi indicano se sto mangiando troppo o troppo poco?
+    - Come posso monitorare il mio bilanciamento calorico giornaliero per assicurarmi di mangiare in modo sano e bilanciato?
+    - Quali sono le strategie migliori per capire se sto bilanciando correttamente le due parti del pasto?
+    - Come faccio a sapere se sto mangiando abbastanza cibo sano senza privarmi di cibo indulgente?
+
+- intent: varying_secondary_meals #45
+  examples: |
+    - Come posso variare i pasti secondari nell'alimentazione intuitiva?
+    - Quali sono i modi migliori per cambiare i pasti secondari nella mia dieta?
+    - Come posso creare pasti secondari diversi ed equilibrati ogni giorno?
+    - Quali sono i cibi salutari che posso aggiungere ai miei pasti secondari per variare la mia alimentazione?
+    - Come posso evitare di mangiare sempre gli stessi cibi nei pasti secondari dell'alimentazione intuitiva?
+    - Quali sono i modi creativi per preparare i pasti secondari nell'alimentazione intuitiva?
+    - Come posso rendere più interessanti i pasti secondari dell'alimentazione intuitiva?
+    - Quali sono le opzioni di pasti secondari sani e nutrienti che posso provare?
+    - Come posso creare pasti secondari deliziosi e allo stesso tempo nutrienti?
+    - Quali sono i modi migliori per combinare i cibi in modo da avere un pasto secondario equilibrato ed interessante?
+
+- intent: recommended_portions_main_meals #46
+  examples: |
+    - Quali sono le porzioni consigliate nei pasti principali dell'alimentazione intuitiva?
+    - Come posso determinare le porzioni giuste per i pasti principali dell'alimentazione intuitiva?
+    - Quali sono i consigli per le porzioni dei pasti principali dell'alimentazione intuitiva?
+    - Come posso capire se sto mangiando la giusta quantità di cibo nei pasti principali dell'alimentazione intuitiva?
+    - Quali sono i segni che mi indicano se sto mangiando troppo o troppo poco nei pasti principali?
+    - Come posso sapere se sto mangiando abbastanza proteine, carboidrati e grassi nei pasti principali?
+    - Quali sono le linee guida per determinare le porzioni dei pasti principali dell'alimentazione intuitiva?
+    - Come posso monitorare la quantità di cibo che mangio nei pasti principali per assicurarmi di mangiare abbastanza?
+    - Quali sono le quantità di cibo raccomandate per i pasti principali nell'alimentazione intuitiva?
+    - Come posso fare per evitare di mangiare troppo o troppo poco nei pasti principali dell'alimentazione intuitiva?
+
+- intent: recommended_portions_secondary_meals #47
+  examples: |
+    - Quali sono le porzioni consigliate nei pasti secondari dell'alimentazione intuitiva?
+    - Come posso determinare le porzioni giuste per i pasti secondari dell'alimentazione intuitiva?
+    - Quali sono i consigli per le porzioni dei pasti secondari dell'alimentazione intuitiva?
+    - Come posso capire se sto mangiando la giusta quantità di cibo nei pasti secondari dell'alimentazione intuitiva?
+    - Quali sono i segni che mi indicano se sto mangiando troppo o troppo poco nei pasti secondari?
+    - Come posso sapere se sto mangiando abbastanza proteine, carboidrati e grassi nei pasti secondari?
+    - Quali sono le linee guida per determinare le porzioni dei pasti secondari dell'alimentazione intuitiva?
+    - Come posso monitorare la quantità di cibo che mangio nei pasti secondari per assicurarmi di mangiare abbastanza?
+    - Quali sono le quantità di cibo raccomandate per i pasti secondari nell'alimentazione intuitiva?
+    - Come posso fare per evitare di mangiare troppo o troppo poco nei pasti secondari dell'alimentazione intuitiva?
+
+- intent: balancing_meals_for_weight_loss #48
+  examples: |
+    - Come posso bilanciare i pasti principali e secondari nell'alimentazione intuitiva se voglio perdere peso?
+    - Quali sono i consigli per bilanciare i pasti principali e secondari nell'alimentazione intuitiva per la perdita di peso?
+    - Come posso fare per controllare la quantità di calorie che mangio nei pasti principali e secondari dell'alimentazione intuitiva?
+    - Quali sono i cibi che devo evitare per bilanciare i pasti principali e secondari nell'alimentazione intuitiva per il dimagrimento?
+    - Come posso ridurre le porzioni senza sentirsi privati nei pasti principali e secondari dell'alimentazione intuitiva?
+    - Quali sono le strategie per bilanciare i pasti principali e secondari per la perdita di peso nell'alimentazione intuitiva?
+    - Come posso fare per soddisfare il mio appetito nei pasti principali e secondari e allo stesso tempo perdere peso nell'alimentazione intuitiva?
+    - Quali sono i pasti principali e secondari raccomandati per perdere peso nell'alimentazione intuitiva?
+    - Quali sono i trucchi per ridurre l'apporto calorico nei pasti principali e secondari dell'alimentazione intuitiva per il dimagrimento?
+    - Come posso mantenere il giusto equilibrio tra i pasti principali e secondari nell'alimentazione intuitiva se voglio dimagrire?
+
+- intent: balancing_meals_for_muscle_gain #49
+  examples: |
+    - Quali sono i consigli per bilanciare i pasti principali e secondari nell'alimentazione intuitiva per l'aumento della massa muscolare?
+    - Come posso aumentare la massa muscolare bilanciando i pasti principali e secondari nell'alimentazione intuitiva?
+    - Quali sono i pasti principali e secondari raccomandati per aumentare la massa muscolare nell'alimentazione intuitiva?
+    - Come posso fare per aumentare l'apporto calorico nei pasti principali e secondari dell'alimentazione intuitiva per aumentare la massa muscolare?
+    - Quali sono i cibi che devo includere nei pasti principali e secondari dell'alimentazione intuitiva per aumentare la massa muscolare?
+    - Come posso fare per mangiare abbastanza proteine nei pasti principali e secondari dell'alimentazione intuitiva per aumentare la massa muscolare?
+    - Quali sono le porzioni raccomandate per i pasti principali e secondari dell'alimentazione intuitiva per aumentare la massa muscolare?
+    - Come posso fare per mantenere il giusto equilibrio tra i pasti principali e secondari nell'alimentazione intuitiva se voglio aumentare la massa muscolare?
+    - Quali sono le linee guida per bilanciare i pasti principali e secondari nell'alimentazione intuitiva per l'aumento della massa muscolare?
+    - Come posso bilanciare i carboidrati, le proteine e i grassi nei pasti principali e secondari dell'alimentazione intuitiva per aumentare la massa muscolare?
+
+- intent: balancing_meals_for_weight_maintenance #50
+  examples: |
+    - Come posso bilanciare i pasti principali e secondari nell'alimentazione intuitiva per mantenere il mio peso?
+    - Quali sono le linee guida per bilanciare i pasti principali e secondari nell'alimentazione intuitiva per il mantenimento del peso?
+    - Quali sono i pasti principali e secondari raccomandati per mantenere il peso nell'alimentazione intuitiva?
+    - Come posso fare per mantenere il giusto equilibrio tra i pasti principali e secondari nell'alimentazione intuitiva se voglio mantenere il mio peso?
+    - Quali sono i cibi che devo includere nei pasti principali e secondari dell'alimentazione intuitiva per mantenere il peso?
+    - Quali sono le porzioni raccomandate per i pasti principali e secondari dell'alimentazione intuitiva per mantenere il peso?
+    - Come posso fare per bilanciare i carboidrati, le proteine e i grassi nei pasti principali e secondari dell'alimentazione intuitiva per mantenere il peso?
+    - Quali sono i consigli per mantenere un equilibrio sano tra i pasti principali e secondari nell'alimentazione intuitiva per il mantenimento del peso?
+    - Come posso fare per mantenere un apporto calorico adeguato nei pasti principali e secondari dell'alimentazione intuitiva per mantenere il peso?
+    - Quali sono le strategie per bilanciare i pasti principali e secondari nell'alimentazione intuitiva se voglio mantenere il mio peso attuale?
+
+- intent: benefits_of_intuitive_eating #51
+  examples: |
+    - Quali sono i benefici dell'alimentazione intuitiva per la salute?
+    - Come può l'alimentazione intuitiva migliorare il benessere generale?
+    - Quali sono i vantaggi dell'alimentazione intuitiva rispetto alle diete tradizionali?
+    - Quali sono i benefici psicologici dell'alimentazione intuitiva?
+    - Quali sono i vantaggi per la salute mentale dell'alimentazione intuitiva?
+    - Come può l'alimentazione intuitiva aiutare a ridurre il rischio di disturbi alimentari?
+    - Quali sono i benefici dell'alimentazione intuitiva per il controllo del peso?
+    - Quali sono i vantaggi dell'alimentazione intuitiva in termini di benessere emotivo?
+    - Come può l'alimentazione intuitiva migliorare la relazione con il cibo?
+    - Quali sono i benefici a lungo termine dell'alimentazione intuitiva per la salute e il benessere?
+
+- intent: limitations_of_intuitive_eating #52
+  examples: |
+    - Quali sono i limiti dell'alimentazione intuitiva?
+    - Cosa non funziona nell'alimentazione intuitiva?
+    - Quali sono le sfide dell'alimentazione intuitiva?
+    - Quali sono i limiti dell'alimentazione intuitiva per il controllo del peso?
+    - Come l'alimentazione intuitiva può diventare problematica per alcune persone?
+    - Quali sono i potenziali rischi dell'alimentazione intuitiva?
+    - Cosa si dovrebbe considerare prima di adottare l'alimentazione intuitiva?
+    - Quali sono i limiti dell'alimentazione intuitiva per le persone con determinati problemi di salute?
+    - Quali sono i casi in cui l'alimentazione intuitiva potrebbe non essere raccomandata?
+    - Come l'alimentazione intuitiva può non essere adatta per tutti?
+
+- intent: learning_intuitive_eating #53
+  examples: |
+    - Come posso imparare ad adottare l'alimentazione intuitiva?
+    - Quali sono i primi passi per iniziare con l'alimentazione intuitiva?
+    - Come si può avvicinare all'alimentazione intuitiva?
+    - Quali sono i consigli per iniziare ad adottare l'alimentazione intuitiva?
+    - Come si può fare la transizione da una dieta tradizionale all'alimentazione intuitiva?
+    - Quali sono le risorse disponibili per imparare l'alimentazione intuitiva?
+    - Come si può iniziare a capire il proprio corpo e i propri bisogni alimentari?
+    - Quali sono i libri o i siti web consigliati per imparare l'alimentazione intuitiva?
+    - Come si può utilizzare la mindfulness per migliorare l'alimentazione intuitiva?
+    - Quali sono i consigli per mantenere la motivazione nell'adozione dell'alimentazione intuitiva?
+
+- intent: first_tip_intuitive_eating #54
+  examples: |
+    - Qual è il primo consiglio per seguire un' alimentazione intuitiva?
+    - Quali sono i primi passi per adottare un' alimentazione intuitiva?
+    - Come posso iniziare a mangiare in modo intuitivo?
+    - Qual è il primo passo per adottare l'alimentazione intuitiva?
+    - Come si può iniziare a capire i propri bisogni alimentari?
+    - Quali sono i consigli per iniziare l'alimentazione intuitiva?
+    - Qual è la prima cosa da fare per adottare l'alimentazione intuitiva?
+    - Come si può iniziare ad ascoltare il proprio corpo durante i pasti?
+    - Qual è il primo consiglio per iniziare a seguire l'alimentazione intuitiva?
+    - Come si può iniziare a riconoscere la fame e la sazietà in modo intuitivo?
+    - Quali sono i suggerimenti per iniziare ad ascoltare le proprie esigenze alimentari?
+
+- intent: self_regulation_mechanisms #55
+  examples: |
+    - Quali sono i meccanismi di autoregolazione nel nostro corpo?
+    - Quali sono i meccanismi di autoregolazione del nostro organismo?
+    - Come funzionano i meccanismi di autoregolazione del nostro corpo?
+    - Quali sono i processi di autoregolazione che avvengono nel nostro organismo?
+    - In che modo il nostro corpo mantiene l'omeostasi?
+    - Quali sono le tecniche di autoregolazione che il nostro corpo utilizza?
+    - Come si regolano i processi biologici nel nostro organismo?
+    - In che modo il nostro corpo mantiene l'equilibrio chimico interno?
+    - Quali sono i meccanismi di autoregolazione che controllano la temperatura corporea?
+    - Come funzionano i meccanismi di autoregolazione del nostro sistema nervoso?
+    - Quali sono le strategie che il nostro corpo utilizza per mantenere l'equilibrio energetico?
+
+- intent: intuitive_eating_weight_management #56
+  examples: |
+    - L'alimentazione intuitiva aiuta a dimagrire o aumentare la massa muscolare?
+    - L'alimentazione intuitiva può aiutare a perdere peso o a guadagnare massa muscolare?
+    - Quali sono gli effetti dell'alimentazione intuitiva sulla composizione corporea?
+    - L'alimentazione intuitiva può essere utile per raggiungere un determinato peso o una certa massa muscolare?
+    - Come l'alimentazione intuitiva può influenzare il processo di dimagrimento o di aumento della massa muscolare?
+    - È possibile dimagrire o aumentare la massa muscolare seguendo un' alimentazione intuitiva?
+    - Quali sono le linee guida dell'alimentazione intuitiva per il dimagrimento o l'aumento della massa muscolare?
+    - L'alimentazione intuitiva è adatta a chi vuole perdere peso o guadagnare massa muscolare?
+    - In che modo l'alimentazione intuitiva può supportare la gestione del peso e della composizione corporea?
+    - Quali sono i fattori che influenzano l'efficacia dell'alimentazione intuitiva per il dimagrimento o l'aumento della massa muscolare?
+    - Come l'alimentazione intuitiva può aiutare a mantenere un peso sano e raggiungere una forma fisica desiderata?
+
+- intent: undereating_intuitive_eating #57
+  examples: |
+    - Cosa succede se mangio meno di quello che il mio corpo chiede seguendo l'alimentazione intuitiva?
+    - Posso mangiare meno di quello che il mio corpo chiede se seguo l'alimentazione intuitiva?
+    - L'alimentazione intuitiva funziona anche se mangio meno del mio fabbisogno calorico?
+    - Quali sono le conseguenze di mangiare meno di quello che il mio corpo richiede nell'alimentazione intuitiva?
+    - E se mangio troppo poco seguendo l'alimentazione intuitiva?
+    - È possibile avere un deficit calorico seguendo l'alimentazione intuitiva?
+    - L'alimentazione intuitiva funziona comunque se mangio meno calorie di quante ne ho bisogno?
+    - Cosa succede se mangio meno di quanto mi sento affamato seguendo l'alimentazione intuitiva?
+    - L'alimentazione intuitiva è adatta a chi vuole perdere peso riducendo le calorie?
+    - Quali sono le linee guida dell'alimentazione intuitiva per evitare di mangiare troppo poco?
+
+- intent: intuitive_eating_80_20_rule #58
+  examples: |
+    - Cosa significa la regola 80-20 nell'alimentazione intuitiva?
+    - Come funziona la regola 80-20 dell'alimentazione intuitiva?
+    - Come posso seguire la regola 80-20 nell'alimentazione intuitiva?
+    - Quali sono i vantaggi della regola 80-20 nell'alimentazione intuitiva?
+    - La regola 80-20 dell'alimentazione intuitiva significa che posso mangiare cibo spazzatura?
+    - Qual è la differenza tra la regola 80-20 e la dieta cheat day?
+    - È necessario seguire la regola 80-20 per l'alimentazione intuitiva?
+    - Come posso gestire la regola 80-20 nell'alimentazione intuitiva se ho problemi di controllo del cibo?
+    - La regola 80-20 dell'alimentazione intuitiva funziona per tutti?
+    - Cosa devo fare se supero la regola 20% nell'alimentazione intuitiva?
+
+- intent: intuitive_eating_protein #59
+  examples: |
+    - Quanto è importante l'apporto proteico nell'alimentazione intuitiva?
+    - Qual è il ruolo delle proteine nell'alimentazione intuitiva?
+    - Quanto proteine dovrei mangiare con l'alimentazione intuitiva?
+    - Come posso ottenere abbastanza proteine nell'alimentazione intuitiva se sono vegano o vegetariano?
+    - Posso mangiare troppo proteine nell'alimentazione intuitiva?
+    - Quali sono le fonti migliori di proteine nell'alimentazione intuitiva?
+    - L'apporto proteico è diverso per coloro che vogliono dimagrire o aumentare la massa muscolare nell'alimentazione intuitiva?
+    - Come posso bilanciare l'apporto di proteine con gli altri nutrienti nell'alimentazione intuitiva?
+    - Quali sono gli effetti di una carenza di proteine nell'alimentazione intuitiva?
+    - Posso integrare le proteine in polvere nell'alimentazione intuitiva?
+
+- intent: who_can_follow_intuitive_eating #60
+  examples: |
+    - Chi può seguire l'alimentazione intuitiva?
+    - L'alimentazione intuitiva è adatta per tutti?
+    - Ci sono limiti di età o di salute per seguire l'alimentazione intuitiva?
+    - L'alimentazione intuitiva è adatta per i bambini?
+    - Gli atleti possono seguire l'alimentazione intuitiva?
+    - L'alimentazione intuitiva è adatta per coloro che hanno disturbi alimentari?
+    - Posso seguire l'alimentazione intuitiva se ho problemi di digestione o di allergie alimentari?
+    - Le donne in gravidanza o che allattano possono seguire l'alimentazione intuitiva?
+    - Chi ha un obiettivo di dimagrimento può seguire l'alimentazione intuitiva?
+    - L'alimentazione intuitiva è adatta per coloro che hanno un'intolleranza al lattosio o al glutine?
+
+  - intent: weight_loss_without_exercise #61
+    examples: |
+      - Si può dimagrire senza fare esercizio fisico seguendo l'alimentazione intuitiva?
+      - Seguendo l'alimentazione intuitiva si può perdere peso senza fare sport?
+      - È possibile dimagrire senza fare esercizio fisico con l'alimentazione intuitiva?
+      - Posso perdere peso senza fare esercizio fisico con l'alimentazione intuitiva?
+      - L'alimentazione intuitiva può portare alla perdita di peso senza esercizio fisico?
+      - Si può perdere peso solo con l'alimentazione intuitiva, senza fare esercizio fisico?
+      - Senza fare attività fisica, si può comunque dimagrire con l'alimentazione intuitiva?
+      - L'alimentazione intuitiva funziona per dimagrire senza esercizio fisico?
+      - Si può dimagrire senza fare esercizio fisico seguendo l'approccio dell'alimentazione intuitiva?
+      - L'alimentazione intuitiva è adatta per dimagrire senza esercizio fisico?
+
+- intent: rischi_diete_restrittive #62
+  examples: |
+    - Quali sono i rischi delle diete restrittive?
+    - Quali sono le conseguenze delle diete restrittive?
+    - Cosa succede al nostro corpo quando seguiamo diete restrittive?
+    - Le diete restrittive possono essere pericolose per la salute?
+    - Come le diete restrittive possono influire sulla nostra salute?
+    - Quali sono i potenziali effetti collaterali delle diete restrittive?
+    - Le diete restrittive possono causare danni all'organismo?
+    - Cosa succede quando si segue una dieta restrittiva per troppo tempo?
+    - Quali sono le conseguenze delle diete restrittive a lungo termine?
+    - Come le diete restrittive possono influire sul nostro benessere psicofisico?
+
+- intent: ask_prevent_eating_disorders #63
+  examples: |
+    - L'alimentazione intuitiva può aiutare a prevenire i disturbi alimentari?
+    - La pratica dell'alimentazione intuitiva può prevenire i disturbi alimentari?
+    - L'alimentazione intuitiva è efficace per prevenire i disturbi alimentari?
+    - Posso prevenire i disturbi alimentari seguendo l'alimentazione intuitiva?
+    - L'alimentazione intuitiva è utile per prevenire i disturbi alimentari?
+    - Cosa posso fare per prevenire i disturbi alimentari con l'alimentazione intuitiva?
+    - In che modo l'alimentazione intuitiva aiuta a prevenire i disturbi alimentari?
+    - La pratica dell'alimentazione intuitiva può essere una strategia per prevenire i disturbi alimentari?
+    - Quali sono i vantaggi dell'alimentazione intuitiva nella prevenzione dei disturbi alimentari?
+    - L'alimentazione intuitiva può essere un approccio per prevenire i disturbi alimentari?
