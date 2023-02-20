@@ -227,7 +227,33 @@ intents:
   - prevent_muscle_loss
   - define_calorie_surplus
   - define_calorie_deficit
-
+  # VSS cap 4-3
+  - bmr_formula
+  - bmr_importance
+  - bmr_factors
+  - calculate_basal_metabolism
+  - define_basal_metabolism
+  - tdee_methodology
+  - estimate_lean_mass
+  - calculate_laf
+  - add_activity_expenditure
+  - verify_energy_expenditure_calculations
+  - difference_energy_expenditure
+  - factors_affecting_energy_expenditure
+  - calculate_energy_expenditure
+  - calculate_workout_calories
+  - factors_affecting_calorie_expenditure
+  - estimate_non_sport_calorie_expenditure
+  - calculate_sports_calorie_expenditure
+  - set_calorie_intake_difficulty_increasing_muscle_mass
+  - set_calorie_intake_weight_loss
+  - set_calorie_intake_muscle_gain
+  - evaluating_calorie_intake
+  - caloric_intake_limits
+  - caloric_intake_limits_weight_loss
+  - vegan_diet_benefits
+  - calories_burned_estimate_without_met
+  - estimate_calories_expenditure_sport
 
 responses: 
   utter_greeting:
@@ -579,7 +605,6 @@ responses:
   - text: Per seguire le categorie alimentari, è necessario essere disposti ad organizzare un minimo la propria alimentazione e avere un minimo di conoscenza dell’alimentazione.
 
 #VSS cap 3-3
-
   utter_error_margin_categories:
   - text: Pur utilizzando le categorie alimentari per monitorare l'apporto calorico e dei macronutrienti, c'è sempre un margine di errore dovuto alla semplificazione delle categorie.
 
@@ -973,9 +998,85 @@ responses:
 
   utter_define_calorie_deficit:
   - text: Il deficit calorico significa mangiare meno di quanto si consuma e rappresenta un'importante condizione per perdere peso.
+# VSS cap 4-3
+  utter_bmr_formula:
+  - text: La formula più semplice consiste nel moltiplicare la massa magra per 21,6 e aggiungere 370 se siamo uomini e 170 se siamo donne. Quindi, per gli uomini, la formula sarebbe Peso x 21,6 + 370 e per le donne, Peso x 21,6 + 170.
 
-  # utter_:
-  # - text:
+  utter_bmr_importance:
+  - text: Il metabolismo basale rappresenta la quantità di energia che il nostro corpo consuma per mantenere le funzioni vitali a riposo, come la respirazione e la circolazione sanguigna. Conoscere il metabolismo basale è importante perché ci permette di capire di quante calorie il nostro corpo ha bisogno al minimo per funzionare correttamente. Una volta conosciuto il metabolismo basale, si può poi calcolare il dispendio calorico totale, che tiene conto anche dell'attività fisica svolta durante il giorno.
+
+  utter_bmr_factors:
+  - text: Il metabolismo basale, ovvero il dispendio calorico di base, dipende dalla massa magra, dall'età, dal sesso e dal livello di attività fisica. Maggiore è la massa magra, maggiore è il metabolismo basale. Inoltre, il metabolismo basale tende a diminuire con l'età e, in generale, le donne hanno un metabolismo basale più basso rispetto agli uomini.
+
+  utter_calculate_basal_metabolism:
+  - text: Il metabolismo basale (BMR) si può calcolare moltiplicando la massa magra per 21,6 e aggiungendo 370 calorie se si è uomo o 170 calorie se si è donna.
+
+  utter_define_basal_metabolism:
+  - text: Il metabolismo basale (BMR) indica il dispendio calorico di base, ovvero la quantità di calorie bruciate dal corpo a riposo. Si può stimare il BMR moltiplicando la massa magra per 21,6 e aggiungendo 370 se siamo uomini e 170 se siamo donne.
+
+  utter_tdee_methodology:
+  - text: La metodologia prevede di pesarsi, stimare la massa magra, stimare il metabolismo basale (BMR), aggiungere il coefficiente di attività fisica (LAF) e l'attività sportiva (EAT), e infine, aggiungere un 5-15% di calorie in più se si segue una dieta vegana.
+
+  utter_estimate_lean_mass:
+  - text: La massa magra può essere stimata utilizzando metodi come la plicometria, la bioimpedenza, il body scanner o anche semplicemente a occhio. Si può anche utilizzare il peso obiettivo come valore di riferimento se non si ha modo di misurare la massa magra.
+
+  utter_calculate_laf:
+  - text: Il LAF dipende dalle attività quotidiane e si può calcolare moltiplicando il BMR per un fattore che va da 1,2 per chi è sedentario fino a 1,9 per chi fa lavori pesanti e continui. Un modo semplice per calcolare il LAF è utilizzare i passi come metro di paragone.
+
+  utter_add_activity_expenditure:
+  - text: Il dispendio calorico dovuto all'attività sportiva può essere stimato moltiplicando il peso per le ore di attività per il coefficiente metabolico (MET) dell'attività sportiva. Il MET varia a seconda dello sport e dell'intensità dell'allenamento.
+
+  utter_verify_energy_expenditure_calculations:
+  - text: Per verificare sperimentalmente i calcoli del dispendio calorico, si può pesarsi ogni giorno a stomaco vuoto per due settimane, mentre si segue la dieta calcolata. Si fa la media delle pesate della prima e della seconda settimana per verificare se si è in deficit, surplus o se si è trovata la quota di mantenimento.
+
+  utter_difference_energy_expenditure:
+  - text: Il dispendio calorico a riposo rappresenta la quantità di calorie che il nostro corpo consuma per svolgere le funzioni vitali a riposo, mentre il dispendio calorico totale tiene conto anche dell'attività fisica svolta durante il giorno. Il dispendio calorico totale si ottiene sommando il dispendio calorico a riposo al dispendio calorico dovuto all'attività fisica.
+
+  utter_factors_affecting_energy_expenditure:
+  - text: Il dispendio calorico dovuto all'attività fisica dipende da diversi fattori, tra cui l'intensità e la durata dell'attività stessa, il tipo di attività, il livello di allenamento dell'individuo e il peso corporeo. Ad esempio, un'attività fisica di elevata intensità e lunga durata comporta un dispendio calorico maggiore rispetto a un'attività di bassa intensità e breve durata.
+
+  utter_calculate_energy_expenditure:
+  - text: Il dispendio calorico dovuto all'attività fisica si può calcolare moltiplicando il metabolismo basale per il coefficiente di attività fisica (LAF), che tiene conto del livello di attività fisica svolta durante il giorno. Per calcolare il LAF, si possono utilizzare i passi come metro di paragone. Ad esempio, per una persona sedentaria si moltiplica il BMR per 1,2, mentre per una persona che svolge un lavoro pesante si può arrivare fino a un LAF di 1,9.
+
+  utter_calculate_workout_calories:
+  - text: Il dispendio calorico dovuto agli allenamenti dipende dal tipo di attività svolta e dalla durata dell'allenamento. Si può utilizzare il coefficiente metabolico (MET) per calcolare il dispendio calorico dovuto a un'attività fisica specifica. Moltiplicando il MET per il peso corporeo e il tempo di attività si ottiene il dispendio calorico dovuto agli allenamenti.
+
+  utter_factors_affecting_calorie_expenditure:
+  - text: Per stimare il dispendio calorico dovuto all'attività fisica, bisogna considerare il coefficiente di attività fisica (LAF) e l'attività sportiva (EAT). Il LAF è basato sul movimento che si compie durante il giorno, mentre l'EAT si riferisce al dispendio dovuto agli allenamenti. Inoltre, è importante considerare il tipo di attività sportiva svolta e il relativo coefficiente metabolico (MET) per stimare il dispendio calorico.
+
+  utter_estimate_non_sport_calorie_expenditure:
+  - text: Per stimare il dispendio calorico dovuto all'attività fisica non sportiva, si può utilizzare il coefficiente di attività fisica (LAF). Questo fattore tiene conto del movimento che facciamo durante il giorno, escluso l'allenamento. Per calcolare il LAF, si può utilizzare un metro di paragone come il numero di passi al giorno. In base al numero di passi effettuati, si può utilizzare la tabella fornita nel testo per ottenere il LAF corrispondente.
+
+  utter_calculate_sports_calorie_expenditure:
+  - text: Il dispendio calorico dovuto all'attività sportiva dipende dal peso, dalle ore di attività e dal coefficiente metabolico (MET) dell'attività svolta. Il MET varia in base all'intensità dell'attività fisica. Per calcolare il dispendio calorico dovuto all'attività sportiva, si può utilizzare la formula:- Peso x tempo in ore x MET.
+
+  utter_set_calorie_intake_difficulty_increasing_muscle_mass:
+  - text: In caso di difficoltà ad aumentare la massa muscolare, è necessario impostare un surplus calorico per ottimizzare il processo. Il surplus calorico può variare da un minimo di 50 calorie, se si è molto avanzati, fino a un massimo di 500 se si è principianti che hanno difficoltà a mettere su massa. Se si nota che per qualche motivo non si sta aumentando di peso, si può optare per una salita graduale oltre quella soglia.
+
+  utter_set_calorie_intake_weight_loss:
+  - text: Se l'obiettivo è il dimagrimento, è necessario impostare un taglio calorico, ovvero una riduzione dell'apporto calorico. Il taglio calorico minimo parte dalle 300 calorie (consigliato per le donne, soprattutto di piccola statura) alle 500 (valido per la maggior parte delle persone) fino alle 1000 o anche oltre se si è in forte sovrappeso.
+
+  utter_set_calorie_intake_muscle_gain:
+  - text: Per aumentare la massa muscolare, è necessario creare un surplus calorico, ovvero consumare più calorie di quelle che il corpo brucia. Si può partire da un surplus di 50-500 calorie al giorno, a seconda del livello di allenamento e del metabolismo. Inoltre, è importante non trascurare l'allenamento, poiché è il punto centrale per aumentare la massa muscolare.
+
+  utter_evaluating_calorie_intake:
+  - text: Si può valutare sperimentalmente, pesandosi ogni giorno a stomaco vuoto per due settimane mentre si segue l'alimentazione con le calorie ottenute. La media tra le pesate della prima e della seconda settimana può indicare se si è in deficit, surplus o se si è trovata la quota di mantenimento.
+
+  utter_caloric_intake_limits:
+  - text: Il limite minimo dell'apporto calorico è di 25 calorie per kg di massa magra, mentre il massimo teorico sostenibile è di 50 calorie per kg di massa magra.
+
+  utter_caloric_intake_limits_weight_loss:
+  - text: Il taglio minimo parte dalle 300 calorie (consigliato per le donne, soprattutto di piccola statura) alle 500 (valido per la maggior parte delle persone) fino alle 1000 o anche oltre se si è notevolmente pesanti e/o si ha un ampio margine di miglioramento.
+
+  utter_vegan_diet_benefits:
+  - text: Per chi segue una dieta vegana, è necessario aggiungere un 5-15% di calorie in più, poiché gli alimenti vegetali sono meno digeribili. Il valore dipende dal tipo di alimentazione che si segue.
+
+  utter_calories_burned_estimate_without_met:
+  - text: Se non si conosce il MET dell'attività svolta, si possono utilizzare apposite tabelle che forniscono una stima del dispendio calorico in base all'attività svolta e al peso corporeo. Tuttavia, queste stime sono meno precise rispetto al calcolo utilizzando il MET.
+
+  utter_estimate_calories_expenditure_sport:
+  - text: Si può moltiplicare il peso per le ore di attività per il coefficiente metabolico (MET) di quella attività. Si possono trovare i coefficienti MET di molte attività sportive in una lista presente nel testo.
+
 
   utter_bot_challenge:
   - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation

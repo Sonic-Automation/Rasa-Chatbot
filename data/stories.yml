@@ -628,15 +628,70 @@ stories:
   - intent: define_calorie_deficit
   - action: utter_define_calorie_deficit
 
+#VSS cap 4-3
+- story: Metabolismo basale (BMR)
+  steps:
+  - intent: bmr_formula
+  - action: utter_bmr_formula
+  - intent: bmr_importance
+  - action: utter_bmr_importance
+  - intent: bmr_factors
+  - action: utter_bmr_factors
+  - intent: calculate_basal_metabolism
+  - action: utter_calculate_basal_metabolism
+  - intent: define_basal_metabolism
+  - action: utter_define_basal_metabolism
 
-# - story: 
-#   steps:
-#   - intent: 
-#   - action: utter_
-#   - intent: 
-#   - action: utter_
-#   - intent: 
-#   - action: utter_
+- story: Dispendio calorico
+  steps:
+  - intent: tdee_methodology
+  - action: utter_tdee_methodology
+  - intent: estimate_lean_mass
+  - action: utter_calculate_laf
+  - intent: add_activity_expenditure
+  - action: utter_add_activity_expenditure
+  - intent: verify_energy_expenditure_calculations
+  - action: utter_verify_energy_expenditure_calculations
+  - intent: difference_energy_expenditure
+  - action: utter_difference_energy_expenditure
+  - intent: factors_affecting_energy_expenditure
+  - action: utter_factors_affecting_energy_expenditure
+  - intent: calculate_energy_expenditure
+  - action: utter_calculate_energy_expenditure
+  - intent: calculate_workout_calories
+  - action: utter_calculate_workout_calories
+  - intent: factors_affecting_calorie_expenditure
+  - action: utter_factors_affecting_calorie_expenditure
+  - intent: estimate_non_sport_calorie_expenditure
+  - action: utter_estimate_non_sport_calorie_expenditure
+  - intent: calculate_sports_calorie_expenditure
+  - action: utter_calculate_sports_calorie_expenditure
+  - intent: set_calorie_intake_difficulty_increasing_muscle_mass
+  - action: utter_set_calorie_intake_difficulty_increasing_muscle_mass
+  - intent: set_calorie_intake_weight_loss
+  - action: utter_set_calorie_intake_weight_loss
+  - intent: set_calorie_intake_muscle_gain
+  - action: utter_set_calorie_intake_muscle_gain
+  - intent: evaluating_calorie_intake
+  - action: utter_evaluating_calorie_intake
+  - intent: caloric_intake_limits
+  - action: utter_caloric_intake_limits
+  - intent: caloric_intake_limits_weight_loss
+  - action: utter_caloric_intake_limits_weight_loss
+
+- story: Dieta vegana
+  steps:
+  - intent: vegan_diet_benefits
+  - action: utter_vegan_diet_benefits
+
+- story: Calorie bruciate durante l'attività fisica
+  steps:
+  - intent: calories_burned_estimate_without_met
+  - action: utter_calories_burned_estimate_without_met
+  - intent: estimate_calories_expenditure_sport
+  - action: utter_estimate_calories_expenditure_sport
+
+
 #   - intent: 
 #   - action: utter_
 #   - intent: 
