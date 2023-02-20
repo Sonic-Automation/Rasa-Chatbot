@@ -557,8 +557,89 @@ stories:
   - action: utter_rischi_diete_restrittive
   - intent: ask_prevent_eating_disorders
   - action: utter_ask_prevent_eating_disorders
+#VSS cap 4-2
+- story: Perdita di peso e dimagrimento
+  steps:
+  - intent: difference_weight_loss
+  - action: utter_difference_weight_loss
+  - intent: weight_loss_difference
+  - action: utter_weight_loss_difference
+  - intent: weight_loss_factors
+  - action: utter_weight_loss_factors
+  - intent: rapid_weight_loss_consequences
+  - action: utter_rapid_weight_loss_consequences
+
+- story: Perdita e aumento di peso
+  steps:
+  - intent: weight_loss_methods
+  - action: utter_weight_loss_methods
+  - intent: weight_gain_methods
+  - action: utter_weight_gain_methods
+  - intent: calorie_deficit_for_weight_loss
+  - action: utter_calorie_deficit_for_weight_loss
+  - intent: calorie_surplus_for_muscle_gain
+  - action: utter_calorie_surplus_for_muscle_gain
+  - intent: physiological_times_of_fat_mobilization
+  - action: utter_physiological_times_of_fat_mobilization
+  - intent: effects_of_switching_to_vegetarian_diet
+  - action: utter_effects_of_switching_to_vegetarian_diet
+
+- story: Alimentazione e dieta
+  steps:
+  - intent: role_of_proteins_in_nutrition
+  - action: utter_role_of_proteins_in_nutrition
+  - intent: role_of_carbohydrates_in_nutrition
+  - action: utter_role_of_carbohydrates_in_nutrition
+  - intent: role_of_fats_in_nutrition
+  - action: utter_role_of_fats_in_nutrition
+  - intent: role_of_vegetables_in_nutrition
+  - action: utter_role_of_vegetables_in_nutrition
+  - intent: role_of_fruit_in_nutrition
+  - action: utter_role_of_fruit_in_nutrition
+  - intent: category-based_approach
+  - action: utter_category-based_approach
+  - intent: food_categories
+  - action: utter_food_categories
+  - intent: customize_food_categories
+  - action: utter_customize_food_categories
+
+- story: Quantità e qualità del cibo
+  steps:
+  - intent: how_much_to_eat
+  - action: utter_how_much_to_eat
+  - intent: ask_nutrition
+  - action: utter_ask_nutrition
+  - intent: ask_portions
+  - action: utter_ask_portions
+  - intent: ask_calorie_intake
+  - action: utter_ask_calorie_intake
+
+- story: Mantenimento della massa magra
+  steps:
+  - intent: ask_body_composition
+  - action: utter_ask_body_composition
+  - intent: prevent_muscle_loss
+  - action: utter_prevent_muscle_loss
+
+- story: Terminologia
+  steps:
+  - intent: define_calorie_surplus
+  - action: utter_define_calorie_surplus
+  - intent: define_calorie_deficit
+  - action: utter_define_calorie_deficit
+
 
 # - story: 
 #   steps:
+#   - intent: 
+#   - action: utter_
+#   - intent: 
+#   - action: utter_
+#   - intent: 
+#   - action: utter_
+#   - intent: 
+#   - action: utter_
+#   - intent: 
+#   - action: utter_
 #   - intent: 
 #   - action: utter_

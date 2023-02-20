@@ -200,6 +200,33 @@ intents:
   - weight_loss_without_exercise #61
   - rischi_diete_restrittive #62
   - ask_prevent_eating_disorders #63
+# VSS cap 4-2
+  - difference_weight_loss
+  - weight_loss_difference
+  - weight_loss_factors
+  - rapid_weight_loss_consequences
+  - weight_loss_methods
+  - weight_gain_methods
+  - calorie_deficit_for_weight_loss
+  - calorie_surplus_for_muscle_gain
+  - physiological_times_of_fat_mobilization
+  - effects_of_switching_to_vegetarian_diet
+  - role_of_proteins_in_nutrition
+  - role_of_carbohydrates_in_nutrition
+  - role_of_fats_in_nutrition
+  - role_of_vegetables_in_nutrition
+  - role_of_fruit_in_nutrition
+  - category-based_approach
+  - food_categories
+  - customize_food_categories
+  - how_much_to_eat
+  - ask_nutrition
+  - ask_portions
+  - ask_calorie_intake
+  - ask_body_composition
+  - prevent_muscle_loss
+  - define_calorie_surplus
+  - define_calorie_deficit
 
 
 responses: 
@@ -868,6 +895,87 @@ responses:
 
   utter_ask_prevent_eating_disorders:
   - text: Sì, l'alimentazione intuitiva aiuta a prevenire i disturbi alimentari, perché si impara ad ascoltare i segnali del proprio corpo e a mangiare in modo sano e bilanciato.
+# VSS cap 4-2
+  utter_difference_weight_loss:
+  - text: Per perdere peso occorre mangiare meno di quanto si consuma, mentre per dimagrire si intende la perdita della massa grassa. La perdita di peso può coinvolgere anche la massa magra, che comprende muscoli, acqua, ossa, organi, ecc
+
+  utter_weight_loss_difference:
+  - text: Anche se spesso le due cose coincidono, non è detto che perdere peso significhi dimagrire. Infatti, si può verificare un caso in cui una persona perde una grande quantità di massa magra mentre le cifre sulla bilancia scendono.
+
+  utter_weight_loss_factors:
+  - text: L'influenza di insulina, ormoni e metabolismo sulla perdita di peso è secondaria rispetto al deficit calorico necessario per perdere peso.
+
+  utter_rapid_weight_loss_consequences:
+  - text: Se la perdita di peso è troppo rapida, una buona parte di massa magra (acqua, ma anche tessuto muscolare) può essere persa insieme al grasso.
+
+  utter_weight_loss_methods:
+  - text: Per perdere peso è necessario creare un deficit calorico, ovvero mangiare meno di quanto si consuma.
+
+  utter_weight_gain_methods:
+  - text: Per aumentare di peso è necessario creare un surplus calorico, ovvero mangiare più di quanto si consuma.
+
+  utter_calorie_deficit_for_weight_loss:
+  - text: Per dimagrire, il deficit calorico adeguato deve essere moderato.
+
+  utter_calorie_surplus_for_muscle_gain:
+  - text: Per aumentare la massa muscolare, un leggero surplus calorico è sufficiente per permettere guadagni di massa muscolare senza andare a ingrassarsi eccessivamente.
+
+  utter_physiological_times_of_fat_mobilization:
+  - text: I tempi fisiologici della mobilizzazione del grasso dai suoi depositi non possono essere travalicati e la perdita di un chilogrammo in due settimane può essere quasi completamente grasso, mentre la perdita di un chilogrammo in una settimana indica una buona parte di massa magra persa.
+
+  utter_effects_of_switching_to_vegetarian_diet:
+  - text: Solitamente, quando si passa a una dieta vegetale, le cifre sulla bilancia scendono, ma è possibile che si verifichi un caso diverso, ovvero che si perda una grande quantità di massa magra.
+
+  utter_role_of_proteins_in_nutrition:
+  - text: Le proteine sono importanti per la formazione e il mantenimento dei tessuti muscolari, la riparazione dei tessuti danneggiati e per il corretto funzionamento del sistema immunitario e dei processi metabolici del nostro organismo.
+
+  utter_role_of_carbohydrates_in_nutrition:
+  - text: I carboidrati forniscono energia all'organismo e sono importanti per il corretto funzionamento del cervello e del sistema nervoso.
+
+  utter_role_of_fats_in_nutrition:
+  - text: I grassi forniscono energia all'organismo, proteggono gli organi interni e contribuiscono al corretto funzionamento del cervello e del sistema nervoso.
+
+  utter_role_of_vegetables_in_nutrition:
+  - text: Le verdure sono fonte di vitamine, minerali e fibre, importanti per la salute del nostro organismo e per la prevenzione di malattie.
+
+  utter_role_of_fruit_in_nutrition:
+  - text: La frutta è fonte di vitamine, minerali e fibre, importanti per la salute del nostro organismo e per la prevenzione di malattie.
+
+  utter_category-based_approach:
+  - text: L'approccio basato sulle categorie alimentari consiste nel suddividere gli alimenti in categorie, come proteine, carboidrati, grassi, ecc., e definire range di porzioni per ogni categoria a seconda della corporatura, età, sesso e attività fisica svolta.
+
+  utter_food_categories:
+  - text: Le categorie alimentari di cui si occupa l'approccio basato sulle categorie alimentari sono le proteine, i carboidrati, i grassi, le verdure e la frutta.
+
+  utter_customize_food_categories:
+  - text: L'approccio basato sulle categorie alimentari va adattato al nostro caso specifico, in base alle reazioni del nostro organismo, notando nel tempo come varia il peso e aggiustando il tiro a seconda di come cambia la direzione del peso.
+
+  utter_how_much_to_eat:
+  - text: Si può capire quanto mangiare seguendo l'approccio basato sulle categorie alimentari e le variazioni di peso nel tempo. È possibile scegliere range di porzioni per ogni tipo di cibo, che andranno adattati al proprio caso, in base alle reazioni del proprio organismo.
+
+  utter_ask_nutrition:
+  - text: Si può capire se si sta mangiando troppo o troppo poco notando nel tempo come varia il proprio peso. Se il peso è stabile, si sta mangiando all'incirca per quanto si consuma. Se si perde peso, si è in deficit. Se si aumenta di peso, si è in surplus.
+
+  utter_ask_portions:
+  - text: Le porzioni di cibo vanno adattate al proprio caso in base alla corporatura, all'età, al sesso e all'attività fisica svolta.
+
+  utter_ask_calorie_intake:
+  - text: Possiamo verificare se stiamo mangiando per quanto consumiamo, se siamo in deficit o in surplus notando nel tempo come varia il peso. Se è stabile stiamo mangiando all’incirca per quanto consumiamo, se perdiamo peso siamo già in deficit, se aumentiamo siamo in surplus.
+
+  utter_ask_body_composition:
+  - text: Il modo migliore per capire se si sta perdendo massa grassa o massa magra è osservare le variazioni del proprio peso nel tempo. Se il peso diminuisce, ma la composizione corporea rimane simile, si sta perdendo massa magra.
+
+  utter_prevent_muscle_loss:
+  - text: Per evitare di perdere massa magra durante la dieta, è importante mantenere un deficit calorico moderato, mangiare una quantità adeguata di proteine e fare esercizio fisico regolare.
+
+  utter_define_calorie_surplus:
+  - text: Il surplus calorico significa mangiare di più di quanto si consuma e rappresenta un'importante condizione per aumentare la massa muscolare.
+
+  utter_define_calorie_deficit:
+  - text: Il deficit calorico significa mangiare meno di quanto si consuma e rappresenta un'importante condizione per perdere peso.
+
+  # utter_:
+  # - text:
 
   utter_bot_challenge:
   - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
