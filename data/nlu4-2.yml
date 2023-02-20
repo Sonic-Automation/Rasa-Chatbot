@@ -10,14 +10,13 @@ nlu:
     - Quali sono le differenze tra perdere peso e bruciare grassi?
     - Perché non ho perso peso nonostante abbia perso centimetri?
 
-- intent: difference_weight_loss
+- intent: weight_loss_difference
   examples: |
+    - Cosa significa che perdere peso non sempre equivale a dimagrire?
+    - Mi spieghi la differenza tra perdere peso e dimagrire?
     - Qual è la differenza tra perdere peso e dimagrire?
-    - Cosa vuol dire dimagrire rispetto a perdere peso?
-    - Quali sono le differenze tra la perdita di peso e il dimagrimento?
-    - Mi puoi spiegare la differenza tra dimagrire e perdere peso?
-    - Quali sono le differenze tra perdere peso e bruciare grassi?
     - Perché non ho perso peso nonostante abbia perso centimetri?
+    - Come posso sapere se sto perdendo peso o sto dimagrendo?
 
 - intent: weight_loss_factors
   examples: |
