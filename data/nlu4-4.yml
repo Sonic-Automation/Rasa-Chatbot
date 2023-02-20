@@ -1,0 +1,191 @@
+version: "3.1"
+
+nlu:
+# Sostenibilità dell'alimentazione e dieta
+
+- intent: question_sustainability_nutrition
+  examples: |
+    - Cosa si intende per sostenibilità dell'alimentazione e come incide sulla dieta corretta?
+    - Qual è la relazione tra sostenibilità alimentare e dieta corretta?
+    - Come la sostenibilità dell'alimentazione contribuisce ad aderire a una dieta equilibrata?
+    - Che ruolo gioca la sostenibilità dell'alimentazione nella scelta degli alimenti?
+    - In che modo la sostenibilità alimentare può influenzare la nostra dieta?
+
+- intent: question_diet_free_meal
+  examples: |
+    - Qual è il ruolo del pasto libero in una dieta sensata?
+    - Quale è l'importanza del pasto libero in una dieta equilibrata?
+    - Come influisce il pasto libero in una dieta sana?
+    - È consigliabile includere un pasto libero in una dieta sana?
+    - Posso avere un pasto libero se seguo una dieta equilibrata?
+
+- intent: question_common_mistakes_diet
+  examples: |
+    - Quali sono gli errori più comuni quando si segue una dieta restrittiva?
+    - Cosa bisogna evitare quando si segue una dieta restrittiva?
+    - Quali sono le trappole da evitare durante una dieta restrittiva?
+    - In cosa si sbaglia di solito quando si segue una dieta troppo restrittiva?
+    - Quali sono gli errori che non bisogna commettere quando si segue una dieta restrittiva?
+
+# Diet break
+- intent: question_diet_break
+  examples: |
+    - Cosa si intende per diet break e quando è il momento giusto per farlo?
+    - In cosa consiste il diet break e quando è consigliato?
+    - Qual è il significato del termine diet break e quando è opportuno farlo?
+    - Quando è il momento giusto per prendere una pausa dalla dieta e fare un diet break?
+    - Come funziona il diet break e quando è consigliato farlo?
+
+- intent: question_types_diet_break
+  examples: |
+    - Quali sono i diversi tipi di diet break e a cosa servono?
+    - Quali sono le varie forme di diet break e a quali esigenze rispondono?
+    - In quanti modi si può fare un diet break e a cosa servono?
+    - Quali sono le diverse modalità per fare un diet break e a chi sono consigliate?
+    - A quali esigenze rispondono i vari tipi di diet break?
+
+- intent: question_effective_safe_diet_break
+  examples: |
+    - Come si fa un diet break in modo sicuro ed efficace?
+    - Quali sono le linee guida per fare un diet break in modo sicuro ed efficace?
+    - Quali sono i consigli per effettuare un diet break in modo sicuro ed efficace?
+    - Come si può fare un diet break in modo efficace senza rischi per la salute?
+    - Quali sono le raccomandazioni per effettuare un diet break in modo sicuro?
+
+- intent: question_benefits_cheat_meal
+  examples: |
+    - Quali sono i benefici di concedersi un pasto libero durante una dieta?
+    - Cosa si guadagna dal concedersi un pasto libero durante una dieta?
+    - Quali sono i vantaggi di fare un pasto libero durante una dieta?
+    - In che modo un pasto libero può aiutare durante una dieta?
+    - Quali sono i benefici che si ottengono dall'includere un pasto libero nella propria dieta?
+
+- intent: question_avoid_overeating_cheat_meal
+  examples: |
+    - Come si fa a non esagerare durante un pasto libero?
+    - Quali sono i trucchi per non eccedere durante un pasto libero?
+    - Come evitare di mangiare troppo durante un pasto libero?
+    - Quali sono i consigli per concedersi un pasto libero senza esagerare?
+    - Come bilanciare un pasto libero in modo da non eccedere con le quantità?
+
+- intent: question_effects_diet_break_mental_physical_health
+  examples: |
+    - Quali sono gli effetti positivi del diet break sulla salute mentale e fisica?
+    - Come il diet break influisce sulla salute mentale e fisica?
+    - Quali sono i benefici del diet break sulla salute mentale e fisica?
+    - In che modo il diet break può migliorare la salute mentale e fisica?
+    - Quali sono gli effetti positivi del diet break sull'umore e sul benessere fisico?
+
+- intent: question_when_to_take_diet_break
+  examples: |
+    - Come si può capire se è il momento di fare un diet break?
+    - Quali sono i segnali che indicano che è il momento di prendere un diet break?
+    - Come posso sapere quando fare un diet break?
+    - Quali sono i sintomi che indicano che è il momento di fare una pausa dalla dieta?
+    - In che modo posso stabilire se devo prendere un diet break?
+
+- intent: question_rules_during_diet_break
+  examples: |
+    - Quali sono le regole da seguire durante un diet break per non riprendere peso?
+    - Come evitare di riprendere peso durante un diet break?
+    - Quali sono i consigli per non vanificare gli sforzi fatti durante un diet break?
+    - Come mantenere il peso durante un diet break?
+    - In che modo posso bilanciare il mio pasto libero durante un diet break?
+
+- intent: question_return_to_diet_after_diet_break
+  examples: |
+    - Quali sono i consigli per tornare a una dieta corretta dopo un diet break?
+    - Come riprendere la dieta dopo un periodo di pausa?
+    - Quali sono le regole da seguire per tornare alla mia dieta dopo un pasto libero?
+    - Come ritornare a mangiare sano dopo un periodo di alimentazione meno sana?
+    - In che modo posso riprendere la mia dieta senza riprendere peso dopo un diet break?
+
+# Pasto libero e rischi della restrizione
+- intent: question_no_free_meal_risks
+  examples: |
+    - Quali sono i rischi di non concedersi un pasto libero durante una dieta?
+    - In che modo una dieta troppo restrittiva può essere dannosa per la salute?
+    - Quali sono le conseguenze negative di non concedersi un pasto libero durante un regime alimentare?
+    - Come una dieta troppo restrittiva può influire sulla salute e sul benessere?
+    - Perché è importante concedersi un pasto libero durante una dieta?
+
+- intent: question_balancing_food_choice_during_free_meal
+  examples: |
+    - Come posso bilanciare la scelta degli alimenti durante un pasto libero?
+    - Quali sono le strategie per scegliere cibi sani durante un pasto libero?
+    - In che modo posso mangiare quello che voglio durante un pasto libero senza esagerare?
+    - Come posso evitare di fare scelte alimentari poco salutari durante un pasto libero?
+    - Quali sono i cibi che posso scegliere durante un pasto libero per non compromettere la mia dieta?
+
+- intent: question_avoid_losing_control_during_free_meal
+  examples: |
+    - Come posso evitare di perdere il controllo durante un pasto libero?
+    - Quali sono i trucchi per non esagerare durante un pasto libero?
+    - In che modo posso gestire il mio pasto libero senza perdere il controllo?
+    - Come evitare di esagerare con il cibo durante un pasto libero?
+    - Quali sono i cibi che dovrei evitare durante un pasto libero per non perdere il controllo?
+
+- intent: question_possible_side_effects_of_diet_break
+  examples: |
+    - Quali sono i possibili effetti collaterali di un diet break?
+    - Cosa succede al corpo quando si fa un diet break?
+    - Quali sono le conseguenze negative di concedersi un pasto libero durante una dieta?
+    - Come può un diet break influire sulla mia dieta e sulla mia salute?
+    - Ci sono effetti collaterali negativi associati a un diet break?
+
+- intent: question_strategies_to_get_back_on_track_after_free_meal
+  examples: |
+    - Quali sono le strategie per tornare alla mia dieta dopo un pasto libero?
+    - Come posso riprendere la mia alimentazione corretta dopo un pasto libero?
+    - Quali sono i passi da seguire per non compromettere la mia dieta dopo un pasto libero?
+    - In che modo posso riprendere il mio regime alimentare dopo un pasto libero senza sentirsi in colpa?
+    - Come posso rimettermi in carreggiata dopo un pasto libero?
+
+- intent: question_avoid_feeling_guilty_after_free_meal
+  examples: |
+    - Come posso evitare di sentirmi in colpa dopo un pasto libero?
+    - Quali sono i modi per non sentire rimorso dopo un pasto libero?
+    - In che modo posso eliminare la sensazione di colpa dopo un pasto libero?
+    - Come posso gestire il senso di colpa dopo un pasto libero?
+    - Quali sono i consigli per non sentirsi in colpa per aver mangiato durante un pasto libero?
+
+# Vantaggi e conseguenze del diet break
+- intent: question_benefits_of_diet_break_for_athletes
+  examples: |
+    - Quali sono i vantaggi del diet break per chi pratica sport?
+    - In che modo un diet break può aiutare chi fa sport?
+    - Quali sono i benefici di un diet break per chi si allena intensamente?
+    - Come può un diet break influenzare la prestazione atletica?
+    - Quali sono i possibili vantaggi di un diet break per gli atleti?
+
+- intent: question_consequences_of_too_long_diet_break
+  examples: |
+    - Quali sono le conseguenze di un diet break troppo lungo?
+    - Cosa succede se si prolunga troppo un diet break?
+    - Quali sono i possibili effetti collaterali di un diet break troppo lungo?
+    - Come evitare di esagerare con un diet break prolungato?
+    - Quali sono i rischi di un diet break troppo lungo?
+
+- intent: question_possible_side_effects_of_cheat_meals_and_how_to_avoid_them
+  examples: |
+    - Quali sono gli effetti collaterali di un pasto libero e come evitarli?
+    - Come evitare gli effetti collaterali di un pasto libero?
+    - Quali sono i possibili rischi di un pasto libero e come prevenirli?
+    - Come ridurre i possibili effetti negativi di un pasto libero?
+    - Quali sono le conseguenze negative di un pasto libero e come evitarle?
+
+- intent: question_metabolic_benefits_of_diet_break
+  examples: |
+    - Quali sono i vantaggi del diet break per il metabolismo?
+    - Come può un diet break migliorare il metabolismo?
+    - Quali sono i possibili benefici metabolici di un diet break?
+    - In che modo un diet break può influenzare il metabolismo?
+    - Come un diet break può aiutare il metabolismo ad accelerare?
+    
+- intent: question_returning_to_healthy_diet_without_feeling_deprived_after_diet_break
+  examples: |
+    - Come ritornare a una dieta sana senza sentirsi privati dopo un diet break?
+    - Quali sono i modi per tornare alla dieta senza sentirsi privati dopo un diet break?
+    - Come riprendere una dieta corretta senza soffrire la sensazione di privazione dopo un diet break?
+    - Quali sono le strategie per tornare a una dieta sana senza sentirsi privati dopo un diet break?
+    - Come evitare la sensazione di privazione quando si torna a una dieta sana dopo un diet break?
