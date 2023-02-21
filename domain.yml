@@ -278,6 +278,53 @@ intents:
   - question_possible_side_effects_of_cheat_meals_and_how_to_avoid_them
   - question_metabolic_benefits_of_diet_break
   - question_returning_to_healthy_diet_without_feeling_deprived_after_diet_break
+  # VSS cap 5-1
+  - protein_importance
+  - protein_problem
+  - protein_sources
+  - protein_biovalue
+  - amino_acids_role
+  - protein_deficiency_risks
+  - combine_plant_protein_sources
+  - ensure_protein_intake
+  - vegetable_protein_biologic_value
+  - common_protein_sources_cereals
+  - soy_derivatives
+  - low_carb_legumes
+  - combine_cereals_legumes
+  - common_vegetable_protein_powders
+  - low_carb_low_fat_vegetable_protein_sources
+  - enough_protein_vegetarian_diet
+  - hard_to_digest_vegetable_proteins
+  - vegan_protein_deficiency_risks
+  - vegan_protein_concern
+  - vegan_protein_intake
+  - protein_deficiency_consequences
+  - concentrated_protein_sources
+  - protein_concerns_for_vegans
+  - concentrated_protein_sources_for_vegan_diet
+  - protein_deficiency_consequences_for_vegans
+  - biological_value_of_proteins
+  - plant_protein_categories
+  - unbalanced_protein_intake_problems
+  - intuitive_eating_protein_sources
+  - recommended_protein_intake
+  - recommended_protein_sources
+  - importance_of_variety_in_protein_sources
+  - effects_of_protein_intake_on_health
+  - insufficient_protein_intake
+  - protein_intake_variations
+  - gender_differences_in_protein_intake
+  - low_protein_intake_for_women
+  - meeting_protein_needs_for_athletes
+  - protein_intake_variation_based_on_goal
+  - protein_intake_modification_for_maintenance
+  - factors_affecting_protein_intake
+  - less_protein_women
+  - protein_needs_athletes
+  - calorie_deficit_protein_intake
+  - protein_intake_muscle_mass
+  - protein_intake_weight_maintenance
 
 responses: 
   utter_greeting:
@@ -1170,6 +1217,144 @@ responses:
 
   utter_question_returning_to_healthy_diet_without_feeling_deprived_after_diet_break:
   - text: Per tornare a una dieta corretta dopo un diet break senza sentirsi privati, si dovrebbe cercare di continuare a concedersi dei pasti liberi occasionali. Inoltre, si dovrebbe cercare di scegliere cibi gustosi e salutari per mantenere la motivazione e la sostenibilità della dieta.
+# VSS cap 5-1
+  utter_protein_importance:
+  - text: Le proteine sono essenziali nell'alimentazione vegana, come in qualsiasi altro tipo di dieta, poiché svolgono un ruolo fondamentale nella crescita, nella riparazione e nella manutenzione dei tessuti del nostro corpo, tra cui i muscoli, la pelle e i capelli. La maggior parte delle persone in realtà assume meno proteine di quelle raccomandate, ma è possibile raggiungere un corretto apporto proteico alimentandosi esclusivamente in modo vegetale.
+  
+  utter_protein_problem:
+  - text: Un apporto proteico non ottimale, anche se non carente, può avere una serie di svantaggi. Innanzitutto, può violare i meccanismi di fame/sazietà, portando a mangiare di più e quindi a ingrassare. Inoltre, una ridotta sintesi proteica da scarso apporto di proteine può causare la perdita di massa muscolare, essenziale per la salute, la performance sportiva e l'aspetto estetico
+  
+  utter_protein_sources:
+  - text: Le fonti proteiche più concentrate in una dieta vegana sono:- seitan e derivati del glutine, legumi a basso contenuto di carboidrati (come la soia e i suoi derivati, i lupini e gli isolati proteici dai legumi), altri prodotti vegetali (come i derivati della canapa e il quorn) e dolci proteici (come le proteine in polvere, le barrette proteiche a basso contenuto di carboidrati e grassi, e altri dolci proteici).
+  
+  utter_protein_biovalue:
+  - text: Il valore biologico delle proteine esprime la qualità del profilo amminoacidico della proteina presa in esame, ovvero quanto questo "assomiglia" alle proteine del corpo umano. Le proteine vegetali hanno tendenzialmente un valore biologico più basso di quelle animali, ma questo può essere compensato combinando più fonti proteiche a valore biologico medio-basso, ma complementari, in modo da ottenere un valore biologico alto, paragonabile a quello delle proteine animali o addirittura superiore.
+
+  utter_plant_protein_categories:
+  - text: Tutte le proteine vegetali possono essere riassunte in due categorie principali:- i cereali e i legumi. Tra i derivati dei cereali ci sono il seitan, il muscolo di grano e la maggior parte degli affettati vegetali, mentre nella categoria dei legumi si trovano la soia e i suoi derivati (tofu, tempeh, burger e prodotti confezionati da supermercato), i derivati della soia, come il granulare di soia, i lupini e i prodotti proteici isolati dai legumi, come i "Tutt'altro".
+
+  utter_amino_acids_role:
+  - text: Gli aminoacidi sono i mattoncini fondamentali delle proteine e ne esistono 20 diversi, di cui 9 sono considerati essenziali per il nostro organismo perché non possono essere sintetizzati autonomamente e devono essere assunti attraverso l'alimentazione. Ogni aminoacido ha un ruolo specifico e insieme contribuiscono alla crescita e riparazione dei tessuti, alla produzione di ormoni e enzimi e al trasporto di sostanze nutritive e ossigeno nel sangue.
+  
+  utter_protein_deficiency_risks:
+  - text: Una dieta vegana povera di proteine può portare alla perdita di massa muscolare, alla riduzione della forza e delle prestazioni fisiche, alla lenta guarigione delle ferite e alla compromissione del sistema immunitario. Inoltre, può aumentare il rischio di carenze nutrizionali, come quella di ferro, calcio e vitamina B12.
+  
+  utter_combine_plant_protein_sources:
+  - text: Per ottenere un valore biologico completo, è importante combinare più fonti proteiche vegetali, in particolare i legumi con i cereali, poiché le prime sono carenti di alcuni aminoacidi (come la metionina) mentre i secondi li forniscono.
+  
+  utter_ensure_protein_intake:
+  - text: Per assicurarsi di assumere abbastanza proteine in una dieta vegana, è importante includere quotidianamente fonti proteiche concentrate, come tofu, tempeh e seitan, lupini, derivati dei legumi, o prodotti di nuova generazione, e combinare i cereali con i legumi per ottenere un valore biologico completo. Inoltre, si possono aggiungere alle pietanze proteine in polvere vegetali, come quelle a base di proteine di piselli o di canapa, o barrette proteiche a basso contenuto di carboidrati e grassi.
+  
+  utter_vegetable_protein_biologic_value:
+  - text: Il valore biologico delle proteine vegetali è in genere più basso rispetto a quello delle proteine animali. Questo è dovuto al fatto che le proteine vegetali sono spesso carenti di alcuni aminoacidi essenziali. Tuttavia, mescolando diverse fonti proteiche a basso valore biologico ma complementari, è possibile ottenere un profilo amminoacidico completo e un valore biologico paragonabile a quello delle proteine animali.
+  
+  utter_common_protein_sources_cereals:
+  - text: Tra i cereali, la maggior parte dei cibi ad alto contenuto proteico provengono dal seitan e dal muscolo di grano. Anche la canapa è una buona fonte proteica di origine cerealicola.
+  
+  utter_soy_derivatives:
+  - text: I principali derivati della soia sono il tofu, il tempeh, la soia granulare e vari burger e prodotti confezionati a base di soia. Sono tutti alimenti ad alto contenuto proteico che possono essere utilizzati come alternative alla carne e ai prodotti lattiero-caseari.
+  
+  utter_low_carb_legumes:
+  - text: I principali legumi a basso contenuto di carboidrati sono i lupini e la soia. Anche altri legumi come i piselli e i fagioli hanno delle protiene, ma contengono anche una quantità significativa di carboidrati, il che non le rende fonti proteiche.
+  
+  utter_combine_cereals_legumes:
+  - text: Combina i cereali con i legumi in un unico pasto per ottenere un apporto proteico completo. Ad esempio, puoi mangiare riso con fagioli, lenticchie con pane integrale, o pasta con piselli. Questa combinazione consente di bilanciare le carenze di aminoacidi essenziali presenti nei cereali o nei legumi, rendendo l'apporto proteico più completo e bilanciato.
+  
+  utter_common_vegetable_protein_powders:
+  - text: Le proteine in polvere a base vegetale più comuni sono quelle a base di piselli, riso, canapa e soia. Queste proteine in polvere sono spesso utilizzate dagli sportivi per aumentare l'apporto proteico giornaliero, ma possono essere utilizzate anche da chi segue una dieta vegana o vegetariana per ottenere un apporto proteico maggiore.
+  
+  utter_low_carb_low_fat_vegetable_protein_sources:
+  - text: Le fonti proteiche vegetali a basso contenuto di carboidrati e grassi sono i lupini, la soia, il tofu, il tempeh e le proteine in polvere a base di piselli o canapa. Queste fonti proteiche sono ideali per chi cerca di ridurre l'apporto di carboidrati e grassi nella propria dieta.
+  
+  utter_enough_protein_vegetarian_diet:
+  - text: Sì, è possibile ottenere abbastanza proteine da una dieta vegetariana, ma è importante che venga pianificata adeguatamente. Ci sono molte fonti proteiche vegetali che possono essere utilizzate per raggiungere l'apporto proteico raccomandato, come i legumi, i cereali, la soia, i prodotti a base di glutine, i semi e le noci.
+  
+  utter_hard_to_digest_vegetable_proteins:
+  - text: Alcune proteine vegetali possono causare problemi di digestione, come la soia e il glutine. Questi alimenti possono causare flatulenza, gonfiore addominale, crampi e diarrea in alcune persone. Se si sospetta di avere problemi di digestione legati alle proteine vegetali, è consigliabile consultare un medico o un dietologo.
+  
+  utter_vegan_protein_deficiency_risks:
+  - text: Una dieta vegana carente di proteine può portare alla perdita di massa muscolare, che può influire sulla salute, sulla performance sportiva e sull'aspetto estetico. Inoltre, può compromettere i meccanismi di fame/sazietà, portando a mangiare di più e quindi a ingrassare. È importante che i vegani pianifichino la propria dieta in modo adeguato per garantire un apporto proteico sufficiente.
+  
+  utter_vegan_protein_concern:
+  - text: La preoccupazione principale dei vegani riguardo alle proteine nella loro alimentazione è l'assunzione di quantità inferiori a quelle raccomandate.
+  
+  utter_vegan_protein_intake:
+  - text: Sì, è possibile assumere abbastanza proteine con una dieta vegana, ma può essere difficile garantire una varietà sufficiente di alimenti proteici.
+  
+  utter_protein_deficiency_consequences:
+  - text: Le conseguenze di un'assunzione non ottimale di proteine nella dieta vegana includono la violazione dei meccanismi di fame/sazietà, la perdita di massa muscolare e problemi di salute.
+  
+  utter_concentrated_protein_sources:
+  - text: Le fonti proteiche concentrate nella dieta vegana includono il seitan, i legumi a basso contenuto di carboidrati, la canapa, il quorn, i derivati della soia (come tofu e tempeh) e le proteine in polvere, più tutti i prodotti che mixano le precedenti categorie.
+  
+  utter_protein_concerns_for_vegans:
+  - text: Le proteine sono una preoccupazione per i vegani perché spesso non assumono la quantità raccomandabile di proteine e possono avere difficoltà a trovare fonti proteiche che non siano anche ricche di carboidrati.
+  
+  utter_concentrated_protein_sources_for_vegan_diet:
+  - text: Le fonti proteiche concentrate ideali per una dieta vegana sono il seitan e derivati del glutine, legumi a basso contenuto di carboidrati come la soia e i suoi derivati, i lupini e gli isolati proteici dai legumi, altri prodotti vegetali come derivati della canapa e il Quorn, e i dolci proteici come le proteine in polvere, le barrette proteiche a basso contenuto di carboidrati e altri dolci proteici.
+  
+  utter_protein_deficiency_consequences_for_vegans:
+  - text: Un'assunzione proteica non ottimale può portare a violare i meccanismi di fame/sazietà, il che espone al rischio di mangiare di più e quindi ingrassare. Inoltre, può comportare una ridotta sintesi proteica da scarso apporto di proteine, portando ad alcuni problemi come la perdita di massa muscolare, essenziale per la salute, la performance sportiva e l'aspetto estetico.
+  
+  utter_biological_value_of_proteins:
+  - text: Il valore biologico delle proteine esprime la qualità del profilo amminoacidico della proteina presa in esame, ovvero quanto questo "assomiglia" alle proteine del corpo umano. Le proteine vegetali hanno tendenzialmente un valore biologico più basso di quelle animali, quindi bisogna bilanciare le fonti proteiche in modo che il totale di aminoacidi assunti durante la giornata vada ad "assomigliare" il più possibile a quelli delle proteine del nostro corpo.
+  
+  utter_unbalanced_protein_intake_problems:
+  - text: Un'assunzione proteica non bilanciata può portare all'assunzione di proteine inutilizzabili che in più andranno smaltite. Inoltre, può essere associata a problemi intestinali, eccessiva assunzione di carboidrati e difficoltà nel raggiungere la giusta quantità di proteine.
+  
+  utter_intuitive_eating_protein_sources:
+  - text: La seconda parte dei pasti principali dovrebbe essere composta da alimenti proteici concentrati, ovvero cibi ad alto contenuto proteico.
+  
+  utter_recommended_protein_intake:
+  - text: Circa la metà della seconda parte del pasto dovrebbe essere rappresentata da alimenti proteici concentrati, ovvero un quarto del totale del pasto.
+  
+  utter_recommended_protein_sources:
+  - text: È consigliato variare le fonti proteiche, alternando derivati dei cereali e derivati dei legumi, in modo da ottenere un'adeguata varietà di nutrienti.
+  
+  utter_importance_of_variety_in_protein_sources:
+  - text: Variare le fonti proteiche aiuta ad eliminare il problema del ridotto valore biologico delle proteine vegetali e garantisce un apporto nutrizionale completo.
+  
+  utter_effects_of_protein_intake_on_health:
+  - text: Le proteine sono nutrienti essenziali per la crescita e il mantenimento del tessuto muscolare e sono importanti per il funzionamento del sistema immunitario e ormonale. Tuttavia, un eccesso di proteine può essere dannoso per la salute, soprattutto per chi soffre di problemi renali o diabete.
+  
+  utter_insufficient_protein_intake:
+  - text: L'assunzione insufficiente di proteine può portare a una carenza proteica, che può causare affaticamento, indebolimento del sistema immunitario, perdita di massa muscolare, rallentamento del metabolismo e altri problemi di salute.
+  
+  utter_protein_intake_variations:
+  - text: L'apporto proteico varia in base al peso perché maggiore è il peso, maggiore sarà il fabbisogno di aminoacidi di ricambio. Inoltre, l'apporto proteico dipende dallo stile di vita e dal livello di attività fisica, poiché le proteine sono essenziali per sostenere le attività fisiche e sportive.
+  
+  utter_gender_differences_in_protein_intake:
+  - text: Le donne necessitano di meno proteine rispetto agli uomini a causa della loro minore massa muscolare e del loro assetto ormonale diverso. Gli estrogeni nelle donne proteggono dalla perdita di massa muscolare, il che significa che necessitano di meno proteine.
+  
+  utter_low_protein_intake_for_women:
+  - text: Le proteine, anche quelle vegetali, svolgono un ruolo pro-infiammatorio. Poiché le donne sono più soggette a stati infiammatori rispetto agli uomini, potrebbe essere una scelta saggia per loro mantenere un apporto proteico più basso.
+  
+  utter_meeting_protein_needs_for_athletes:
+  - text: Non è necessario aumentare le porzioni di cibi proteici concentrati per soddisfare il fabbisogno proteico degli sportivi. L'aumento dell'attività sportiva consente di mangiare una quantità maggiore di cibi ricchi di carboidrati e grassi, che contengono anche proteine residue. Inoltre, le proteine sono essenziali per l'attività fisica e lo sport.
+  
+  utter_protein_intake_variation_based_on_goal:
+  - text: L'apporto proteico varia a seconda dell'obiettivo. Se si desidera perdere grasso, si troverà in una situazione di deficit calorico e si assumerà meno cibo, comprese le proteine. Invece, se si vuole aumentare la massa muscolare, si necessita di un po' più di proteine per sostenere la crescita dei muscoli.
+  
+  utter_protein_intake_modification_for_maintenance:
+  - text: Nel caso dell'obiettivo mantenimento, non servono modifiche rispetto all'apporto proteico. Tuttavia, se si desidera mantenere la massa muscolare, sarà necessario assumere un quantitativo proteico adeguato e costante.
+  
+  utter_factors_affecting_protein_intake:
+  - text: L'apporto proteico varia in base al peso, al sesso, allo stile di vita e all'obiettivo, che sia dimagrire, aumentare la massa muscolare o mantenere il peso.
+  
+  utter_less_protein_women:
+  - text: Le donne hanno meno massa muscolare rispetto agli uomini e gli estrogeni, gli ormoni femminili, proteggono dalla perdita di massa muscolare, il che significa che hanno bisogno di meno proteine.
+  
+  utter_protein_needs_athletes:
+  - text: Gli sportivi possono soddisfare il loro fabbisogno proteico aumentando l'apporto calorico attraverso l'aumento dell'attività fisica, poiché cibi ricchi di carboidrati e grassi contengono anche proteine residue.
+  
+  utter_calorie_deficit_protein_intake:
+  - text: In caso di deficit calorico, l'apporto proteico può essere ridotto poiché si consuma meno cibo. Tuttavia, per evitare la perdita di massa muscolare, è necessario aumentare l'apporto proteico giornaliero.
+  
+  utter_protein_intake_muscle_mass:
+  - text: Chi cerca di aumentare la massa muscolare necessita di un quantitativo di proteine leggermente superiore a quello consigliato per il mantenimento del peso, poiché le proteine sono necessarie per la crescita dei muscoli.
+  
+  utter_protein_intake_weight_maintenance:
+  - text: Non è necessario modificare l'apporto proteico per chi cerca di mantenere il peso, poiché il surplus calorico già porta ad un aumento dell'apporto proteico, necessario per il miglioramento fisico. Tuttavia, è importante assumere una quantità adeguata e costante di proteine per mantenere la massa muscolare.
 
   utter_bot_challenge:
   - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
