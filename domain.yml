@@ -254,6 +254,30 @@ intents:
   - vegan_diet_benefits
   - calories_burned_estimate_without_met
   - estimate_calories_expenditure_sport
+# VSS cap 4-4
+  - question_sustainability_nutrition
+  - question_diet_free_meal
+  - question_common_mistakes_diet
+  - question_diet_break
+  - question_types_diet_break
+  - question_effective_safe_diet_break
+  - question_benefits_cheat_meal
+  - question_avoid_overeating_cheat_meal
+  - question_effects_diet_break_mental_physical_health
+  - question_when_to_take_diet_break
+  - question_rules_during_diet_break
+  - question_return_to_diet_after_diet_break
+  - question_no_free_meal_risks
+  - question_balancing_food_choice_during_free_meal
+  - question_avoid_losing_control_during_free_meal
+  - question_possible_side_effects_of_diet_break
+  - question_strategies_to_get_back_on_track_after_free_meal
+  - question_avoid_feeling_guilty_after_free_meal
+  - question_benefits_of_diet_break_for_athletes
+  - question_consequences_of_too_long_diet_break
+  - question_possible_side_effects_of_cheat_meals_and_how_to_avoid_them
+  - question_metabolic_benefits_of_diet_break
+  - question_returning_to_healthy_diet_without_feeling_deprived_after_diet_break
 
 responses: 
   utter_greeting:
@@ -1077,6 +1101,75 @@ responses:
   utter_estimate_calories_expenditure_sport:
   - text: Si può moltiplicare il peso per le ore di attività per il coefficiente metabolico (MET) di quella attività. Si possono trovare i coefficienti MET di molte attività sportive in una lista presente nel testo.
 
+# VSS cap 4-4
+  utter_question_sustainability_nutrition:
+  - text: La sostenibilità dell'alimentazione significa scegliere un regime alimentare che possiamo sostenere a lungo termine, senza che diventi un problema. Questo aiuta ad aderire meglio al regime alimentare corretto, poiché non ci sentiremo costretti a seguirlo, ma lo faremo spontaneamente.
+
+  utter_question_diet_free_meal:
+  - text: Il pasto libero è un momento di stacco che ogni dieta sensata dovrebbe prevedere per conservare la sanità mentale e metabolica. Il senso del pasto libero è la libertà sulla decisione di cosa mangiare, non sulla quantità, per permetterci di liberare la mente e mantenere un normale socialità.
+
+  utter_question_common_mistakes_diet:
+  - text: Uno degli errori comuni è quello di aspettare con trepidazione il pasto libero, poiché la dieta è troppo restrittiva. Ciò indica che la dieta deve essere rivista o che è il momento di prendersi una pausa più o meno lunga, chiamata diet break.
+
+  utter_question_diet_break:
+  - text: Il diet break è una pausa dalla dieta, che ha l'obiettivo di permetterci di stabilizzare il risultato ottenuto fino a questo momento e al contempo far riprendere il nostro sistema ormonale, metabolico e anche psicologico. È consigliato farlo dopo tre o quattro mesi di dieta ipocalorica continuata, salvo casi particolari.
+
+  utter_question_types_diet_break:
+  - text: Ci sono tre tipi di diet break:- breve, medio e lungo. Quello breve può essere utile se ci sentiamo un po' stanchi, se dobbiamo andare in vacanza o ci sono delle festività in vista. Quello medio se abbiamo già portato avanti con successo tre o quattro mesi di ipocalorica, ma abbiamo ancora del peso da perdere e ci sentiamo ben disposti. Quello lungo quando abbiamo raggiunto il primo step degli obiettivi che ci eravamo posti e vogliamo stabilizzare il risultato ottenuto, o magari vogliamo passare ad una fase di incremento della massa muscolare o della performance.
+
+  utter_question_effective_safe_diet_break:
+  - text: Ci sono vari modi di effettuare il diet break. Il metodo più preciso è quello di alzare la quota energetica che andiamo ad assumere. Quindi, se eravamo in fase di deficit calorico, potremo salire al mantenimento o addirittura in ipercalorica, rimanendo nel livello che abbiamo scelto e seguendo le stesse linee guida. È importante fare le cose in maniera più precisa per non rallentare il percorso, oppure se siamo persone che non sanno autoregolarsi, seguire le regole in maniera più flessibile.
+
+  utter_question_benefits_cheat_meal:
+  - text: Il pasto libero è un momento in cui ci si concede di non pensare alla dieta, ma di mangiare ciò che si desidera. Ciò può aiutare a preservare la salute mentale e metabolica, a mantenere la motivazione e ad evitare i disturbi del comportamento alimentare.
+
+  utter_question_avoid_overeating_cheat_meal:
+  - text: Per evitare di esagerare durante un pasto libero, è importante limitare la quantità di cibo che si mangia. Invece di mangiare troppo, si dovrebbe godere di un pasto sano e bilanciato, mangiando lentamente e apprezzando ogni boccone.
+
+  utter_question_effects_diet_break_mental_physical_health:
+  - text: Il diet break può avere effetti positivi sulla salute mentale e fisica, poiché permette di riposarsi sia mentalmente che fisicamente. Ciò può aiutare a preservare la salute mentale e a prevenire i disturbi del comportamento alimentare. Inoltre, può anche migliorare il metabolismo e la performance sportiva.
+
+  utter_question_when_to_take_diet_break:
+  - text: Il momento giusto per fare un diet break dipende dalle esigenze individuali e dal tipo di dieta che si sta seguendo. In generale, è consigliato fare un diet break dopo tre o quattro mesi di dieta ipocalorica continuata, ma se si sviluppa nervosismo, eccessiva voglia di pasti liberi o il peso inizia a stallare, può essere il momento di fare una pausa.
+
+  utter_question_rules_during_diet_break:
+  - text: Durante un diet break, è importante non riprendere il peso perso durante la dieta. Per fare ciò, è importante scegliere alimenti sani e bilanciati, evitare di mangiare troppo e fare attenzione alla quantità di cibo che si mangia. Inoltre, è importante continuare a fare attività fisica regolarmente e mantenere uno stile di vita sano.
+
+  utter_question_return_to_diet_after_diet_break:
+  - text: Dopo un diet break, è importante tornare gradualmente a una dieta corretta. Inizialmente, si dovrebbe riprendere con la stessa quantità di cibo che si mangiava prima del diet break e poi, gradualmente, ridurre le calorie per tornare alla dieta precedente. Inoltre, è importante continuare a fare attività fisica regolarmente e mantenere uno stile di vita sano.
+
+  utter_question_no_free_meal_risks:
+  - text: Se non si concede un pasto libero durante una dieta, si rischia di diventare troppo restrittivi nella propria alimentazione e di sviluppare disturbi del comportamento alimentare. Inoltre, si rischia di compromettere la motivazione e la sostenibilità della dieta stessa.
+
+  utter_question_balancing_food_choice_during_free_meal:
+  - text: Per bilanciare la scelta degli alimenti durante un pasto libero, si dovrebbe cercare di scegliere cibi nutrienti e salutari, come proteine magre, verdure e cereali integrali. Inoltre, si dovrebbe evitare di esagerare con i cibi ad alto contenuto di grassi e zuccheri.
+
+  utter_question_avoid_losing_control_during_free_meal:
+  - text: Per evitare di perdere il controllo durante un pasto libero, si dovrebbe cercare di mangiare lentamente e di godere del cibo, assaporando ogni boccone. Inoltre, si dovrebbe evitare di mangiare troppo e di bere alcolici in eccesso.
+
+  utter_question_possible_side_effects_of_diet_break:
+  - text: Alcuni effetti collaterali di un diet break possono includere un aumento temporaneo di peso, una riduzione temporanea della motivazione e della sostenibilità della dieta, e una riduzione temporanea delle prestazioni sportive.
+
+  utter_question_strategies_to_get_back_on_track_after_free_meal:
+  - text: Per tornare a una dieta corretta dopo un pasto libero, si dovrebbe cercare di limitare la quantità di cibo che si mangia e di scegliere alimenti nutrienti e salutari. Inoltre, si dovrebbe continuare a fare attività fisica regolarmente e mantenere uno stile di vita sano.
+
+  utter_question_avoid_feeling_guilty_after_free_meal:
+  - text: Per evitare di sentirsi in colpa dopo un pasto libero, si dovrebbe ricordare che è normale concedersi un momento di pausa durante una dieta. Inoltre, si dovrebbe cercare di godere del pasto libero senza esagerare, scegliendo cibi salutari e bilanciati.
+
+  utter_question_benefits_of_diet_break_for_athletes:
+  - text: Il diet break può avere diversi vantaggi per chi pratica sport, tra cui una migliore ripresa muscolare, un miglioramento della performance sportiva e una riduzione del rischio di infortuni.
+
+  utter_question_consequences_of_too_long_diet_break:
+  - text: Un diet break troppo lungo può portare ad un aumento di peso, alla perdita di motivazione e sostenibilità della dieta e ad un peggioramento delle prestazioni sportive. Inoltre, può rendere più difficile tornare alla dieta precedente.
+
+  utter_question_possible_side_effects_of_cheat_meals_and_how_to_avoid_them:
+  - text: Alcuni effetti collaterali di un pasto libero possono includere una temporanea perdita di controllo sulla propria alimentazione, un temporaneo aumento di peso e una temporanea riduzione della motivazione e sostenibilità della dieta. Per evitarli, si dovrebbe cercare di limitare la quantità di cibo che si mangia e di scegliere cibi salutari e bilanciati.
+
+  utter_question_metabolic_benefits_of_diet_break:
+  - text: Il diet break può avere diversi vantaggi per il metabolismo, tra cui una ripresa dell'efficienza metabolica, un miglioramento della termogenesi (cioè del processo di bruciare calorie per produrre calore) e una riduzione del rischio di rallentare il metabolismo.
+
+  utter_question_returning_to_healthy_diet_without_feeling_deprived_after_diet_break:
+  - text: Per tornare a una dieta corretta dopo un diet break senza sentirsi privati, si dovrebbe cercare di continuare a concedersi dei pasti liberi occasionali. Inoltre, si dovrebbe cercare di scegliere cibi gustosi e salutari per mantenere la motivazione e la sostenibilità della dieta.
 
   utter_bot_challenge:
   - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation

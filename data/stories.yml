@@ -691,10 +691,60 @@ stories:
   - intent: estimate_calories_expenditure_sport
   - action: utter_estimate_calories_expenditure_sport
 
+# VSS cap 4-4
+- story: Sostenibilità dell'alimentazione e dieta
+  steps:
+  - intent: question_sustainability_nutrition
+  - action: utter_question_sustainability_nutrition
+  - intent: question_diet_free_meal
+  - action: utter_question_diet_free_meal
+  - intent: question_common_mistakes_diet
+  - action: utter_question_common_mistakes_diet
+  - intent: question_diet_break
+  - action: utter_question_diet_break
+  - intent: question_types_diet_break
+  - action: utter_question_types_diet_break
 
-#   - intent: 
-#   - action: utter_
-#   - intent: 
-#   - action: utter_
-#   - intent: 
-#   - action: utter_
+- story: Diet break
+  steps:
+  - intent: question_effective_safe_diet_break
+  - action: utter_question_effective_safe_diet_break
+  - intent: question_benefits_cheat_meal
+  - action: utter_question_benefits_cheat_meal
+  - intent: question_avoid_overeating_cheat_meal
+  - action: utter_question_avoid_overeating_cheat_meal
+  - intent: question_effects_diet_break_mental_physical_health
+  - action: utter_question_effects_diet_break_mental_physical_health
+  - intent: question_when_to_take_diet_break
+  - action: utter_question_when_to_take_diet_break
+  - intent: question_rules_during_diet_break
+  - action: utter_question_rules_during_diet_break
+  - intent: question_return_to_diet_after_diet_break
+  - action: utter_question_return_to_diet_after_diet_break
+
+- story: Pasto libero e rischi della restrizione
+  steps:
+  - intent: question_no_free_meal_risks
+  - action: utter_question_no_free_meal_risks
+  - intent: question_balancing_food_choice_during_free_meal
+  - action: utter_question_balancing_food_choice_during_free_meal
+  - intent: question_avoid_losing_control_during_free_meal
+  - action: utter_question_avoid_losing_control_during_free_meal
+  - intent: question_possible_side_effects_of_diet_break
+  - action: utter_question_possible_side_effects_of_diet_break
+  - intent: question_strategies_to_get_back_on_track_after_free_meal
+  - action: utter_question_strategies_to_get_back_on_track_after_free_meal
+  - intent: question_avoid_feeling_guilty_after_free_meal
+
+- story: Vantaggi e conseguenze del diet break
+  steps:
+  - intent: question_benefits_of_diet_break_for_athletes
+  - action: utter_question_benefits_of_diet_break_for_athletes
+  - intent: question_consequences_of_too_long_diet_break
+  - action: utter_question_consequences_of_too_long_diet_break
+  - intent: question_possible_side_effects_of_cheat_meals_and_how_to_avoid_them
+  - action: utter_question_possible_side_effects_of_cheat_meals_and_how_to_avoid_them
+  - intent: question_metabolic_benefits_of_diet_break
+  - action: utter_question_metabolic_benefits_of_diet_break
+  - intent: question_returning_to_healthy_diet_without_feeling_deprived_after_diet_break
+  - action: utter_question_returning_to_healthy_diet_without_feeling_deprived_after_diet_break
