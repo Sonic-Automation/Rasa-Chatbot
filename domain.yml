@@ -325,6 +325,28 @@ intents:
   - calorie_deficit_protein_intake
   - protein_intake_muscle_mass
   - protein_intake_weight_maintenance
+# VSS cap 5-2
+  - calculate_protein_servings_for_weight_loss_men
+  - protein_servings_for_maintenance_or_gain_women
+  - plant_protein_sources
+  - food_categories_providing_protein
+  - examples_of_plant_protein_sources
+  - soy_protein_sources
+  - gluten_protein_sources
+  - legume_protein_sources
+  - common_vegan_protein_sources
+  - importance_of_protein_intake
+  - pure_proteins_vegan
+  - standard_protein_serving
+  - choose_protein_sources
+  - protein_portion_difference
+  - protein_serving_definition
+  - excessive_fat_carb_intake
+  - sweet_junkfood_protein_sources
+  - sweet_junkfood_protein_sources_list
+  - vary_protein_sources
+  - calculate_protein_needs
+  - residues_carbs_fats_proteins
 
 responses: 
   utter_greeting:
@@ -1355,7 +1377,70 @@ responses:
   
   utter_protein_intake_weight_maintenance:
   - text: Non è necessario modificare l'apporto proteico per chi cerca di mantenere il peso, poiché il surplus calorico già porta ad un aumento dell'apporto proteico, necessario per il miglioramento fisico. Tuttavia, è importante assumere una quantità adeguata e costante di proteine per mantenere la massa muscolare.
+# VSS cap 5-2
+  utter_calculate_protein_servings_for_weight_loss_men:
+  - text: Se sei un uomo in fase di dimagrimento, puoi calcolare il numero di porzioni di proteine da assumere dividendo il tuo peso per 10 e sottraendo 1. Ad esempio, se pesi 70 kg, dovrai assumere 6 porzioni di proteine al giorno.
 
+  utter_protein_servings_for_maintenance_or_gain_women:
+  - text: Se sei una donna in fase di mantenimento o aumento della massa, devi sottrarre 4 porzioni di proteine rispetto al numero calcolato per la fase di dimagrimento. Ad esempio, se pesi 60 kg, dovrai assumere 3 porzioni di proteine al giorno.
+
+  utter_plant_protein_sources:
+  - text: Le fonti proteiche vegetali includono la soia e i suoi derivati come la soia granulare, la farina di soia degrassata e la farina di soia normale, il tofu, il tempeh, il seitan, il muscolo di grano, i legumi e i loro derivati come la granulare di piselli, i lupini, i prodotti Tutt’altro, gli affettati vegetali a base di legumi o di lupini e i burger a base di legumi o di lupini, l'hemp-fu, il luphemp-fu, il quorn e gli yogurt proteici come lo yogurt greco di soia.
+
+  utter_food_categories_providing_protein:
+  - text: Le categorie alimentari che forniscono proteine nella dieta vegana includono la soia e i suoi derivati, il glutine e i suoi derivati, i legumi e i loro derivati, la canapa e i suoi derivati, il Quorn, i prodotti dolci/junk food e gli yogurt proteici.
+
+  utter_examples_of_plant_protein_sources:
+  - text: Puoi includere nella tua dieta vegana durante la giornata una varietà di fonti proteiche, come il tofu, il tempeh, il seitan, i legumi, i burger a base di legumi o di lupini, la granulare di piselli, la canapa e i suoi derivati, gli affettati vegetali a base di seitan, le barrette proteiche, lo yogurt greco di soia, e molto altro. 
+  
+  utter_soy_protein_sources:
+  - text: Le fonti proteiche di soia e i loro derivati includono soia granulare (porzione 50 g peso secco), farina di soia degrassata (porzione 50 g peso secco), farina di soia normale (porzione 50 g peso secco), tofu e tempeh.
+
+  utter_gluten_protein_sources:
+  - text: Le fonti proteiche di glutine e i loro derivati includono seitan, muscolo di grano e affettati vegetali a base di seitan.
+
+  utter_legume_protein_sources:
+  - text: Le fonti proteiche di legumi e i loro derivati includono granulare di piselli (porzione 50 g peso secco), lupini o farina di lupini, prodotti Tutt’altro, affettati vegetali a base di legumi o di lupini e burger a base di legumi o di lupini.
+
+  utter_common_vegan_protein_sources:
+  - text: Le fonti proteiche vegane più comuni includono soia e derivati, glutine e derivati, legumi e derivati, canapa e derivati, Quorn, prodotti dolci/junk food e yogurt proteici. Tuttavia, è importante ricordare che nella dieta vegana non esistono cibi proteici "puri", ma ci sono sempre dei residui di carboidrati e grassi.
+  
+  utter_importance_of_protein_intake:
+  - text: Le proteine sono fondamentali per la costruzione e il mantenimento dei tessuti del corpo, come i muscoli e la pelle. Inoltre, le proteine sono importanti per la salute del sistema immunitario e per la produzione di ormoni e enzimi. Consumare la giusta quantità di proteine sulla dieta vegana è importante per garantire che il tuo corpo funzioni correttamente e rimanga in buona salute.
+
+  utter_pure_proteins_vegan:
+  - text: Nella dieta vegana non esistono cibi proteici "puri", tranne le proteine in polvere. Ci sono sempre residui di carboidrati e grassi nelle fonti proteiche, il che è del tutto normale. Tuttavia, se si fa un uso eccessivo di alimenti con molti grassi o carboidrati residui, l'apporto calorico totale della dieta potrebbe risultare più elevato del previsto.
+
+  utter_standard_protein_serving:
+  - text: La porzione standard per i cibi proteici nella dieta vegana è pari a 100 g, ad eccezione di alcuni alimenti come la soia granulare, la farina di soia degrassata, la farina di soia normale e la granulare di piselli, che hanno una porzione di 50 g peso secco.
+
+  utter_choose_protein_sources:
+  - text: Puoi scegliere le fonti proteiche nella tua dieta vegana dalla lista delle categorie alimentari fornite, come la soia e i suoi derivati, il glutine e i suoi derivati, i legumi e i loro derivati, la canapa e i suoi derivati, il Quorn, i prodotti dolci/junk food e gli yogurt proteici. Assicurati di variare la tua scelta di fonti proteiche per ottenere una dieta equilibrata.
+  
+  utter_protein_portion_difference:
+  - text: Gli uomini in fase di dimagrimento devono dividersi il peso per 10 e sottrarre 1, mentre in fase di mantenimento o aumento della massa devono sottrarre un'altra porzione, per un totale di -2.
+
+  utter_protein_serving_definition:
+  - text: In generale, una porzione di cibo proteico nella dieta vegana corrisponde a 100 grammi di alimento, a meno che non sia specificato diversamente. Ad esempio, una porzione di granulare di piselli corrisponde a 50 grammi di peso secco.
+
+  utter_excessive_fat_carb_intake:
+  - text: Se fai un uso eccessivo di cibi con molti grassi o carboidrati residui nella tua dieta vegana, l'apporto calorico totale della tua dieta potrebbe essere più alto del previsto. Tuttavia, il metodo di calcolo delle porzioni di proteine già tiene in considerazione questo fattore.
+
+  utter_sweet_junkfood_protein_sources:
+  - text: I prodotti dolci/junk food che puoi includere nella tua dieta come fonte proteica sono le proteine in polvere (30 g), le barrette proteiche (la porzione dipende dalla barretta) e il burro di arachidi in polvere (40 g). Tuttavia, è importante tenere presente che questi alimenti hanno un contenuto calorico più elevato rispetto alle altre fonti proteiche e dovrebbero essere consumati con moderazione.
+  
+  utter_sweet_junkfood_protein_sources_list:
+  - text: Le fonti proteiche di prodotti dolci/junk food includono proteine in polvere (30 g), barrette proteiche (dipende dalla barretta) e burro di arachidi in polvere (40 g).
+
+  utter_vary_protein_sources:
+  - text: Per variare la scelta delle fonti proteiche nella dieta vegana, si può scegliere dalle diverse categorie alimentari fornite, come la soia e i suoi derivati, il glutine e i suoi derivati, i legumi e i loro derivati, la canapa e i suoi derivati, il Quorn, i prodotti dolci/junk food e gli yogurt proteici. Si consiglia di variare la scelta di fonti proteiche per ottenere una dieta equilibrata.
+
+  utter_calculate_protein_needs:
+  - text: Per calcolare la quantità di proteine di cui hai bisogno sulla dieta vegana, devi considerare il tuo peso e se sei in fase di dimagrimento o di mantenimento/aumento della massa muscolare. Se sei un uomo, dovrai dividere il tuo peso per 10 e sottrarre 1 per la fase di dimagrimento e 2 per la fase di mantenimento o aumento della massa. Se sei una donna, invece, dovrai dividere il tuo peso per 10 e sottrarre 3 per la fase di dimagrimento e 4 per la fase di mantenimento o aumento della massa.
+
+  utter_residues_carbs_fats_proteins:
+  - text: Significa che i cibi proteici vegani contengono anche carboidrati e grassi oltre alle proteine. Tuttavia, è normale e non dovrebbe preoccupare, poiché il metodo di calcolo della quantità di proteine tiene già conto di questi fattori.
+  
   utter_bot_challenge:
   - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
        e alimentato da Rasa.

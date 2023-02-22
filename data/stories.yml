@@ -844,3 +844,55 @@ stories:
   - action: utter_protein_intake_muscle_mass
   - intent: protein_intake_weight_maintenance 
   - action: utter_protein_intake_weight_maintenance
+
+  #VSS cap 5-2
+- story: Protein intake and sources path
+  steps:
+  - intent: calculate_protein_servings_for_weight_loss_men
+  - action: utter_calculate_protein_servings_for_weight_loss_men
+  - intent: protein_servings_for_maintenance_or_gain_women
+  - action: utter_protein_servings_for_maintenance_or_gain_women
+  - intent: plant_protein_sources
+  - action: utter_plant_protein_sources
+  - intent: food_categories_providing_protein
+  - action: utter_food_categories_providing_protein
+  - intent: examples_of_plant_protein_sources
+  - action: utter_examples_of_plant_protein_sources
+  - intent: soy_protein_sources
+  - action: utter_soy_protein_sources
+  - intent: gluten_protein_sources
+  - action: utter_gluten_protein_sources
+  - intent: legume_protein_sources
+  - action: utter_legume_protein_sources
+  - intent: common_vegan_protein_sources
+  - action: utter_common_vegan_protein_sources
+  - intent: importance_of_protein_intake
+  - action: utter_importance_of_protein_intake
+  - intent: pure_proteins_vegan
+  - action: utter_pure_proteins_vegan
+
+- story: Portion Sizes and Serving Recommendations
+  steps:
+  - intent: standard_protein_serving
+  - action: utter_standard_protein_serving
+  - intent: choose_protein_sources
+  - action: utter_choose_protein_sources
+  - intent: protein_portion_difference
+  - action: utter_protein_portion_difference
+  - intent: protein_serving_definition
+  - action: utter_protein_serving_definition
+
+- story: Junk Food and Veganism
+  steps:
+  - intent: excessive_fat_carb_intake
+  - action: utter_excessive_fat_carb_intake
+  - intent: sweet_junkfood_protein_sources
+  - action: utter_sweet_junkfood_protein_sources
+  - intent: sweet_junkfood_protein_sources_list
+  - action: utter_sweet_junkfood_protein_sources_list
+  - intent: vary_protein_sources
+  - action: utter_vary_protein_sources
+  - intent: calculate_protein_needs
+  - action: utter_calculate_protein_needs
+  - intent: residues_carbs_fats_proteins
+  - action: utter_residues_carbs_fats_proteins
