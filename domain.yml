@@ -347,6 +347,13 @@ intents:
   - vary_protein_sources
   - calculate_protein_needs
   - residues_carbs_fats_proteins
+# VSS cap 5-4
+  - what_is_eaa_supplementation
+  - advantages_of_eaa_supplementation
+  - how_to_supplement_with_eaa
+  - protein_eaa_ratio_in_diet
+  - vegan_diet_disadvantages
+  - reasons_for_diet_failure
 
 responses: 
   utter_greeting:
@@ -1440,7 +1447,25 @@ responses:
 
   utter_residues_carbs_fats_proteins:
   - text: Significa che i cibi proteici vegani contengono anche carboidrati e grassi oltre alle proteine. Tuttavia, è normale e non dovrebbe preoccupare, poiché il metodo di calcolo della quantità di proteine tiene già conto di questi fattori.
-  
+# VSS cap 5-4
+  utter_what_is_eaa_supplementation:
+  - text: L'integrazione con gli aminoacidi essenziali (EAA) consiste nell'assunzione di questi ultimi al fine di stimolare la sintesi proteica e di ridurre la quota di proteine da assumere nella dieta.
+ 
+  utter_advantages_of_eaa_supplementation:
+  - text: L'integrazione con gli EAA ha come vantaggio principale la riduzione della quota proteica da assumere nella dieta, senza compromettere la stimolazione della sintesi proteica. Questo a sua volta può portare a una maggiore flessibilità nella dieta, evitando la noia alimentare, la difficoltà di reperibilità dei cibi proteici e la spesa elevata per questi ultimi.
+
+  utter_how_to_supplement_with_eaa:
+  - text: Per fare l'integrazione con gli EAA, è necessario scindere 30g di proteine ogni 10g di EAA inseriti e sostituirli con il corrispettivo di carboidrati o grassi, ovvero l'equivalente di 120 calorie, ovvero 30 g di carboidrati o 13 g di grassi.
+
+  utter_protein_eaa_ratio_in_diet:
+  - text: Il rapporto tra proteine e EAA nella dieta dipende dall'obiettivo della persona e dalle sue esigenze alimentari. Tuttavia, come descritto nella risposta precedente, per fare l'integrazione con gli EAA, è necessario scindere 30g di proteine ogni 10g di EAA inseriti.
+
+  utter_vegan_diet_disadvantages:
+  - text: I principali svantaggi delle diete vegetali sono la ridotta digeribilità delle proteine e il minor contenuto di aminoacidi essenziali (EAA), che porta a dover assumere più proteine per ottimizzare la salute, la composizione corporea e la performance.
+
+  utter_reasons_for_diet_failure:
+  - text: Le diete falliscono spesso a causa della perdita di motivazione, della noia nell'alimentazione, della difficoltà di reperibilità dei cibi proteici e della spesa elevata per questi ultimi. La "rigidità" dovuta all'alto apporto di proteine richiesto può diventare limitante e scoraggiante, rendendo difficile seguire le linee guida alimentari per un lungo periodo di tempo.
+
   utter_bot_challenge:
   - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
        e alimentato da Rasa.

@@ -896,3 +896,21 @@ stories:
   - action: utter_calculate_protein_needs
   - intent: residues_carbs_fats_proteins
   - action: utter_residues_carbs_fats_proteins
+#VSS cap 5-4
+- story: Nutrition and Supplements
+  steps:
+  - intent: what_is_eaa_supplementation
+  - action: utter_what_is_eaa_supplementation
+  - intent: advantages_of_eaa_supplementation
+  - action: utter_advantages_of_eaa_supplementation
+  - intent: how_to_supplement_with_eaa
+  - action: utter_how_to_supplement_with_eaa
+  - intent: protein_eaa_ratio_in_diet
+  - action: utter_protein_eaa_ratio_in_diet
+
+- story: Vegetarian/Vegan Diets and Nutrition Behavior
+  steps:
+  - intent: vegan_diet_disadvantages
+  - action: utter_vegan_diet_disadvantages
+  - intent: reasons_for_diet_failure
+  - action: utter_reasons_for_diet_failure
