@@ -914,3 +914,37 @@ stories:
   - action: utter_vegan_diet_disadvantages
   - intent: reasons_for_diet_failure
   - action: utter_reasons_for_diet_failure
+
+#VSS cap 6-1
+- story: Nutrition and Diet
+  steps:
+  - intent: natural_sources_of_carbohydrates
+  - action: utter_natural_sources_of_carbohydrates
+  - intent: natural_sources_of_proteins
+  - action: utter_natural_sources_of_proteins
+  - intent: natural_sources_of_fats
+  - action: utter_natural_sources_of_fats
+  - intent: weight_loss_diet_recommendation
+  - action: utter_weight_loss_diet_recommendation
+  - intent: sources_of_carbs_and_fats
+  - action: utter_sources_of_carbs_and_fats
+  - intent: high_fat_carb_foods_to_avoid
+  - action: utter_high_fat_carb_foods_to_avoid
+  - intent: vegan_sources_of_carbs
+  - action: utter_vegan_sources_of_carbs
+  - intent: vegan_sources_of_fats
+  - action: utter_vegan_sources_of_fats
+  - intent: vegan_high_fat_carb_foods_in_moderation
+  - action: utter_vegan_high_fat_carb_foods_in_moderation
+  - intent: choosing_carb_fat_sources_in_vegan_diet
+  - action: utter_choosing_carb_fat_sources_in_vegan_diet
+  - intent: rule_for_consuming_high_fat_carb_foods_in_vegan_diet
+  - action: utter_rule_for_consuming_high_fat_carb_foods_in_vegan_diet
+  - intent: natural_sources_of_carbohydrates_in_vegan_diet
+  - action: utter_natural_sources_of_carbohydrates_in_vegan_diet
+  - intent: natural_sources_of_fat_in_vegan_diet
+  - action: utter_natural_sources_of_fat_in_vegan_diet
+  - intent: foods_containing_both_fat_and_carbohydrates_in_vegan_diet
+  - action: utter_foods_containing_both_fat_and_carbohydrates_in_vegan_diet
+  - intent: reason_for_body_preference_for_fatty_and_carbohydrate_rich_foods
+  - action: utter_reason_for_body_preference_for_fatty_and_carbohydrate_rich_foods

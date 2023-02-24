@@ -355,6 +355,23 @@ intents:
   - vegan_diet_disadvantages
   - reasons_for_diet_failure
 
+# VSS cap 6-1
+  - natural_sources_of_carbohydrates
+  - natural_sources_of_proteins
+  - natural_sources_of_fats
+  - weight_loss_diet_recommendation
+  - sources_of_carbs_and_fats
+  - high_fat_carb_foods_to_avoid
+  - vegan_sources_of_carbs
+  - vegan_sources_of_fats
+  - vegan_high_fat_carb_foods_in_moderation
+  - choosing_carb_fat_sources_in_vegan_diet
+  - rule_for_consuming_high_fat_carb_foods_in_vegan_diet
+  - natural_sources_of_carbohydrates_in_vegan_diet
+  - natural_sources_of_fat_in_vegan_diet
+  - foods_containing_both_fat_and_carbohydrates_in_vegan_diet
+  - reason_for_body_preference_for_fatty_and_carbohydrate_rich_foods
+
 responses: 
   utter_greeting:
   - text: Ciao! come posso aiutarti oggi?
@@ -1465,6 +1482,52 @@ responses:
 
   utter_reasons_for_diet_failure:
   - text: Le diete falliscono spesso a causa della perdita di motivazione, della noia nell'alimentazione, della difficoltà di reperibilità dei cibi proteici e della spesa elevata per questi ultimi. La "rigidità" dovuta all'alto apporto di proteine richiesto può diventare limitante e scoraggiante, rendendo difficile seguire le linee guida alimentari per un lungo periodo di tempo.
+# VSS cap 6-1
+
+  utter_natural_sources_of_carbohydrates
+  - text: Frutta e cereali sono alimenti in natura che sono ricchi di carboidrati.
+  
+  utter_natural_sources_of_proteins
+  - text:  Alcuni tipi di carne e pesce e l'albume d'uovo sono alimenti in natura che sono ricchi di proteine.
+  
+  utter_natural_sources_of_fats
+  - text: Olio, frutta secca oleosa e alcuni frutti sono alimenti in natura che sono ricchi di grassi.
+  
+  utter_weight_loss_diet_recommendation
+  - text: Per dimagrire, dobbiamo evitare di mischiare carboidrati e grassi in qualsiasi pasto o spuntino. Dovremo scegliere verdure scondite e un secondo magro se vogliamo inserire carboidrati, e evitare carboidrati se vogliamo inserire grassi.
+  
+  utter_sources_of_carbs_and_fats
+  - text: Fonti di carboidrati includono cereali, pseudocereali, frutta zuccherina, legumi e patate. Fonti di grassi includono olio, frutta grassa, frutta secca oleosa, e semi oleosi.
+  
+  utter_high_fat_carb_foods_to_avoid
+  - text: Merendine, dolci, patatine fritte, fast food vegani e cioccolate sono cibi con alto contenuto di grassi e carboidrati che dovremmo evitare per mantenere un'alimentazione salutare. Questi cibi dovrebbero essere consumati solo occasionalmente, seguendo la regola 80-20.
+  
+  utter_vegan_sources_of_carbs
+  - text: Le fonti di carboidrati nell'alimentazione vegana sono cereali come pasta, pane, riso, farro, orzo, avena, miglio, segale, cous cous, bulgur, sorgo, pseudocereali come quinoa, grano saraceno e amaranto, frutta zuccherina come mele, pesche, pere, ciliegie, albicocche, frutti di bosco, frutta tropicale, legumi come lenticchie, ceci, fagioli, piselli, cicerchie, fave e patate di tutti i tipi.
+  
+  utter_vegan_sources_of_fats
+  - text: Le fonti di grassi nell'alimentazione vegana sono olio di tutti i tipi come oliva, cocco, soia, mais, semi vari, frutta grassa come cocco e avocado, frutta secca oleosa come noci di tutti i tipi, nocciole, mandorle, anacardi, arachidi, pistacchi, pinoli e derivati come creme o burri di arachidi, di nocciole, di mandorle, e semi oleosi come chia, lino, zucca, girasole e sesamo.
+  
+  utter_vegan_high_fat_carb_foods_in_moderation
+  - text: I cibi con alti grassi e carboidrati da consumare con moderazione nell'alimentazione vegana sono la maggior parte dei classici junk food come merendine, dolci, patatine fritte, fast food vegani, e cioccolate.
+  
+  utter_choosing_carb_fat_sources_in_vegan_diet
+  - text: Nell'alimentazione vegana bisognerebbe scegliere le fonti di carboidrati da cereali, pseudocereali, frutta zuccherina, legumi e patate, mentre le fonti di grassi da olio, frutta grassa, frutta secca oleosa e derivati e semi oleosi.
+  
+  utter_rule_for_consuming_high_fat_carb_foods_in_vegan_diet
+  - text: Bisognerebbe seguire la regola 80-20 per il consumo di cibi con alti grassi e carboidrati nell'alimentazione vegana, ovvero consumarli solo occasionalmente e con moderazione.
+  
+  utter_natural_sources_of_carbohydrates_in_vegan_diet
+  - text: Le fonti naturali di carboidrati nella dieta vegana includono cereali come pasta, pane, riso, farro, orzo, avena, miglio, segale, cous cous, bulgur, sorgo, pseudocereali come quinoa, grano saraceno e amaranto, frutta zuccherina come mele, pesche, pere, ciliegie, albicocche e frutti di bosco, frutta tropicale come banane, mango e papaia, legumi come lenticchie, ceci, fagioli, piselli, cicerchie e fave, e patate di tutti i tipi.
+  
+  utter_natural_sources_of_fat_in_vegan_diet
+  - text: Le fonti naturali di grassi nella dieta vegana includono olii di tutti i tipi come quello di oliva, cocco, soia e mais, frutta grassa come cocco e avocado, frutta secca oleosa come noci, nocciole, mandorle, anacardi, arachidi e pistacchi, e semi oleosi come chia, lino, zucca e girasole.
+  
+  utter_foods_containing_both_fat_and_carbohydrates_in_vegan_diet
+  - text: I cibi che contengono sia grassi che carboidrati sono la maggior parte dei classici junk food, come merendine, dolci, patatine fritte, fast food vegano e cioccolate. Questi cibi dovrebbero essere consumati secondo la regola 80-20 nella dieta vegana.
+  
+  utter_reason_for_body_preference_for_fatty_and_carbohydrate_rich_foods
+  - text: Il motivo per cui il nostro organismo ha un'ancestrale predilezione per i cibi ricchi di grassi e carboidrati è che fino a qualche centinaio di anni fa, la preoccupazione principale dei nostri meccanismi di difesa era farci mangiare abbastanza e non prevenire l'obesità. Quando il cervello trova questi nutrienti contemporaneamente nello stesso cibo, non capisce più nulla e ci mette in condizione di mangiare di più, molto più di quello che sarebbe necessario o comunque più di quello che i nostri meccanismi di autoregolazione suggerirebbero.
 
   utter_bot_challenge:
   - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
