@@ -1,0 +1,327 @@
+version: "3.1"
+
+nlu:
+- intent: fiber_functions
+  examples: |
+    - Quali sono i benefici delle fibre per l'organismo?
+    - Qual è il ruolo delle fibre nella digestione?
+    - Come influiscono le fibre sulla salute?
+    - Quali sono le funzioni delle fibre nell'organismo?
+    - Cosa succede se non assumo abbastanza fibre nella mia dieta?
+
+- intent: fiber_sources
+  examples: |
+    - Quali sono le fonti di fibre nell'alimentazione vegana?
+    - Come posso assumere abbastanza fibre nella mia dieta vegana?
+    - Quali sono gli alimenti vegani più ricchi di fibre?
+    - Quali sono le fonti di fibre a basso contenuto di carboidrati nella dieta vegana?
+    - Come posso bilanciare l'assunzione di fibre nella dieta vegana?
+
+- intent: fiber_risks
+  examples: |
+    - Quali sono i rischi dell'eccesso di fibre nell'alimentazione?
+    - Cosa succede se assumo troppe fibre nella mia dieta?
+    - Quali sono le conseguenze di una dieta troppo ricca di fibre?
+    - Quali sono i rischi per la salute associati a un'eccessiva assunzione di fibre?
+    - Come posso evitare i rischi dell'eccesso di fibre nella mia dieta vegana?
+
+- intent: fiber_digestive_issues
+  examples: |
+    - Qual è il consiglio per chi accusa disturbi digestivi dovuti all'eccesso di fibre?
+    - Come posso alleviare i disturbi digestivi causati dall'eccesso di fibre?
+    - Quali sono i rimedi naturali per i disturbi digestivi causati dall'eccesso di fibre?
+    - Cosa posso fare se ho la sensazione di avere troppi gas a causa dell'eccesso di fibre?
+    - Come posso migliorare la mia digestione se ho problemi dovuti all'eccesso di fibre?
+
+- intent: fiber_water_importance
+  examples: |
+    - Qual è l'importanza dell'acqua nell'assunzione di fibre?
+    - Devo bere più acqua se assumo molte fibre nella mia dieta?
+    - Come influisce l'acqua sull'assorbimento delle fibre?
+    - Cosa succede se non bevo abbastanza acqua mentre assumo molte fibre?
+    - Qual è il rapporto ideale tra l'assunzione di fibre e l'assunzione di acqua nella dieta vegana?
+
+- intent: drinking_liquids_with_meals
+  examples: |
+    - È vero che non si dovrebbero assumere liquidi durante i pasti?
+    - Quali sono i motivi per cui non si dovrebbe bere durante i pasti?
+    - Cosa succede se bevo liquidi durante i pasti?
+    - Quali sono i benefici di bere liquidi prima o dopo i pasti?
+    - Come posso bilanciare l'assunzione di liquidi durante i pasti?
+
+- intent: sources_of_fiber
+  examples: |
+    - Quali sono le fonti di fibre?
+    - Dove posso trovare le migliori fonti di fibre nella mia dieta?
+    - Quali alimenti sono ricchi di fibre?
+    - Come posso aumentare il consumo di fibre nella mia dieta?
+    - Quali sono le opzioni vegane per l'assunzione di fibre?
+
+- intent: risks_of_excessive_fiber
+  examples: |
+    - Quali sono i rischi dell'assunzione eccessiva di fibre?
+    - Cosa succede se si assume troppa fibra nella dieta?
+    - Quali sono gli effetti collaterali di un eccesso di fibre?
+    - Come posso evitare di assumere troppe fibre nella mia dieta?
+    - Quali sono le quantità raccomandate di fibre al giorno?
+
+- intent: consequences_of_insufficient_hydration_with_fiber
+  examples: |
+    - Cosa succede se si consuma troppa fibra senza adeguata idratazione?
+    - Quali sono le conseguenze di una dieta ricca di fibre senza bere abbastanza acqua?
+    - Come posso evitare problemi di salute legati alla carenza di idratazione con l'assunzione di fibre?
+    - Quali sono i sintomi di disidratazione legati all'eccesso di fibre?
+    - Qual è l'apporto idrico consigliato per una dieta ricca di fibre? 
+
+- intent: low_residue_water_intake
+  examples: |
+    - È necessario bere acqua a basso residuo fisso?
+    - Cosa significa "basso residuo fisso" per l'acqua che beviamo?
+    - Come posso sapere se devo bere acqua a basso residuo fisso?
+    - Quali sono i benefici dell'acqua a basso residuo fisso?
+    - Cosa succede se bevo acqua a alto residuo fisso?
+
+- intent: drinking_during_meals
+  examples: |
+    - È vero che non si dovrebbe bere durante i pasti per non causare problemi digestivi?
+    - Cosa succede se bevo durante i pasti?
+    - Quali sono gli effetti del bere durante i pasti sulla digestione?
+    - Quando è meglio bere durante i pasti?
+    - C'è un momento ideale per bere durante i pasti?
+
+- intent: fiber_weight_loss
+  examples: |
+    - Come le fibre ci aiutano a dimagrire?
+    - Quali sono i benefici delle fibre per la perdita di peso?
+    - Come le fibre influenzano la digestione e il senso di sazietà?
+    - Quali sono le fonti di fibre nella dieta vegana per la perdita di peso?
+    - Come posso aumentare il mio apporto di fibre nella dieta vegana?
+
+- intent: fiber_microbiota
+  examples: |
+    - In che modo le fibre influiscono sul microbiota intestinale?
+    - Quali sono i benefici delle fibre per il microbiota intestinale?
+    - Come le fibre influenzano la flora batterica intestinale?
+    - Quali sono le fonti di fibre nella dieta vegana per il microbiota intestinale?
+    - Cosa succede se non si assume abbastanza fibre nella dieta vegana?
+
+- intent: whole_foods_freshness
+  examples: |
+    - Perché i medici consigliano sempre di prediligere alimenti integrali e cibi freschi?
+    - Quali sono i benefici di una dieta a base di alimenti integrali e cibi freschi?
+    - Cosa succede se non si segue una dieta a base di alimenti integrali e cibi freschi?
+    - Come posso includere più alimenti integrali e cibi freschi nella mia dieta vegana?
+    - Quali sono le fonti migliori di alimenti integrali e cibi freschi nella dieta vegana? 
+
+- intent: benefits_of_fiber
+  examples: |
+    - È sempre meglio mangiare più fibre per mantenere una buona salute?
+    - Quali sono i benefici delle fibre per la salute?
+    - Come le fibre possono migliorare la salute dell'intestino?
+    - Perché le fibre sono importanti nella dieta?
+    - Come posso aumentare l'assunzione di fibre nella mia dieta?
+
+- intent: satiety_of_fiber
+  examples: |
+    - Perché le fibre aiutano a mantenere la sazietà?
+    - Qual è il legame tra le fibre e il senso di sazietà?
+    - In che modo le fibre possono aiutare a controllare l'appetito?
+    - Come le fibre influenzano la fame e il desiderio di cibo?
+    - Quali sono i migliori alimenti ricchi di fibre per mantenere la sazietà?
+
+- intent: fiber_and_digestion
+  examples: |
+    - Come le fibre influiscono sul transito intestinale?
+    - Qual è il ruolo delle fibre nell'aiutare la digestione?
+    - Perché le fibre sono importanti per la salute dell'intestino?
+    - Come le fibre possono aiutare a prevenire la stitichezza?
+    - Quali sono gli effetti delle fibre sulla regolarità intestinale?
+
+- intent: fiber_and_gut_bacteria
+  examples: |
+    - In che modo le fibre nutrono i batteri intestinali?
+    - Qual è il ruolo delle fibre nella salute dei batteri intestinali?
+    - Come le fibre possono migliorare la salute dell'intestino?
+    - Quali sono i migliori alimenti ricchi di fibre per nutrire i batteri intestinali?
+    - Perché una dieta ricca di fibre è importante per la salute dei batteri intestinali?
+
+- intent: whole_foods_vs_junk_food
+  examples: |
+    - Perché i medici consigliano di evitare il junk food e di prediligere alimenti freschi e integrali?
+    - Quali sono i rischi per la salute associati al consumo di junk food?
+    - Quali sono i benefici per la salute dei cibi freschi e integrali?
+    - Come posso distinguere tra cibi freschi e integrali e junk food?
+    - Quali sono gli effetti di una dieta basata su cibi freschi e integrali rispetto a una dieta basata su junk food?    
+
+- intent: negative_effects_of_fiber
+  examples: |
+    - Quali sono gli effetti negativi dell'eccesso di fibra nell'organismo?
+    - Che cosa succede se si assume troppa fibra nella dieta?
+    - Quali sono le conseguenze di un eccesso di fibre nell'organismo?
+    - Quali sono gli effetti negativi dell'eccesso di fibre sulla salute?
+    - Cosa succede se si assume più fibra di quella necessaria?
+
+- intent: limits_of_fiber_intake
+  examples: |
+    - Quali sono i limiti nell'assunzione di fibre?
+    - Quanto fibre si dovrebbe assumere ogni giorno?
+    - C'è un limite alla quantità di fibre che si può assumere?
+    - Qual è la dose giornaliera raccomandata di fibre?
+    - Cosa succede se si assume troppa poca o troppa fibra nella dieta?
+
+- intent: importance_of_water_with_fiber
+  examples: |
+    - Perché è importante bere acqua quando si consumano molte fibre?
+    - Qual è il rapporto tra l'assunzione di fibra e l'assunzione di acqua?
+    - Cosa succede se non si beve abbastanza acqua con una dieta ricca di fibre?
+    - Come posso assicurarmi di bere abbastanza acqua con una dieta ricca di fibre?
+    - Qual è l'importanza dell'acqua con una dieta ad alto contenuto di fibre?
+
+- intent: low_residue_water_for_kidney_stones
+  examples: |
+    - Serve l'acqua a basso residuo fisso per evitare i calcoli renali?
+    - Quali sono i benefici dell'acqua a basso residuo fisso?
+    - Come può l'acqua a basso residuo fisso aiutare a prevenire i calcoli renali?
+    - Quanto è importante bere acqua a basso residuo fisso nella prevenzione dei calcoli renali?
+    - Quali sono le linee guida per l'assunzione di acqua a basso residuo fisso?
+
+- intent: excess_fiber_results
+  examples: |
+    - Quali sono i risultati di un eccesso di fibre nell'organismo?
+    - Che cosa succede se si assume troppa fibra?
+    - Quali sono le conseguenze di un consumo eccessivo di fibre?
+    - Cosa succede al corpo quando si assume troppa fibra?
+    - Quali sono gli effetti a lungo termine di un consumo eccessivo di fibre? 
+
+- intent: fiber_tolerance
+  examples: |
+    - Qual è la quantità di fibre che l'organismo è in grado di tollerare?
+    - C'è un limite alla quantità di fibre che si dovrebbe consumare?
+    - Posso mangiare troppe fibre nella mia dieta?
+    - Come sapere se sto assumendo troppe fibre nella mia dieta?
+    - Quali sono i sintomi di un eccesso di fibre nella dieta?
+
+- intent: reducing_fiber_intake
+  examples: |
+    - Qual è il modo migliore per limitare l'assunzione di fibre se si accusano disturbi digestivi?
+    - Come posso ridurre l'apporto di fibre nella mia dieta?
+    - Ci sono alimenti a basso contenuto di fibre che posso mangiare?
+    - Quali sono i sintomi di un eccesso di fibre nella mia dieta?
+    - Cosa posso fare se mi sento gonfio e ho problemi digestivi dopo aver mangiato cibi ricchi di fibre?
+
+- intent: importance_of_water
+  examples: |
+    - Perché è importante aumentare il consumo di acqua?
+    - Quali sono i benefici di bere abbastanza acqua?
+    - Quanto dovrebbe essere il mio consumo di acqua quotidiano?
+    - Quali sono i sintomi della disidratazione?
+    - Come posso assicurarmi di bere abbastanza acqua durante il giorno?
+
+- intent: tap_water_vs_mineral_water
+  examples: |
+    - Posso bere l'acqua del rubinetto anziché acqua a basso residuo fisso per evitare i calcoli?
+    - L'acqua del rubinetto è sicura da bere?
+    - C'è una differenza tra l'acqua del rubinetto e l'acqua minerale?
+    - Quali sono i vantaggi e gli svantaggi di bere acqua del rubinetto rispetto all'acqua minerale?
+    - L'acqua del rubinetto può causare problemi di salute?
+
+- intent: problems_of_dehydration
+  examples: |
+    - Quali sono i problemi causati dalla disidratazione?
+    - Quali sono i sintomi della disidratazione?
+    - Come posso prevenire la disidratazione?
+    - Cosa posso fare se mi sento disidratato?
+    - Quali sono i rischi per la salute associati alla disidratazione?
+
+- intent: fiber_intake
+  examples: |
+    - Come posso calcolare la quantità di fibre di cui ho bisogno?
+    - Qual è la quantità di fibre giornaliera raccomandata?
+    - Quali sono le fonti di fibre nella dieta vegana?
+    - Come posso aumentare la mia assunzione di fibre?
+    - Qual è un esempio di pasto ad alto contenuto di fibre?
+
+- intent: fiber_symptoms
+  examples: |
+    - Quali sono i sintomi dell'assunzione di troppe fibre?
+    - Cosa succede se assumo troppe fibre nella dieta vegana?
+    - Quali sono gli effetti collaterali dell'assunzione eccessiva di fibre?
+    - Come posso prevenire gli effetti negativi dell'eccesso di fibre?
+
+- intent: low_fiber
+  examples: |
+    - Come posso sapere se sto assumendo poche fibre nella dieta vegana?
+    - Quali sono i segnali di una bassa assunzione di fibre?
+    - Cosa succede se non assumo abbastanza fibre nella mia dieta vegana?
+    - Come posso aumentare la mia assunzione di fibre se sto assumendo troppo poco?
+
+- intent: hydration_level
+  examples: |
+    - Qual è il livello di idratazione giornaliero raccomandato?
+    - Come posso sapere se sto bevendo abbastanza acqua?
+    - Quanta acqua devo bere al giorno nella dieta vegana?
+    - Quali sono le conseguenze di una bassa idratazione nella dieta vegana?
+    - Quali sono i vantaggi di bere abbastanza acqua nella dieta vegana?
+
+- intent: dehydration_disadvantages
+  examples: |
+    - Quali sono gli svantaggi della disidratazione nella dieta vegana?
+    - Cosa succede se non bevo abbastanza acqua nella mia dieta vegana?
+    - Quali sono i rischi per la salute dell'essere disidratati nella dieta vegana?
+    - Come posso prevenire la disidratazione nella dieta vegana?
+
+- intent: diet_gut_health
+  examples: |
+    - Quali sono le conseguenze di un equilibrio tra alimentazione e intestino non corretto?
+    - Come capire se la mia dieta sta influenzando negativamente la salute del mio intestino?
+    - Che tipo di alimenti sono migliori per il benessere dell'intestino?
+    - Come posso migliorare la salute del mio intestino con la dieta?
+    - Quali sono i benefici di una dieta che supporta la salute dell'intestino?
+
+- intent: excessive_fiber_intake
+  examples: |
+    - Cosa succede se stiamo assumendo troppe fibre?
+    - Quali sono i sintomi di un eccesso di fibre nella dieta?
+    - Come possiamo ridurre l'assunzione di fibre se ne stiamo assumendo troppo?
+    - Quali sono i rischi per la salute associati a un eccesso di fibre nella dieta?
+    - Come capire se stiamo assumendo troppo poche o troppe fibre nella dieta?
+
+- intent: irregular_bowel_movement
+  examples: |
+    - Cosa succede se non riusciamo ad andare di corpo tutti i giorni?
+    - Quali sono i sintomi di una stitichezza?
+    - Come possiamo prevenire la stitichezza nella dieta?
+    - Quali sono le conseguenze per la salute di una stitichezza prolungata?
+    - Quando dobbiamo consultare un medico per problemi di evacuazione?
+
+- intent: hydration_check
+  examples: |
+    - Come capire se stiamo bevendo a sufficienza?
+    - Quanto dobbiamo bere al giorno per rimanere idratati?
+    - Quali sono i segni di disidratazione?
+    - Quali sono i migliori modi per idratarsi oltre all'acqua?
+    - Come possiamo aumentare l'assunzione di liquidi se ne stiamo bevendo troppo poco?
+
+- intent: two_main_health_concerns
+  examples: |
+    - Quali sono le due cose principali da cui dobbiamo prendere cura per mantenere una buona salute?
+    - Cosa è più importante per la salute: l'alimentazione o l'esercizio fisico?
+    - Quali sono i fattori chiave per mantenere una buona salute?
+    - Come possiamo mantenere una buona salute in modo efficace?
+    - Quali sono le due cose principali che dobbiamo evitare per mantenere una buona salute?
+
+- intent: daily_fiber_intake_guidelines
+  examples: |
+    - Quante fibre dovrei assumere al giorno?
+    - Quali sono le linee guida per la quantità di fibre che dovrei consumare giornalmente?
+    - Quali sono le fonti principali di fibre nella dieta?
+    - Come posso aumentare il mio apporto di fibre?
+    - Quali sono i benefici di una dieta ricca di fibre?
+
+- intent: vegans_difficulty_ketosis
+  examples: |
+    - Quali sono le sfide per i vegani nel mantenere la chetosi?
+    - Perché può essere difficile per i vegani raggiungere la chetosi?
+    - Ci sono problemi di salute associati alla chetosi nella dieta vegana?
+    - Quali sono le alternative per i vegani che vogliono seguire una dieta chetogenica?
+    - Come posso adattare la dieta chetogenica alla dieta vegana? 
