@@ -1,0 +1,304 @@
+version: "3.1"
+
+nlu:
+- intent: natural_vs_synthetic_nutrients
+  examples: |
+    - Che cosa significa che un nutriente è "naturale"?
+    - Qual è la differenza tra un nutriente "di sintesi" e uno "naturale"?
+    - Cosa significa che un nutriente è stato sintetizzato in laboratorio?
+    - Perché ci sono preoccupazioni riguardo all'assunzione di nutrienti di sintesi?
+
+- intent: food_vs_supplements
+  examples: |
+    - Perché è meglio assumere i nutrienti dal cibo piuttosto che dagli integratori?
+    - Quali sono i vantaggi dell'assunzione di nutrienti dal cibo?
+    - Ci sono situazioni in cui gli integratori sono necessari?
+    - Quali sono i rischi dell'assunzione eccessiva di integratori?
+
+- intent: role_of_nutrition
+  examples: |
+    - Cosa dovrebbe fornire l'alimentazione?
+    - Quali sono le funzioni principali dei nutrienti?
+    - In che modo l'alimentazione influenza la salute?
+
+- intent: reasons_for_nutrient_deficiencies
+  examples: |
+    - Perché l'alimentazione potrebbe non fornire tutti i nutrienti di cui abbiamo bisogno?
+    - Quali sono i motivi per cui alcune persone possono avere carenze di nutrienti?
+    - Cosa succede se non assumo abbastanza nutrienti?
+
+- intent: nutrient_supplementation
+  examples: |
+    - Quando è consigliabile integrare i nutrienti nella dieta?
+    - Quali sono i casi in cui è necessario integrare i nutrienti con degli integratori?
+    - Quali sono gli integratori più comuni e come funzionano?
+    - Quali sono i rischi dell'assunzione di integratori? 
+    - Come posso scegliere gli integratori giusti per le mie esigenze? 
+
+- intent: extra_nutrient_supplementation
+  examples: |
+    - Come posso integrare i nutrienti se ho un fabbisogno aumentato?
+    - Quali sono i nutrienti che potrei dover integrare in caso di fabbisogno aumentato?
+    - In che modo il fabbisogno aumentato influisce sulla necessità di integrare i nutrienti?
+    - Quali sono le opzioni per integrare i nutrienti nella mia dieta?
+
+- intent: importance_of_B12
+  examples: |
+    - Perché è importante integrare la vitamina B12?
+    - Quali sono i benefici della vitamina B12 per la salute?
+    - Cosa succede se non si assume abbastanza vitamina B12 nella dieta?
+    - Quali sono le conseguenze di una carenza di vitamina B12?
+
+- intent: sources_of_B12
+  examples: |
+    - Quali sono le fonti di vitamina B12?
+    - Cosa posso mangiare per assumere abbastanza vitamina B12?
+    - Quali alimenti sono ricchi di vitamina B12?
+    - Posso trovare la vitamina B12 in alimenti vegetali?
+    - Quali sono le opzioni per integrare la vitamina B12 nella dieta vegana?
+
+- intent: B12_for_vegans
+  examples: |
+    - La vitamina B12 è importante solo per i vegani?
+    - I vegetariani hanno bisogno di integrare la vitamina B12?
+    - Cosa succede se non si assume abbastanza vitamina B12 nella dieta vegana?
+    - Quali sono le fonti di vitamina B12 nella dieta vegana?
+    - Come posso integrare la vitamina B12 nella mia dieta vegana?
+
+- intent: B12_production_in_gut
+  examples: |
+    - È possibile che la vitamina B12 sia prodotta dai batteri nell'intestino?
+    - Il corpo umano può produrre la vitamina B12 da solo?
+    - Quali sono le fonti di vitamina B12, oltre agli alimenti?
+    - Come viene prodotta la vitamina B12?
+    - La vitamina B12 può essere sintetizzata all'interno del corpo umano? 
+
+- intent: b12_integration_recommendation
+  examples: |
+    - Qual è il modo migliore per integrare la vitamina B12?
+    - Quale è la modalità consigliata per assumere la vitamina B12?
+    - Come posso integrare la vitamina B12 nella mia dieta?
+    - Quali sono le fonti di vitamina B12 per la dieta vegana?
+    - Quali sono i supplementi di vitamina B12 disponibili?
+
+- intent: b12_deficiency_risks
+  examples: |
+    - Quali sono i rischi di una carenza di vitamina B12?
+    - Cosa succede se non si assume abbastanza vitamina B12?
+    - Quali sono i sintomi della carenza di vitamina B12?
+    - Chi è a rischio di carenza di vitamina B12?
+    - Come posso prevenire una carenza di vitamina B12?
+
+- intent: b12_historical_exposure
+  examples: |
+    - In passato, come l'uomo è stato esposto alla vitamina B12?
+    - Quali erano le fonti di vitamina B12 per l'uomo primitivo?
+    - Come l'uomo si è adattato all'assunzione di vitamina B12 nel corso della storia?
+    - Che ruolo aveva la vitamina B12 nella dieta umana nel passato?
+    - Quali erano i metodi utilizzati per ottenere vitamina B12 nel passato?
+
+- intent: b12_presence_reduction
+  examples: |
+    - Perché la vitamina B12 è meno presente oggi nella dieta umana?
+    - Quali sono i fattori che hanno ridotto l'apporto di vitamina B12 nella dieta umana?
+    - Quali sono i cambiamenti nella dieta umana che hanno influenzato l'assunzione di vitamina B12?
+    - Come posso assicurarmi di assumere abbastanza vitamina B12 oggi?
+    - Quali sono le fonti di vitamina B12 disponibili nella dieta moderna?
+
+- intent: b12_production_by_gut_flora
+  examples: |
+    - La flora intestinale produce vitamina B12?
+    - È possibile assumere vitamina B12 attraverso la flora intestinale?
+    - Come funziona la produzione di vitamina B12 da parte della flora intestinale?
+    - Qual è il ruolo della flora intestinale nell'assunzione di vitamina B12?
+    - Come posso migliorare la produzione di vitamina B12 da parte della flora intestinale? 
+
+- intent: vitamin_b12_deficiency
+  examples: |
+    - Quali sono i sintomi di una carenza di vitamina B12?
+    - Che conseguenze ha una carenza di vitamina B12 sulla salute?
+    - Cosa succede se non si assume abbastanza vitamina B12 nella dieta?
+    - Quali sono i problemi di salute associati alla carenza di vitamina B12?
+    - Come prevenire una carenza di vitamina B12 nella dieta vegana?
+
+- intent: vitamin_b12_importance
+  examples: |
+    - Che cos'è la vitamina B12 e perché è importante?
+    - Quali sono i benefici della vitamina B12 per la salute?
+    - Come agisce la vitamina B12 nel corpo?
+    - Perché la vitamina B12 è essenziale per il sistema nervoso?
+    - Come posso assicurarmi di assumere abbastanza vitamina B12 nella dieta vegana?
+
+- intent: sources_of_vitamin_b12
+  examples: |
+    - Da dove viene la vitamina B12 in genere?
+    - Quali sono le fonti alimentari di vitamina B12?
+    - Cosa posso mangiare per assumere abbastanza vitamina B12 nella dieta vegana?
+    - Come si può integrare la vitamina B12 nella dieta vegana?
+    - Quali sono i cibi arricchiti con vitamina B12 che si possono trovare in commercio?
+
+- intent: vitamin_b12_deficiency_veganism
+  examples: |
+    - La carenza di vitamina B12 riguarda solo i vegani?
+    - Perché i vegani sono più a rischio di carenza di vitamina B12?
+    - Quali sono le difficoltà nell'assumere vitamina B12 nella dieta vegana?
+    - Come posso prevenire la carenza di vitamina B12 nella dieta vegana?
+    - È possibile assumere abbastanza vitamina B12 solo attraverso l'alimentazione vegana?
+
+- intent: vitamin_b12_intestinal_bacteria
+  examples: |
+    - È vero che i batteri nell'intestino producono vitamina B12 e quindi non c'è bisogno di integrarla?
+    - È possibile ottenere abbastanza vitamina B12 attraverso la flora intestinale?
+    - Come funziona la produzione di vitamina B12 da parte dei batteri intestinali?
+    - La produzione di vitamina B12 da parte dei batteri intestinali è sufficiente per soddisfare il fabbisogno dell'organismo?
+    - Quali sono le fonti più affidabili di vitamina B12 nella dieta vegana? 
+- intent: types_of_B12_supplements
+  examples: |
+    - Quali sono i diversi tipi di integratori di vitamina B12?
+    - Esistono diverse modalità di integrazione di vitamina B12? Quali sono?
+    - Qual è la forma migliore di integrazione di vitamina B12?
+    - Quali sono le differenze tra i vari tipi di integratori di vitamina B12?
+    - Come scelgo l'integratore di vitamina B12 più adatto a me?
+
+- intent: EFSA_study_on_B12_deficiency
+  examples: |
+    - Cosa è stato scoperto dallo studio dell'EFSA sulla carenza di vitamina B12 nei neonati?
+    - Quali sono i risultati dello studio dell'EFSA sulla carenza di vitamina B12 nei bambini?
+    - Come affrontare la carenza di vitamina B12 nei neonati secondo lo studio dell'EFSA?
+    - Quali sono le conseguenze della carenza di vitamina B12 nei neonati?
+
+- intent: consequences_of_D_deficiency
+  examples: |
+    - Quali sono le conseguenze di una carenza di vitamina D?
+    - Cosa succede se non si assume abbastanza vitamina D?
+    - Quali sono i sintomi di una carenza di vitamina D?
+    - Come si può prevenire una carenza di vitamina D?
+    - Qual è l'importanza della vitamina D per la salute?
+
+- intent: main_source_of_vitamin_d
+  examples: |
+    - Qual è la principale fonte di vitamina D?
+    - Dove possiamo trovare la maggior parte della vitamina D?
+    - Posso ottenere abbastanza vitamina D solo tramite l'esposizione al sole?
+    - Qual è la fonte principale di vitamina D per i vegani?
+    - Perché la principale fonte di vitamina D è la luce solare?
+
+- intent: sources_of_vitamin_d
+  examples: |
+    - Si possono trovare fonti affidabili di vitamina D nell'alimentazione?
+    - Quali alimenti contengono vitamina D?
+    - Cosa mangiare per aumentare l'apporto di vitamina D?
+    - Quali sono le fonti vegetali di vitamina D?
+    - È possibile ottenere la quantità raccomandata di vitamina D solo dalla dieta?
+    
+- intent: vitamin_D_production_time
+  examples: |
+    - Qual è la fascia oraria in cui la produzione di vitamina D è attiva?
+    - A che ora del giorno è meglio esporsi al sole per sintetizzare la vitamina D?
+    - In quale momento della giornata si dovrebbe esporsi al sole per ottenere abbastanza vitamina D?
+    - Quando è il momento migliore della giornata per ottenere vitamina D dall'esposizione al sole?
+    - Come posso massimizzare la produzione di vitamina D durante l'esposizione al sole?
+
+- intent: daily_vitamin_D_intake
+  examples: |
+    - Quanti UI di vitamina D si dovrebbero assumere al giorno?
+    - Qual è il fabbisogno giornaliero di vitamina D?
+    - Quanta vitamina D è necessaria per mantenere una buona salute?
+    - Qual è la dose giornaliera raccomandata di vitamina D?
+    - Come posso capire se sto assumendo abbastanza vitamina D?
+
+- intent: vitamin_D_synergy
+  examples: |
+    - La vitamina D ha bisogno di un'altra vitamina per funzionare correttamente?
+    - Quali sono le vitamine e i minerali che aiutano l'assorbimento della vitamina D?
+    - C'è un'altra vitamina o minerale che lavora in sinergia con la vitamina D?
+    - Quali sono i nutrienti che possono migliorare l'efficacia della vitamina D?
+    - Come posso massimizzare l'assorbimento della vitamina D?
+
+- intent: most_effective_vitamin_D_form
+  examples: |
+    - Qual è la forma di vitamina D più efficace per la salute umana?
+    - Quali sono le diverse forme di vitamina D e quale è la migliore per l'assorbimento?
+    - Quale forma di vitamina D viene meglio assorbita dal nostro corpo?
+    - C'è una forma di vitamina D che è più facile da assorbire per il nostro corpo?
+    - Quali sono i vantaggi della forma di vitamina D più efficace per la salute umana?
+
+- intent: risks_of_vitamin_D_deficiency
+  examples: |
+    - La carenza di vitamina D può essere pericolosa per la salute?
+    - Quali sono i rischi per la salute associati alla carenza di vitamina D?
+    - Cosa succede se si è carenti di vitamina D?
+    - Quali sono i sintomi di una carenza di vitamina D?
+    - Come posso prevenire la carenza di vitamina D e i suoi effetti sulla salute? 
+
+- intent: vitamin_d_deficiency
+  examples: |
+    - Qual è la percentuale di popolazione mondiale che soffre di carenza di vitamina D?
+    - Come si fa a sapere se si ha una carenza di vitamina D?
+    - Quali sono i sintomi di una carenza di vitamina D?
+    - Cosa succede se si ha una carenza di vitamina D?
+    - Come si può prevenire una carenza di vitamina D?
+
+- intent: vitamin_d_cheese
+  examples: |
+    - La vitamina D presente nei formaggi è una fonte affidabile?
+    - Quali sono i formaggi più ricchi di vitamina D?
+    - La vitamina D nei formaggi viene persa durante la cottura?
+    - Si può assumere abbastanza vitamina D mangiando formaggio?
+    - Il formaggio è una fonte sufficiente di vitamina D?
+
+- intent: vitamin_d_and_k2
+  examples: |
+    - Qual è la quantità di vitamina K2 necessaria per ottenere un effetto ottimale sulla vitamina D?
+    - Come interagiscono la vitamina D e la vitamina K2?
+    - Quali sono i cibi più ricchi di vitamina K2 e vitamina D?
+    - Si può assumere abbastanza vitamina K2 solo tramite l'alimentazione?
+    - Quali sono i benefici di combinare vitamina D e vitamina K2 nella dieta?
+
+- intent: vitamin_d_main_sources
+  examples: |
+    - Quali sono le principali fonti di vitamina D?
+    - Come posso assumere abbastanza vitamina D nella mia dieta?
+    - Quali sono i cibi vegani ricchi di vitamina D?
+    - Quali sono i cibi più ricchi di vitamina D per chi segue una dieta vegetariana?
+    - Quali sono le fonti di vitamina D meno conosciute?
+
+- intent: vit_d_deficiency
+  examples: |
+    - Perché la maggior parte della popolazione mondiale è carente di vitamina D?
+    - Quali sono le cause della carenza di vitamina D nella popolazione mondiale?
+    - Come posso sapere se ho una carenza di vitamina D?
+    - Quali sono i sintomi della carenza di vitamina D?
+    - Come posso prevenire la carenza di vitamina D?
+
+- intent: vit_d_functions
+  examples: |
+    - Quali sono le funzioni della vitamina D nel corpo umano?
+    - Qual è il ruolo della vitamina D nella salute delle ossa?
+    - La vitamina D ha un effetto sulla salute mentale?
+    - Quali sono gli effetti della vitamina D sulla salute del cuore?
+    - Qual è l'importanza della vitamina D per il sistema immunitario?
+
+- intent: vit_d_dosage
+  examples: |
+    - Qual è il dosaggio raccomandato di vitamina D?
+    - Come si determina il dosaggio corretto di vitamina D?
+    - Ci sono rischi associati all'assunzione di dosi elevate di vitamina D?
+    - Quali sono le fonti alimentari di vitamina D?
+    - Quanto tempo ci vuole per raggiungere i livelli desiderati di vitamina D assumendo integratori?
+
+- intent: vit_d_interaction
+  examples: |
+    - La vitamina D ha bisogno di altre vitamine per funzionare correttamente?
+    - Quali sono le vitamine e i minerali che interagiscono con la vitamina D?
+    - Qual è il ruolo della vitamina K nella regolazione del metabolismo della vitamina D?
+    - L'assunzione di calcio influisce sull'assorbimento della vitamina D?
+    - Come posso assicurarmi di assumere abbastanza vitamine e minerali per supportare l'assorbimento della vitamina D?
+
+- intent: vit_d_sources
+  examples: |
+    - È possibile assumere la vitamina D attraverso l'alimentazione o solo tramite integratori?
+    - Quali sono le fonti alimentari di vitamina D?
+    - Gli alimenti fortificati sono una buona fonte di vitamina D?
+    - Posso ottenere abbastanza vitamina D solo tramite l'esposizione al sole?
+    - Come posso integrare la vitamina D nella mia dieta vegana? 
