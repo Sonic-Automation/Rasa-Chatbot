@@ -440,7 +440,48 @@ intents:
   - excess_carbs_storage
   - long_term_insulin_resistance
   - carb_management_during_hypocaloric_phase
-
+# VSS cap 7
+  - fiber_functions
+  - fiber_sources
+  - fiber_risks
+  - fiber_digestive_issues
+  - fiber_water_importance
+  - drinking_liquids_with_meals
+  - sources_of_fiber
+  - risks_of_excessive_fiber
+  - consequences_of_insufficient_hydration_with_fiber
+  - low_residue_water_intake
+  - drinking_during_meals
+  - fiber_weight_loss
+  - fiber_microbiota
+  - whole_foods_freshness
+  - benefits_of_fiber
+  - satiety_of_fiber
+  - fiber_and_digestion
+  - fiber_and_gut_bacteria
+  - whole_foods_vs_junk_food
+  - negative_effects_of_fiber
+  - limits_of_fiber_intake
+  - importance_of_water_with_fiber
+  - low_residue_water_for_kidney_stones
+  - excess_fiber_results
+  - fiber_tolerance
+  - reducing_fiber_intake
+  - importance_of_water
+  - tap_water_vs_mineral_water
+  - problems_of_dehydration
+  - fiber_intake
+  - fiber_symptoms
+  - low_fiber
+  - hydration_level
+  - dehydration_disadvantages
+  - diet_gut_health
+  - excessive_fiber_intake
+  - irregular_bowel_movement
+  - hydration_check
+  - two_main_health_concerns
+  - daily_fiber_intake_guidelines
+  - vegans_difficulty_ketosis
 
 responses: 
   utter_greeting:
@@ -1808,7 +1849,130 @@ responses:
 
   utter_carb_management_during_hypocaloric_phase:
   - text: Durante una fase di ipocalorica, non c'è nessun surplus di nutrienti e il corpo non avrà problemi a eliminare dal sangue tutti i nutrienti che vengono introdotti con l'alimentazione. La sensibilità all'insulina aumenterà, e sarà conveniente mantenere i carboidrati ai massimi e i grassi ai minimi per mantenere il metabolismo, la performance e il benessere psicologico.
-  
+# VSS cap 7
+    utter_fiber_functions:
+  - text: Le fibre svolgono una serie di funzioni importanti nel nostro organismo. In primo luogo, ci danno un maggior senso di sazietà e ci mantengono sazi più a lungo. In secondo luogo, ci aiutano ad andare di corpo e nutrono il microbiota intestinale.
+
+  utter_fiber_sources:
+  - text: Le fonti di fibre nell'alimentazione vegana sono verdura, frutta, cereali integrali e legumi.
+
+  utter_fiber_risks:
+  - text: L'eccesso di fibre può causare malassorbimenti di micronutrienti, infiammazione delle pareti dell'intestino, diarrea e meteorismo.
+
+  utter_fiber_digestive_issues:
+  - text: Per chi accusa disturbi digestivi dovuti all'eccesso di fibre, è consigliabile ridurre il consumo di cibi integrali e aumentare quello di cibi raffinati.
+
+  utter_fiber_water_importance:
+  - text: L'acqua è molto importante nell'assunzione di fibre, poiché aiuta a mantenere il corretto transito intestinale e a evitare la stitichezza.
+
+  utter_drinking_liquids_with_meals:
+  - text: No, non è vero che non si dovrebbero assumere liquidi durante i pasti. Anzi, è importante bere acqua per mantenere il corretto funzionamento degli enzimi digestivi e prevenire la disidratazione.
+
+  utter_sources_of_fiber:
+  - text: Tutti i cibi vegetali sono fonte di fibra ma le maggiori includono verdura, frutta, frutta secca oleosa, semi, cereali integrali e legumi.
+
+  utter_risks_of_excessive_fiber:
+  - text:  L'assunzione eccessiva di fibre può causare malassorbimenti di micronutrienti, irritazione delle pareti intestinali, fermentazione eccessiva dei batteri intestinali e meteorismo.
+
+  utter_consequences_of_insufficient_hydration_with_fiber:
+  - text: Se si consuma troppa fibra senza adeguata idratazione, le fibre possono bloccarsi nel tratto intestinale, causando stitichezza e malesseri.
+
+  utter_low_residue_water_intake:
+  - text: No, è possibile bere acqua del rubinetto senza problemi.
+
+  utter_drinking_during_meals:
+  - text: No, in realtà è necessario bere acqua per far funzionare gli enzimi digestivi. Bere durante i pasti non è un problema e anzi, se il corpo ha bisogno di acqua per migliorare il processo digestivo, evitare di bere può portare a una ulteriore disidratazione.
+
+  utter_fiber_weight_loss:
+  - text: Le fibre ci aiutano a dimagrire in quanto hanno calorie bassissime o nulle e ci mantengono sazi più a lungo, rallentando la prima fase della digestione e permettendo una più lenta assimilazione dei nutrienti.
+
+  utter_fiber_microbiota:
+  - text: Le fibre nutrono i batteri intestinali, permettendo alle specie più utili di crescere e apportare beneficì, fermentando la fibra e producendo sostanze utili per l'organismo.
+
+  utter_whole_foods_freshness:
+  - text: I medici consigliano di prediligere alimenti integrali e cibi freschi poiché eliminare le fibre, come avviene con il junk food, comporta problematiche correlate.
+
+  utter_benefits_of_fiber:
+  - text: Non è detto che mangiare più fibre sia sempre meglio poiché è importante non superare la dose giornaliera raccomandata, ma prediligere alimenti freschi e integrali è comunque importante per mantenere una buona salute.
+
+  utter_satiety_of_fiber:
+  - text: Le fibre aiutano a mantenere la sazietà poiché rallentano la prima fase della digestione, permettendo una più lenta assimilazione dei nutrienti. Ciò significa che saremo sazi più a lungo, poiché il nostro stomaco sarà pieno anche se avremo consumato meno calorie.
+
+  utter_fiber_and_digestion:
+  - text: Le fibre influiscono sul transito intestinale aumentando la massa fecale e accelerandolo. Ciò significa che ci aiutano ad andare in bagno più facilmente.
+
+  utter_fiber_and_gut_bacteria:
+  - text: Le fibre nutrono i batteri intestinali permettendo loro di crescere e apportare beneficritti all'organismo. Fermentando la fibra, i batteri producono sostanze utili al nostro organismo.
+
+  utter_whole_foods_vs_junk_food:
+  - text: I medici consigliano di evitare il junk food e di prediligere alimenti freschi e integrali poiché il junk food elimina le fibre, con tutte le problematiche correlate. Alimenti freschi e integrali hanno invece buone dosi di fibre, che svolgono una serie di funzioni importanti nell'organismo umano.
+
+  utter_negative_effects_of_fiber:
+  - text: L'eccesso di fibra può provocare malassorbimenti di micronutrienti, irritare le pareti dell'intestino causando infiammazioni e diarrea, e aumentare la fermentazione batterica causando meteorismo e flatulenza.
+
+  utter_limits_of_fiber_intake:
+  - text: Se si accusano disturbi intestinali a causa dell'eccesso di fibra, è necessario ridurre il loro apporto, iniziando a mangiare cibi raffinati invece di quelli integrali.
+
+  utter_importance_of_water_with_fiber:
+  - text: Bere acqua è importante quando si consumano molte fibre per evitare la stitichezza, poiché le fibre devono essere adeguatamente idratate per evitare di "bloccarsi" nel tratto intestinale.
+
+  utter_low_residue_water_for_kidney_stones:
+  - text: No, non serve l'acqua a basso residuo fisso per evitare i calcoli renali. Si può tranquillamente bere l'acqua del rubinetto, che contiene sali minerali essenziali per la salute, in particolare per una dieta vegana.
+
+  utter_excess_fiber_results:
+  - text: Un eccesso di fibre può provocare malassorbimento di micronutrienti, irritazioni alle pareti dell'intestino, stati infiammatori, diarrea, meteorismo e flatulenza. Questo accade perché le fibre intrappolano i micronutrienti che vengono espulsi con le feci invece di essere assorbiti. Inoltre, le fibre possono essere irritanti per le pareti dell'intestino e se consumate in grandi quantità, possono causare eccessiva fermentazione batterica.
+
+  utter_fiber_tolerance:
+  - text: L'organismo è in grado di tollerare soltanto una quantità di fibre compresa in un certo range. Se la quantità di fibre supera questo range, l'organismo può andare in sofferenza.
+
+  utter_reducing_fiber_intake:
+  - text: Se si accusano disturbi digestivi a causa dell'eccesso di fibre, è consigliabile ridurre la quantità di cibo integrale e aumentare quella di cibo raffinato. Questo può sembrare controintuitivo, ma in questi casi è necessario adattare la dieta alle proprie esigenze individuali.
+
+  utter_importance_of_water:
+  - text: È importante aumentare il consumo di acqua per ripristinare il corretto transito intestinale e la corretta idratazione. Le fibre, se non correttamente idratate, possono causare stitichezza e irritazioni alle pareti dell'intestino. Inoltre, una condizione di disidratazione causa stress al nostro organismo.
+
+  utter_tap_water_vs_mineral_water:
+  - text: Sì, si può tranquillamente bere l'acqua del rubinetto, poiché i sali minerali presenti non causano i calcoli e alcuni sono essenziali per la salute. Inoltre, eviteremo anche un doppio risparmio, sia per l'acqua in bottiglia minimamente mineralizzata che per gli integratori di sali minerali.
+
+  utter_problems_of_dehydration:
+  - text: La disidratazione causa stress al nostro organismo, compresa la stitichezza, e può avere altri svantaggi.
+
+  utter_fiber_intake:
+  - text: Un modo molto rapido per stabilire la quantità giusta di fibre da assumere è rendersi conto di quante volte al giorno si va in bagno e se si è regolari. Se si evacua una o massimo due volte al giorno in orari regolari, si ha un ottimo equilibrio tra alimentazione e intestino. Se invece si va al bagno tre o più volte al giorno, si sta certamente assumendo troppe fibre.
+
+  utter_fiber_symptoms:
+  - text: I sintomi dell'assunzione di troppe fibre possono includere diarrea, flatulenza, dolori addominali, nausea e mancanza di appetito.
+
+  utter_low_fiber:
+  - text: Se non si riesce ad andare di corpo tutti i giorni, si sta probabilmente assumendo poche fibre oppure molte fibre con poca acqua, il che può causare stitichezza.
+
+  utter_hydration_level:
+  - text: Il livello di idratazione giornaliero consigliato può essere calcolato dividendo il proprio peso corporeo per 23. Ad esempio, se si pesa 70 kg, si dovrebbe bere circa 3 litri di acqua al giorno.
+
+  utter_dehydration_disadvantages:
+  - text: Gli svantaggi della disidratazione possono includere rallentamento di tutti i processi metabolici, aumento dei livelli di stress, aumento dell'appetito, e possibilmente un calo del consumo calorico.
+
+  utter_diet_gut_health:
+  - text: Se l'equilibrio tra alimentazione e intestino non è corretto, si può manifestare diarrea o stitichezza, dolori addominali, flatulenza, nausea e mancanza di appetito. Inoltre, può essere necessario reintrodurre alimenti con una minore quantità di fibre o aumentare la quantità di acqua assunta.
+
+  utter_excessive_fiber_intake:
+  - text: Se stiamo andando al bagno più di tre volte al giorno, stiamo certamente assumendo troppe fibre, e dovremo ridurre gli alimenti integrali e la verdura e optare per alimenti più raffinati.
+
+  utter_irregular_bowel_movement:
+  - text: Se non andiamo di corpo tutti i giorni, potrebbe essere a causa di una carenza di fibre o di un eccesso di fibre con poca acqua.
+
+  utter_hydration_check:
+  - text: Per capire se stiamo bevendo a sufficienza, possiamo dividere il nostro peso corporeo per 23. Questo ci darà un'idea del livello di idratazione giornaliera che dobbiamo raggiungere.
+
+  utter_two_main_health_concerns:
+  - text: Dobbiamo preoccuparci di bere la giusta quantità di acqua (peso corporeo diviso per 23) e di assumere la corretta quantità di fibre, né troppe, né troppo poche. Se andiamo al bagno regolarmente una o due volte al giorno, siamo sulla buona strada, altrimenti, dovremo apportare modifiche alla nostra alimentazione.
+
+  utter_daily_fiber_intake_guidelines:
+  - text: Le linee guida indicano tra 25 e 35 g di fibre al giorno.
+
+  utter_vegans_difficulty_ketosis:
+  - text: I vegani potrebbero trovare difficile rimanere nella quantità raccomandata di fibre al giorno perché potrebbe risultare difficile per loro raggiungere tale quantità.
+
   utter_bot_challenge:
   - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
        e alimentato da Rasa.
