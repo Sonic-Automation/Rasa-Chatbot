@@ -482,6 +482,47 @@ intents:
   - two_main_health_concerns
   - daily_fiber_intake_guidelines
   - vegans_difficulty_ketosis
+# VSS cap 8-1
+  - natural_vs_synthetic_nutrients
+  - food_vs_supplements
+  - role_of_nutrition
+  - reasons_for_nutrient_deficiencies
+  - nutrient_supplementation
+  - extra_nutrient_supplementation
+  - importance_of_B12
+  - sources_of_B12
+  - B12_for_vegans
+  - B12_production_in_gut
+  - b12_integration_recommendation
+  - b12_deficiency_risks
+  - b12_historical_exposure
+  - b12_presence_reduction
+  - b12_production_by_gut_flora
+  - vitamin_b12_deficiency
+  - vitamin_b12_importance
+  - sources_of_vitamin_b12
+  - vitamin_b12_deficiency_veganism
+  - vitamin_b12_intestinal_bacteria
+  - types_of_B12_supplements
+  - EFSA_study_on_B12_deficiency
+  - consequences_of_D_deficiency
+  - main_source_of_vitamin_d
+  - sources_of_vitamin_d
+  - vitamin_D_production_time
+  - daily_vitamin_D_intake
+  - vitamin_D_synergy
+  - most_effective_vitamin_D_form
+  - risks_of_vitamin_D_deficiency
+  - vitamin_d_deficiency
+  - vitamin_d_cheese
+  - vitamin_d_and_k2
+  - vitamin_d_main_sources
+  - vit_d_deficiency
+  - vit_d_functions
+  - vit_d_dosage
+  - vit_d_interaction
+  - vit_d_sources
+
 
 responses: 
   utter_greeting:
@@ -1972,6 +2013,123 @@ responses:
 
   utter_vegans_difficulty_ketosis:
   - text: I vegani potrebbero trovare difficile rimanere nella quantità raccomandata di fibre al giorno perché potrebbe risultare difficile per loro raggiungere tale quantità.
+# VSS cap 8-1
+  utter_natural_vs_synthetic_nutrients:
+  - text: La differenza tra un nutriente "naturale" e uno "di sintesi" non è strutturale, poiché entrambe svolgono la stessa funzione. Tuttavia, l'assunzione di nutrienti dal cibo ha il vantaggio della sinergia delle molecole quando sono assunte in combinazione, anche se questo è ancora fonte di dibattito e la scienza sta ancora approfondendo.
+
+  utter_food_vs_supplements:
+  - text: È meglio assumere i nutrienti dal cibo perché l'uomo si è nutrito per centinaia di migliaia di anni con questi cibi e ha sviluppato un'affinità con essi che è difficile da riprodurre in laboratorio. Tuttavia, laddove non fosse possibile ottenere tutti i nutrienti necessari dall'alimentazione, è logico integrarli per evitare carenze.
+
+  utter_role_of_nutrition:
+  - text: L'alimentazione dovrebbe fornire tutti i micronutrienti di cui abbiamo bisogno, ma come discusso nel capitolo 1, spesso non è così e c'è sempre qualche nutriente che manca o è difficile da ottenere in quantità ottimali.
+
+  utter_reasons_for_nutrient_deficiencies:
+  - text: L'alimentazione non fornisce sempre tutti i nutrienti di cui abbiamo bisogno a causa di vari fattori, come l'assenza di alcuni nutrienti nella dieta, la difficoltà di ottenere alcuni nutrienti in quantità ottimali, fabbisogni aumentati come nello sport o in gravidanza.
+
+  utter_nutrient_supplementation:
+  - text: È consigliabile integrare i nutrienti quando non è possibile ottenere tutti i nutrienti necessari dall'alimentazione per evitare carenze.
+
+  utter_extra_nutrient_supplementation:
+  - text: I fabbisogni aumentati, come nello sport o in gravidanza, possono influire sulla necessità di integrare i nutrienti poiché possono aumentare il fabbisogno di alcuni nutrienti che potrebbero non essere sufficientemente forniti dall'alimentazione.
+
+  utter_importance_of_B12:
+  - text: La vitamina B12 è importante da integrare perché è quasi del tutto assente nel regno vegetale e nel regno animale. Viene prodotta da batteri che erano comuni nel terreno e sulle piante in passato, ma che sono venuti a mancare con l'avvento dei pesticidi e delle coltivazioni di massa. Anche i batteri nella flora intestinale non permettono l'assorbimento della vitamina B12. La carenza di vitamina B12 può causare problemi neurologici gravi e spesso irreversibili, oltre che aumentare il rischio di malattie cardiovascolari.
+
+  utter_sources_of_B12:
+  - text: La vitamina B12 è presente solo nei produttori di batteri. In passato, l'uomo poteva assumere la vitamina B12 tramite i frutti della terra, ma con l'avvento dei pesticidi e delle coltivazioni di massa, i batteri produttori sono venuti a mancare. Gli animali da allevamento sono spesso addizionati di vitamina B12 nei loro mangimi, ma i ruminanti sono l'unica eccezione che possono ottenere la vitamina B12 dalla loro flora batterica.
+
+  utter_B12_for_vegans:
+  - text: No, la carenza di vitamina B12 non riguarda solo i vegani. Il terreno è stato praticamente sterilizzato, il che significa che la maggior parte degli animali non è in grado di ottenere la vitamina B12. Uno studio dell'EFSA ha evidenziato che circa il 50% della popolazione europea ha una carenza preclinica di B12, il che può causare problemi nei neonati in caso di gravidanza.
+
+  utter_B12_production_in_gut:
+  - text: Sì, i batteri nella flora intestinale possono produrre vitamina B12, ma purtroppo si trovano in un punto che non permette l'assorbimento di vitamine e la vitamina B12 viene espulsa con le feci.
+
+  utter_b12_integration_recommendation:
+  - text: La modalità consigliata per integrare la vitamina B12 è di assumere una compressa da 1000 mcg 2 volte a settimana o da 50 mcg tutti i giorni.
+
+  utter_b12_deficiency_risks:
+  - text: I rischi di non integrare la vitamina B12 sono problemi neurologici gravi e spesso irreversibili, oltre che un aumento del rischio di malattie
+
+  utter_b12_historical_exposure:
+  - text: In passato, i batteri che producono la vitamina B12 erano molto comuni nel terreno e sulle piante. Così, quando l'uomo o gli animali mangiavano i frutti della terra, assorbivano anche la vitamina B12 prodotta dai batteri.
+
+  utter_b12_presence_reduction:
+  - text: La vitamina B12 è meno presente oggi nella dieta umana a causa dell'avvento dei pesticidi e delle coltivazioni di massa, che hanno portato a una sterilizzazione microbiologica delle coltivazioni e quindi alla scomparsa dei batteri produttori di B12.
+
+  utter_b12_production_by_gut_flora:
+  - text: Sì, la flora intestinale produce vitamina B12, ma purtroppo si trova in un punto che non permette l'assorbimento di vitamine, quindi viene espulsa con le feci.
+
+  utter_vitamin_b12_deficiency:
+  - text: La carenza di vitamina B12 può causare problemi neurologici gravi e spesso irreversibili, oltre ad aumentare il rischio di infarto e altre malattie cardiovascolari.
+
+  utter_vitamin_b12_importance:
+  - text: La vitamina B12 è un micronutriente che svolge importanti funzioni per il cervello e il cuore. È assente dal mondo vegetale e in gran parte anche dal regno animale, poiché viene prodotta da batteri che sono stati gradualmente sterilizzati nelle coltivazioni a causa dell'uso di pesticidi. La carenza di vitamina B12 può causare problemi neurologici gravi e spesso irreversibili, oltre a un aumento del rischio di malattie cardiovascolari.
+
+  utter_sources_of_vitamin_b12:
+  - text: La vitamina B12 viene prodotta da batteri che in passato erano comuni nel terreno e sulle piante, ma che con l'avvento dei pesticidi e delle coltivazioni di massa sono venuti a mancare. La maggior parte degli animali, a parte i ruminanti, è carente di vitamina B12, e anche la carne non è una buona fonte di vitamina B12, a meno che non venga addizionata nei mangimi degli animali da allevamento.
+
+  utter_vitamin_b12_deficiency_veganism:
+  - text: No, la carenza di vitamina B12 non riguarda solo i vegani, ma anche la maggior parte della popolazione europea ha una carenza preclinica di B12. Questo perché, con la sterilizzazione del terreno, anche gli animali sono carenti di vitamina B12.
+
+  utter_vitamin_b12_intestinal_bacteria:
+  - text: No, i batteri nella flora intestinale producono vitamina B12, ma questa si trova in un punto che non permette l'assorbimento, e viene quindi espulsa con le feci.
+
+  utter_types_of_B12_supplements:
+  - text: La modalità consigliata di integrazione di vitamina B12 è quella di assumere una compressa da 1000 mcg 2 volte a settimana o da 50 mcg tutti i giorni.
+
+  utter_EFSA_study_on_B12_deficiency:
+  - text: Lo studio dell'EFSA ha evidenziato che la maggior parte delle mamme dei bambini non erano vegane e avevano livelli di vitamina B12 nella norma, ma nel range basso. Questo ha portato a rivedere le linee guida, arrivando alla conclusione che circa il 50% della popolazione europea ha livelli sub ottimali di vitamina B12
+
+  utter_consequences_of_D_deficiency:
+  - text: Una carenza di vitamina D può causare problemi di salute a lungo termine, come la perdita di densità ossea, problemi al microbiota intestinale e un sistema immunitario debole. Durante il COVID, i sintomi tendevano a essere più gravi in persone con livelli di vitamina D bassi.
+
+  utter_main_source_of_vitamin_d:
+  - text:  La principale fonte di vitamina D è l'esposizione al sole. La pelle produce autonomamente la vitamina D quando viene colpita dai raggi UV.
+
+  utter_sources_of_vitamin_d:
+  - text: No, non esistono fonti affidabili di vitamina D nell'alimentazione. Anche se in alcuni paesi la vitamina D viene aggiunta artificialmente a alcuni alimenti, come i latticini, si tratta comunque di vitamina D sintetica.
+
+  utter_vitamin_D_production_time:
+  - text: La fascia oraria in cui la produzione di vitamina D è attiva è dalle 12 alle 15 circa. Tuttavia, questo è anche il momento in cui i dermatologi sconsigliano di prendere il sole a causa del rischio di melanoma.
+
+  utter_daily_vitamin_D_intake:
+  - text: Un dosaggio medio di 1000 UI al giorno è consigliato in fase di mantenimento. In caso di riserve molto basse, si può aumentare fino a 10.000 UI al giorno per periodi limitati, ma è sempre meglio discutere con il medico. La vitamina D va assunta a pasto insieme ai grassi per poter essere correttamente assorbita.
+
+  utter_vitamin_D_synergy:
+  - text: Sì, la vitamina D ha bisogno della presenza di un'altra vitamina, la K2, per funzionare correttamente. Si consiglia di assumere 75-100 mcg di vitamina K2 al giorno.
+
+  utter_most_effective_vitamin_D_form:
+  - text: La forma più efficace per la salute umana è la vitamina D3.
+
+  utter_risks_of_vitamin_D_deficiency:
+  - text: La carenza di vitamina D non è direttamente pericolosa per la salute, ma può influire negativamente sulla salute a lungo termine, poiché ha una miriade di funzioni importanti, tra cui il mantenimento delle ossa, il microbiota intestinale e il sistema immunitario.
+
+  utter_vitamin_d_deficiency:
+  - text: Circa l'80% della popolazione mondiale presenta una carenza di vitamina D.
+
+  utter_vitamin_d_cheese:
+  - text: La vitamina D presente nei formaggi non è una fonte affidabile, poiché viene solitamente aggiunta artificialmente a questi alimenti che naturalmente non la conterrebbero. La vitamina D in questo caso è sintetica.
+
+  utter_vitamin_d_and_k2:
+  - text: La vitamina K2 è necessaria per ottenere un effetto ottimale sulla vitamina D e la dose consigliata è di 75-100 mcg al giorno.
+
+  utter_vitamin_d_main_sources:
+  - text: La principale fonte naturale di vitamina D non è l’alimentazione. In alcuni paesi come gli Stati Uniti e i paesi nordici, la vitamina D viene artificialmente aggiunta a alcuni alimenti come latticini, ma si tratta sempre di vitamina D sintetica. La fonte principale di vitamina D è l'esposizione al sole, dove la pelle produce la molecola quando viene colpita dai raggi UV.
+
+  utter_vit_d_deficiency:
+  - text: La carenza di vitamina D ha un carattere endemico, con circa l'80% della popolazione mondiale che ne è carente. Ciò è dovuto al fatto che oggi non si prende più il sole come una volta, per ragioni sociali, e prenderlo non produce sempre i suoi effetti in tutti i momenti della giornata. Inoltre, non ci sono fonti affidabili di vitamina D nell'alimentazione.
+
+  utter_vit_d_functions:
+  - text: La vitamina D ha una miriade di funzioni, tra cui il mantenimento delle ossa, il microbiota intestinale, il sistema immunitario e altro. Durante la pandemia di COVID-19, è stato evidenziato come i sintomi fossero tendenzialmente peggiori in persone con livelli più bassi di vitamina D.
+
+  utter_vit_d_dosage:
+  - text: Un dosaggio medio di 1000 UI al giorno è consigliato in fase di mantenimento. Tuttavia, in caso di riserve molto basse, si può salire fino a 10.000 UI al giorno per periodi limitati, ma è sempre meglio parlarne con il medico. La vitamina D va assunta a pasto, insieme ai grassi per poterla assorbire, e può essere divisa mensilmente come preferito.
+
+  utter_vit_d_interaction:
+  - text: Sì, la vitamina D ha bisogno della presenza di un'altra vitamina, la K2, per funzionare correttamente. Sarà necessario inserire anche la vitamina K2, con un dosaggio di 75-100 mcg al giorno.
+
+  utter_vit_d_sources:
+  - text: La principale fonte di vitamina D non è l'alimentazione, ma l’integrazione.
 
   utter_bot_challenge:
   - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
