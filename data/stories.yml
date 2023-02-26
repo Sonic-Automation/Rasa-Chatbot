@@ -948,3 +948,158 @@ stories:
   - action: utter_foods_containing_both_fat_and_carbohydrates_in_vegan_diet
   - intent: reason_for_body_preference_for_fatty_and_carbohydrate_rich_foods
   - action: utter_reason_for_body_preference_for_fatty_and_carbohydrate_rich_foods
+
+  #VSS cap 6-3
+- story: Calculate Nutration
+  steps:  
+  - intent: lean_mass_calculation
+  - action: utter_lean_mass_calculation
+  - intent: glucose_fatty_acids_levels
+  - action: utter_glucose_fatty_acids_levels
+  - intent: essential_carbs_fats
+  - action: utter_essential_carbs_fats
+  - intent: calculate_macronutrient_intake
+  - action: utter_calculate_macronutrient_intake
+  - intent: carb_fat_balance
+  - action: utter_carb_fat_balance
+  - intent: keto_low_fat_diets
+  - action: utter_keto_low_fat_diets
+  - intent: minimum_levels
+  - action: utter_minimum_levels
+  - intent: calculate_macronutrients
+  - action: utter_calculate_macronutrients
+  - intent: carb_vs_fat
+  - action: utter_carb_vs_fat
+  - intent: why_need_carbs_fats
+  - action: utter_why_need_carbs_fats
+  - intent: risks_of_extreme_diets
+  - action: utter_risks_of_extreme_diets
+  - intent: calculating_nutrient_intake
+  - action: utter_calculating_nutrient_intake
+  - intent: role_of_glucose
+  - action: utter_role_of_glucose
+  - intent: difference_fats_glucose
+  - action: utter_difference_fats_glucose
+  - intent: vegan_diet_nutrients
+  - action: utter_vegan_diet_nutrients
+  - intent: errors_of_extreme_diets
+  - action: utter_errors_of_extreme_diets
+
+- story: Calculate Vegan diet
+  steps:  
+  - intent: vegan_minimum_fat_intake
+  - action: utter_vegan_minimum_fat_intake  
+  - intent: importance_of_fat_for_hormones
+  - action: utter_importance_of_fat_for_hormones  
+  - intent: minimum_fat_for_hormonal_balance
+  - action: utter_minimum_fat_for_hormonal_balance  
+  - intent: maximum_fat_absorption
+  - action: utter_maximum_fat_absorption  
+  - intent: personal_fat_limit
+  - action: utter_personal_fat_limit  
+  - intent: consequences_of_excess_fat
+  - action: utter_consequences_of_excess_fat  
+  - intent: fat_recommendation
+  - action: utter_fat_recommendation  
+  - intent: body_unable_to_produce_fats
+  - action: utter_body_unable_to_produce_fats  
+  - intent: fat_and_hormones
+  - action: utter_fat_and_hormones  
+  - intent: individual_fat_limit
+  - action: utter_individual_fat_limit  
+  - intent: excessive_fat_intake
+  - action: utter_excessive_fat_intake  
+  - intent: minimum_fat_intake
+  - action: utter_minimum_fat_intake  
+  - intent: body_inability_to_produce_fats
+  - action: utter_body_inability_to_produce_fats  
+  - intent: minimum_fat_for_hormones
+  - action: utter_minimum_fat_for_hormones  
+  - intent: maximum_fat_intake
+  - action: utter_maximum_fat_intake
+  - intent: signs_of_excess_fat
+  - action: utter_signs_of_excess_fat
+
+- story: Calculate fat diet
+  steps:  
+  - intent: fat_intake_minimal
+  - action: utter_fat_intake_minimal  
+  - intent: fat_intake_low
+  - action: utter_fat_intake_low  
+  - intent: fat_intake_medium
+  - action: utter_fat_intake_medium  
+  - intent: fat_intake_high
+  - action: utter_fat_intake_high  
+  - intent: fat_intake_very_high
+  - action: utter_fat_intake_very_high  
+  - intent: carb_adaptation_price
+  - action: utter_carb_adaptation_price  
+  - intent: carb_minimum_intake
+  - action: utter_carb_minimum_intake  
+  - intent: carb_negative_adaptations
+  - action: utter_carb_negative_adaptations  
+  - intent: carb_recommended_intake
+  - action: utter_carb_recommended_intake  
+  - intent: carb_maximum_tolerable
+  - action: utter_carb_maximum_tolerable  
+  - intent: excess_carbs
+  - action: utter_excess_carbs  
+  - intent: carb_minimum
+  - action: utter_carb_minimum  
+  - intent: ketosis_adaptation
+  - action: utter_ketosis_adaptation  
+  - intent: minimum_carbs
+  - action: utter_minimum_carbs  
+  - intent: low_carb_days
+  - action: utter_low_carb_days  
+  - intent: extra_calories_fate
+  - action: utter_extra_calories_fate  
+  - intent: excess_carbs_to_fat
+  - action: utter_excess_carbs_to_fat
+
+- story: Calculate carbohidrade diet
+  steps:  
+  - intent: cost_of_ketosis
+  - action: utter_cost_of_ketosis  
+  - intent: consequences_of_low_carb
+  - action: utter_consequences_of_low_carb  
+  - intent: minimum_carb_requirement
+  - action: utter_minimum_carb_requirement  
+  - intent: exceeding_carb_intake
+  - action: utter_exceeding_carb_intake  
+  - intent: excess_calories_and_carbs
+  - action: utter_excess_calories_and_carbs
+
+- story: Carbohydrate recommendation
+  steps:    
+  - intent: carbohydrate_intake_recommendation
+  - action: utter_carbohydrate_intake_recommendation  
+  - intent: low_carb_intake
+  - action: utter_low_carb_intake  
+  - intent: medium_carb_intake
+  - action: utter_medium_carb_intake  
+  - intent: good_carb_intake
+  - action: utter_good_carb_intake  
+  - intent: very_good_carb_intake
+  - action: utter_very_good_carb_intake  
+  - intent: excellent_carb_intake
+  - action: utter_excellent_carb_intake
+
+- story: Carbohydrate tolerance
+  steps:  
+  - intent: consequences_of_insulin_resistance
+  - action: utter_consequences_of_insulin_resistance  
+  - intent: importance_of_calorie_intake_in_insulin_resistance
+  - action: utter_importance_of_calorie_intake_in_insulin_resistance  
+  - intent: insulin_sensitivity
+  - action: utter_insulin_sensitivity  
+  - intent: carb_tolerance_impact
+  - action: utter_carb_tolerance_impact  
+  - intent: improving_carb_tolerance
+  - action: utter_improving_carb_tolerance  
+  - intent: excess_carbs_storage
+  - action: utter_excess_carbs_storage  
+  - intent: long_term_insulin_resistance
+  - action: utter_long_term_insulin_resistance  
+  - intent: carb_management_during_hypocaloric_phase
+  - action: utter_carb_management_during_hypocaloric_phase

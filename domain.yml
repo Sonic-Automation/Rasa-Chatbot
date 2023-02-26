@@ -371,6 +371,76 @@ intents:
   - natural_sources_of_fat_in_vegan_diet
   - foods_containing_both_fat_and_carbohydrates_in_vegan_diet
   - reason_for_body_preference_for_fatty_and_carbohydrate_rich_foods
+# VSS cap 6-3
+  - lean_mass_calculation
+  - glucose_fatty_acids_levels
+  - essential_carbs_fats
+  - calculate_macronutrient_intake
+  - carb_fat_balance
+  - keto_low_fat_diets
+  - minimum_levels
+  - calculate_macronutrients
+  - carb_vs_fat
+  - why_need_carbs_fats
+  - risks_of_extreme_diets
+  - calculating_nutrient_intake
+  - role_of_glucose
+  - difference_fats_glucose
+  - vegan_diet_nutrients
+  - errors_of_extreme_diets
+  - vegan_minimum_fat_intake
+  - importance_of_fat_for_hormones
+  - minimum_fat_for_hormonal_balance
+  - maximum_fat_absorption
+  - personal_fat_limit
+  - consequences_of_excess_fat
+  - fat_recommendation
+  - body_unable_to_produce_fats
+  - fat_and_hormones
+  - individual_fat_limit
+  - excessive_fat_intake
+  - minimum_fat_intake
+  - body_inability_to_produce_fats
+  - minimum_fat_for_hormones
+  - maximum_fat_intake
+  - signs_of_excess_fat
+  - fat_intake_minimal
+  - fat_intake_low
+  - fat_intake_medium
+  - fat_intake_high
+  - fat_intake_very_high
+  - carb_adaptation_price
+  - carb_minimum_intake
+  - carb_negative_adaptations
+  - carb_recommended_intake
+  - carb_maximum_tolerable
+  - excess_carbs
+  - carb_minimum
+  - ketosis_adaptation
+  - minimum_carbs
+  - low_carb_days
+  - extra_calories_fate
+  - excess_carbs_to_fat
+  - cost_of_ketosis
+  - consequences_of_low_carb
+  - minimum_carb_requirement
+  - exceeding_carb_intake
+  - excess_calories_and_carbs
+  - carbohydrate_intake_recommendation
+  - low_carb_intake
+  - medium_carb_intake
+  - good_carb_intake
+  - very_good_carb_intake
+  - excellent_carb_intake
+  - consequences_of_insulin_resistance
+  - importance_of_calorie_intake_in_insulin_resistance
+  - insulin_sensitivity
+  - carb_tolerance_impact
+  - improving_carb_tolerance
+  - excess_carbs_storage
+  - long_term_insulin_resistance
+  - carb_management_during_hypocaloric_phase
+
 
 responses: 
   utter_greeting:
@@ -1484,51 +1554,261 @@ responses:
   - text: Le diete falliscono spesso a causa della perdita di motivazione, della noia nell'alimentazione, della difficoltà di reperibilità dei cibi proteici e della spesa elevata per questi ultimi. La "rigidità" dovuta all'alto apporto di proteine richiesto può diventare limitante e scoraggiante, rendendo difficile seguire le linee guida alimentari per un lungo periodo di tempo.
 # VSS cap 6-1
 
-  utter_natural_sources_of_carbohydrates
+  utter_natural_sources_of_carbohydrates:
   - text: Frutta e cereali sono alimenti in natura che sono ricchi di carboidrati.
   
-  utter_natural_sources_of_proteins
+  utter_natural_sources_of_proteins:
   - text:  Alcuni tipi di carne e pesce e l'albume d'uovo sono alimenti in natura che sono ricchi di proteine.
   
-  utter_natural_sources_of_fats
+  utter_natural_sources_of_fats:
   - text: Olio, frutta secca oleosa e alcuni frutti sono alimenti in natura che sono ricchi di grassi.
   
-  utter_weight_loss_diet_recommendation
+  utter_weight_loss_diet_recommendation:
   - text: Per dimagrire, dobbiamo evitare di mischiare carboidrati e grassi in qualsiasi pasto o spuntino. Dovremo scegliere verdure scondite e un secondo magro se vogliamo inserire carboidrati, e evitare carboidrati se vogliamo inserire grassi.
   
-  utter_sources_of_carbs_and_fats
+  utter_sources_of_carbs_and_fats:
   - text: Fonti di carboidrati includono cereali, pseudocereali, frutta zuccherina, legumi e patate. Fonti di grassi includono olio, frutta grassa, frutta secca oleosa, e semi oleosi.
   
-  utter_high_fat_carb_foods_to_avoid
+  utter_high_fat_carb_foods_to_avoid:
   - text: Merendine, dolci, patatine fritte, fast food vegani e cioccolate sono cibi con alto contenuto di grassi e carboidrati che dovremmo evitare per mantenere un'alimentazione salutare. Questi cibi dovrebbero essere consumati solo occasionalmente, seguendo la regola 80-20.
   
-  utter_vegan_sources_of_carbs
+  utter_vegan_sources_of_carbs:
   - text: Le fonti di carboidrati nell'alimentazione vegana sono cereali come pasta, pane, riso, farro, orzo, avena, miglio, segale, cous cous, bulgur, sorgo, pseudocereali come quinoa, grano saraceno e amaranto, frutta zuccherina come mele, pesche, pere, ciliegie, albicocche, frutti di bosco, frutta tropicale, legumi come lenticchie, ceci, fagioli, piselli, cicerchie, fave e patate di tutti i tipi.
   
-  utter_vegan_sources_of_fats
+  utter_vegan_sources_of_fats:
   - text: Le fonti di grassi nell'alimentazione vegana sono olio di tutti i tipi come oliva, cocco, soia, mais, semi vari, frutta grassa come cocco e avocado, frutta secca oleosa come noci di tutti i tipi, nocciole, mandorle, anacardi, arachidi, pistacchi, pinoli e derivati come creme o burri di arachidi, di nocciole, di mandorle, e semi oleosi come chia, lino, zucca, girasole e sesamo.
   
-  utter_vegan_high_fat_carb_foods_in_moderation
+  utter_vegan_high_fat_carb_foods_in_moderation:
   - text: I cibi con alti grassi e carboidrati da consumare con moderazione nell'alimentazione vegana sono la maggior parte dei classici junk food come merendine, dolci, patatine fritte, fast food vegani, e cioccolate.
   
-  utter_choosing_carb_fat_sources_in_vegan_diet
+  utter_choosing_carb_fat_sources_in_vegan_diet:
   - text: Nell'alimentazione vegana bisognerebbe scegliere le fonti di carboidrati da cereali, pseudocereali, frutta zuccherina, legumi e patate, mentre le fonti di grassi da olio, frutta grassa, frutta secca oleosa e derivati e semi oleosi.
   
   utter_rule_for_consuming_high_fat_carb_foods_in_vegan_diet
   - text: Bisognerebbe seguire la regola 80-20 per il consumo di cibi con alti grassi e carboidrati nell'alimentazione vegana, ovvero consumarli solo occasionalmente e con moderazione.
   
-  utter_natural_sources_of_carbohydrates_in_vegan_diet
+  utter_natural_sources_of_carbohydrates_in_vegan_diet:
   - text: Le fonti naturali di carboidrati nella dieta vegana includono cereali come pasta, pane, riso, farro, orzo, avena, miglio, segale, cous cous, bulgur, sorgo, pseudocereali come quinoa, grano saraceno e amaranto, frutta zuccherina come mele, pesche, pere, ciliegie, albicocche e frutti di bosco, frutta tropicale come banane, mango e papaia, legumi come lenticchie, ceci, fagioli, piselli, cicerchie e fave, e patate di tutti i tipi.
   
-  utter_natural_sources_of_fat_in_vegan_diet
+  utter_natural_sources_of_fat_in_vegan_diet:
   - text: Le fonti naturali di grassi nella dieta vegana includono olii di tutti i tipi come quello di oliva, cocco, soia e mais, frutta grassa come cocco e avocado, frutta secca oleosa come noci, nocciole, mandorle, anacardi, arachidi e pistacchi, e semi oleosi come chia, lino, zucca e girasole.
   
-  utter_foods_containing_both_fat_and_carbohydrates_in_vegan_diet
+  utter_foods_containing_both_fat_and_carbohydrates_in_vegan_diet:
   - text: I cibi che contengono sia grassi che carboidrati sono la maggior parte dei classici junk food, come merendine, dolci, patatine fritte, fast food vegano e cioccolate. Questi cibi dovrebbero essere consumati secondo la regola 80-20 nella dieta vegana.
   
-  utter_reason_for_body_preference_for_fatty_and_carbohydrate_rich_foods
+  utter_reason_for_body_preference_for_fatty_and_carbohydrate_rich_foods:
   - text: Il motivo per cui il nostro organismo ha un'ancestrale predilezione per i cibi ricchi di grassi e carboidrati è che fino a qualche centinaio di anni fa, la preoccupazione principale dei nostri meccanismi di difesa era farci mangiare abbastanza e non prevenire l'obesità. Quando il cervello trova questi nutrienti contemporaneamente nello stesso cibo, non capisce più nulla e ci mette in condizione di mangiare di più, molto più di quello che sarebbe necessario o comunque più di quello che i nostri meccanismi di autoregolazione suggerirebbero.
+# VSS cap 6-3
+  utter_lean_mass_calculation:
+  - text: Quando si calcolano i carboidrati e i grassi nell'alimentazione vegana, è importante fare riferimento alla massa magra perché questi nutrienti sono dipendenti l'uno dall'altro. Il loro apporto deve essere adattato in base alla massa magra per garantire che siano entro i range di riferimento necessari.
 
+  utter_glucose_fatty_acids_levels:
+  - text: I livelli minimi di glucosio e acidi grassi sono le quantità minime di queste sostanze che devono essere presenti nella dieta per garantire che il corpo possa funzionare correttamente.
+
+  utter_essential_carbs_fats:
+  - text: I carboidrati e i grassi sono considerati essenziali perché, anche se il corpo è in grado di produrli, ci sono comunque dei limiti a questa capacità e il corpo preferisce ottenere questi nutrienti attraverso la dieta. Inoltre, il corpo può subire adattamenti negativi se viene privato di questi nutrienti per periodi prolungati.
+
+  utter_calculate_macronutrient_intake:
+  - text: Il primo passo per calcolare l'apporto di grassi e carboidrati nell'alimentazione vegana è impostare l'apporto di grassi. Dopo averlo fatto, le calorie rimanenti dovrebbero essere prese dai carboidrati.
+
+  utter_carb_fat_balance:
+  - text: Se i livelli di carboidrati non sono soddisfacenti una volta impostati i grassi, si può intervenire modificando la quota di grassi per adattare i livelli di carboidrati.
+
+  utter_keto_low_fat_diets:
+  - text: Le diete chetogeniche e low fat estreme sono diete a bassissimi carboidrati o grassi rispettivamente. Queste diete sono considerate un errore perché, anche se il corpo è in grado di produrre carboidrati e grassi, il corpo non ama farlo e può subire adattamenti negativi sia metabolici che psicologici
+
+  utter_minimum_levels:
+  - text: I livelli minimi di carboidrati e grassi che dobbiamo assumere nella nostra dieta vegana sono considerati come range di riferimento e non valori precisi. La quantità di carboidrati e grassi che consumiamo dipende dal nostro apporto calorico e dalla massa magra. Se aumentiamo i carboidrati, dobbiamo abbassare i grassi e viceversa.
+
+  utter_calculate_macronutrients:
+  - text: L'apporto di carboidrati e grassi nella dieta vegana viene calcolato facendo sempre riferimento alla massa magra. Prima di tutto, impostiamo l'apporto di grassi e poi le calorie rimanenti le prendiamo dai carboidrati. In caso i livelli di carboidrati non siano soddisfacenti, potremo sempre intervenire modificando la quota di grassi.
+
+  utter_carb_vs_fat:
+  - text: La differenza tra carboidrati e grassi nella dieta vegana è che i carboidrati devono essere convertiti in glucosio per poter essere usati o immagazzinati dal nostro corpo, mentre i grassi sono composti da diverse molecole di acidi grassi.
+
+  utter_why_need_carbs_fats:
+  - text: I carboidrati e i grassi sono necessari nella dieta vegana perché, sebbene il nostro corpo possa sintetizzarli a partire da altre sostanze, il nostro organismo non ama farlo e preferisce mettere in atto una serie di adattamenti. Inoltre, le diete a bassissimi carboidrati o grassi possono essere dannose per la salute.
+
+  utter_risks_of_extreme_diets:
+  - text: I rischi delle diete chetogeniche a bassissimi carboidrati o low fat estreme a bassissimi grassi nella dieta vegana sono che il nostro corpo preferisce mettere in atto una serie di adattamenti invece di produrre tutto ciò che gli serve, nelle giuste quantità, per soddisfare i bisogni dell'organismo. Queste diete possono essere dannose per la salute.
+
+  utter_calculating_nutrient_intake:
+  - text: Il modo corretto per calcolare gli apporti di grassi e carboidrati nell'alimentazione vegana è sempre far riferimento alla massa magra. In questo caso si avranno sempre dei range di riferimento e non valori precisi come le proteine, ma la differenza è che saranno dipendenti l'uno dall'altro. Se si deve rispettare un apporto calorico, al salire dei carboidrati, bisogna abbassare i grassi e viceversa.
+
+  utter_role_of_glucose:
+  - text: Il ruolo del glucosio nell'utilizzo dei carboidrati dal corpo è fondamentale, poiché quando si assumono carboidrati di qualsiasi tipo, il corpo, per poterli usare o immagazzinare, li deve prima convertire in glucosio. Tutto si basa quindi sul glucosio.
+
+  utter_difference_fats_glucose:
+  - text: La differenza tra i grassi e il glucosio è che i grassi non hanno una singola molecola base ma ne hanno diverse, mentre il glucosio è la molecola base dei carboidrati. Gli acidi grassi possono essere considerati come una grande categoria assimilabile al glucosio per i carboidrati.
+
+  utter_vegan_diet_nutrients:
+  - text: I carboidrati e i grassi sono considerati necessari nell'alimentazione vegana perché, anche se in teoria potrebbero essere prodotti all'infinito dal corpo, il nostro organismo non ama farlo e preferisce mettere in atto una serie di adattamenti.
+
+  utter_errors_of_extreme_diets:
+  - text: L'errore commesso dai fautori delle diete chetogeniche o low fat estreme è quello di pensare che il corpo sia in grado di produrre tutto quello che serve, nelle giuste quantità, per soddisfare i bisogni dell'organismo. Questo è un grosso errore
+
+  
+  
+  utter_vegan_minimum_fat_intake:
+  - text: Il minimo raccomandabile di grassi nell'alimentazione vegana è di circa 25 g al giorno. Questo minimo è necessario per l'assorbimento delle vitamine liposolubili che richiedono la presenza di grassi per essere assorbiti.
+  
+  utter_importance_of_fat_for_hormones:
+  - text: I grassi sono importanti per il sistema ormonale in quanto sono essenziali per il funzionamento del sistema ormonale e per l'assorbimento delle vitamine liposolubili. Il corpo utilizza i grassi come segnale per valutare la disponibilità di calorie e di conseguenza, la possibilità di riprodursi.
+  
+  utter_minimum_fat_for_hormonal_balance:
+  - text: Il minimo di grassi necessario per non incorrere in problemi ormonali è di 0,5 g per kg di massa magra al giorno. Per una persona di 70 kg di massa magra, questo equivale a circa 35 g di grassi al giorno.
+  
+  utter_maximum_fat_absorption:
+  - text: Il massimo di grassi che possono essere assorbiti dal nostro organismo è compreso tra 120-160 g al giorno. Questo limite è dovuto al limite di assorbimento intestinale.
+  
+  utter_personal_fat_limit:
+  - text: Il nostro limite individuale di grassi può essere capito quando iniziamo a accusare problemi intestinali, come diarrea, o quando perdiamo l'appetito o sviluppiamo una sorta di nausea. Questi sintomi indicano che il massimo di grassi che possiamo sopportare è stato superato.
+  
+  utter_consequences_of_excess_fat:
+  - text: Se superiamo il massimo di grassi che possiamo sopportare, potremo accusare problemi intestinali o perdere l'appetito o sviluppare una sorta di nausea. Tuttavia, questi problemi possono essere risolti riducendo l'apporto di grassi appena al di sotto del valore raggiunto.
+  
+  utter_fat_recommendation:
+  - text: Il minimo raccomandato di grassi nell'alimentazione vegana è di circa 25 g al giorno, che è necessario per l'assorbimento delle vitamine liposolubili.
+  
+  utter_body_unable_to_produce_fats:
+  - text: Il corpo è in grado di produrre grassi, ma questo processo è influenzato dalla disponibilità di calorie nella dieta. Il cervello utilizza la presenza di grassi come segnale per valutare la disponibilità di calorie e di conseguenza, la possibilità di riprodursi.
+  
+  utter_fat_and_hormones:
+  - text: Il minimo di grassi necessario per evitare problemi ormonali è di 0,5 g per kg di massa magra al giorno, che equivale a circa 35 g di grassi al giorno per una persona di 70 kg di massa magra.
+  
+  utter_individual_fat_limit:
+  - text: Il nostro limite individuale di grassi può essere capito quando iniziamo a accusare problemi intestinali, come diarrea, o quando perdiamo l'appetito o sviluppiamo una sorta di nausea. Questi sintomi indicano che il massimo di grassi che possiamo sopportare è stato superato.
+
+  utter_excessive_fat_intake:
+  - text: Un apporto eccessivo di grassi nella dieta può causare problemi intestinali, perdita di appetito, nausea o altri sintomi simili. Tuttavia, questi problemi possono essere risolti riducendo l'apporto di grassi appena al di sotto del valore raggiunto.
+  
+  utter_minimum_fat_intake:
+  - text: Il minimo raccomandabile di grassi nell'alimentazione vegana per evitare carenze di vitamine liposolubili è di circa 25 g al giorno.
+  
+  utter_body_inability_to_produce_fats:
+  - text: Il corpo non è in grado di produrre i grassi da solo se mancano nella dieta perché il nostro organismo si è evoluto imparando a "leggere" la situazione ambientale da quello che mangiamo. I grassi sono essenziali per il sistema ormonale, in particolare per il sistema riproduttivo, e sono la molecola che contiene più energia in assoluto. Se non ci sono grassi, il cervello pensa che non ci siano abbastanza calorie e quindi non è conveniente riprodursi.
+  
+  utter_minimum_fat_for_hormones:
+  - text: Il minimo di grassi necessario per evitare problemi ormonali nell'alimentazione vegana è di 0,5 g di grassi per kg di massa magra, che equivale a circa 35 g al giorno per una persona di 70 kg di massa magra.
+  
+  utter_maximum_fat_intake:
+  - text: Il tetto massimo nell'apporto di grassi nell'alimentazione vegana è di 120-160 g al giorno, a causa del limite di assorbimento intestinale. In alcuni casi eccezionali, si può arrivare anche a 200 g, ma dipende dalla lunghezza dell'intestino e dal corredo enzimatico individuale.
+  
+  utter_signs_of_excess_fat:
+  - text: I segnali che indicano che si sta superando il proprio limite nell'apporto di grassi sono problemi intestinali, fastidio per il cibo, perdita dell'appetito o nausea. In questi casi, sarà sufficiente ridurre l'apporto di grassi appena sotto il valore raggiunto per risolvere il problema.
+
+
+  utter_fat_intake_minimal:
+  - text: Dovresti assumere almeno 30 grammi di grassi al giorno, che corrispondono a un apporto di 0,5 grammi di grassi per chilogrammo di peso corporeo.
+  
+  utter_fat_intake_low:
+  - text: Per una dieta con un apporto di grassi basso, si consiglia di assumere 0,75 grammi di grassi per chilogrammo di peso corporeo.
+  
+  utter_fat_intake_medium:
+  - text: Per una dieta con un apporto di grassi medio, si consiglia di assumere 1 grammo di grassi per chilogrammo di peso corporeo.
+  
+  utter_fat_intake_high:
+  - text: Dovresti assumere 1,5 grammi di grassi per chilogrammo di peso corporeo se vuoi seguire una dieta con un apporto di grassi alto.
+  
+  utter_fat_intake_very_high:
+  - text: La quantità massima di grassi consigliata per una dieta con un apporto di grassi molto alto è di 2 grammi di grassi per chilogrammo di peso corporeo, con un massimo di 160 grammi al giorno.
+  
+  utter_carb_adaptation_price:
+  - text: Il prezzo per adattarsi alla chetosi, ovvero adattarsi ad utilizzare di più i grassi, è una riduzione della performance sportiva e del metabolismo. Inoltre, se la scarsità di carboidrati si mantiene per più di una settimana, l’organismo reagisce ipotizzando l’eventualità di una carestia e si adatta certamente alla situazione ma nel farlo “spegne” il metabolismo, aumenta la fame e inizia a smontare il muscolo.
+  
+  utter_carb_minimum_intake:
+  - text: Il minimo di carboidrati per evitare gli adattamenti negativi è di 2,6 g/kg di massa magra.
+  
+  utter_carb_negative_adaptations:
+  - text: Gli adattamenti negativi che si verificano in caso di carenza di carboidrati sono relativi al deficit calorico e comprendono la riduzione del metabolismo, l'aumento della fame e lo smontaggio del muscolo.
+  
+  utter_carb_recommended_intake:
+  - text: In base alla sua esperienza, l'autore del testo suggerisce un apporto minimo di 3 g di carboidrati per kg di massa magra, che ritiene adatto a tutte le persone e a tutte le fasi dell’alimentazione.
+  
+  utter_carb_maximum_tolerable:
+  - text: È possibile andare oltre i 7 g di carboidrati per kg, ma ciò dipende dal tipo di dieta (ipercalorica o ipocalorica) e dalla quantità di calorie in eccesso rispetto al consumo.
+  
+  utter_excess_carbs:
+  - text: Essendo le capacità di immagazzinare carboidrati molto limitate, quelli in eccesso, sebbene si dica che vengano convertiti in grassi e quindi stoccati nelle riserve, in realtà fanno questa fine solo in minima parte. La conversione del glucosio in acidi grassi è un processo molto dispendioso che non “piace” all’organismo, quindi i carboidrati in eccesso vengono utilizzati come energia o escreti.
+  
+  utter_carb_minimum:
+  - text: Il nostro corpo reagisce con un segnale di allarme se non rispettiamo il fabbisogno minimo di carboidrati perché i nostri meccanismi di evoluzione hanno portato il nostro organismo a dipendere da questo nutriente per le sue funzioni vitali.
+  
+  utter_ketosis_adaptation:
+  - text: Il prezzo per adattarsi alla chetosi, ovvero adattarsi ad utilizzare di più i grassi, è una riduzione della performance sportiva e del metabolismo. Inoltre, se la scarsità di carboidrati si mantiene per più di una settimana, l’organismo reagisce ipotizzando l’eventualità di una carestia e si adatta certamente alla situazione ma nel farlo “spegne” il metabolismo, aumenta la fame e inizia a smontare il muscolo.
+  
+  utter_minimum_carbs:
+  - text: Il minimo di carboidrati per evitare gli adattamenti negativi è di 2,6 g/kg di massa magra.
+  
+  utter_low_carb_days:
+  - text: Fare dei giorni di low carb sarà sicuramente possibile e non porterà ad adattamenti negativi… purché sia soltanto qualche giorno. In base alla sua esperienza, l'autore del testo suggerisce un apporto minimo di 3 g di carboidrati per kg di massa magra come adatto a tutte le persone e a tutte le fasi dell’alimentazione.
+  
+  utter_extra_calories_fate:
+  - text: In una dieta ipercalorica, le calorie extra verranno utilizzate per costruire un nuovo muscolo, ma la parte che avanza avrà un destino diverso a seconda che si tratti di carboidrati o di grassi. I grassi verranno accumulati nel tessuto adiposo, mentre i carboidrati in eccesso, sebbene si dica che vengano convertiti in grassi e quindi stoccati nelle riserve, in realtà fanno questa fine solo in minima parte.
+  
+  utter_excess_carbs_to_fat:
+  - text: Essendo le capacità di immagazzinare carboidrati molto limitate (a differenza dei grassi che hanno praticamente depositi infiniti), quelli in eccesso, sebbene si dica che vengano convertiti in grassi e quindi stoccati nelle riserve, in realtà fanno questa fine solo in minima parte. La conversione del glucosio in acidi grassi è un processo molto dispendioso che non “piace” all’organismo, quindi i carboidrati in eccesso vengono utilizzati come energia o cominciano a girare a vuoto.
+
+  
+  utter_cost_of_ketosis:
+  - text: Il prezzo per andare in chetosi è una riduzione della performance sportiva e del metabolismo.
+  
+  utter_consequences_of_low_carb:
+  - text: Il nostro cervello attiverà un segnale di allarme, poiché sul medio/lungo termine il nostro corpo non è in grado di adattarsi e attiverà meccanismi di evoluzione
+  
+  utter_minimum_carb_requirement:
+  - text: Il minimo di carboidrati per evitare gli adattamenti negativi è 2,6g/kg di massa magra.
+  
+  utter_exceeding_carb_intake:
+  - text: Sì, è possibile andare oltre i 7 g di carboidrati per kg, soprattutto in una dieta ipercalorica, a differenza dei grassi.
+  
+  utter_excess_calories_and_carbs:
+  - text: Le calorie extra in una dieta ipercalorica, in parte, saranno usate per costruire un nuovo muscolo, ma la parte che avanza avrà un destino diverso a seconda che si tratti di carboidrati o di grassi.
+  
+  
+  utter_carbohydrate_intake_recommendation:
+  - text: Il livello minimo raccomandato di apporto di carboidrati nell'alimentazione è di 2,6 g/kg al giorno.
+  
+  utter_low_carb_intake:
+  - text: Il livello di apporto di carboidrati considerato "basso" è di 3 g/kg al giorno.
+  
+  utter_medium_carb_intake:
+  - text: Il livello di apporto di carboidrati considerato "medio" è di 4 g/kg al giorno.
+  
+  utter_good_carb_intake:
+  - text: Il livello di apporto di carboidrati considerato "buono" è di 5 g/kg al giorno.
+  
+  utter_very_good_carb_intake:
+  - text: Il livello di apporto di carboidrati considerato "molto buono" è di 6 g/kg al giorno.
+  
+  utter_excellent_carb_intake:
+  - text: Il livello di apporto di carboidrati considerato "eccellente" è di 7 g/kg al giorno.
+  
+  
+  utter_consequences_of_insulin_resistance:
+  - text: L'insulino-resistenza comporta che i muscoli diventino sempre meno ricettivi ai nutrienti, che saranno invece assorbiti dal tessuto adiposo, facendo crescere il grasso e non i muscoli.
+
+  utter_importance_of_calorie_intake_in_insulin_resistance:
+  - text: L'apporto calorico è il punto più importante nell'insulino-resistenza. Un surplus calorico di 500 calorie con il giusto rapporto di macronutrienti produrrà un insulino-resistenza più rapidamente rispetto ad un surplus di 300 calorie ad alto contenuto di carboidrati e basso contenuto di grassi.
+
+  utter_insulin_sensitivity:
+  - text: In una fase di ipocalorica, la sensibilità all'insulina aumenterà poiché non c'è nessun surplus di nutrienti e il nostro organismo non avrà problemi a eliminare i nutrienti dal sangue. In questa fase, sarà più vantaggioso mantenere alti i carboidrati e bassi i grassi per mantenere il metabolismo, la performance e il benessere psicologico.
+
+  utter_carb_tolerance_impact:
+  - text: La tolleranza ai carboidrati dipende da fattori genetici e dall'abitudine al loro consumo. Se si è persa l'affinità con i carboidrati e si è ridotto il corredo enzimatico, ci si può imbattere in problemi di gonfiore intestinale e difficoltà nella gestione dei carboidrati. Questo può essere risolto riabituando gradualmente il corpo a gestirli.
+
+  utter_improving_carb_tolerance:
+  - text: Per migliorare la tolleranza ai carboidrati, è necessario riabituare gradualmente il corpo a gestirli prediligendo all'inizio fonti più facilmente digeribili e aumentando il loro quantitativo nel tempo. Questo può essere un processo lungo e richiedere tempo
+
+  utter_excess_carbs_storage:
+  - text: I carboidrati in eccesso rimangono in circolo nel sangue e fanno alzare la glicemia. Questo fa aumentare la produzione di insulina, che però non riesce a svolgere il proprio lavoro e fa instaurare una condizione di insulino-resistenza, dove i muscoli diventano sempre meno ricettivi ai nutrienti e vengono assorbiti dal tessuto adiposo.
+
+  utter_long_term_insulin_resistance:
+  - text: L'insulino-resistenza comporta che i muscoli diventeranno sempre meno ricettivi ai nutrienti e che saranno invece assorbiti dal tessuto adiposo, causando l'aumento del grasso invece dei muscoli.
+
+  utter_carb_management_during_hypocaloric_phase:
+  - text: Durante una fase di ipocalorica, non c'è nessun surplus di nutrienti e il corpo non avrà problemi a eliminare dal sangue tutti i nutrienti che vengono introdotti con l'alimentazione. La sensibilità all'insulina aumenterà, e sarà conveniente mantenere i carboidrati ai massimi e i grassi ai minimi per mantenere il metabolismo, la performance e il benessere psicologico.
+  
   utter_bot_challenge:
   - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
        e alimentato da Rasa.
