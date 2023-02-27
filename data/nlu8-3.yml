@@ -1,0 +1,223 @@
+version: "3.1"
+
+nlu:
+- intent: creatine_benefits
+  examples: |
+    - Quali sono i benefici della creatina sulla performance sportiva?
+    - Come può la creatina aiutare la mia performance atletica?
+    - La creatina può migliorare la mia resistenza fisica?
+    - Quali sono i vantaggi della creatina nella costruzione muscolare?
+    - Come posso utilizzare la creatina per migliorare la mia performance sportiva?
+
+- intent: creatine_recommendation
+  examples: |
+    - Qual è la quantità raccomandata di creatina da assumere al giorno?
+    - Quanto di creatina dovrei assumere per ottenere i benefici?
+    - Qual è la dose giornaliera di creatina raccomandata per gli atleti?
+    - Come devo dosare la creatina per ottenere il massimo beneficio?
+    - Quanto tempo ci vuole per vedere i risultati dell'assunzione di creatina?
+
+- intent: creatine_non_responders
+  examples: |
+    - Che cosa succede se una persona non risponde all'assunzione di creatina?
+    - Ci sono persone che non traggono benefici dall'assunzione di creatina?
+    - Quali sono le ragioni per cui la creatina potrebbe non funzionare per me?
+    - Cosa posso fare se non ottengo benefici dall'assunzione di creatina?
+    - Come posso capire se la creatina funziona per me?
+
+- intent: creatine_water_retention
+  examples: |
+    - La creatina fa ritenzione idrica?
+    - Quali sono gli effetti collaterali dell'assunzione di creatina sulla ritenzione idrica?
+    - Come posso evitare la ritenzione idrica causata dalla creatina?
+    - La creatina può causare gonfiore o aumento di peso?
+    - Posso assumere la creatina senza rischio di ritenzione idrica?
+
+- intent: creatine_loading_phase
+  examples: |
+    - C'è bisogno di fare delle fasi di carico e scarico con la creatina?
+    - Come funziona la fase di carico della creatina?
+    - La fase di carico della creatina è necessaria per ottenere i benefici?
+    - Qual è il modo migliore per fare la fase di carico della creatina?
+    - La fase di carico della creatina può essere dannosa per la salute?
+
+- intent: creatine_effects_on_muscle_mass
+  examples: |
+    - La creatina aumenta la massa muscolare?
+    - Quali sono gli effetti della creatina sulla crescita muscolare?
+    - La creatina aiuta a costruire muscoli più grandi e forti?
+    - Come influisce la creatina sulla massa muscolare?
+    - La creatina è un integratore efficace per la crescita muscolare?
+
+- intent: creatine_role_in_sports_performance
+  examples: |
+    - Qual è il ruolo della creatina nella performance sportiva?
+    - Come può la creatina migliorare le prestazioni atletiche?
+    - La creatina è utile per gli sportivi?
+    - In che modo la creatina può aumentare la resistenza fisica?
+    - La creatina può migliorare le performance negli sport di endurance?
+
+- intent: creatine_health_effects
+  examples: |
+    - La creatina ha effetti negativi sulla salute?
+    - Quali sono i rischi associati all'assunzione di creatina?
+    - La creatina può causare danni ai reni o al fegato?
+    - Ci sono effetti collaterali noti dell'assunzione di creatina?
+    - La creatina è sicura da usare?
+
+- intent: creatine_effectiveness
+  examples: |
+    - La creatina funziona per tutti gli sportivi?
+    - In che modo l'efficacia della creatina varia tra gli sportivi?
+    - La creatina è utile solo per gli atleti di forza o anche per gli sportivi di resistenza?
+    - Quali sono i fattori che influenzano l'efficacia della creatina?
+    - La creatina può essere efficace per migliorare le prestazioni atletiche in modo significativo?
+
+- intent: creatine_dosage
+  examples: |
+    - Qual è il dosaggio consigliato di creatina per gli adulti?
+    - Come si deve dosare la creatina per ottenere i migliori risultati?
+    - Quanto tempo ci vuole per vedere i benefici dell'assunzione di creatina?
+    - Qual è la dose massima giornaliera di creatina?
+    - Si possono assumere dosi più elevate di creatina per ottenere risultati migliori?
+
+- intent: creatine_water_consequences
+  examples: |
+    - Quali sono le conseguenze dell'assunzione di creatina sulla ritenzione idrica?
+    - Cosa succede se si assume creatina in grandi quantità?
+    - Come ridurre la ritenzione idrica causata dalla creatina?
+    - È vero che l'assunzione di creatina può aumentare il rischio di disidratazione?
+    - Come si può minimizzare l'effetto della creatina sulla ritenzione idrica?
+
+- intent: creatine_cycling
+  examples: |
+    - È necessario ciclizzare l'assunzione di creatina?
+    - Come funziona il ciclo di assunzione della creatina?
+    - Qual è il periodo migliore per interrompere l'assunzione di creatina?
+    - È possibile assumere creatina in modo continuo?
+    - Quanto tempo deve durare il ciclo di assunzione della creatina?
+
+- intent: creatine_response_percentage
+  examples: |
+    - Qual è la percentuale di persone che non risponde all'assunzione di creatina?
+    - Esiste un gruppo di persone che non trae benefici dall'assunzione di creatina?
+    - È possibile che l'assunzione di creatina non abbia effetti su alcune persone?
+    - Ci sono persone che non dovrebbero assumere creatina?
+    - Come si fa a sapere se si risponde all'assunzione di creatina?
+
+- intent: cognitive_benefits_of_creatine
+  examples: |
+    - Quali sono i benefici cognitivi evidenziati recentemente per quanto riguarda l'assunzione di creatina?
+    - Quali sono i benefici cognitivi dell'assunzione di creatina?
+    - C'è una relazione tra l'assunzione di creatina e le prestazioni cognitive?
+    - La creatina può migliorare la memoria?
+    - Come funziona la creatina a livello cerebrale?
+    - Quali sono gli effetti a lungo termine dell'assunzione di creatina sulla cognizione?
+
+- intent: beta_alanine_definition
+  examples: |
+    - Che cos'è la beta alanina?
+    - Qual è la funzione della beta alanina?
+    - In cosa differisce la beta alanina da altre sostanze utilizzate per migliorare le prestazioni atletiche?
+    - La beta alanina è un integratore sicuro?
+    - Come viene prodotta la beta alanina nel corpo?
+
+- intent: beta_alanine_side_effects
+  examples: |
+    - Quali sono gli effetti collaterali della beta alanina?
+    - La beta alanina può provocare problemi di salute?
+    - Ci sono rischi per la salute associati all'assunzione di beta alanina?
+    - Quali sono le controindicazioni dell'assunzione di beta alanina?
+    - La beta alanina può provocare reazioni allergiche?
+
+- intent: beta_alanine_dosage
+  examples: |
+    - Qual è il dosaggio raccomandato di beta alanina?
+    - Come si determina la dose ideale di beta alanina?
+    - Quali sono i fattori che influenzano il dosaggio di beta alanina?
+    - Quanto tempo prima dell'attività fisica dovrei assumere la beta alanina?
+    - Come devo assumere la beta alanina per ottenere i migliori risultati? 
+
+- intent: beta_alanine_vs_creatine
+  examples: |
+    - In che modo la beta alanina si differenzia dalla creatina come integratore?
+    - Quali sono le differenze tra la beta alanina e la creatina?
+    - Perché scegliere la beta alanina invece della creatina come integratore?
+    - Beta alanina o creatina: qual è il migliore per migliorare la performance atletica?
+    - La beta alanina e la creatina possono essere usate insieme come integratori?
+
+- intent: safety_of_beta_alanine
+  examples: |
+    - La beta alanina è sicura da usare come integratore?
+    - Quali sono i potenziali effetti collaterali della beta alanina?
+    - La beta alanina può causare danni al fegato o ai reni?
+    - La beta alanina può essere utilizzata a lungo termine come integratore?
+    - Ci sono controindicazioni per l'uso di beta alanina come integratore?
+
+- intent: recommended_dosage_beta_alanine
+  examples: |
+    - Qual è il dosaggio giornaliero consigliato di beta alanina?
+    - Come si dovrebbe assumere la beta alanina come integratore?
+    - La dose di beta alanina dipende dal peso corporeo?
+    - Cosa succede se si supera il dosaggio giornaliero di beta alanina?
+    - La beta alanina deve essere assunta prima o dopo l'attività fisica?
+
+- intent: benefits_of_taurine
+  examples: |
+    - Quali sono i beneficrittori della taurina?
+    - Quali sono i benefici della taurina come integratore?
+    - A chi è consigliato l'uso di integratori di taurina?
+    - La taurina può aiutare a migliorare le prestazioni fisiche?
+    - La taurina è utile per aumentare la massa muscolare?
+    - La taurina può essere usata come integratore per migliorare la salute del cuore?
+
+- intent: what_is_taurine
+  examples: |
+    - Che cos'è la taurina e come agisce?
+    - Che cos'è la taurina e come agisce nel corpo umano?
+    - Quali sono le fonti alimentari di taurina?
+    - La taurina è un amminoacido essenziale o non essenziale?
+    - La taurina può essere sintetizzata dal corpo umano?
+    - Qual è il ruolo della taurina nel corpo umano?
+
+- intent: taurine_daily_dosage
+  examples: |
+    - Qual è il dosaggio giornaliero consigliato di taurina?
+    - Quanto taurina dovrei assumere ogni giorno?
+    - Qual è la quantità di taurina consigliata per gli adulti?
+    - Come posso sapere se sto assumendo abbastanza taurina nella mia dieta?
+    - Quali sono gli effetti di un eccesso di taurina nell'organismo?
+
+- intent: caffeine_effects_on_health_performance
+  examples: |
+    - Come agisce la caffeina sulla salute e la performance fisica?
+    - Quali sono gli effetti della caffeina sull'organismo?
+    - La caffeina può influire sulla mia capacità di concentrarmi?
+    - Come la caffeina influisce sulla mia energia e sulla mia resistenza fisica?
+    - Ci sono controindicazioni nell'assumere caffeina per chi pratica sport?
+
+- intent: caffeine_timing
+  examples: |
+    - Qual è il timing di assunzione consigliato per la caffeina?
+    - A che ora dovrei assumere la caffeina per migliorare la mia performance fisica?
+    - Ci sono momenti della giornata in cui è meglio evitare di assumere caffeina?
+    - Quanto tempo prima dell'attività fisica dovrei assumere caffeina?
+    - Qual è il momento migliore per assumere la caffeina per migliorare la mia resistenza?
+
+- intent: caffeine_benefits
+  examples: |
+    - Quali sono i beneficrittori principali della caffeina e come agisce?
+    - Quali sono i benefici principali della caffeina e come agisce?
+    - Come può la caffeina migliorare la mia performance fisica?
+    - Quali sono le proprietà della caffeina che ne fanno un integratore popolare tra gli atleti?
+    - La caffeina ha benefici per la salute oltre alla performance fisica?
+    - Come può la caffeina aiutare a combattere la stanchezza e la sonnolenza?
+
+- intent: beta_alanine_vs_caffeine
+  examples: |
+    - Qual è la differenza tra l'effetto della beta alanina e della caffeina?
+    - Qual è la differenza tra l'effetto della beta alanina e della caffeina sull'organismo?
+    - Cosa succede se si assume beta alanina e caffeina insieme?
+    - Quali sono gli effetti collaterali della beta alanina e della caffeina?
+    - Quale sostanza è più efficace per migliorare le prestazioni fisiche: beta alanina o caffeina?
+    - Come si assumono beta alanina e caffeina per massimizzare i loro effetti?
