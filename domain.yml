@@ -523,6 +523,45 @@ intents:
   - vit_d_interaction
   - vit_d_sources
 
+#VSS cap 8-2
+  - omega3_functions
+  - omega3_short_vs_long_chain
+  - vegan_sources_omega3_long_chain
+  - omega3_dosage_recommendation
+  - omega3_omega6_imbalance_risks
+  - omega3_importance
+  - omega3_essential
+  - omega3_vs_omega6
+  - vegan_sources_omega3
+  - EPA_DHA_sources
+  - sources_of_omega_3
+  - algae_for_omega_3
+  - essential_fatty_acids
+  - functions_of_omega_3_6
+  - importance_of_omega_3_6_balance
+  - sources_of_omega3
+  - importance_of_omega3
+  - omega3_deficiency
+  - omega3_omega6_balance
+  - vegan_sources_of_omega3
+  - vegan_omega3_sources
+  - vegan_micronutrient_deficiencies
+  - vegan_calcium_sources
+  - vegan_iodine_sources
+  - vegan_epa_dha_sources
+  - vegan_selenium_source
+  - vegan_nutrient_supplementation
+  - vegan_multivitamin_difficulties
+  - vegan_nutrient_deficiencies
+  - vegan_nutrient_intake_difficulties
+  - vegan_micronutrients_solution
+  - iodine_supplementation
+  - vegan_multivitamin_challenge
+  - calcium_in_vegan_diet
+  - iodine_deficiency_prevention
+  - selenium_source
+  - vitamin_zinc_supplementation
+
 
 responses: 
   utter_greeting:
@@ -2130,6 +2169,118 @@ responses:
 
   utter_vit_d_sources:
   - text: La principale fonte di vitamina D non è l'alimentazione, ma l’integrazione.
+#VSS cap 8-2
+  utter_omega3_functions:
+  - text: Gli acidi grassi omega 3 hanno una funzione antinfiammatoria e sono essenziali per la salute del cervello e delle membrane cellulari.
+
+  utter_omega3_short_vs_long_chain:
+  - text: Gli acidi grassi omega 3 possono essere classificati in due maxi-gruppi:- acidi grassi a catena corta (ALA) e a catena lunga (EPA e DHA). Solo i secondi, ovvero quelli a catena lunga, svolgono le funzioni positive per la salute del corpo, mentre quelli a catena corta possono essere convertiti in EPA e DHA, ma la conversione è molto variabile e inaffidabile.
+
+  utter_vegan_sources_omega3_long_chain:
+  - text: Tutti gli alimenti vegetali contengono solo acidi grassi omega 3 a catena corta. Per ottenere EPA e DHA a catena lunga, i vegani possono assumere un integratore algale.
+
+  utter_omega3_dosage_recommendation:
+  - text: La dose raccomandata di EPA e DHA per i vegani è di 250 mg di EPA e 500 mg di DHA al giorno.
+
+  utter_omega3_omega6_imbalance_risks:
+  - text: Un rapporto squilibrato tra omega 3 e omega 6 nella dieta può portare a stati infiammatori persistenti e favorire le malattie degenerative.
+
+  utter_omega3_importance:
+  - text: Integrare gli acidi grassi omega 3 nella dieta vegana è importante per mantenere un equilibrio tra omega 3 e omega 6 e per garantire una salute ottimale del corpo, in particolare del cervello e delle membrane cellulari.
+
+  utter_omega3_essential:
+  - text: Sì, il nostro corpo non è in grado di produrre gli omega 3 ed omega 6, quindi è necessario assumerli attraverso l'alimentazione.
+
+  utter_omega3_vs_omega6:
+  - text: Gli omega 3 hanno un'azione antinfiammatoria mentre gli omega 6 sono pro-infiammatori. Il rapporto ottimale tra omega 3 e 6 nella dieta dovrebbe essere di 1:1, ma nella dieta dell'occidentale medio è di solito di 1:12 o addirittura 1:40.
+
+  utter_vegan_sources_omega3:
+  - text: No, molto spesso la dieta vegana è ricca di omega 6, ma carente di omega 3. Inoltre, gli alimenti vegani contengono solo acidi grassi omega 3 a catena corta (ALA) e non i più importanti EPA e DHA a catena lunga.
+
+  utter_EPA_DHA_sources:
+  - text: I vegani possono trovare EPA e DHA attraverso integratori algali prodotti a partire da microalghe. La dose raccomandata è di 250 mg di EPA e 500 mg di DHA al giorno.
+
+  utter_sources_of_omega_3:
+  - text: I semi di lino e le noci sono alimenti ricchi di omega 3 per i vegani, ma non contengono EPA e DHA a catena lunga.
+
+  utter_algae_for_omega_3:
+  - text: No, mangiare alghe non aiuta a coprire il fabbisogno di omega 3 perché non contengono EPA e DHA. E' necessario assumere integratori algali specifici per ottenere questi acidi grassi essenziali.
+
+  utter_essential_fatty_acids:
+  - text: Gli acidi grassi essenziali di cui l'organismo umano ha bisogno ma non può produrre da solo sono gli omega 3 ed omega 6.
+
+  utter_functions_of_omega_3_6:
+  - text: Gli omega 3 hanno funzione antinfiammatoria mentre gli omega 6 hanno funzione pro-infiammatoria.
+
+  utter_importance_of_omega_3_6_balance:
+  - text: Per mantenere un potenziale infiammatorio neutro, il rapporto tra omega 3 e 6 assunti con la dieta dovrebbe essere di 1:1 o al massimo 1:4 in favore degli omega 6. L'alimentazione dell'occidentale medio si assesta invece sul 1:12 e arriva fino a dei picchi di 1:40, il che può portare a stati infiammatori persistenti e favorire le malattie degenerative.
+
+  utter_sources_of_omega3:
+  - text: Le fonti di omega 3 per i vegani sono i semi di lino e l'olio di semi di lino. Tuttavia, questi alimenti forniscono solo acidi grassi a catena corta (ALA) e non i necessari acidi grassi a catena lunga (EPA e DHA). Per questi ultimi, i vegani possono assumere integratori algali prodotti a partire da microalghe.
+
+  utter_importance_of_omega3:
+  - text: Sì, è importante integrare gli omega 3 nella propria dieta perché il nostro corpo non è in grado di produrli da solo. Gli omega 3 sono importanti per la loro funzione antinfiammatoria, ma la nostra alimentazione è spesso carente di questi acidi grassi essenziali.
+
+  utter_omega3_deficiency:
+  - text: La nostra alimentazione è carente di omega 3 perché è già strapiena di omega 6. Il rapporto ideale tra omega 3 e omega 6 nella dieta dovrebbe essere di 1:1, ma l'alimentazione dell'occidentale medio si assesta sul 1:12, con picchi di 1:40. Questo squilibrio può portare a stati infiammatori persistenti.
+
+  utter_omega3_omega6_balance:
+  - text: No, i vegani non sono esenti da questo problema. Molti alimenti considerati "salutari" (come la frutta secca oleosa) sono ricchi di omega 6 e molti cibi industriali (come i burger vegani) sono carenti di omega 3.
+
+  utter_vegan_sources_of_omega3:
+  - text: Nei cibi vegetali, gli unici alimenti che apportano buone quantità di omega 3 sono i semi di lino e il suo olio, e le noci.
+
+  utter_vegan_omega3_sources:
+  - text: No, non è sufficiente. La famiglia degli omega 3 svolge diverse funzioni importanti per la salute del nostro cervello e delle nostre membrane cellulari. Gli acidi grassi a catena lunga (EPA e DHA) sono quelli che svolgono queste funzioni, ma gli alimenti vegetali ne contengono solo a catena corta (ALA). Per questo motivo, è importante assumere un integratore algale che fornisca almeno 250 mg di EPA e 500 mg di DHA al giorno.
+
+  utter_vegan_micronutrient_deficiencies:
+  - text: Gli EPA e DHA per i vegani possono essere ottenuti da un integratore algale che utilizza microalghe come substrato. La dose raccomandata è di 250 mg di EPA e 500 mg di DHA al giorno.
+
+  utter_vegan_calcium_sources:
+  - text: Le vitamine B12 e D, B1, B2, B3, gli omega 3, lo zinco, il selenio, lo iodio e il calcio potrebbero essere carenti nella dieta vegana.
+
+  utter_vegan_iodine_sources:
+  - text: Consumando crucifere almeno un paio di volte a settimana e bevendo acque mineralizzate, nella maggioranza dei casi, sarà sufficiente a fornire l'apporto di calcio necessario. In casi particolari o patologici, come osteoporosi o rachitismo, sarà cura del medico dare indicazioni diverse.
+
+  utter_vegan_epa_dha_sources:
+  - text: No, a patto di fare un uso leggero di sale, non sarà necessario ridurre il consumo di iodio. I due componenti del sale da cucina, il sodio e il cloro, che diventano tre se usiamo quello iodato, sono nutrienti essenziali per la salute e non possono mai mancare. Se non si usa il sale, serve un integratore che lo contenga.
+
+  utter_vegan_selenium_source:
+  - text: La fonte unica di selenio nella dieta vegana è il lievito alimentare, in scaglie o in polvere.
+
+  utter_vegan_nutrient_supplementation:
+  - text: Anche se è possibile raggiungere una buona quota di zinco e vitamine B1, B2, B3 con l'alimentazione, è comunque consigliata l'integrazione per evitare carenze.
+
+  utter_vegan_multivitamin_difficulties:
+  - text: Le difficoltà nel trovare un buon multivitaminico per la dieta vegana sono legate al fatto che spesso la lista degli ingredienti è molto lunga e il contenuto effettivo per ogni nutriente risulta molto scarso. Inoltre, le forme dei nutrienti potrebbero non essere assimilabili, come nel caso in cui i minerali siano espressi in forma ossida o carbonata.
+
+  utter_vegan_nutrient_deficiencies:
+  - text: Le vitamine B12 e D, B1, B2, B3, gli omega 3, lo zinco, il selenio, lo iodio e il calcio sono nutrienti che rischiano di essere carenti nella dieta vegana.
+
+  utter_vegan_nutrient_intake_difficulties:
+  - text: Sì, è spesso difficile raggiungere gli apporti raccomandati di questi nutrienti nella dieta vegana a causa della difficoltà di assimilazione e della rigidità e complessità dell'alimentazione necessaria per rispettare tutti i fabbisogni.
+
+  utter_vegan_micronutrients_solution:
+  - text: La soluzione per evitare carenze di micronutrienti nella dieta vegana è strutturare un'alimentazione che abbia l'80% di cibi "puliti" ricchi di micronutrienti e inserire un buon multivitaminico che fornisca tutti i nutrienti che potrebbero essere presenti in quantità non ottimali.
+
+  utter_iodine_supplementation:
+  - text: Sì, è necessario integrare lo iodio nella dieta vegana a meno che non si faccia un uso leggero di sale iodato.
+
+  utter_vegan_multivitamin_challenge:
+  - text: La sfida nella scelta di un buon multivitaminico per la dieta vegana è trovare un prodotto che abbia tutti i micronutrienti in quantità adeguate e nella forma assimilabile. Spesso la lista degli ingredienti è lunga, ma il contenuto effettivo per ogni nutriente è scarso o le forme non sono assimilabili, come nel caso in cui i minerali siano espressi in forma ossida o carbonata.
+
+  utter_calcium_in_vegan_diet:
+  - text: No, non è necessario preoccuparsi del calcio nella dieta vegana a patto di consumare crucifere almeno un paio di volte a settimana e di bere a sufficienza acque mineralizzate. Tuttavia, per casi particolari o patologici, come osteoporosi o rachitismo, il medico potrebbe dare indicazioni diverse.
+
+  utter_iodine_deficiency_prevention:
+  - text: Per evitare la carenza di iodio nella dieta vegana, è sufficiente fare un uso leggero di sale iodato. In caso contrario, sarà necessario optare per un integratore che contenga iodio.
+
+  utter_selenium_source:
+  - text: La fonte principale di selenio nella dieta vegana è il lievito alimentare, che può essere trovato in scaglie o in polvere. In caso di difficoltà a reperirlo o di mancato piacere, sarà necessario optare per un’integrazione.
+
+  utter_vitamin_zinc_supplementation:
+  - text: Sì, è consigliata l’integrazione per lo zinco e le vitamine B1, B2, B3, anche se è possibile raggiungere una buona quota con l’alimentazione.
+
 
   utter_bot_challenge:
   - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
