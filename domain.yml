@@ -1666,7 +1666,7 @@ responses:
   utter_choosing_carb_fat_sources_in_vegan_diet:
   - text: Nell'alimentazione vegana bisognerebbe scegliere le fonti di carboidrati da cereali, pseudocereali, frutta zuccherina, legumi e patate, mentre le fonti di grassi da olio, frutta grassa, frutta secca oleosa e derivati e semi oleosi.
   
-  utter_rule_for_consuming_high_fat_carb_foods_in_vegan_diet
+  utter_rule_for_consuming_high_fat_carb_foods_in_vegan_diet:
   - text: Bisognerebbe seguire la regola 80-20 per il consumo di cibi con alti grassi e carboidrati nell'alimentazione vegana, ovvero consumarli solo occasionalmente e con moderazione.
   
   utter_natural_sources_of_carbohydrates_in_vegan_diet:
