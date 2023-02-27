@@ -1891,7 +1891,7 @@ responses:
   utter_carb_management_during_hypocaloric_phase:
   - text: Durante una fase di ipocalorica, non c'è nessun surplus di nutrienti e il corpo non avrà problemi a eliminare dal sangue tutti i nutrienti che vengono introdotti con l'alimentazione. La sensibilità all'insulina aumenterà, e sarà conveniente mantenere i carboidrati ai massimi e i grassi ai minimi per mantenere il metabolismo, la performance e il benessere psicologico.
 # VSS cap 7
-    utter_fiber_functions:
+  utter_fiber_functions:
   - text: Le fibre svolgono una serie di funzioni importanti nel nostro organismo. In primo luogo, ci danno un maggior senso di sazietà e ci mantengono sazi più a lungo. In secondo luogo, ci aiutano ad andare di corpo e nutrono il microbiota intestinale.
 
   utter_fiber_sources:
