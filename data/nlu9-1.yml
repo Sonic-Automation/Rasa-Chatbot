@@ -1,0 +1,118 @@
+version: "3.1"
+
+nlu:
+- intent: meal_timing_importance
+  examples: |
+    - E' importante il timing dei pasti?
+    - Qual è l'effetto del timing dei pasti sulla perdita di peso?
+    - Come il momento dei pasti influisce sulla digestione?
+    - C'è un orario migliore per mangiare per perdere peso?
+    - Qual è l'importanza di mangiare regolarmente nello stesso orario?
+
+- intent: weight_loss_timing
+  examples: |
+    - Qual è l'effetto del timing sulle abitudini alimentari?
+    - Qual è il momento migliore per mangiare per perdere peso?
+    - Come l'orario dei pasti influisce sulla perdita di peso?
+    - Ci sono differenze tra perdere peso durante la giornata o durante la notte?
+    - Mangiare dopo le 8 di sera fa ingrassare?
+
+- intent: breakfast_skip_weight_loss
+  examples: |
+    - Perché saltare la colazione non ha un effetto negativo sulla perdita di peso?
+    - E' vero che saltare la colazione fa perdere peso?
+    - Come lo skip della colazione influisce sulla dieta?
+    - Saltare la colazione è un modo per perdere peso?
+    - Perdere peso senza colazione: si può?
+
+- intent: nutrients_weight_loss_effect
+  examples: |
+    - I nutrienti hanno lo stesso effetto sulla perdita di peso?
+    - Quali sono i nutrienti più importanti per la perdita di peso?
+    - Proteine, carboidrati o grassi: quale scegliere per la perdita di peso?
+    - Come i nutrienti influiscono sulla perdita di peso?
+    - Quali sono gli alimenti più indicati per la perdita di peso?
+
+- intent: meal_nutrient_timing_importance
+  examples: |
+    - Qual è l'importanza del timing dei nutrienti nella dieta?
+    - Come il timing dei nutrienti influisce sulla perdita di peso?
+    - C'è un ordine migliore per mangiare proteine, grassi e carboidrati?
+    - Come combinare i nutrienti per un'efficace perdita di peso?
+    - C'è un momento migliore per mangiare i diversi nutrienti?
+
+- intent: breakfast_importance
+  examples: |
+    - La colazione è davvero il pasto più importante della giornata?
+    - Qual è l'importanza della colazione per la salute?
+    - È vero che saltare la colazione fa male?
+    - Quali sono i benefici di una colazione equilibrata?
+    - Quali sono i pasti più importanti della giornata secondo la scienza?
+
+- intent: carbs_at_night_weight_gain
+  examples: |
+    - I carboidrati consumati la sera fanno ingrassare?
+    - È vero che mangiare carboidrati di sera è sbagliato?
+    - Qual è l'effetto dei carboidrati sulla perdita di peso se consumati di sera?
+    - Cosa succede se mangio carboidrati la sera?
+    - Come influisce il consumo di carboidrati la sera sulla salute?
+
+- intent: food_intake_metabolism
+  examples: |
+    - Qual è l'effetto del totale di cibo consumato sul metabolismo?
+    - Cosa succede al nostro metabolismo quando mangiamo troppo?
+    - Come influisce il consumo di cibo sulla digestione e sul metabolismo?
+    - È vero che mangiare frequentemente accelerare il metabolismo?
+    - Quali sono i fattori che influenzano il metabolismo?
+
+- intent: timing_of_nutrient_intake
+  examples: |
+    - È importante che le proteine vengano consumate a colazione?
+    - Qual è il momento migliore per consumare i grassi?
+    - È importante consumare carboidrati dopo l'allenamento?
+    - Quali sono i benefici di un'assunzione di proteine regolare durante la giornata?
+    - Qual è l'importanza del timing nell'assunzione di nutrienti?
+
+- intent: importance_of_timing
+  examples: |
+    - Perché è importante il timing nell'alimentazione?
+    - Come influisce il momento del pasto sulla digestione?
+    - Qual è il momento migliore per mangiare la colazione?
+    - Come può il timing dell'alimentazione influenzare la perdita di peso?
+    - Cosa succede se si mangia troppo tardi la sera?
+
+- intent: real_importance_of_timing
+  examples: |
+    - Qual è la reale importanza del timing nell'alimentazione?
+
+- intent: carb_timing
+  examples: |
+    - Quando è il momento migliore per consumare i carboidrati?
+    - Qual è il momento giusto per mangiare carboidrati?
+    - Cosa succede se mangio carboidrati a cena?
+    - Quali sono i vantaggi di mangiare carboidrati a colazione?
+    - Come posso bilanciare l'assunzione di carboidrati durante il giorno?
+
+- intent: meal_nutrient_timing
+  examples: |
+    - Quanto è importante il timing dei pasti per la nostra alimentazione?
+    - Qual è l'importanza di consumare i nutrienti nei giusti momenti?
+    - Cosa succede se mangio troppo tardi la sera?
+    - Quali sono i benefici di mangiare prima di fare attività fisica?
+    - Come posso migliorare il mio apporto di nutrienti durante la giornata?
+
+- intent: total_food_intake
+  examples: |
+    - Qual è l'importanza del totale del cibo che ingeriamo durante la giornata e la settimana?
+    - Come posso calcolare il mio fabbisogno calorico giornaliero?
+    - Cosa succede se mangio troppo poco o troppo tanto?
+    - Quali sono i benefici di distribuire l'apporto calorico durante la giornata?
+    - Come posso controllare la mia ingestione calorica settimanale?
+
+- intent: breakfast_skipping
+  examples: |
+    - Saltare la colazione ha effetti negativi sulla salute?
+    - Quale ruolo ha la colazione nella nostra alimentazione?
+    - Cosa succede se non faccio colazione?
+    - Quali sono i benefici di fare colazione?
+    - Come posso fare colazione in modo sano e veloce?

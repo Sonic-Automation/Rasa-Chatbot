@@ -1,0 +1,215 @@
+version: "3.1"
+
+nlu:
+- intent: protein_distribution_for_performance
+  examples: |
+    - Come posso distribuire le proteine durante la giornata per migliorare la mia performance in allenamento?
+    - Qual è la quantità di proteine ​​necessaria per la mia dieta sportiva e come posso distribuirle in modo efficace?
+    - Qual è il modo migliore per distribuire le proteine nella dieta per gli atleti?
+    - Quale è il momento migliore per assumere proteine ​​per migliorare le prestazioni sportive?
+    - Come posso sfruttare al meglio le proteine ​​per aumentare la mia resistenza e la mia massa muscolare?
+
+- intent: maximum_protein_absorption
+  examples: |
+    - Il corpo umano può assorbire più di 30 g di proteine per pasto?
+    - Qual è la quantità massima di proteine che il corpo può assorbire per pasto?
+    - Cosa succede se assumo troppa proteina in un pasto?
+    - Qual è il limite di proteine che il corpo può assorbire e utilizzare?
+
+- intent: risks_of_hydrolyzed_proteins
+  examples: |
+    - Cosa succede se assumiamo troppe proteine idrolizzate?
+    - Quali sono i rischi per la salute associati al consumo eccessivo di proteine idrolizzate?
+    - Quali sono gli effetti collaterali delle proteine idrolizzate?
+    - Posso assumere troppe proteine idrolizzate se voglio costruire massa muscolare?
+
+- intent: importance_of_protein_distribution
+  examples: |
+    - Perché è importante distribuire le proteine durante la giornata?
+    - Qual è il ruolo del timing dell'assunzione di proteine nella dieta?
+    - Quali sono i benefici di distribuire le proteine ​​in più pasti durante il giorno?
+    - Come può la distribuzione adeguata delle proteine ​​migliorare la costruzione muscolare e la perdita di grasso corporeo?
+    - Quali sono gli svantaggi di assumere una grande quantità di proteine ​​in un solo pasto?
+
+- intent: protein_distribution_bulking
+  examples: |
+    - È importante distribuire le proteine durante la fase di massa?
+    - Qual è la distribuzione ideale delle proteine durante la fase di massa?
+    - Come posso ottimizzare la distribuzione delle proteine nella mia dieta?
+    - Quali sono i benefici di una distribuzione adeguata delle proteine?
+
+- intent: protein_absorption
+  examples: |
+    - Quanti grammi di proteine dovrebbero essere consumati per pasto per ottenere il massimo assorbimento?
+    - Qual è la quantità ideale di proteine da consumare per pasto?
+    - Come posso massimizzare l'assorbimento delle proteine?
+    - Qual è il rapporto ideale tra proteine e carboidrati per l'assorbimento?
+    - Qual è il tempo ideale per il consumo di proteine per il massimo assorbimento?
+
+- intent: liver_protein_processing
+  examples: |
+    - Il fegato è in grado di processare più di 28 grammi di proteine l'ora?
+    - Qual è la capacità del fegato di elaborare le proteine?
+    - Cosa succede se si consuma troppa proteina per pasto?
+    - Qual è il limite massimo di proteine che il fegato può elaborare?
+    - Ci sono rischi per la salute associati all'eccesso di proteine?
+
+- intent: hydrolyzed_whey_protein
+  examples: |
+    - Le proteine del siero del latte idrolizzate possono causare la saturazione dei meccanismi di assimilazione?
+    - Qual è il livello di assorbimento delle proteine del siero del latte idrolizzate?
+    - Le proteine del siero del latte idrolizzate sono più efficaci di quelle normali?
+    - Come posso scegliere la migliore proteina del siero del latte per il mio fabbisogno?
+    - Ci sono rischi per la salute associati al consumo di proteine del siero del latte idrolizzate?
+
+- intent: reason_for_protein_distribution
+  examples: |
+    - Qual è il motivo principale per distribuire le proteine durante la giornata?
+    - Come influisce la distribuzione delle proteine sulla crescita muscolare?
+    - Quali sono i benefici per la salute di una distribuzione adeguata delle proteine?
+    - Cosa succede se non si distribuiscono correttamente le proteine durante la giornata?
+    - Come posso distribuire le proteine in modo ottimale nella mia dieta?
+
+- intent: protein_timing_in_cutting
+  examples: |
+    - Qual è l'importanza del timing delle proteine in una fase di definizione?
+    - In una fase di definizione, il timing delle proteine è più importante rispetto a una fase di massa?
+    - Quando è meglio assumere proteine durante una fase di cutting?
+    - Quali sono i benefici di assumere proteine in un preciso orario durante una dieta dimagrante?
+    - Come posso organizzare il mio apporto proteico per massimizzare i risultati in una fase di definizione?
+
+- intent: protein_waste
+  examples: |
+    - Se assumo troppe proteine del siero del latte idrolizzate, una parte di esse andrà sprecata?
+    - È vero che l'organismo non può utilizzare una dose troppo elevata di proteine?
+    - Qual è l'assunzione di proteine ottimale per evitare lo spreco?
+    - Come posso evitare lo spreco di proteine durante la dieta?
+    - Quanto è importante il dosaggio delle proteine per evitarne lo spreco?
+
+- intent: protein_distribution
+  examples: |
+    - Quale dovrebbe essere il motivo per cui le proteine dovrebbero essere distribuite durante la giornata?
+    - È importante distribuire le proteine durante la giornata?
+    - Qual è il miglior modo di distribuire le proteine durante la giornata?
+    - Quali sono i benefici di distribuire le proteine uniformemente durante la giornata?
+    - Come posso pianificare il mio apporto proteico giornaliero per massimizzare i risultati?
+
+- intent: protein_timing_and_goal
+  examples: |
+    - Come influisce l'obiettivo sulla distribuzione delle proteine durante la giornata?
+    - Qual è il miglior momento per assumere proteine per raggiungere un certo obiettivo?
+    - Il timing delle proteine è importante in base all'obiettivo?
+    - Come varia il timing delle proteine in base all'obiettivo?
+    - Quali sono le differenze nella distribuzione delle proteine in base all'obiettivo?
+
+- intent: protein_intake_timing
+  examples: |
+    - È vero che se mangiamo tutta la dose di proteine la mattina, lo stimolo sarà subito massimo ma poi scenderà durante la giornata?
+    - Qual è il momento migliore per assumere proteine?
+    - Quali sono gli effetti di assumere proteine in diversi momenti della giornata?
+    - Come posso ottimizzare l'assunzione di proteine per massimizzare gli effetti sul muscolo?
+    - Quali sono le conseguenze di una bassa assunzione di proteine?
+
+- intent: high_dosage_hydrolyzed_proteins
+  examples: |
+    - Cosa succede se si assume un dosaggio troppo elevato di proteine idrolizzate?
+    - Quali sono i rischi associati all'assunzione di proteine idrolizzate?
+    - Come posso evitare gli effetti collaterali delle proteine idrolizzate?
+    - Cosa succede se si assume una quantità eccessiva di proteine?
+    - Quali sono le conseguenze dell'assunzione di proteine in eccesso?
+
+- intent: performance_loss_prevention
+  examples: |
+    - In che modo possiamo prevenire la compromissione della performance durante la fase di perdita di grasso?
+    - Come posso migliorare le mie prestazioni durante la fase di perdita di grasso?
+    - Quali sono le strategie per mantenere le prestazioni durante la dieta?
+    - Come evitare il catabolismo muscolare durante la perdita di grasso?
+    - Quali sono le conseguenze di una dieta ipocalorica sulla performance sportiva?
+
+- intent: high_carbohydrate_sports
+  examples: |
+    - Quali sono gli sport che richiedono più carboidrati?
+    - Quale dovrebbe essere l'apporto di carboidrati per gli sportivi?
+    - Come posso ottimizzare l'apporto di carboidrati per migliorare le prestazioni sportive?
+    - Quali sono gli effetti di una bassa assunzione di carboidrati sugli atleti?
+    - Come posso evitare la deplezione di glicogeno durante lo sport?
+
+- intent: nutritional_needs_in_caloric_surplus
+  examples: |
+    - Come cambiano le necessità nutrizionali durante la fase di massa con un surplus calorico?
+    - Quali sono i requisiti nutrizionali per la costruzione muscolare?
+    - Quale dovrebbe essere il rapporto tra proteine, carboidrati e grassi durante la fase di massa?
+    - Quali sono le conseguenze di un apporto calorico troppo elevato?
+    - Come posso evitare l'aumento di grasso durante la fase di massa? 
+
+- intent: nutrient_timing_post_workout
+  examples: |
+    - Quanto tempo dopo l'allenamento è il momento migliore per assumere proteine?
+    - Qual è la finestra anabolica dopo l'allenamento?
+    - Quando dovrei assumere i carboidrati dopo l'allenamento?
+    - Quali sono i nutrienti più importanti da assumere dopo l'allenamento?
+    - Come posso massimizzare la ricettività ai nutrienti dopo l'allenamento?
+
+- intent: calorie_diversion_before_workout
+  examples: |
+    - Quali sono le migliori opzioni per dirottare le calorie prima dell'allenamento durante la fase di perdita di grasso?
+    - Quali alimenti sono raccomandati prima dell'allenamento per massimizzare i risultati?
+    - Cosa dovrei mangiare prima dell'allenamento per avere abbastanza energia?
+    - Quali sono i pasti migliori per il pre-allenamento?
+    - Come posso bilanciare il mio pasto prima dell'allenamento per ottimizzare la perdita di grasso?
+
+- intent: nutrient_cycling_mass_phase
+  examples: |
+    - Qual è l'obiettivo della ciclizzazione dei nutrienti durante la fase di massa con un surplus calorico?
+    - Come funziona la ciclizzazione dei nutrienti durante la fase di massa?
+    - Qual è il modo migliore per ciclizzare i nutrienti durante la fase di massa?
+    - Quali sono i benefici della ciclizzazione dei nutrienti?
+    - Come impostare una dieta ciclica per la fase di massa?
+
+- intent: carb_intake_sport_performance
+  examples: |
+    - Come influisce l'assunzione di carboidrati sulla performance sportiva?
+    - Qual è la relazione tra i carboidrati e l'energia durante l'esercizio fisico?
+    - Quanto carboidrati dovrei assumere prima dell'allenamento?
+    - Qual è il momento migliore per assumere i carboidrati prima dell'allenamento?
+    - Quali sono i migliori fonti di carboidrati per gli atleti?
+
+- intent: fasted_cardio_burning_fat
+  examples: |
+    - Si bruciano davvero più grassi durante l'attività aerobica a digiuno?
+    - Qual è il vantaggio di fare attività aerobica a digiuno?
+    - Che cosa succede se faccio attività aerobica a digiuno?
+    - Si perde più grasso addominale con l'attività aerobica a digiuno?
+    - Qual è la migliore attività aerobica da fare a digiuno?
+
+- intent: not_needed_fasted_cardio
+  examples: |
+    - Perché non è necessario fare cardio a digiuno?
+    - Cosa succede se faccio cardio a digiuno?
+    - Quali sono gli effetti negativi del cardio a digiuno?
+    - Qual è il momento migliore per fare cardio?
+    - Come posso massimizzare i risultati del cardio?
+
+- intent: effect_fasted_cardio_calories_burned
+  examples: |
+    - Fare cardio a digiuno aiuta a bruciare più calorie durante la giornata?
+    - Quanti grassi si bruciano in più facendo cardio a digiuno?
+    - L'effetto del cardio a digiuno dura per tutta la giornata?
+    - C'è una differenza significativa nella quantità di calorie bruciate a digiuno rispetto a dopo aver mangiato?
+    - Come posso massimizzare il consumo calorico durante l'allenamento?
+
+- intent: nutrients_during_training
+  examples: |
+    - Quali nutrienti dovrei assumere durante l'allenamento?
+    - Quali sono i migliori alimenti da consumare durante l'allenamento?
+    - Quali sono i carboidrati migliori per l'allenamento?
+    - È meglio bere acqua o una bevanda sportiva durante l'allenamento?
+    - Qual è la migliore fonte di proteine durante l'allenamento?
+
+- intent: poor_performance_fasted_training
+  examples: |
+    - Perché l'allenamento a digiuno può portare a una prestazione peggiore?
+    - Come posso migliorare le mie prestazioni durante l'allenamento a digiuno?
+    - Cosa succede se mangio troppo poco prima dell'allenamento?
+    - Quali sono i migliori alimenti da mangiare prima dell'allenamento?
+    - Quali sono i rischi dell'allenamento a digiuno?
