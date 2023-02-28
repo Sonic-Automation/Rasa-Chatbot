@@ -7,6 +7,19 @@ stories:
   - intent: greeting
   - action: utter_greeting
 
+- story: Exploring Nutrition path
+  steps:
+  - intent: pasta_e_fagioli
+  - action: utter_pasta_e_fagioli
+  - intent: abbinamento_proteine
+  - action: utter_abbinamento_proteine
+  - intent: costo_diventare_vegani
+  - action: utter_costo_diventare_vegani
+  - intent: fame
+  - action: utter_fame
+  - intent: valore_alimenti_vegetali
+  - action: utter_valore_alimenti_vegetali
+
 - story: sentirsi gonfi transizione vegana
   steps:
   - intent: sentirsi_gonfi_transizione_vegana
@@ -31,31 +44,6 @@ stories:
   steps:
   - intent: alimenti_serie_AB
   - action: utter_alimenti_serie_AB
-
-- story: pasta e fagioli
-  steps:
-  - intent: pasta_e_fagioli
-  - action: utter_pasta_e_fagioli
-
-- story: abbinamento proteine
-  steps:
-  - intent: abbinamento_proteine
-  - action: utter_abbinamento_proteine
-
-- story: costo veganismo
-  steps:
-  - intent: costo_veganismo
-  - action: utter_costo_veganismo
-
-- story: perché ho sempre fame
-  steps:
-  - intent: perché_ho_sempre_fame
-  - action: utter_perché_ho_sempre_fame
-
-- story: rimediare basso valore alimenti vegetali
-  steps:
-  - intent: rimediare_basso_valore_alimenti_vegetali
-  - action: utter_rimediare_basso_valore_alimenti_vegetali
 
 - story: pasto bilanciato
   steps:

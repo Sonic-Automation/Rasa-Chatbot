@@ -5,9 +5,10 @@ intents:
   - bot_challenge
   - pasta_e_fagioli # Copia di Q&A-da 1 a 5
   - abbinamento_proteine
-  - costo_veganismo
-  - perché_ho_sempre_fame
-  - rimediare_basso_valore_alimenti_vegetali
+  - costo_diventare_vegani
+  - fame
+  - valore_alimenti_vegetali
+
   - sentirsi_gonfi_transizione_vegana # Copia di Q&A-da 6 a 10
   - alimentazione_vegana_completa
   - proteine_grasse
@@ -656,7 +657,7 @@ responses:
       di arrivare prima di tutto alla quantità di proteine che ci serve e alla quantità di calorie. Vediamo che in questo senso perde un po’ di 
       significato “mangio i legumi o mangio i cereali”. È più importante raggiungere quell’apporto proteico senza sforare con carboidrati e grassi.
  
-  utter_costo_veganismo:
+  utter_costo_diventare_vegani:
   - text: Per diventare vegani non servono grandi disponibilità economiche, sfatiamo questo mito. Lo so che si sente sempre dire- 
       <<Eh ma i prodotti vegani costano tanto, dobbiamo avere “i portafogli larghi”>> non è assolutamente così! Consideriamo che la maggior parte 
       dei prodotti vegetali costa già pochissimo, costa già molto meno di quelli animali; poi è normale che se andiamo a prendere più prodotti processati, 
@@ -670,7 +671,7 @@ responses:
       digestivi, che serve a massimizzare la sintesi proteica. Così possiamo mangiare meno proteine, finché l’alimentazione si semplifica, perché possiamo andare a 
       prendere poi più carboidrati e più grassi e andiamo anche a spendere meno nell’alimentazione.
 
-  utter_perché_ho_sempre_fame:
+  utter_fame:
   - text: Se hai sempre fame, con tutta probabilità è perché non stai rispettando i fabbisogni dell’organismo. 
       Quindi di carboidrati, proteine, grassi e fibre. Ti faccio un esempio- se uno mangia sempre sano può incorrere 
       nel problema che sì, mangia abbastanza fibre, ma non mangia abbastanza magari carboidrati o proteine; quindi che 
@@ -681,7 +682,7 @@ responses:
       va a finire che non entrando nelle cellule il tuo organismo dice- <<Ok ma i carboidrati comunque non me li hai dati e quindi 
       li voglio!>>. Il problema è che non riesci a farli entrare, non che non glieli dai e quindi devi risolvere questo problema.
 
-  utter_rimediare_basso_valore_alimenti_vegetali:
+  utter_valore_alimenti_vegetali:
   - text: È vero che gli alimenti vegetali hanno tendenzialmente un valore biologico più basso di quello delle proteine vegetali. 
       Questo è dovuto a due fattori- il primo è che gli alimenti vegetali hanno un profilo di amminoacidi, ovvero i mattoncini che 
       compongono le proteine, che è un po’ squilibrato o da una parte o dall’altra. Abbiamo già fatto molte volte l’esempio del tavolino, 

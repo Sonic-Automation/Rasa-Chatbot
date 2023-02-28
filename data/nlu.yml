@@ -43,115 +43,43 @@ nlu:
 
 - intent: pasta_e_fagioli
   examples: |
-    - Pasta e fagioli è un buon piatto?
-    - Voglio sapere se la pasta e fagioli è un buon piatto.
-    - Qualcuno mi ha detto che la pasta e fagioli è ottima, è vero?
-    - Vorrei sapere se la pasta e fagioli è un piatto popolare.
-    - Ho sentito parlare della pasta e fagioli, è un piatto buono?
-    - Vorrei sapere se la pasta e fagioli è un piatto gustoso.
-    - Qualcuno mi ha detto che la pasta e fagioli è un piatto sostanzioso, è vero?
-    - Vorrei sapere se la pasta e fagioli è un piatto tipico italiano.
-    - Ho sentito parlare della pasta e fagioli, è un piatto tradizionale italiano?
-    - Vorrei sapere se la pasta e fagioli è un piatto popolare in Italia.
-    - Qualcuno mi ha detto che la pasta e fagioli è un piatto popolare in Toscana, è vero?
-    - Vorrei sapere se la pasta e fagioli è un piatto adatto per il pranzo.
-    - Qualcuno mi ha detto che la pasta e fagioli è un piatto adatto per la cena, è vero?
-    - Vorrei sapere se la pasta e fagioli è un piatto leggero.
-    - Qualcuno mi ha detto che la pasta e fagioli è un piatto saziante, è vero?
-    - Vorrei sapere se la pasta e fagioli è un piatto facile da preparare.
-    - Qualcuno mi ha detto che la pasta e fagioli è un piatto economico, è vero?
-    - Vorrei sapere se la pasta e fagioli è un piatto vegetariano.
-    - Qualcuno mi ha detto che la pasta e fagioli è un piatto vegano, è vero?
+    - Pasta e fagioli è un piatto nutriente?
+    - Quali sono i benefici di pasta e fagioli?
+    - È salutare mangiare pasta e fagioli ogni giorno?
+    - Quali sono le varianti più salutari di pasta e fagioli?
+    - Come posso migliorare la nutrizione di pasta e fagioli?
+
 - intent: abbinamento_proteine
   examples: |
     - Come vanno abbinati gli alimenti proteici?
-    - Vorrei sapere come abbinare gli alimenti proteici.
-    - Quali sono i modi corretti per abbinare gli alimenti proteici?
-    - Vorrei sapere come combinare gli alimenti proteici per ottenere un pasto equilibrato.
-    - Quali sono i criteri per abbinare correttamente gli alimenti proteici?
-    - Vorrei sapere se esiste una regola per abbinare gli alimenti proteici.
-    - Quali sono gli alimenti proteici che si possono abbinare tra loro?
-    - Vorrei sapere se gli alimenti proteici di origine animale si possono abbinare con quelli di origine vegetale.
-    - Quali sono le combinazioni di alimenti proteici più comuni?
-    - Vorrei sapere come abbinare la carne con i legumi.
-    - Quali sono i modi migliori per abbinare pesce e carne?
-    - Vorrei sapere come abbinare i formaggi con la carne.
-    - Quali sono i legumi più adatti per abbinare con la carne?
-    - Vorrei sapere come abbinare la carne con la pasta.
-    - Quali sono i modi migliori per abbinare la carne con le verdure.
-    - Vorrei sapere come abbinare i cereali con gli alimenti proteici.
-    - Quali sono i modi migliori per abbinare le uova con gli alimenti proteici.
-    - Vorrei sapere come abbinare i latticini con gli alimenti proteici.
-    - Quali sono i modi migliori per abbinare la soia con gli alimenti proteici.
-    - Vorrei sapere come abbinare i prodotti a base di proteine vegetali con quelli animali.
+    - Quali alimenti vegetali contengono proteine?
+    - Quali sono i migliori alimenti da abbinare con i legumi per aumentare l'apporto proteico?
+    - Come posso ottenere abbastanza proteine nella mia dieta vegana?
+    - Come posso creare pasti equilibrati e ricchi di proteine?
 
-- intent: costo_veganismo
+- intent: costo_diventare_vegani
   examples: |
     - Diventare vegani è costoso?
-    - Vorrei sapere se diventare vegani è costoso.
-    - È vero che il veganismo ha un costo elevato?
-    - Quali sono i costi principali associati al veganismo?
-    - È possibile mantenere una dieta vegana a prezzi accessibili?
-    - Quali sono i modi per mantenere una dieta vegana a basso costo?
-    - Vorrei sapere se i prodotti vegani sono più costosi di quelli non vegani.
-    - È possibile acquistare prodotti vegani a prezzi accessibili?
-    - Quali sono i negozi che vendono prodotti vegani a prezzi convenienti?
-    - Vorrei sapere se il veganismo comporta maggiori spese per la spesa alimentare.
-    - Quali sono i modi per ridurre i costi associati al veganismo?
-    - Vorrei sapere se è possibile mangiare vegano senza spendere troppo.
-    - Quali sono le alternative vegane più economiche?
-    - Vorrei sapere come risparmiare sui prodotti vegani.
-    - Quali sono i modi per ottenere prodotti vegani a prezzi più convenienti?
-    - Vorrei sapere come mantenere una dieta vegana senza spendere troppo.
-    - Quali sono i modi per ridurre i costi del veganismo senza rinunciare a una dieta equilibrata?
-    - Vorrei sapere come mantenere uno stile di vita vegano a prezzi accessibili.
-    - Quali sono i consigli per risparmiare sui prodotti vegani senza rinunciare a una dieta sana e varia?
-    - Vorrei sapere se esistono programmi o iniziative per sostenere il veganismo a prezzi accessibili.
+    - Quali sono le alternative economiche ai prodotti vegani costosi?
+    - È possibile seguire una dieta vegana con un budget limitato?
+    - Come posso risparmiare denaro sulla mia dieta vegana?
+    - Quanto costa di più seguire una dieta vegana rispetto a una dieta onnivora?
 
-- intent: perché_ho_sempre_fame
+- intent: fame
   examples: |
     - Perché ho sempre fame?
-    - Non riesco mai a saziarli
-    - Ho fame anche se mangio regolarmente
-    - Non posso mai smettere di pensare al cibo
-    - Sento sempre un vuoto nello stomaco
-    - Non posso mai raggiungere la sazietà
-    - Ho sempre fame, anche se mangio abbastanza
-    - Non importa quanto mangio, ho sempre fame
-    - Non so perché ho sempre fame
-    - Vorrei sapere perché ho sempre fame
-    - Vorrei risolvere il mio problema di fame continua
-    - La mia fame è insaziabile
-    - Mi sento sempre affamato
-    - Ho bisogno di capire perché ho sempre fame
-    - Vorrei risolvere il mio problema di fame costante
-    - Non posso mai smettere di mangiare
-    - Ho fame anche se ho appena mangiato
-    - Vorrei sapere perché non riesco mai a sentirmi sazio
-    - Vorrei risolvere la mia fame continua
+    - Quali sono i motivi per cui ho costantemente fame?
+    - Come posso ridurre la sensazione di fame durante la dieta vegana?
+    - Quali sono gli alimenti che aiutano a saziare la fame?
+    - Come posso bilanciare la mia dieta per ridurre la fame?
 
-- intent: rimediare_basso_valore_alimenti_vegetali
+- intent: valore_alimenti_vegetali
   examples: |
-    - come rimediare al basso valore degli alimenti vegetali?
-    - Come posso aumentare il valore nutrizionale degli alimenti vegetali?
-    - Vorrei sapere come aumentare il valore nutrizionale della mia dieta vegetariana.
-    - Vorrei sapere come migliorare la qualità nutrizionale della mia dieta a base di vegetali.
-    - Vorrei sapere come ottenere più proteine da alimenti vegetali.
-    - Vorrei sapere come aumentare l'apporto di ferro nella mia dieta vegetariana.
-    - Vorrei sapere come aumentare l'assunzione di calcio nella mia dieta a base di vegetali.
-    - Vorrei sapere come aumentare l'assunzione di vitamine B12 nella mia dieta vegetariana.
-    - Vorrei sapere come integrare gli acidi grassi essenziali nella mia dieta a base di vegetali.
-    - Vorrei sapere come aumentare il contenuto di zinco nella mia dieta vegetariana.
-    - Vorrei sapere come aumentare l'assunzione di iodio nella mia dieta a base di vegetali.
-    - Vorrei sapere come aumentare l'assunzione di magnesio nella mia dieta vegetariana.
-    - Vorrei sapere come ottenere più proteine da alimenti vegetali.
-    - Vorrei sapere come aumentare il contenuto di selenio nella mia dieta a base di vegetali.
-    - Vorrei sapere come integrare la vitamina D nella mia dieta vegetariana.
-    - Vorrei sapere come aumentare l'assunzione di ferro nella mia dieta a base di vegetali.
-    - Vorrei sapere come aumentare l'assunzione di calcio nella mia dieta vegetariana.
-    - Vorrei sapere come aumentare l'assunzione di vitamine B12 nella mia dieta a base di vegetali.
-    - Vorrei sapere come integrare gli acidi grassi essenziali nella mia dieta vegetariana.
-    - Vorrei sapere come aumentare il contenuto di zinco nella mia dieta a base di vegetali.
+    - Come posso aumentare il valore degli alimenti vegetali nella mia dieta?
+    - Quali sono i nutrienti che mancano spesso nella dieta vegana?
+    - Quali sono gli alimenti vegetali più nutrienti?
+    - Come posso combinare gli alimenti vegetali per migliorare la loro digeribilità e assimilazione?
+    - Quali sono le fonti vegetali di proteine complete e nutrienti essenziali?
 
 - intent: sentirsi_gonfi_transizione_vegana
   examples: |
