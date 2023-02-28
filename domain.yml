@@ -561,7 +561,78 @@ intents:
   - iodine_deficiency_prevention
   - selenium_source
   - vitamin_zinc_supplementation
-
+# VSS cap 8-3
+  - creatine_benefits
+  - creatine_recommendation
+  - creatine_non_responders
+  - creatine_water_retention
+  - creatine_loading_phase
+  - creatine_effects_on_muscle_mass
+  - creatine_role_in_sports_performance
+  - creatine_health_effects
+  - creatine_effectiveness
+  - creatine_dosage
+  - creatine_water_consequences
+  - creatine_cycling
+  - creatine_response_percentage
+  - cognitive_benefits_of_creatine
+  - beta_alanine_definition
+  - beta_alanine_side_effects
+  - beta_alanine_dosage
+  - beta_alanine_vs_creatine
+  - safety_of_beta_alanine
+  - recommended_dosage_beta_alanine
+  - benefits_of_taurine
+  - what_is_taurine
+  - taurine_daily_dosage
+  - caffeine_effects_on_health_performance
+  - caffeine_timing
+  - caffeine_benefits
+  - beta_alanine_vs_caffeine
+# VSS cap 9-1
+  - meal_timing_importance
+  - weight_loss_timing
+  - breakfast_skip_weight_loss
+  - nutrients_weight_loss_effect
+  - meal_nutrient_timing_importance
+  - breakfast_importance
+  - carbs_at_night_weight_gain
+  - food_intake_metabolism
+  - timing_of_nutrient_intake
+  - importance_of_timing
+  - real_importance_of_timing
+  - carb_timing
+  - meal_nutrient_timing
+  - total_food_intake
+  - breakfast_skipping
+# VSS cap 9-2
+  - protein_distribution_for_performance
+  - maximum_protein_absorption
+  - risks_of_hydrolyzed_proteins
+  - importance_of_protein_distribution
+  - protein_distribution_bulking
+  - protein_absorption
+  - liver_protein_processing
+  - hydrolyzed_whey_protein
+  - reason_for_protein_distribution
+  - protein_timing_in_cutting
+  - protein_waste
+  - protein_distribution
+  - protein_timing_and_goal
+  - protein_intake_timing
+  - high_dosage_hydrolyzed_proteins
+  - performance_loss_prevention
+  - high_carbohydrate_sports
+  - nutritional_needs_in_caloric_surplus
+  - nutrient_timing_post_workout
+  - calorie_diversion_before_workout
+  - nutrient_cycling_mass_phase
+  - carb_intake_sport_performance
+  - fasted_cardio_burning_fat
+  - not_needed_fasted_cardio
+  - effect_fasted_cardio_calories_burned
+  - nutrients_during_training
+  - poor_performance_fasted_training
 
 responses: 
   utter_greeting:
@@ -2280,7 +2351,214 @@ responses:
 
   utter_vitamin_zinc_supplementation:
   - text: Sì, è consigliata l’integrazione per lo zinco e le vitamine B1, B2, B3, anche se è possibile raggiungere una buona quota con l’alimentazione.
+# VSS cap 8-3
+  utter_creatine_benefits:
+  - text: La creatina ha un ruolo nella performance sportiva perché permette uno sforzo sub massimale più prolungato. Agisce sulla fatica cumulativa, permettendo di ripetere più volte uno sforzo con minori cali di performance. Ciò garantisce un allenamento migliore e più prolungato.
 
+  utter_creatine_recommendation:
+  - text: Il dosaggio consigliato di creatina si aggira tra i 3 e i 5 g al giorno, a seconda del peso. Più si è pesanti e con più massa muscolare, più si dovrebbe assumere una quantità maggiore di creatina. È consigliato assumerla ai pasti o dopo l'allenamento per un'assimilazione migliore.
+
+  utter_creatine_non_responders:
+  - text: Una buona fetta della popolazione (dal 30 al 50%) è non-responder nei confronti della creatina, ovvero non ha effetti dalla sua assunzione. Questo potrebbe essere dovuto a livelli preesistenti di creatina, prima di iniziare la fase di integrazione. Se il corpo produce o assorbe già quantità maggiori di creatina, le riserve saranno già piene e non permetteranno ulteriori miglioramenti.
+
+  utter_creatine_water_retention:
+  - text: Sì, la creatina fa ritenzione idrica, ma questa è una ritenzione idrica "buona", perché porta acqua nei muscoli rendendoli più idratati e più voluminosi. Non comporta nulla a livello extracellulare, la ritenzione idrica antiestetica. Durante la fase iniziale di integrazione, potrebbe verificarsi un aumento di peso di 1 o 2 kg, che è un segnale positivo.
+
+  utter_creatine_loading_phase:
+  - text: No, non c'è bisogno di fare delle fasi di carico e scarico con la creatina. Va presa regolarmente, tutti i giorni, senza periodi di pausa. L'unica eccezione è data da chi fa sport di combattimento con categorie di peso, in questo caso la creatina va ciclizzata.
+
+  utter_creatine_effects_on_muscle_mass:
+  - text: La creatina aumenta l'idratazione del muscolo rendendolo più grosso, ma in realtà non c’è un aumento diretto della massa contrattile.
+
+  utter_creatine_role_in_sports_performance:
+  - text: La creatina permette uno sforzo sub massimale più prolungato, agendo sulla fatica cumulativa. Ci consente di ripetere un certo tipo di sforzo più volte con minori cali di performance, garantendoci un allenamento migliore e più prolungato.
+
+  utter_creatine_health_effects:
+  - text: No, gli studi scientifici hanno confutato le teorie che la creatina possa danneggiare i reni o causare la caduta dei capelli. Gli integratori trattati sono legali e non arrecano danno alla salute.
+
+  utter_creatine_effectiveness:
+  - text: No, una buona fetta della popolazione, tra il 30 e il 50%, è non-responder nei confronti della creatina e non otterrà alcun effetto dalla sua assunzione. I motivi non sono ancora stati chiariti, ma potrebbe dipendere dai livelli preesistenti di creatina.
+
+  utter_creatine_dosage:
+  - text: Il dosaggio consigliato di creatina è di 3-5 g al giorno a seconda del peso, con una maggiore quantità per le persone con più massa muscolare. È consigliato di assumerlo ai pasti o dopo l'allenamento per una migliore assimilazione.
+
+  utter_creatine_water_consequences:
+  - text: La creatina causa una ritenzione idrica che è "buona" per la maggior parte degli sportivi, poiché porta acqua nei muscoli rendendoli più idratati e più voluminosi. Questo non causa ritenzione idrica estetica a livello extracellulare. Tuttavia, può causare un aumento di peso durante la fase iniziale di integrazione.
+
+  utter_creatine_cycling:
+  - text: Non è necessario ciclizzare l'assunzione di creatina, ma solo per gli sport di combattimento con le categorie di peso, in questo caso è necessario interrompere l'assunzione un mese prima delle competizioni.
+
+  utter_creatine_response_percentage:
+  - text: Circa il 30-50% della popolazione è non-responder nei confronti della creatina, ovvero non ha effetti dalla sua assunzione. I motivi non sono ancora stati chiariti, ma potrebbero essere dovuti a livelli preesistenti di creatina o alla capacità del corpo di produrla o assimilare quantità maggiori. La percentuale di non-responder è nettamente più bassa nei vegani, poiché questa molecola non si trova negli alimenti vegetali.
+
+  utter_cognitive_benefits_of_creatine:
+  - text: Recentemente sono stati evidenziati dei benefici anche a livello cognitivo nell'assunzione di creatina, ma siamo ancora in fase di studio.
+
+  utter_beta_alanine_definition:
+  - text: La beta alanina è una molecola che funge da precursore di una sostanza che funge da tampone intracellulare e aiuta a mantenere la performance durante gli sforzi lattacidi ad alta intensità.
+
+  utter_beta_alanine_side_effects:
+  - text: La beta alanina è un integratore sicuro e molto studiato. Un effetto collaterale comune è un leggero formicolio generalizzato subito dopo l'assunzione, che non deve spaventare ma è anche un segno che il prodotto è buono.
+
+  utter_beta_alanine_dosage:
+  - text: Il dosaggio raccomandato di beta alanina va dai 2 ai 4 g al giorno in funzione del peso. Non è necessario seguire periodi di carico e scarico, la beta alanina va presa costantemente per ottenere risultati.
+
+  utter_beta_alanine_vs_creatine:
+  - text: La beta alanina è diversa dalla creatina perché la sua funzione è complementare a quella della creatina. La creatina agisce per gli sforzi di breve durata, ovvero tra 5 e 20 secondi, mentre la beta alanina dà il suo meglio dopo i 30 secondi di sforzo fisico. La beta alanina agisce accumulandosi nei muscoli, mentre la creatina no.
+
+  utter_safety_of_beta_alanine:
+  - text: Sì, la beta alanina è un integratore assolutamente sicuro e molto studiato. Un effetto collaterale comune è un leggero formicolio generalizzato subito dopo l'assunzione, ma non c'è da preoccuparsi perché è anche un segno che il prodotto è buono.
+
+  utter_recommended_dosage_beta_alanine:
+  - text: Il dosaggio va dai 2 ai 4 g al giorno, sempre in funzione del peso. Non sono necessari periodi di carico e scarico, la beta alanina va presa costantemente se si vogliono avere effetti.
+
+  utter_benefits_of_taurine:
+  - text: La taurina è una molecola presente solo negli alimenti animali e non è un nutriente essenziale. Tuttavia, è stato dimostrato che può portare a miglioramenti nella performance fisica e mentale. Il dosaggio consigliato è di 500 mg al giorno.
+
+  utter_what_is_taurine:
+  - text: La taurina è una molecola che si trova esclusivamente negli alimenti animali. Nonostante non sia un nutriente essenziale, si è visto che può portare a miglioramenti nella performance sia fisica che mentale.
+
+  utter_taurine_daily_dosage:
+  - text: Il dosaggio giornaliero consigliato di taurina è di 500 mg al giorno.
+
+  utter_caffeine_effects_on_health_performance:
+  - text: La caffeina migliora la lucidità, le capacità cognitive e la performance fisica, oltre ad avere un blando effetto termogenico. Tuttavia, gli integratori da soli non fanno miracoli e per ottenere risultati è importante curare l'alimentazione e lo stile di vita. Il dosaggio va da un minimo di 100 mg a un massimo di 500 mg, ma va ciclizzato per evitare adattamenti del corpo.
+
+  utter_caffeine_timing:
+  - text: La caffeina ha effetto nell'immediato, ovvero il tempo di andare in circolo. Esistono forme a rilascio graduale disponibili in commercio, ma in generale il timing di assunzione dipenderà dagli obiettivi individuali. La caffeina va ciclizzata per evitare adattamenti del corpo.
+
+  utter_caffeine_benefits:
+  - text: La caffeina è conosciuta per il suo effetto di miglioramento della lucidità, delle capacità cognitive e della performance. Ha anche un blando effetto termogenico che aiuta a bruciare calorie. Il suo effetto è immediato, a differenza degli altri integratori che agiscono sul lungo periodo. Il dosaggio va da un minimo di 100 mg a un massimo di 500 mg, ma può anche essere superiore. La caffeina va ciclizzata perché il corpo si adatta e non reagisce alla stessa maniera, con quantità fino a 200 mg al giorno che sembrano non produrre adattamenti e quindi l'integratore può essere preso senza fasi di scarico, mentre per quantità superiori conviene salire gradualmente e poi fare delle fasi di scarico.
+
+  utter_beta_alanine_vs_caffeine:
+  - text: La differenza principale è che la beta alanina agisce sul lungo periodo e non ha correlazione col timing di assunzione, mentre la caffeina ha effetto nell'immediato e va ciclizzata per evitare adattamenti del corpo. La beta alanina è utile per gli sforzi lattacidi ad alta intensità dopo i 30 secondi, mentre la caffeina migliora le capacità cognitive e la performance nell’immediato.
+
+#VSS cap 9-1
+  utter_meal_timing_importance:
+  - text: La risposta secca è che “quando mangiamo” conta molto poco, con un "ma". L'attenzione principale dovrebbe essere prestata al totale del cibo che si assume durante l'arco della giornata e della settimana, mentre la distribuzione dei pasti è un aspetto secondario.
+
+  utter_weight_loss_timing:
+  - text: Il totale di cibo che si mangia durante la giornata è ciò che determina la perdita di peso, non il timing. Tuttavia, come discusso nella parte avanzata del testo, il timing può avere una sua valenza.
+
+  utter_breakfast_skip_weight_loss:
+  - text: Saltare la colazione non ha un effetto negativo sulla perdita di peso perché è sempre il totale di cibo che si mangia durante la giornata a determinare la perdita di peso. Se si consuma la stessa quantità di energia durante la giornata, non ci sarà né un surplus né un deficit.
+
+  utter_nutrients_weight_loss_effect:
+  - text: Sì, tutti i nutrienti apportano energia e sarà questa energia a determinare se si dimagrisce, ingrassa o rimane uguali. Non importa da dove proviene l'energia, dalle proteine, grassi o carboidrati.
+
+  utter_meal_nutrient_timing_importance:
+  - text: Il timing dei pasti e dei nutrienti è un aspetto secondario rispetto al totale del cibo che viene consumato durante l'arco della giornata e della settimana. Ciò che è più importante è la quantità totale di cibo che viene consumata, non tanto la distribuzione dei pasti.
+
+  utter_breakfast_importance:
+  - text: No, non è tanto la colazione a fare la differenza, ma piuttosto l'essere organizzati nella propria alimentazione. Saltare la colazione non causa necessariamente effetti negativi se l'alimentazione è pianificata correttamente per il resto della giornata.
+
+  utter_carbs_at_night_weight_gain:
+  - text: No, la quantità totale di energia che viene consumata durante la giornata è ciò che determina se si ingrassa o si dimagrisce. I carboidrati non diventano grassi in grande quantità a meno che non ci sia una patologia o un grande sovrappeso. Inoltre, i carboidrati consumati la sera possono essere la scelta migliore per ragioni metaboliche.
+
+  utter_food_intake_metabolism:
+  - text: Il totale di cibo consumato durante la giornata determina se c'è un surplus o un deficit di energia. Se il conto alla fine è a zero, non ci sarà né un accumulo di energia né una bruciatura di deficit, e quindi non ci sarà nessun cambiamento nel peso.
+
+  utter_timing_of_nutrient_intake:
+  - text: No, non è importante da dove deriva l'energia, da quale nutriente. Tutti i nutrienti apportano energia e sarà questa energia a determinare se si ingrassa, si dimagrisce o si rimane uguali.
+  
+  utter_importance_of_timing:
+  - text: Il timing nell'alimentazione può avere una sua valenza, ma non è il fattore principale. Il totale di cibo consumato durante la giornata è più importante rispetto alla distribuzione dei pasti. Tuttavia, in alcuni casi, il timing dei pasti può avere un effetto sul metabolismo e, secondo alcune ricerche, consumare carboidrati la sera può essere la scelta migliore per ragioni metaboliche.
+  
+  utter_real_importance_of_timing:
+  - text: Il vero fattore importante nell'alimentazione è il totale del cibo che si consuma durante l'arco della giornata e della settimana, non tanto la distribuzione del cibo nei vari pasti. L'aspetto più importante è la quantità complessiva di cibo che si consuma, non quando viene consumato.
+
+  utter_carb_timing:
+  - text: Non esiste un momento specifico in cui i carboidrati causino l'ingrassamento o il dimagrimento. Tuttavia, sembra che mangiare i carboidrati la sera sia la scelta migliore, per motivi metabolici. Ma anche in questo caso, ciò che conta è il totale delle calorie che si consumano, non da dove derivino.
+
+  utter_meal_nutrient_timing:
+  - text: Il timing dei pasti e dei nutrienti è importante, ma non quanto il totale del cibo che ingeriamo durante la giornata e la settimana. La distribuzione del cibo nei vari pasti è un aspetto secondario e dipende dalle nostre preferenze alimentari.
+
+  utter_total_food_intake:
+  - text: Il totale del cibo che ingeriamo durante la giornata e la settimana è molto importante perché è questo che determina se dimagriremo, ingrasseremo o rimarremo uguali. Se il bilancio energetico è a 0, non avremo né un surplus di energia da accumulare né un deficit già bruciato.
+
+  utter_breakfast_skipping:
+  - text: No, saltare la colazione non ha effetti negativi sulla salute a patto che si costruisca il resto della giornata secondo le proprie preferenze alimentari e che si mantenga un bilancio energetico a 0.
+# VSS cap 9-2
+  utter_protein_distribution_for_performance:
+  - text: Per migliorare la performance in allenamento, è importante distribuire le proteine in maniera equilibrata durante la giornata, almeno 3 o 4 pasti da 30 g di proteine l'uno. Questo aiuterà a mantenere una costante stimolazione alla sintesi proteica, che a sua volta migliorerà la performance, il rendimento, i guadagni muscolari e la perdita di grasso.
+
+  utter_maximum_protein_absorption:
+  - text: Sì, il corpo può assorbire più di 30 g di proteine per pasto. Non c'è un limite preciso per l'assorbimento delle proteine, anche se teoricamente il fegato può processare solo 28 g di proteine all'ora. Tuttavia, il corpo è troppo intelligente per sprecare nutrienti importanti, quindi tutte le proteine che ingeriamo verranno assorbite.
+
+  utter_risks_of_hydrolyzed_proteins:
+  - text: Se si assume una dose troppo elevata di proteine idrolizzate, c'è il rischio di saturare i meccanismi di assimilazione, causando una parte di proteine in eccesso di essere sprecata. Questo accade perché le proteine idrolizzate vanno in circolo più rapidamente rispetto alle proteine non idrolizzate.
+
+  utter_importance_of_protein_distribution:
+  - text: La distribuzione delle proteine durante la giornata è importante per mantenere una costante stimolazione alla sintesi proteica. Se si assume tutta la dose di proteine in un solo pasto, lo stimolo alla costruzione di muscoli e tessuto magro sarà subito massimo, ma poi andrà a scendere durante la giornata. Dividendo l'apporto proteico in più pasti, si ottiene uno stimolo costante e più elevato.
+
+  utter_protein_distribution_bulking:
+  - text: Durante la fase di massa, con un surplus calorico, la sintesi proteica sarà già tendenzialmente alta, quindi ottimizzare la distribuzione delle proteine può portare dei benefici, ma è durante la fase di dimagrimento che è sicuramente più importante
+
+  utter_protein_absorption:
+  - text: Non esiste un limite preciso di quantità di proteine che possono essere assorbite per pasto, il nostro corpo è abbastanza intelligente da assorbire tutte le proteine che consumiamo.
+
+  utter_liver_protein_processing:
+  - text: Questa affermazione è vera solo teoricamente, in pratica il fegato è in grado di processare tutte le proteine che consumiamo senza problemi.
+
+  utter_hydrolyzed_whey_protein:
+  - text: Sì, in questo caso, se si consuma una quantità eccessiva di proteine del siero del latte idrolizzate, potrebbe esserci una saturazione dei meccanismi di assimilazione e alcune delle proteine potrebbero essere sprecate.
+
+  utter_reason_for_protein_distribution:
+  - text: Il motivo principale per distribuire le proteine durante la giornata è la stimolazione della sintesi proteica.
+
+  utter_protein_timing_in_cutting:
+  - text: Sì, in una fase di definizione, quando c'è un deficit calorico, il timing delle proteine assume un ruolo più importante, poiché la sintesi proteica sarà più bassa e avverrà con più difficoltà.
+
+  utter_protein_waste:
+  - text: Sì, questo è vero. Le proteine del siero del latte idrolizzate vanno in circolo con una velocità nettamente maggiore, e in questo caso una parte potrebbe andare sprecata.
+
+  utter_protein_distribution:
+  - text: Il motivo principale per cui le proteine dovrebbero essere distribuite durante la giornata è la stimolazione della sintesi proteica. Ciò significa che è possibile raggiungere un plateau nello stimolo alla costruzione di muscoli e tessuto magro se si assume tutta la dose di proteine in un pasto. Per ottenere uno stimolo costante, sarebbe ideale inserire almeno 3 o 4 pasti da 30 g di proteine l'uno durante la giornata.
+
+  utter_protein_timing_and_goal:
+  - text: L'obiettivo influisce sul timing delle proteine in quanto la sintesi proteica dipende dalla modalità in cui si trova il corpo, ovvero se è in fase di massa (con surplus calorico) o definizione (con deficit calorico). In fase di massa, la sintesi proteica sarà più alta e non sarà necessario preoccuparsi tanto di ottimizzare la ripartizione delle proteine. In definizione, il timing assume un ruolo più importante perché la sintesi proteica sarà più bassa e avverrà con più difficoltà.
+
+  utter_protein_intake_timing:
+  - text: Sì, questo è vero. Se si assume tutta la dose di proteine (ad esempio 150 g) in un pasto, lo stimolo sarà subito massimo ma poi scenderà durante la giornata. È importante distribuire l'apporto di proteine in almeno 3 o 4 pasti per ottenere uno stimolo costante nel tempo
+
+  utter_high_dosage_hydrolyzed_proteins:
+  - text:  In questo caso si può andare incontro alla saturazione dei meccanismi di assimilazione, e una parte delle proteine potrebbe essere sprecata. Questo accade perché le proteine idrolizzate vanno in circolo con una velocità maggiore rispetto alle proteine non idrolizzate.
+
+  utter_performance_loss_prevention:
+  - text: Durante la fase di perdita di grasso, il corpo sarà costantemente in carenza di energie a causa del deficit calorico, compromettendo la performance. Per ridurre questo effetto negativo, è possibile dirottare una parte delle calorie nella fase della giornata che precede l'allenamento, ricaricando le energie per esprimersi al meglio. Questo può essere fatto attraverso un piccolo spuntino, un aumento del carico sul pasto principale o una ciclizzazione sui giorni di allenamento e riposo.
+
+  utter_high_carbohydrate_sports:
+  - text: Gli sport che richiedono più carboidrati sono quelli di lunga durata come la corsa, il calcio o il rugby, o quelli di alta intensità percepita come il bodybuilding, il crossfit o il judo. In questi casi, potrebbe avere senso aumentare l'apporto di carboidrati nei giorni di allenamento e di grassi nei giorni di riposo per mantenere un equilibrio.
+
+  utter_nutritional_needs_in_caloric_surplus:
+  - text: Durante la fase di massa, con un surplus calorico, le necessità nutrizionali sono diverse rispetto alla fase di perdita di grasso. Infatti, non è più necessario ricaricare le energie per non perdere la performance, ma piuttosto gestire l'eccesso di energie. Il nostro obiettivo sarà quello di inserire la maggior parte delle calorie, soprattutto carboidrati, nella fase della giornata in cui abbiamo una maggiore sensibilità all'insulina, ovvero subito dopo l'allenamento, per mantenere una buona sensibilità all'insulina.
+
+  utter_nutrient_timing_post_workout:
+  - text: La fase di maggior ricettività per i nutrienti dopo l'allenamento tende a durare da 2 a 4 ore. Durante questo periodo, la sensibilità all'insulina è più alta, rendendo il corpo più ricettivo ai nutrienti.
+
+  utter_calorie_diversion_before_workout:
+  - text: L'obiettivo principale di "dirottare" una parte delle calorie prima dell'allenamento durante la fase di perdita di grasso è di ricaricare le energie per poter esprimere al meglio la performance, poiché il corpo sarà costantemente in carenza di energie a causa del deficit calorico.
+
+  utter_nutrient_cycling_mass_phase:
+  - text: L'obiettivo principale della ciclizzazione dei nutrienti durante la fase di massa con un surplus calorico è di inserire la maggior parte delle calorie, in particolare dei carboidrati, nella fase della giornata in cui si ha una maggiore sensibilità all'insulina, ovvero dopo l'allenamento, per evitare che il corpo diventi meno ricettivo ai nutrienti e perda gradualmente la sensibilità all'insulina.
+
+  utter_carb_intake_sport_performance:
+  - text: La performance sportiva è migliore quando sostenuta da un alto apporto di carboidrati.
+
+  utter_fasted_cardio_burning_fat:
+  - text: Sì, è vero che durante l'attività aerobica a digiuno le riserve di carboidrati sono più basse e l'assetto ormonale è spostato verso il consumo di grassi, tuttavia questo non significa che sia un punto a favore.
+
+  utter_not_needed_fasted_cardio:
+  - text: Non serve fare cardio a digiuno perché non è detto che un maggior consumo di grassi durante l'allenamento corrisponda a un maggior consumo di grassi alla fine della giornata. Il corpo tende sempre a bilanciare e se bruciamo più grassi durante l'allenamento, useremo più carboidrati durante il resto della giornata.
+
+  utter_effect_fasted_cardio_calories_burned:
+  - text: Fare cardio a digiuno può portare ad un minor consumo calorico totale, poiché la performance sportiva è peggiore quando sostenuta da un alto apporto di carboidrati.
+  
+  utter_nutrients_during_training:
+  - text: Il fattore più importante nella scelta dei nutrienti da consumare durante l'allenamento è il totale energetico speso nella giornata.
+
+  utter_poor_performance_fasted_training:
+  - text: Una prestazione sportiva peggiore durante l'allenamento a digiuno può portare a un minor consumo calorico totale, ma non avrà alcun vantaggio e rimarranno solo svantaggi.
 
   utter_bot_challenge:
   - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
