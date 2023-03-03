@@ -40,6 +40,15 @@ nlu:
     - Come ti senti oggi pomeriggio?
     - Come ti senti stasera?
     - Sei pronto per iniziare?
+  
+- intent: bot_challenge
+  examples: |
+    - Sei un robot?
+    - Sei un essere umano?
+    - Sto parlando con un bot?
+    - Sto parlando con un essere umano?
+    - robot?
+    - umano?
 
 - intent: pasta_e_fagioli
   examples: |
@@ -80,185 +89,2455 @@ nlu:
     - Quali sono gli alimenti vegetali più nutrienti?
     - Come posso combinare gli alimenti vegetali per migliorare la loro digeribilità e assimilazione?
     - Quali sono le fonti vegetali di proteine complete e nutrienti essenziali?
-
-- intent: sentirsi_gonfi_transizione_vegana
+# Copia di Q&A-da 6 a 10
+- intent: gonfiore_inizio_transizione_vegana
   examples: |
-    - è normale sentirsi gonfi all’inizio della transizione vegana?
-    - Mi sento molto gonfio da quando ho iniziato a seguire una dieta vegana
-    - Da quando sono diventato vegano mi sento sempre gonfio
-    - Il mio addome è sempre gonfio da quando ho iniziato a mangiare solo cibo vegano
-    - Ho notato che mi sento sempre più gonfio da quando ho cambiato la mia dieta
-    - Non so se è normale sentirsi gonfio durante la transizione vegana
-    - Mi sento gonfio e a volte anche dolorante da quando ho iniziato a seguire una dieta vegana
-    - Ho notato che ho un addome sempre gonfio da quando ho cambiato la mia alimentazione
-    - Ho sentito dire che è normale sentirsi gonfio durante la transizione verso una dieta vegana
-    - Vorrei sapere se è normale sentirsi sempre gonfio da quando si segue una dieta vegana
-    - Ho sentito che molti vegani si sentono gonfi all'inizio della loro transizione alimentare
+    - È normale sentirsi gonfi all’inizio della transizione vegana?
+    - Quali sono i sintomi comuni nella transizione alla dieta vegana?
+    - Come posso ridurre il gonfiore durante la transizione alla dieta vegana?
+    - Quali sono le cause del gonfiore nella dieta vegana?
+    - Quanto tempo ci vuole per abituarsi alla dieta vegana e ridurre il gonfiore?
 
-- intent: alimentazione_vegana_completa
+- intent: completezza_alimentazione_vegana
   examples: |
-    - come e quanto deve essere completa un’alimentazione vegana, per essere buona?
-    - Come posso assicurarmi che la mia alimentazione vegana sia completa?
-    - Ho bisogno di sapere come rendere la mia dieta vegana equilibrata e completa
-    - Vorrei sapere come garantire che la mia alimentazione vegana sia completa di tutti i nutrienti di cui ho bisogno
-    - Devo essere sicuro che la mia dieta vegana sia completa e bilanciata
-    - Vorrei sapere come assicurarmi che la mia alimentazione vegana sia equilibrata e completa
-    - Quali sono i modi per garantire che la mia dieta vegana sia completa di tutti i nutrienti di cui ho bisogno?
-    - Vorrei sapere come rendere la mia alimentazione vegana il più completa possibile
-    - Come posso garantire che la mia dieta vegana sia equilibrata e soddisfi tutte le mie esigenze nutrizionali?
-    - Devo essere sicuro che la mia alimentazione vegana sia completa e adeguata a tutte le mie esigenze nutrizionali
-    - Quali sono i passi per garantire che la mia dieta vegana sia completa e bilanciata?
+    - Come e quanto deve essere completa un’alimentazione vegana, per essere buona?
+    - Quali sono gli alimenti che non devono mancare nella dieta vegana?
+    - Come posso assicurarmi di avere una dieta vegana equilibrata?
+    - Quali sono i nutrienti che potrebbero mancare in una dieta vegana?
+    - Come posso pianificare i pasti per una dieta vegana completa e sana?
 
 - intent: proteine_grasse
   examples: |
     - Quali sono le proteine grasse?
-    - Che cosa sono le proteine grasse?
-    - Vorrei sapere di più sulle proteine grasse
-    - Quali sono le fonti alimentari di proteine grasse?
-    - Ho bisogno di sapere come ottenere abbastanza proteine grasse nella mia dieta
-    - Vorrei capire l'importanza delle proteine grasse nella dieta
-    - Quali sono i beneficrittori nutrizionali delle proteine grasse?
-    - Vorrei sapere come le proteine grasse influiscono sul nostro benessere
-    - Quali sono i vantaggi delle proteine grasse?
-    - Vorrei sapere se le proteine grasse sono essenziali per la salute
-    - Che cosa devo sapere sulle proteine grasse per avere una dieta equilibrata e sana?
+    - Come posso ottenere abbastanza proteine e grassi nella dieta vegana?
+    - Quali sono le migliori fonti di proteine grasse nella dieta vegana?
+    - Quali sono i benefici delle proteine grasse per la salute?
+    - Come posso combinare proteine e grassi nella mia dieta vegana per massimizzare l'assimilazione?
 
 - intent: aspetti_tecnici
   examples: |
-    - Quali sono gli aspetti tecnici da definire?
-    - Quali sono gli aspetti tecnici da definire per un progetto?
-    - Vorrei sapere quali sono gli aspetti tecnici fondamentali per un progetto
-    - Ho bisogno di una lista degli aspetti tecnici da considerare per un progetto
-    - Vorrei sapere come definire gli aspetti tecnici di un progetto
-    - Quali sono i dettagli tecnici da considerare per un progetto?
-    - Vorrei sapere come preparare un piano per gli aspetti tecnici di un progetto
-    - Ho bisogno di una guida per definire gli aspetti tecnici di un progetto
-    - Vorrei sapere quali sono gli aspetti tecnici importanti da considerare per un progetto
-    - Quali sono i fattori tecnici da tenere in considerazione per un progetto?
-    - Vorrei sapere come gestire gli aspetti tecnici di un progetto
-    - Ho bisogno di una lista degli aspetti tecnici fondamentali per un progetto
-    - Vorrei sapere come preparare una checklist per gli aspetti tecnici di un progetto
-    - Quali sono i passi per definire gli aspetti tecnici di un progetto?
-    - Vorrei sapere come identificare gli aspetti tecnici da considerare per un progetto
-    - Quali sono i consigli per definire gli aspetti tecnici di un progetto?
+    - Quali sono gli aspetti tecnici da definire per una dieta vegana equilibrata?
+    - Come posso calcolare il mio fabbisogno nutrizionale nella dieta vegana?
+    - Quali sono le linee guida per una dieta vegana sana ed equilibrata?
+    - Come posso valutare la qualità della mia dieta vegana?
+    - Quali sono le criticità della dieta vegana e come posso evitarle?
 
-- intent: alimenti_serie_AB
+- intent: alimenti_serie_a_b
   examples: |
-    - Devono per forza esistere alimenti di serie A e B? 
-    - Esistono veramente gli alimenti di serie A e B?
-    - Vorrei sapere se gli alimenti di serie A e B sono una realtà
-    - Quali sono gli alimenti di serie A e B?
-    - Ho bisogno di sapere se esiste una classificazione ufficiale degli alimenti in serie A e B
-    - Vorrei sapere come funziona la classificazione degli alimenti in serie A e B
-    - Quali sono i criteri per classificare gli alimenti in serie A e B?
-    - Ho bisogno di sapere se gli alimenti di serie A e B hanno un'influenza sulla salute
-    - Vorrei sapere se esistono fonti affidabili per la classificazione degli alimenti in serie A e B
-    - Quali sono le conseguenze di seguire una dieta basata sugli alimenti di serie A e B?
-    - Vorrei sapere se la classificazione degli alimenti in serie A e B è accettata dalla comunità scientifica.
+    - Devono per forza esistere alimenti di serie A e B nella dieta vegana?
+    - Quali sono gli alimenti di serie A e B nella dieta vegana?
+    - Quali sono le differenze tra gli alimenti di serie A e B?
+    - Come posso bilanciare gli alimenti di serie A e B nella mia dieta vegana?
+    - È possibile seguire una dieta vegana senza considerare gli alimenti di serie A e B?
 
-# docs 03
+# Copia di Q&A-da 11 a 15
 - intent: pasto_bilanciato
   examples: |
-    - Esiste il “pasto bilanciato”?
-    - Che cos'è un pasto bilanciato?
-    - Vorrei sapere come funziona un pasto bilanciato
-    - Quali sono i componenti di un pasto bilanciato?
-    - Ho bisogno di sapere se esiste una formula per un pasto bilanciato
-    - Quali sono le proporzioni ideali per i componenti di un pasto bilanciato?
-    - Quali sono le raccomandazioni per un pasto bilanciato?
-    - Vorrei sapere se esiste una relazione tra il pasto bilanciato e la salute
-    - Quali sono i vantaggi di seguire una dieta basata sui pasti bilanciati?
-    - Ho bisogno di sapere se esiste una classificazione degli alimenti per il pasto bilanciato
-    - Vorrei sapere se esiste una tabella delle calorie per un pasto bilanciato
-    - Quali sono gli aspetti da considerare per un pasto bilanciato?
-    - Vorrei sapere se esistono fonti affidabili per la creazione di pasti bilanciati
-    - Quali sono le conseguenze di seguire una dieta basata sui pasti bilanciati?
-    - Vorrei sapere se esiste una relazione tra il pasto bilanciato e la perdita di peso
-    - Quali sono le raccomandazioni per il mantenimento di un pasto bilanciato nella vita quotidiana.
+    - Esiste un pasto bilanciato?
+    - Come posso creare un pasto bilanciato?
+    - Quali sono gli elementi che compongono un pasto bilanciato?
+    - Quali sono le proporzioni corrette tra carboidrati, proteine e grassi in un pasto bilanciato?
+    - Come posso creare un pasto bilanciato per una dieta vegana?
 
 - intent: healthy_every_size
   examples: |
-    - Cosa ne pensi dell’Healthy every size?
-    - Che cos'è l'Healthy every size?
-    - Vorrei sapere di più sull'Healthy every size
+    - Cosa ne pensi dell'Healthy every size?
+    - Come funziona l'Healthy every size?
     - Quali sono i principi dell'Healthy every size?
-    - Ho bisogno di sapere se l'Healthy every size è un approccio scientifico
-    - Quali sono le opinioni sull'Healthy every size?
-    - Vorrei sapere se l'Healthy every size è sostenibile
-    - Quali sono i vantaggi dell'Healthy every size?
-    - Vorrei sapere se l'Healthy every size è un approccio alla salute
-    - Quali sono le fonti affidabili sull'Healthy every size?
-    - Vorrei sapere se l'Healthy every size è un approccio alla perdita di peso
-    - Quali sono le criticità dell'Healthy every size?
-    - Vorrei sapere se esistono controindicazioni per l'Healthy every size
-    - Quali sono i risultati della ricerca sull'Healthy every size?
-    - Vorrei sapere se l'Healthy every size è un approccio all'alimentazione
-    - Quali sono le opinioni dei professionisti della salute sull'Healthy every size?
-    - Vorrei sapere se l'Healthy every size è sostenibile a lungo termine.
+    - Chi può beneficiare dell'Healthy every size?
+    - Quali sono i benefici dell'Healthy every size?
 
-- intent: emissione_di_aria_dalla_pancia
+- intent: aria_in_pancia
   examples: |
     - Mi esce molta aria che ho in pancia. È normale?
-    - Mi esce molta aria dalla pancia, è normale?
-    - Ho sempre problemi di emissione di aria dalla pancia, cosa posso fare?
-    - La mia pancia è sempre piena di aria, cosa sta succedendo?
-    - Vorrei sapere se l'emissione di aria dalla pancia è un problema di salute
-    - Quali sono le cause dell'emissione di aria dalla pancia?
-    - Vorrei sapere se l'emissione di aria dalla pancia è normale
-    - Cosa posso fare per evitare l'emissione di aria dalla pancia?
-    - Vorrei sapere se l'emissione di aria dalla pancia è pericolosa
-    - Quali sono i rimedi per l'emissione di aria dalla pancia?
-    - Vorrei sapere se l'emissione di aria dalla pancia è legata all'alimentazione
-    - Quali sono le fonti affidabili per informazioni sull'emissione di aria dalla pancia?
-    - Vorrei sapere se esistono rimedi naturali per l'emissione di aria dalla pancia
-    - Quali sono le opinioni dei professionisti della salute sull'emissione di aria dalla pancia?
-    - Vorrei sapere se l'emissione di aria dalla pancia può essere un segnale di un problema di salute più grave
-    - Quali sono i fattori che influiscono sull'emissione di aria dalla pancia?
+    - Come posso ridurre l'aria nella mia pancia?
+    - Quali sono le cause dell'aria nella pancia?
+    - Come posso prevenire l'aria nella mia pancia?
+    - Quali sono gli alimenti che causano aria nella pancia?
 
-- intent: legumi_e_verdure_come_pasto
+- intent: legumi_verdure
   examples: |
     - Legumi + verdure va bene?
-    - Legumi e verdure va bene come pasto?
-    - Vorrei sapere se legumi e verdure sono una scelta salutare come pasto
-    - Cosa ne pensi di legumi e verdure come pasto?
-    - Quali sono i vantaggi di mangiare legumi e verdure come pasto?
-    - Quali sono gli svantaggi di mangiare legumi e verdure come pasto?
-    - Vorrei sapere se legumi e verdure sono una scelta equilibrata come pasto
-    - Quali sono le fonti affidabili per informazioni su legumi e verdure come pasto?
-    - Quali sono le opinioni dei professionisti della salute su legumi e verdure come pasto?
-    - Quali sono le alternative a legumi e verdure come pasto?
-    - Quali sono i modi per rendere legumi e verdure un pasto soddisfacente?
-    - Quali sono le combinazioni di legumi e verdure che vanno bene come pasto?
-    - Quali sono i consigli per preparare legumi e verdure come pasto?
-    - Quali sono i fattori da considerare quando si sceglie legumi e verdure come pasto?
-    - Quali sono le alternative vegetariane e vegane a legumi e verdure come pasto?
-    - Quali sono i fattori che influiscono sulla scelta di legumi e verdure come pasto?
+    - Come posso creare pasti equilibrati con legumi e verdure?
+    - Quali sono i benefici di consumare legumi e verdure insieme?
+    - Quali sono i modi migliori per cucinare legumi e verdure insieme?
+    - Quali sono le porzioni consigliate per i legumi e le verdure in un pasto?
 
-- intent: orario_migliore_per_allenamento
+- intent: orario_migliore_allenarsi
   examples: |
-    - Qual è l’orario migliore per allenarsi?
     - Qual è l'orario migliore per allenarsi?
-    - Vorrei sapere quale sia il momento ideale per allenarsi
-    - Quali sono i vantaggi di allenarsi in un determinato momento?
-    - Quali sono gli svantaggi di allenarsi in un determinato momento?
-    - Quali sono le opinioni dei professionisti sull'orario migliore per l'allenamento?
-    - Quali sono le fonti affidabili per informazioni sull'orario migliore per l'allenamento?
-    - Cosa ne pensi dell'idea di allenarsi alla stessa ora ogni giorno?
-    - Quali sono i fattori che influiscono sulla scelta dell'orario per l'allenamento?
-    - Qual è l'impatto di allenarsi al mattino o alla sera sulla qualità del sonno?
-    - Quali sono le conseguenze di allenarsi subito prima di andare a dormire?
-    - Quali sono le alternative a un determinato orario per l'allenamento?
-    - Quali sono i consigli per scegliere l'orario migliore per l'allenamento?
-    - Qual è l'effetto dell'orario per l'allenamento sulla performance?
-    - Qual è l'impatto dell'orario per l'allenamento sulla motivazione?
-    - Quali sono le alternative a un orario fisso per l'allenamento?
+    - Qual è il momento migliore della giornata per fare esercizio fisico?
+    - Come posso ottimizzare il mio allenamento in base all'orario?
+    - Quali sono i vantaggi di allenarsi al mattino o alla sera?
+    - Quali sono le considerazioni da tenere a mente quando si sceglie l'orario per l'allenamento?
 
-
-- intent: bot_challenge
+#VSS cap 1-3
+- intent: info_efsa
   examples: |
-    - Sei un robot?
-    - Sei un essere umano?
-    - Sto parlando con un bot?
-    - Sto parlando con un essere umano?
-    - robot?
-    - umano?
+    - "Chi è l'EFSA?"
+    - "Cos'è l'EFSA?"
+    - "Cos'è l'EFSA?"
+    - "Spiegami l'EFSA"
+    - "Voglio sapere di più sull'EFSA"
+    - "Che cos'è l'EFSA?"
+
+- intent: studio_vitamina_b12
+  examples: |
+    - Quale studio ha pubblicato l'EFSA riguardo la vitamina B12?
+    - "Ha pubblicato l'EFSA uno studio sulla vitamina B12?"
+    - "Quale studio ha fatto l'EFSA sulla vitamina B12?"
+    - "Che studio ha pubblicato l'EFSA sulla vitamina B12?"
+    - "Voglio sapere se l'EFSA ha fatto uno studio sulla vitamina B12"
+    - "Cosa dice lo studio dell'EFSA sulla vitamina B12?"
+
+- intent: carenza_vitamina_d
+  examples: |
+    - "Perché c'è una carenza di vitamina D?"
+    - "Qual è la causa della carenza di vitamina D?"
+    - "Come mai c'è una carenza di vitamina D?"
+    - "Voglio sapere perché c'è una carenza di vitamina D"
+    - "Cosa causa la carenza di vitamina D?"
+  
+
+- intent: dieta_vegetale_vitamine
+  examples: |
+    - "Le diete vegetariane sono prive di alcune vitamine importanti?"
+    - "È vero che le diete vegetariane non contengono tutte le vitamine di cui abbiamo bisogno?"
+    - "La dieta vegetariana fornisce tutte le vitamine necessarie?"
+    - "È possibile che le diete vegetali siano carenti di alcune vitamine?"
+    - "C'è un rischio di carenza di vitamine con una dieta vegetariana?"
+
+- intent: iodio_sale
+  examples: |
+    - "Perché l'iodio è stato aggiunto al sale da cucina?"
+    - "Cosa ha motivato l'aggiunta di iodio al sale?"
+    - "Perché il sale da cucina viene fortificato con iodio?"
+    - "Qual è lo scopo dell'aggiunta di iodio al sale da cucina?"
+    - "Cosa rende necessaria l'aggiunta di iodio al sale?"
+
+- intent: carenza_vitamina_d_percentuale
+  examples: |
+    - "Qual è la percentuale della popolazione mondiale afflitta da carenza di vitamina D?"
+    - "Quant'è diffusa la carenza di vitamina D nel mondo?"
+    - "Qual è la quantità di persone con carenza di vitamina D?"
+    - "In quante persone si manifesta la carenza di vitamina D?"
+    - "Qual è la diffusione della carenza di vitamina D nel mondo?"
+    - "Cosa dicono le statistiche sulla carenza di vitamina D?"
+    - "Quante persone soffrono di carenza di vitamina D?"
+    - "In che percentuale della popolazione c'è carenza di vitamina D?"
+    - "Qual è la quantità di persone con bassi livelli di vitamina D?"
+    - "Cosa si sa sulla diffusione della carenza di vitamina D?"
+
+- intent: detrattori_diete_vegetali
+  examples: |
+    - "Quali sono i detrattori principali delle diete vegetali?"
+    - "Cosa dicono i critici delle diete vegetariane?"
+    - "Quali sono i principali problemi delle diete vegetariane?"
+    - "Cosa non piace delle diete vegetariane?"
+    - "Quali sono i punti deboli delle diete vegetariane?"
+    - "Perché c'è chi non sostiene le diete vegetariane?"
+    - "Cosa dice la controparte sulla dieta vegetariana?"
+    - "Quali sono le obiezioni maggiori alle diete vegetariane?"
+    - "Perché alcune persone non sono d'accordo con le diete vegetariane?"
+    - "Quali sono i motivi per cui le diete vegetariane non sono accettate da tutti?"
+
+- intent: conseguenze_dieta_omega3
+  examples: |
+    - "Quali sono le conseguenze di una dieta carente di Omega 3 a lunga catena?"
+    - "Cosa succede quando manca Omega 3 a lunga catena nella dieta?"
+    - "Quali problemi può causare la carenza di Omega 3 a lunga catena?"
+    - "Cosa si rischia con una dieta priva di Omega 3 a lunga catena?"
+    - "Quali sono gli effetti negativi di una dieta povera di Omega 3 a lunga catena?"
+    - "Cosa succede al corpo se non si assume abbastanza Omega 3 a lunga catena?"
+    - "Perché è importante integrare Omega 3 a lunga catena nella dieta?"
+    - "Cosa si perde con una dieta che non include Omega 3 a lunga catena?"
+    - "Perché una dieta carente di Omega 3 a lunga catena può essere pericolosa?"
+    - "Quali sono le implicazioni di una dieta che non fornisce Omega 3 a lunga catena?"
+
+- intent: evitare_giudizi_dieta
+  examples: |
+    - "Perché bisognerebbe evitare di stabilire se un'alimentazione è adatta o meno solo sulla base delle carenze nutrizionali?"
+    - "Cosa non va nel giudicare una dieta solo sulla base delle carenze nutrizionali?"
+    - "Perché non è corretto basare la valutazione di una dieta solo sulle carenze nutrizionali?"
+    - "Cosa non dice una valutazione di una dieta basata solo sulle carenze nutrizionali?"
+    - "Quali sono i limiti di una valutazione che considera solo le carenze nutrizionali?"
+    - "Perché non si può affidare a una valutazione basata solo sulle carenze nutrizionali?"
+    - "Cosa sfugge basando la valutazione di una dieta solo sulle carenze nutrizionali?"
+    - "Perché non è sufficiente valutare una dieta solo sulle carenze nutrizionali?"
+    - "Cosa bisognerebbe considerare oltre alle carenze nutrizionali per valutare un'alimentazione?"
+    - "Perché non bisognerebbe basare la valutazione di una dieta solo sulle carenze nutrizionali?"
+
+- intent: valutare_alimentazione
+  examples: |
+    - "Quale sarebbe il modo più sensato per valutare se un'alimentazione è adatta o meno per l'essere umano?"
+    - "Come si potrebbe valutare se un'alimentazione è salutare per l'essere umano?"
+    - "Quali sono i criteri per determinare se una dieta è adatta per l'essere umano?"
+    - "Cosa bisognerebbe considerare per valutare se un'alimentazione è sana per l'essere umano?"
+    - "Come si potrebbe stabilire se una dieta è adeguata per l'essere umano?"
+    - "Perché è importante valutare la salute di una dieta per l'essere umano?"
+    - "Quali sono le informazioni che bisognerebbe conoscere per valutare se una dieta è adeguata per l'essere umano?"
+    - "Come si potrebbe garantire che un'alimentazione sia salutare per l'essere umano?"
+    - "Quali sono le informazioni necessarie per determinare se un'alimentazione è adeguata per l'essere umano?"
+    - "Cosa bisognerebbe fare per capire se un'alimentazione è sana per l'essere umano?"
+
+- intent: impatto_dieta_vegana
+  examples: |
+    - "Qual è l'impatto della dieta vegana sulla salute?"
+    - "Cosa dice la scienza riguardo l'effetto della dieta vegana sulla salute?"
+    - "Come influisce la dieta vegana sulla salute?"
+    - "Quali sono i pro e i contro della dieta vegana per la salute?"
+    - "Cosa bisognerebbe sapere sull'impatto della dieta vegana sulla salute?"
+    - "Come può influire la dieta vegana sulla salute a lungo termine?"
+    - "Quali sono le conseguenze della dieta vegana per la salute?"
+    - "Perché la dieta vegana è vista come una scelta salutare da alcuni e come un rischio da altri?"
+    - "Cosa bisognerebbe considerare per valutare l'impatto della dieta vegana sulla salute?"
+    - "Come si potrebbe determinare l'effetto della dieta vegana sulla salute?"
+
+- intent: difficolta_dieta_vegana
+  examples: |
+    - "La dieta vegana è semplice d impostare come una dieta onnivora?"
+    - "Quanto è difficile seguire una dieta vegana rispetto a una dieta onnivora?"
+    - "Cosa bisognerebbe sapere per impostare una dieta vegana correttamente?"
+    - "Come si potrebbe garantire che una dieta vegana sia adeguata?"
+    - "Quali sono le sfide che si presentano quando si segue una dieta vegana?"
+    - "Perché alcune persone trovano difficile seguire una dieta vegana?"
+    - "Come si potrebbe superare la difficoltà di seguire una dieta vegana?"
+    - "Quali sono i consigli per seguire una dieta vegana in maniera adeguata?"
+    - "Perché la dieta vegana viene spesso considerata come complicata da seguire?"
+    - "Cosa bisognerebbe fare per rendere la dieta vegana più semplice da seguire?"
+
+
+- intent: differenze_diete
+  examples: |
+    - "Quali sono le principali differenze tra una dieta vegana, vegetariana e onnivora?"
+    - "Come differiscono le diete vegana, vegetariana e onnivora?"
+    - "Cosa bisognerebbe sapere sulla differenza tra le diete vegana, vegetariana e onnivora?"
+    - "Come si potrebbe descrivere la differenza tra una dieta vegana e una dieta onnivora?"
+    - "Cosa distingue una dieta vegetariana da una dieta onnivora?"
+    - "Perché alcune persone scelgono di seguire una dieta vegana, mentre altre preferiscono una dieta vegetariana o onnivora?"
+    - "Come potrebbe influire la scelta di seguire una dieta vegana, vegetariana o onnivora sulla salute?"
+    - "Quali sono i vantaggi e gli svantaggi di ognuna di queste diete?"
+    - "Come si potrebbe valutare la differenza tra le diete vegana, vegetariana e onnivora?"
+    - "Perché alcune persone scelgono di seguire una dieta vegana, mentre altre una dieta vegetariana o onnivora?"
+
+- intent: possibilita_nutrienti_dieta_vegana
+  examples: |
+    - "È possibile ottenere tutti i nutrienti necessari da una dieta vegana?"
+    - "Una dieta vegana è in grado di fornire tutti i nutrienti di cui abbiamo bisogno?"
+    - "Perché alcune persone ritengono che una dieta vegana sia carente di nutrienti?"
+    - "Come si potrebbe garantire che una dieta vegana sia completa di tutti i nutrienti necessari?"
+    - "Quali sono i nutrienti di cui bisognerebbe essere particolarmente consapevoli quando si segue una dieta vegana?"
+    - "Come si potrebbe evitare carenze nutrizionali quando si segue una dieta vegana?"
+    - "Quali alimenti bisognerebbe includere in una dieta vegana per garantire l'apporto di tutti i nutrienti necessari?"
+    - "Perché la dieta vegana viene spesso considerata come carente di alcuni nutrienti?"
+    - "Cosa bisognerebbe fare per garantire che una dieta vegana sia completa di tutti i nutrienti necessari?"
+    - "Quali sono i rischi per la salute di una dieta vegana che non fornisce tutti i nutrienti necessari?"
+
+- intent: problemi_scelta_alimentazione_vegana
+  examples: |
+    - "Quali sono i principali problemi nella scelta di un'alimentazione vegana?"
+    - "Perché alcune persone incontrano difficoltà quando decidono di seguire una dieta vegana?"
+    - "Quali sono le maggiori sfide che si affrontano quando si opta per un'alimentazione vegana?"
+    - "Come si potrebbero superare i problemi legati alla scelta di un'alimentazione vegana?"
+    - "Quali sono le cose da tenere in considerazione quando si sceglie di seguire una dieta vegana?"
+    - "Perché molte persone trovano difficile seguire una dieta vegana?"
+    - "Come si potrebbero evitare i problemi legati alla scelta di un'alimentazione vegana?"
+    - "Quali sono i rischi per la salute di una dieta vegana se non viene gestita correttamente?"
+    - "Perché molti esperti nutrizionisti non raccomandano la dieta vegana?"
+    - "Cosa bisognerebbe fare per garantire che un'alimentazione vegana sia sana e bilanciata?"
+
+- intent: differenze_alimentazioni
+  examples: |
+    - "Quali sono le differenze principali tra alimentazione vegana, vegetariana e onnivora?"
+    - "Come sono diverse le diete vegana, vegetariana e onnivora?"
+    - "Perché alcune persone scelgono un'alimentazione vegana, altre vegetariana e altre ancora onnivora?"
+    - "Cosa contraddistingue un'alimentazione vegana rispetto a una vegetariana o onnivora?"
+    - "Come potrei capire se un'alimentazione vegana, vegetariana o onnivora è più adatta a me?"
+    - "Cosa dovrei considerare per scegliere tra un'alimentazione vegana, vegetariana o onnivora?"
+    - "Perché alcune persone decidono di seguire una dieta vegana e altre una vegetariana o onnivora?"
+    - "Quali sono i pro e i contro di un'alimentazione vegana, vegetariana e onnivora?"
+    - "Come si potrebbe creare un'alimentazione sana e bilanciata seguendo una dieta vegana, vegetariana o onnivora?"
+    - "Cosa bisognerebbe tenere in considerazione per decidere tra un'alimentazione vegana, vegetariana o onnivora?"
+
+- intent: vantaggi_dieta_vegana
+  examples: |
+    - "Quali sono i principali vantaggi della dieta vegana per la salute?"
+    - "Perché molti scelgono di seguire una dieta vegana?"
+    - "Cosa posso guadagnare dal seguire un'alimentazione vegana?"
+    - "Come può influire positivamente una dieta vegana sulla mia salute?"
+    - "Perché la dieta vegana viene spesso raccomandata dai medici?"
+    - "Cosa rende un'alimentazione vegana vantaggiosa per la salute?"
+    - "Quali sono le ragioni per cui una dieta vegana può essere più salutare di una dieta onnivora?"
+    - "Come la dieta vegana può influire sulla prevenzione di malattie croniche?"
+    - "Cosa posso aspettarmi dal seguire una dieta vegana in termini di effetti positivi sulla mia salute?"
+    - "Quali sono i risultati più comuni ottenuti da chi segue una dieta vegana?"
+
+- intent: bilancio_nutrizionale_dieta_vegana
+  examples: |
+    - "In che modo la scelta di una dieta vegana influisce sul bilancio nutrizionale dei nutrienti?"
+    - "Quali nutrienti sono di solito più carenti in una dieta vegana?"
+    - "Cosa devo fare per evitare carenze nutrizionali nella mia dieta vegana?"
+    - "Come posso mantenere un equilibrio nutrizionale adeguato seguendo una dieta vegana?"
+    - "La dieta vegana può causare una mancanza di proteine, vitamine o minerali?"
+    - "Cosa posso fare per compensare le carenze nutrizionali nella mia dieta vegana?"
+    - "Come posso assicurarmi di ottenere tutti i nutrienti di cui ho bisogno seguendo una dieta vegana?"
+    - "Quali sono i nutrienti che devo prestare maggiore attenzione nella mia dieta vegana?"
+    - "La dieta vegana è adeguata per tutte le età e le condizioni di salute?"
+    - "Quali accorgimenti posso prendere per evitare carenze nutrizionali nella mia dieta vegana?"
+
+- intent: difficolta_bilanciare_dieta_vegetale
+  examples: |
+    - "Quali sono le difficoltà principali nell'ottenere una dieta vegetale bilanciata?"
+    - "Perché può essere difficile ottenere una dieta vegetale equilibrata?"
+    - "Come posso evitare carenze nutrizionali nella mia dieta vegetale?"
+    - "Cosa devo fare per garantire un apporto adeguato di proteine, vitamine e minerali nella mia dieta vegetale?"
+    - "Quali nutrienti devo prestare particolare attenzione nella mia dieta vegetale?"
+    - "In che modo posso compensare le eventuali carenze nutrizionali nella mia dieta vegetale?"
+    - "La dieta vegetale è adeguata per tutte le età e le condizioni di salute?"
+    - "Come posso evitare di mangiare troppi carboidrati nella mia dieta vegetale?"
+    - "Quali sono i rischi per la salute nella scelta di una dieta vegetale non bilanciata?"
+    - "Come posso garantire che la mia dieta vegetale sia equilibrata e bilanciata?"
+
+- intent: distorsione_statistica_studi_dieta_vegana
+  examples: |
+    - "Qual è la principale distorsione statistica negli studi scientifici sulla dieta vegana?"
+    - "Perché alcuni studi sulla dieta vegana sono considerati poco affidabili?"
+    - "Come si può verificare la validità degli studi scientifici sulla dieta vegana?"
+    - "Perché la dieta vegana è ancora oggetto di controversie scientifiche?"
+    - "Quali sono le criticità nella metodologia di alcuni studi sulla dieta vegana?"
+    - "Come posso distinguere tra studi scientifici affidabili e non affidabili sulla dieta vegana?"
+    - "Perché bisognerebbe prestare attenzione ai risultati degli studi sulla dieta vegana?"
+    - "In che modo gli studi sulla dieta vegana influiscono sulle opinioni e le scelte dei consumatori?"
+    - "Come posso verificare la qualità e l'affidabilità degli studi sulla dieta vegana?"
+    - "Quali sono le implicazioni per la salute delle informazioni derivanti da studi poco affidabili sulla dieta vegana?"
+
+- intent: problema_dieta_vegana_sostenibilità
+  examples: |
+    - "Qual è il problema principale nella dieta vegana per quanto riguarda la sostenibilità?"
+    - "Come la dieta vegana influisce sulla sostenibilità ambientale?"
+    - "In che modo la scelta di una dieta vegana incide sulla sostenibilità a lungo termine?"
+    - "Quali sono i rischi per la sostenibilità derivanti dalla diffusione della dieta vegana?"
+    - "Come si può equilibrare la scelta di un'alimentazione vegana con la sostenibilità ambientale?"
+    - "Perché la dieta vegana viene spesso associata alla sostenibilità ambientale?"
+    - "Come la scelta di un'alimentazione vegana influisce sulla salute del pianeta?"
+    - "In che modo la dieta vegana può essere resa più sostenibile?"
+    - "Quali sono le soluzioni per rendere la dieta vegana sostenibile a lungo termine?"
+    - "In che modo bisognerebbe affrontare i problemi di sostenibilità nella dieta vegana?"
+#VSS cap 1 - conclusioni
+- intent: preoccupazioni_dieta_vegetariana_salute
+  examples: |
+    - "Quali sono le principali preoccupazioni riguardo alle diete vegetariane per la salute?"
+    - "In che modo una dieta vegetariana può influire negativamente sulla salute?"
+    - "Quali sono i rischi per la salute derivanti dalla scelta di una dieta vegetariana?"
+    - "Perché la dieta vegetariana viene spesso associata a problemi di salute?"
+    - "Come si può equilibrare la scelta di un'alimentazione vegetariana con la salute?"
+    - "In che modo la dieta vegetariana può causare carenze nutrizionali?"
+    - "Come si possono prevenire i problemi di salute nella dieta vegetariana?"
+    - "Quali sono i nutrienti che possono essere carenti nella dieta vegetariana?"
+    - "Come si può garantire una dieta vegetariana bilanciata a livello nutrizionale?"
+    - "In che modo la dieta vegetariana può essere resa più salutare?"
+
+- intent: parere_WHO_diete_vegetariane
+  examples: |
+    - "Ha detto l'WHO che le diete vegetariane sono salutari?"
+    - "Qual è il parere dell'Organizzazione Mondiale della Sanità sulle diete vegetariane?"
+    - "L'WHO considera le diete a base vegetale come un'opzione salutare?"
+    - "Esiste un parere ufficiale dell'WHO sulle diete vegetariane?"
+    - "La dieta vegetariana è raccomandata dall'Organizzazione Mondiale della Sanità?"
+    - "Qual è il giudizio dell'WHO sulle diete a base vegetale?"
+    - "L'Organizzazione Mondiale della Sanità ritiene le diete vegetariane salutari?"
+    - "Le diete vegetariane sono un'opzione consigliata dall'WHO?"
+    - "La dieta a base vegetale è considerata salutare dall'Organizzazione Mondiale della Sanità?"
+    - "L'WHO sostiene le diete vegetariane come una scelta alimentare salutare?"
+
+- intent: gruppi_rischio_dieta_vegana
+  examples: |
+    - "Quali sono i gruppi di popolazione per i quali potrebbe essere più rischioso seguire una dieta vegana?"
+    - "Chi dovrebbe evitare di seguire una dieta vegana?"
+    - "Per chi è più difficile seguire una dieta vegana in modo bilanciato?"
+    - "Per chi la dieta vegana può essere pericolosa?"
+    - "Quali sono i fattori di rischio nella scelta di una dieta vegana?"
+    - "In che modo la scelta di una dieta vegana può influire negativamente sulla salute?"
+    - "Per chi è più difficile ottenere una dieta vegana equilibrata?"
+    - "Per quali condizioni di salute la dieta vegana non è consigliabile?"
+    - "Per chi la dieta vegana potrebbe essere meno adatta?"
+    - "Per chi potrebbe essere più difficile seguire una dieta vegana in modo bilanciato e sicuro?"
+
+- intent: evitare_carenze_dieta_vegana
+  examples: |
+    - "Come posso prevenire le carenze nutrizionali in una dieta vegana?"
+    - "Quali sono le misure da prendere per una dieta vegana bilanciata?"
+    - "Come si evita di avere carenze nutrizionali con una dieta vegana?"
+    - "Quali sono gli accorgimenti per evitare le carenze nutrizionali in una dieta vegana?"
+    - "Come posso avere una dieta vegana equilibrata?"
+    - "Quali sono i nutrienti da considerare per evitare le carenze nutrizionali in una dieta vegana?"
+    - "Come posso garantirmi di ottenere tutti i nutrienti necessari con una dieta vegana?"
+    - "Come posso avere una dieta vegana salutare e bilanciata?"
+    - "Come si garantisce l'equilibrio nutrizionale in una dieta vegana?"
+    - "Come posso prevenire i rischi di carenze nutrizionali in una dieta vegana?"
+
+- intent: rischio_carenze_dieta_vegana
+  examples: |
+    - "È possibile evitare completamente le carenze nutrizionali con una dieta vegana?"
+    - "Esiste un modo per avere una dieta vegana completamente priva di carenze nutrizionali?"
+    - "Posso seguire una dieta vegana senza rischi di carenze nutrizionali?"
+    - "Esiste una dieta vegana che garantisca la salute senza carenze nutrizionali?"
+    - "È possibile avere una dieta vegana equilibrata senza carenze nutrizionali?"
+    - "Posso seguire una dieta vegana priva di rischi per la mia salute?"
+    - "È possibile avere una dieta vegana bilanciata e priva di carenze nutrizionali?"
+    - "Posso seguire una dieta vegana senza preoccupazioni per le
+
+- intent: consiglio_supervisione_professionale_dieta_vegana
+  examples: |
+    - "È consigliabile seguire una dieta vegana senza la supervisione di un professionista?"
+    - "Sarebbe meglio seguire una dieta vegana sotto la guida di un medico?"
+    - "È pericoloso seguire una dieta vegana senza il supporto di un professionista?"
+    - "Perché sarebbe importante avere la supervisione di un professionista durante la scelta di una dieta vegana?"
+    - "Perché la scelta di una dieta vegana dovrebbe essere supportata da un professionista?"
+    - "In che modo la supervisione di un professionista può aiutare nella scelta di una dieta vegana?"
+    - "Quali sono i rischi di seguire una dieta vegana senza la guida di un professionista?"
+    - "Perché la dieta vegana non dovrebbe essere scelta senza la supervisione di un medico?"
+    - "Perché sarebbe importante avere il supporto di un professionista durante la scelta di una dieta vegana?"
+    - "Perché la scelta di una dieta vegana dovrebbe essere fatta solo con la supervisione di un professionista?"
+
+- intent: carenze_nutrizionali_dieta_vegana
+  examples: |
+    - "Quali sono le carenze nutrizionali più comuni in una dieta vegana?"
+    - "Quali nutrienti mancano di più in una dieta vegana?"
+    - "Perché una dieta vegana può essere carente?"
+    - "Di quali nutrienti è più facile soffrire di carenze in una dieta vegana?"
+    - "Quali sono i nutrienti che vengono a mancare di più in una dieta vegana?"
+    - "In che modo una dieta vegana può influire sulla salute a causa di carenze nutrizionali?"
+    - "Quali sono le conseguenze di una dieta vegana non ben bilanciata?"
+    - "Perché una dieta vegana ben bilanciata è importante per la salute?"
+    - "In che modo una dieta vegana non equilibrata può influire negativamente sulla salute?"
+    - "Perché è importante seguire una dieta vegana ben bilanciata per evitare carenze nutrizionali?"
+
+- intent: dieta_vegetariana_bilanciata
+  examples: |
+    - "È possibile seguire una dieta vegetariana correttamente bilanciata per ridurre al minimo il rischio di carenze nutrizionali?"
+    - "Come si può evitare di soffrire di carenze nutrizionali seguendo una dieta vegetariana?"
+    - "Qual è la chiave per seguire una dieta vegetariana bilanciata e salutare?"
+    - "Come evitare di avere carenze nutrizionali seguendo una dieta vegetariana?"
+    - "Perché una dieta vegetariana ben bilanciata è importante per la salute?"
+    - "Quali sono i consigli per seguire una dieta vegetariana ben bilanciata?"
+    - "Come garantire di ottenere tutti i nutrienti necessari seguendo una dieta vegetariana?"
+    - "Perché è importante equilibrare correttamente la propria dieta vegetariana?"
+    - "In che modo una dieta vegetariana ben bilanciata può influire positivamente sulla salute?"
+    - "Quali sono i cibi chiave per seguire una dieta vegetariana bilanciata e salutare?"
+
+- intent: supervisione_dieta_particolari
+  examples: |
+    - "Chi dovrebbe supervisionare la dieta di una donna incinta o di un individuo con patologie?"
+    - "Chi è il professionista più adatto per supervisionare una dieta durante la gravidanza?"
+    - "Quali sono le figure professionali che possono aiutare con la dieta di un individuo con patologie?"
+    - "Perché è importante che una donna incinta sia supervisionata da un professionista per quanto riguarda la dieta?"
+    - "Perché un individuo con patologie ha bisogno di supervisione professionale per quanto riguarda la dieta?"
+    - "Chi dovrebbe aiutare un individuo con patologie a creare una dieta equilibrata?"
+    - "Quali sono le figure professionali che possono aiutare a creare una dieta adatta per una donna incinta?"
+    - "Perché la dieta di una donna incinta o di un individuo con patologie non dovrebbe essere affidata al caso?"
+    - "Chi dovrebbe essere coinvolto nella creazione di una dieta per una donna incinta o un individuo con patologie?"
+    - "Perché è importante che una donna incinta o un individuo con patologie segua una dieta ben equilibrata?"
+# VSS cap 1 - sport
+- intent: sport_atleti_vegetariani_vegani
+  examples: |
+    - "Quali sono gli sport in cui si sta verificando un aumento di atleti vegetariani e vegani?"
+    - "In che sport stanno aumentando i vegani e i vegetariani?"
+    - "Perché sempre più atleti stanno scegliendo una dieta vegetariana o vegana?"
+    - "Quali sono gli sport dove una dieta vegana o vegetariana è più diffusa?"
+    - "In che modo la scelta di una dieta vegetariana o vegana influisce sulla performance sportiva?"
+    - "Come mai sempre più atleti stanno optando per una dieta priva di carne?"
+    - "Qual è la relazione tra dieta vegana o vegetariana e performance sportiva?"
+    - "Perché molti atleti scelgono una dieta vegana o vegetariana?"
+    - "In che modo una dieta vegana o vegetariana può influire positivamente sulla performance sportiva?"
+    - "Perché sempre più atleti stanno optando per un'alimentazione priva di carne e derivati animali?"
+
+- intent: differenze_prestazione_atletica
+  examples: |
+    - "È stato dimostrato che esiste una differenza nella prestazione atletica tra onnivori e vegani?"
+    - "Perché ci sono differenze nella prestazione atletica tra onnivori e vegani?"
+    - "Quali sono le differenze nella prestazione atletica tra onnivori e vegani?"
+    - "In che modo l'alimentazione influisce sulla prestazione atletica di vegani e onnivori?"
+    - "Perché ci sono differenze nella performance atletica tra vegani e onnivori?"
+    - "Quali sono i fattori che influiscono sulla differenza nella prestazione atletica tra onnivori e vegani?"
+    - "Perché alcuni atleti scelgono un'alimentazione vegana?"
+    - "È vero che gli atleti vegani possono avere prestazioni atletiche inferiori rispetto a quelli onnivori?"
+    - "In che modo una dieta vegana può influire sulla prestazione atletica?"
+    - "Perché la dieta vegana potrebbe influire negativamente sulla prestazione atletica?"
+
+- intent: atleti_vegetariani_e_vegani
+  examples: |
+    - "E' possibile osservare la presenza di atleti vegetariani e vegani ai vertici dello sport?"
+    - "Esistono atleti di alto livello che seguono una dieta vegetariana o vegana?"
+    - "La dieta vegetariana o vegana può essere seguita da atleti professionisti?"
+    - "Perché alcuni atleti scelgono una dieta vegetariana o vegana?"
+    - "Quali sono i beneficrittori della dieta degli atleti vegetariani o vegani?"
+    - "In che modo la scelta di una dieta vegetariana o vegana può influire sulle prestazioni atletiche?"
+    - "Esiste una relazione tra dieta vegetariana o vegana e prestazioni atletiche?"
+    - "Come mai alcuni atleti di alto livello scelgono una dieta vegetariana o vegana?"
+    - "Quali sono le motivazioni dietro la scelta di una dieta vegetariana o vegana da parte di atleti professionisti?"
+    - "Esiste una correlazione tra dieta vegetariana o vegana e salute negli atleti professionisti?"
+
+- intent: supervisione_medica_atleti_vegani
+  examples: |
+    - "È necessaria la supervisione di un medico per gli atleti vegani?"
+    - "Perché gli atleti vegani dovrebbero essere sotto la supervisione di un medico?"
+    - "Come gli atleti vegani possono mantenere una dieta equilibrata?"
+    - "Perché è importante che gli atleti vegani seguano una dieta equilibrata?"
+    - "Come gli atleti vegani possono evitare carenze nutrizionali?"
+    - "In che modo la scelta di una dieta vegana influisce sulle prestazioni degli atleti?"
+    - "Perché gli atleti vegani dovrebbero essere consapevoli della loro dieta?"
+    - "Come gli atleti vegani possono assicurarsi di ottenere tutti i nutrienti necessari?"
+    - "Perché è importante che gli atleti vegani seguano una dieta ben bilanciata?"
+    - "In che modo una dieta vegana non equilibrata può influire negativamente sulle prestazioni degli atleti?"
+
+- intent: relazione_dieta_prestazione_atletica
+  examples: |
+    - "Esiste una relazione tra una dieta correttamente programmata e la prestazione atletica?"
+    - "In che modo la dieta influisce sulla prestazione atletica?"
+    - "La dieta ha un impatto sulla performance degli atleti?"
+    - "Come una dieta equilibrata può migliorare la prestazione atletica?"
+    - "Perché una dieta ben bilanciata è importante per gli atleti?"
+    - "In che modo una dieta non equilibrata può influire negativamente sulla prestazione atletica?"
+    - "Qual è l'importanza della dieta per la performance degli atleti?"
+    - "Perché gli atleti dovrebbero seguire una dieta equilibrata?"
+    - "Quali sono i beneficriminanti di una dieta adeguata per gli atleti?"
+    - "Come una dieta corretta può aiutare gli atleti a raggiungere il loro massimo potenziale?"
+# VSS cap 3-2 
+- intent: cause_weight_nutrition_issues
+  examples: |
+    - Quale motivo causa il fatto che molte persone ingrassino, dimagriscano troppo o sviluppino carenze nutrizionali nonostante il nostro organismo abbia un sistema di autoregolazione?
+    - Perché molte persone ingrassano nonostante il sistema di autoregolazione del nostro organismo?
+    - Quali sono i motivi per cui molte persone sviluppano carenze nutrizionali nonostante il sistema di autoregolazione del nostro organismo?
+    - Come mai molte persone dimagriscono troppo nonostante il sistema di autoregolazione del nostro organismo?
+    - Che cosa causa l'aumento di peso nonostante il sistema di autoregolazione del nostro organismo?
+    - Quali sono i fattori che influenzano il sistema di autoregolazione del nostro organismo portando a problemi di peso e nutrizione?
+    - In che modo il sistema di autoregolazione del nostro organismo può fallire causando problemi di peso e nutrizione?
+    - Qual è la causa dei problemi di peso e nutrizione nonostante il sistema di autoregolazione del nostro organismo?
+    - Come mai molte persone sviluppano carenze nutrizionali nonostante mangino cibi sani?
+    - Quali sono i motivi per cui molte persone non riescono a mantenere il peso ideale nonostante il sistema di autoregolazione del nostro organismo?
+    - Che cosa causa le oscillazioni di peso nonostante il sistema di autoregolazione del nostro organismo?
+
+- intent: ask_autoregulation_changes
+  examples: |
+    - Quali sono stati questi cambiamenti che hanno influito sulla autoregolazione del nostro organismo?
+    - Quali sono i cambiamenti che hanno influenzato la capacità di autoregolazione del nostro organismo?
+    - Cosa ha causato la riduzione della capacità di autoregolazione del nostro organismo?
+    - Come sono cambiati i meccanismi di autoregolazione del nostro organismo nel corso del tempo?
+    - Quali sono i fattori che hanno alterato il sistema di autoregolazione del nostro corpo?
+    - In che modo l'evoluzione della nostra dieta ha influenzato la capacità di autoregolazione del nostro organismo?
+    - Come hanno influito l'ambiente e lo stile di vita sull'autoregolazione del nostro organismo?
+    - Quali sono stati gli effetti dell'agricoltura moderna sull'autoregolazione del nostro organismo?
+    - Come hanno influenzato la tecnologia e l'industrializzazione la capacità di autoregolazione del nostro organismo?
+    - In che modo la crescente disponibilità di cibo ha influenzato l'autoregolazione del nostro organismo?
+    - Quali sono le conseguenze della globalizzazione e della diffusione della cultura alimentare occidentale sulla capacità di autoregolazione del nostro organismo?
+
+- intent: ask_compensation_in_past
+  examples: |
+    - In passato, come veniva compensata l'assunzione calorica derivata dal cibo?
+    - In passato, come facevano le persone a compensare l'assunzione calorica?
+    - Quali erano i metodi di compensazione dell'assunzione calorica in passato?
+    - Come gestivano le persone l'assunzione calorica derivata dal cibo in passato?
+    - In passato, come veniva gestita l'assunzione di cibo per non ingrassare?
+    - Quali erano le strategie utilizzate per compensare l'assunzione calorica in passato?
+    - Come veniva gestita l'assunzione di cibo per mantenere un peso sano in passato?
+    - In passato, come veniva controllata l'assunzione di calorie?
+    - Quali erano i metodi utilizzati per bilanciare l'assunzione calorica in passato?
+    - Come venivano gestiti i pasti per evitare di ingrassare in passato?
+    - In passato, come veniva affrontato il problema dell'assunzione eccessiva di calorie?
+
+- intent: why_food_scarcity
+  examples: |
+    - Perché in passato c'era una quantità limitata di cibo?
+    - Quali sono le cause della scarsità di cibo nel passato?
+    - Perché le persone nel passato avevano meno cibo di quanto ne abbiamo oggi?
+    - Cosa ha causato la mancanza di cibo nel passato?
+    - Perché molte persone nel passato morivano di fame?
+    - Cosa rendeva difficile la produzione di cibo nel passato?
+    - Quali erano le limitazioni nella produzione alimentare nel passato?
+    - Perché la fame era così diffusa nel passato?
+    - Quali fattori hanno contribuito alla scarsità di cibo nel passato?
+    - Come mai i nostri antenati erano costretti a fare a meno di certi alimenti?
+
+- intent: why_food_less_refined
+  examples: |
+    - Perché in passato il cibo era meno raffinato di oggi?
+    - Quali erano le ragioni per cui il cibo nel passato era meno raffinato?
+    - Perché il cibo nel passato era meno elaborato?
+    - Cosa ha portato alla diminuzione della raffinatezza del cibo nel tempo?
+    - Quali sono le ragioni per cui il cibo di oggi è più elaborato di quello del passato?
+    - Come mai il cibo nel passato era meno elaborato di quello che abbiamo oggi?
+    - Perché il cibo nel passato era meno lavorato?
+    - Quali fattori hanno contribuito alla riduzione della raffinatezza del cibo nel passato?
+    - Cosa ha fatto sì che il cibo di oggi fosse più raffinato di quello del passato?
+    - Come mai il cibo di oggi è molto più elaborato di quello del passato?
+    - Quali sono le differenze tra il cibo del passato e quello di oggi in termini di raffinatezza?
+
+- intent: refined_food_impact_on_self_regulation
+  examples: |
+    - In che modo i cibi raffinati influiscono sulla autoregolazione del nostro organismo?
+    - Qual è l'effetto dei cibi raffinati sull'autoregolazione del nostro organismo?
+    - In che modo i cibi altamente elaborati influenzano l'autoregolazione del nostro corpo?
+    - Come i cibi raffinati possono interferire con l'autoregolazione del nostro organismo?
+    - Cosa succede all'autoregolazione del nostro corpo quando mangiamo cibi raffinati?
+    - In che modo i cibi raffinati possono influenzare il sistema di autoregolazione del nostro organismo?
+    - Quali sono gli effetti dei cibi raffinati sulla capacità di autoregolazione del nostro organismo?
+    - Come i cibi raffinati possono influenzare il nostro equilibrio interno?
+    - Quali sono le conseguenze dell'assunzione di cibi raffinati sull'autoregolazione del nostro organismo?
+    - In che modo i cibi raffinati possono compromettere il meccanismo di autoregolazione del nostro corpo?
+    - Come i cibi raffinati possono interferire con la capacità del nostro organismo di autoregolarsi?
+
+- intent: seasoned_food_overeating
+  examples: |
+    - Qual è il motivo per cui gli alimenti conditi spingono a mangiare anche quando non ne abbiamo più bisogno?
+    - Perché gli alimenti conditi ci spingono a mangiare anche quando non abbiamo più fame?
+    - Qual è il meccanismo che fa sì che gli alimenti conditi ci spingano a mangiare di più?
+    - Come mai mangiamo di più quando mangiamo cibi altamente conditi?
+    - Qual è la ragione per cui gli alimenti altamente conditi ci fanno mangiare di più?
+    - Cosa rende i cibi conditi così attraenti e come influiscono sulla nostra fame?
+    - Perché i cibi conditi possono causare la voglia di continuare a mangiare anche quando siamo sazi?
+    - Quali sono gli effetti psicologici dei cibi conditi che ci fanno mangiare di più?
+    - In che modo i cibi altamente conditi possono influire sulla regolazione dell'appetito?
+    - Come i cibi conditi possono influenzare la percezione di fame e sazietà?
+    - Quali sono i fattori che rendono i cibi conditi così attraenti e come ci influiscono nel mangiare di più?
+
+- intent: what_is_intuitive_eating
+  examples: |
+    - Che cos'è l'alimentazione intuitiva?
+    - Cos'è l'alimentazione intuitiva?
+    - Che cosa si intende per alimentazione intuitiva?
+    - In cosa consiste l'alimentazione intuitiva?
+    - Qual è la definizione di alimentazione intuitiva?
+    - Cosa implica l'alimentazione intuitiva?
+    - Quali sono i principi dell'alimentazione intuitiva?
+    - Come funziona l'alimentazione intuitiva?
+    - Perché l'alimentazione intuitiva sta diventando sempre più popolare?
+    - Quali sono i vantaggi dell'alimentazione intuitiva?
+    - Come l'alimentazione intuitiva si differenzia dalle diete tradizionali?
+
+- intent: issues_with_intuitive_eating
+  examples: |
+    - Perché molte persone hanno problemi di sovrappeso, dimagrimento eccessivo o carenze nutrizionali nonostante l'alimentazione intuitiva?
+    - Perché alcune persone non riescono a raggiungere il peso desiderato con l'alimentazione intuitiva?
+    - Quali sono le possibili cause di sovrappeso nonostante l'alimentazione intuitiva?
+    - Perché alcune persone sviluppano carenze nutrizionali nonostante l'alimentazione intuitiva?
+    - In che modo l'alimentazione intuitiva potrebbe causare problemi di dimagrimento eccessivo?
+    - Come mai alcune persone hanno difficoltà a mantenere un peso sano con l'alimentazione intuitiva?
+    - Quali fattori possono influire sulla capacità di seguire un'alimentazione intuitiva con successo?
+    - Come l'alimentazione intuitiva si adatta alle diverse esigenze nutrizionali delle persone?
+    - Quali sono le limitazioni dell'alimentazione intuitiva come strategia per il controllo del peso?
+    - In che modo l'alimentazione intuitiva può essere influenzata dal contesto sociale e culturale in cui viviamo?
+    - Quali sono le differenze tra un'alimentazione intuitiva e una dieta tradizionale, e perché l'una potrebbe essere più adatta di un'altra per alcune persone?
+
+- intent: changes_in_intuitive_eating
+  examples: |
+    - Quali sono i cambiamenti avvenuti negli ultimi secoli che hanno influito sull'alimentazione intuitiva?
+    - In che modo l'agricoltura intensiva ha influenzato l'alimentazione intuitiva?
+    - Quali sono i cambiamenti alimentari avvenuti nel corso della storia dell'umanità?
+    - Come l'industrializzazione e la globalizzazione hanno cambiato l'alimentazione umana?
+    - Quali sono i fattori socio-economici che hanno influenzato l'alimentazione delle persone nel corso del tempo?
+    - In che modo le tecnologie moderne, come la refrigerazione e il congelamento, hanno influenzato l'alimentazione umana?
+    - Quali sono i fattori culturali e geografici che influenzano l'alimentazione delle persone?
+    - Come la pubblicità e i media hanno influenzato l'alimentazione delle persone?
+    - Quali sono le tendenze alimentari attuali e in che modo influenzano l'alimentazione intuitiva?
+    - In che modo l'alimentazione vegetariana o vegana si adatta all'approccio dell'alimentazione intuitiva?
+    - Quali sono i possibili rischi e benefici dell'alimentazione intuitiva in un mondo alimentare sempre in cambiamento?
+
+- intent: sedentary_lifestyle_and_intuitive_eating
+  examples: |
+    - Come ha influito la mancanza di movimento e sforzo fisico sull'alimentazione intuitiva?
+    - In che modo la mancanza di movimento ha influenzato l'alimentazione umana?
+    - Quali sono i possibili effetti della sedentarietà sull'alimentazione intuitiva?
+    - Come la tecnologia moderna ha influenzato il nostro stile di vita e la nostra alimentazione?
+    - In che modo l'attività fisica può influire sull'approccio dell'alimentazione intuitiva?
+    - Quali sono i rischi per la salute associati alla mancanza di attività fisica e come possono influire sull'alimentazione?
+    - Come l'abitudine al cibo spazzatura potrebbe essere legata ad uno stile di vita sedentario?
+    - Quali sono i benefici dell'attività fisica sull'approccio dell'alimentazione intuitiva?
+    - In che modo la mancanza di movimento può influire sulla percezione del cibo e sulle scelte alimentari?
+    - Come l'attività fisica può aiutare a mantenere il peso corporeo e ad adottare un approccio più salutare all'alimentazione?
+    - Quali sono le strategie che le persone possono adottare per incorporare l'attività fisica nella loro routine quotidiana?
+
+
+- intent: unlimited_food_and_intuitive_eating
+  examples: |
+    - Come ha influito la quantità illimitata di cibo sull'alimentazione intuitiva?
+    - In che modo l'abbondanza di cibo ha influenzato l'approccio dell'alimentazione intuitiva?
+    - Quali sono i possibili effetti della disponibilità illimitata di cibo sull'alimentazione umana?
+    - Come la globalizzazione e l'industrializzazione del cibo hanno influenzato la disponibilità di alimenti?
+    - In che modo il cibo spazzatura e i cibi ad alto contenuto calorico influenzano l'approccio dell'alimentazione intuitiva?
+    - Quali sono i rischi per la salute associati all'eccesso di cibo e come possono influire sull'alimentazione?
+    - Come la pubblicità e i media hanno influenzato la percezione del cibo e delle porzioni?
+    - Quali sono i benefici dell'approccio dell'alimentazione intuitiva in un mondo di eccesso di cibo?
+    - In che modo la cultura del "tutto ciò che puoi mangiare" può influire sulla percezione del cibo e sulle scelte alimentari?
+    - Come la consapevolezza del cibo e la gratitudine possono aiutare a ridurre l'eccesso di cibo e ad adottare un approccio più salutare all'alimentazione?
+    - Quali sono le strategie che le persone possono adottare per ridurre il consumo eccessivo di cibo e migliorare l'approccio dell'alimentazione intuitiva?
+
+- intent: unrefined_food_definition
+  examples: |
+    - Che cosa significa che il cibo non era raffinato in passato?
+    - Cosa si intende per cibo non raffinato?
+    - Quali sono le caratteristiche del cibo non raffinato?
+    - Come si differenzia il cibo non raffinato dal cibo raffinato?
+    - In che modo il cibo non raffinato può influenzare la salute?
+    - Quali sono gli esempi di cibo non raffinato?
+    - Perché il cibo non raffinato è considerato più salutare del cibo raffinato?
+    - Quali sono le conseguenze dell'abbondanza di cibo raffinato sulla salute?
+    - Quali sono i vantaggi dell'includere cibi non raffinati nella dieta?
+    - Come è cambiata la qualità del cibo nel corso del tempo?
+    - Quali sono le possibili alternative al cibo raffinato?
+
+- intent: refined_food_effects
+  examples: |
+    - Che effetto ha la raffinazione del cibo sui meccanismi di autoregolazione del corpo?
+    - In che modo la raffinazione del cibo influisce sulla autoregolazione del nostro organismo?
+    - Quali sono gli effetti della raffinazione del cibo sulla regolazione del peso corporeo?
+    - Come la raffinazione del cibo può influenzare il livello di zucchero nel sangue?
+    - Quali sono le conseguenze dell'assunzione eccessiva di cibo raffinato?
+    - In che modo la raffinazione del cibo può influenzare la sensazione di sazietà?
+    - Quali sono le possibili alterazioni del microbioma intestinale causate dalla raffinazione del cibo?
+    - Come la raffinazione del cibo può influire sull'infiammazione nel nostro corpo?
+    - Quali sono gli effetti della raffinazione del cibo sulla salute generale?
+    - In che modo la raffinazione del cibo può influire sulla regolazione del metabolismo?
+    - Quali sono le differenze tra cibi raffinati e non raffinati dal punto di vista nutrizionale?
+
+- intent: regulation_system_issues
+  examples: |
+    - Qual è il motivo per cui molte persone ingrassano o sviluppano carenze nutrizionali nonostante il sistema di autoregolazione del nostro organismo?
+    - Quali fattori possono interferire con il sistema di autoregolazione del nostro organismo?
+    - Perché molte persone non riescono a mantenere il peso forma nonostante il sistema di autoregolazione del nostro organismo?
+    - In che modo la dieta moderna può interferire con la regolazione del peso corporeo?
+    - Come la mancanza di attività fisica può influenzare la regolazione del peso corporeo?
+    - Quali sono le possibili cause di carenze nutrizionali nonostante l'alimentazione equilibrata?
+    - Come lo stress può influire sulla regolazione del peso corporeo?
+    - Quali sono le possibili conseguenze dell'uso di farmaci sulla regolazione del peso corporeo?
+    - In che modo l'età può influire sulla regolazione del peso corporeo e sulla salute in generale?
+    - Quali sono le possibili conseguenze della privazione del sonno sulla regolazione del peso corporeo?
+    - Come i disturbi alimentari possono interferire con la regolazione del peso corporeo e sulla salute in generale?
+
+- intent: changes_last_centuries
+  examples: |
+    - Cosa sono questi cambiamenti avvenuti negli ultimi secoli?
+    - Quali sono stati i principali cambiamenti alimentari degli ultimi secoli?
+    - In che modo la tecnologia ha influenzato l'alimentazione umana negli ultimi secoli?
+    - Quali sono stati i cambiamenti negli stili di vita che hanno influenzato l'alimentazione umana negli ultimi secoli?
+    - Come il commercio globale ha influenzato l'alimentazione umana negli ultimi secoli?
+    - Quali sono state le conseguenze dell'industrializzazione dell'agricoltura sull'alimentazione umana?
+    - In che modo la pubblicità ha influenzato le scelte alimentari negli ultimi secoli?
+    - Quali sono stati i cambiamenti nelle abitudini di cottura degli alimenti negli ultimi secoli?
+    - Come la globalizzazione ha influenzato la disponibilità di cibi esotici in tutto il mondo?
+    - Quali sono stati i cambiamenti nell'agricoltura che hanno influenzato l'alimentazione umana negli ultimi secoli?
+    - In che modo le guerre e le crisi economiche hanno influenzato l'alimentazione umana negli ultimi secoli?
+
+- intent: refined_food_negative_health
+  examples: |
+    - Perché il cibo raffinato può essere negativo per la salute?
+    - In che modo la raffinazione del cibo può influire negativamente sulla salute?
+    - Quali sono gli effetti negativi sulla salute del consumo di cibo raffinato?
+    - Perché il cibo raffinato è considerato poco salutare?
+    - Quali sono le conseguenze per la salute di una dieta basata su cibi raffinati?
+    - In che modo il cibo raffinato può causare problemi di salute?
+    - Quali sono i rischi associati al consumo di cibo raffinato?
+    - Perché il cibo raffinato può portare ad un aumento di peso?
+    - Come il cibo raffinato può influire negativamente sul sistema digestivo?
+    - Quali sono le possibili conseguenze per la salute dell'assunzione eccessiva di zuccheri raffinati?
+    - In che modo la raffinazione dei cereali può influire negativamente sulla nutrizione?
+
+- intent: obese_animals_in_nature
+  examples: |
+    - Esistono animali obesi in natura?
+    - Ci sono animali obesi in natura?
+    - Gli animali selvatici possono diventare obesi?
+    - Esistono esempi di animali che diventano sovrappeso?
+    - Quali animali sono a rischio di obesità in natura?
+    - Gli animali domestici sono gli unici a diventare obesi o può accadere anche nella natura?
+    - In natura, gli animali obesi hanno maggiori difficoltà a sopravvivere?
+    - Ci sono casi in cui l'essere sovrappeso può essere vantaggioso per un animale?
+    - Quali fattori possono influire sull'obesità degli animali in natura?
+    - Qual è la percentuale di animali selvatici che diventano obesi?
+    - Come gli esseri umani, gli animali selvatici possono soffrire di malattie legate all'obesità?
+
+- intent: impact_human_lifestyle_on_animal_health
+  examples: |
+    - Come influisce lo stile di vita dell'uomo sulla salute degli animali?
+    - In che modo lo stile di vita umano influisce sulla salute degli animali?
+    - Quali sono gli effetti dell'inquinamento urbano sulla salute degli animali?
+    - Come l'urbanizzazione influisce sulla vita degli animali selvatici?
+    - Quali sono gli effetti dell'uso dei pesticidi sull'ecosistema e sulla salute degli animali?
+    - In che modo il cambiamento climatico influisce sulla vita degli animali?
+    - Quali sono le conseguenze della deforestazione sulla fauna selvatica?
+    - L'inquinamento acustico influisce sulla salute degli animali?
+    - Quali sono gli effetti della pesca eccessiva sulla vita degli animali marini?
+    - Come la caccia influisce sulla popolazione di animali selvatici?
+    - In che modo lo smaltimento dei rifiuti influisce sulla salute degli animali?
+
+- intent: brain_unable_to_adapt_to_lifestyle_changes
+  examples: |
+    - Perché il nostro cervello non riesce a adattarsi ai cambiamenti nello stile di vita e nel cibo disponibile?
+    - Perché il nostro cervello non riesce ad adattarsi ai cibi raffinati?
+    - Quali sono le ragioni per cui il nostro cervello non riesce ad adattarsi alla quantità illimitata di cibo disponibile?
+    - In che modo i cibi altamente calorici influenzano la capacità del cervello di autoregolarsi?
+    - Perché le persone hanno difficoltà ad adattarsi a una dieta sana dopo anni di cattive abitudini alimentari?
+    - Quali sono i motivi per cui il nostro cervello non riesce a regolare l'apporto calorico durante un pasto?
+    - In che modo lo stile di vita sedentario ha un impatto sulla capacità del nostro cervello di autoregolarsi?
+    - Perché il nostro cervello non è in grado di adattarsi alla mancanza di attività fisica?
+    - Quali sono le conseguenze per la nostra salute quando il cervello non riesce a regolare l'apporto calorico?
+    - In che modo la raffinazione del cibo ha reso difficile per il nostro cervello regolare l'apporto calorico?
+    - Perché le diete yo-yo possono danneggiare il meccanismo di autoregolazione del cervello?
+
+- intent: relationship_between_hunger_and_food
+  examples: |
+    - Qual è la relazione tra l'affamamento e il cibo disponibile?
+    - Come influisce la quantità di cibo disponibile sull'affamamento?
+    - Qual è la relazione tra la fame e la disponibilità di cibo?
+    - In che modo la mancanza di cibo influisce sull'affamamento?
+    - Quali sono gli effetti di una dieta limitata sull'affamamento?
+    - Come l'abbondanza di cibo influisce sull'appetito?
+    - In che modo la disponibilità di cibo influisce sull'ingestione alimentare?
+    - Qual è la relazione tra la privazione alimentare e l'appetito?
+    - Gli animali sviluppano un maggior appetito quando il cibo è scarso?
+    - Qual è la reazione dell'organismo all'affamamento?
+    - In che modo il digiuno influisce sull'appetito e sull'affamamento?
+
+- intent: self-regulation_of_our_body
+  examples: |
+    - In che modo il nostro organismo si autoregola?
+    - Quali sono i meccanismi di autoregolazione del nostro corpo?
+    - Come funziona la termoregolazione del nostro organismo?
+    - In che modo il nostro corpo mantiene costante il livello di zucchero nel sangue?
+    - Come si autoregola il nostro battito cardiaco?
+    - Quali sono i processi di autoregolazione dell'equilibrio acido-base nel nostro corpo?
+    - In che modo il nostro corpo mantiene costante il livello di ossigeno nel sangue?
+    - Come funziona la regolazione della fame e della sazietà?
+    - Quali sono i meccanismi di autoregolazione dell'equilibrio idrico nel nostro corpo?
+    - Come funziona la regolazione del pH del nostro corpo?
+    - Quali sono i processi di autoregolazione della pressione arteriosa?
+
+
+- intent: reasons_for_weight_fluctuations_and_nutritional_deficiencies
+  examples: |
+    - Perché molte persone ingrassano, dimagriscono troppo o sviluppano carenze nutrizionali nonostante il sistema di autoregolazione del loro organismo?
+    - Quali sono le cause dell'accumulo di grasso corporeo nonostante una dieta sana?
+    - Come mai alcune persone non riescono a perdere peso nonostante la dieta?
+    - In che modo lo stress influisce sul peso corporeo?
+    - Quali sono le conseguenze della mancanza di sonno sulla regolazione del peso corporeo?
+    - Come l'assunzione di farmaci influisce sulla regolazione del peso corporeo?
+    - Quali sono i fattori che influenzano l'assorbimento dei nutrienti nel corpo?
+    - Come la restrizione calorica può portare a carenze nutrizionali?
+    - In che modo le intolleranze alimentari possono portare a carenze nutrizionali?
+    - Quali sono le conseguenze della dieta ricca di cibi raffinati e zuccherati?
+    - Come l'assunzione eccessiva di alcol può influire sulla salute e sul peso corporeo?
+
+- intent: regulatory_system_changes
+  examples: |
+    - Quali sono i cambiamenti che hanno influito sui meccanismi di autoregolazione del nostro organismo?
+    - In che modo la dieta moderna ha cambiato i meccanismi di autoregolazione del nostro organismo?
+    - Quali sono gli effetti della sedentarietà sui meccanismi di autoregolazione del nostro organismo?
+    - Come l'abuso di farmaci può influenzare i meccanismi di autoregolazione del nostro organismo?
+    - Quali sono i cambiamenti ambientali che hanno influito sui meccanismi di autoregolazione del nostro organismo?
+    - In che modo lo stress può influire sui meccanismi di autoregolazione del nostro organismo?
+    - Quali sono le conseguenze del sonno insufficiente sui meccanismi di autoregolazione del nostro organismo?
+    - Come i cambiamenti nella produzione alimentare possono influenzare i meccanismi di autoregolazione del nostro organismo?
+    - Quali sono gli effetti dei cambiamenti climatici sui meccanismi di autoregolazione del nostro organismo?
+    - In che modo la tecnologia e lo stile di vita moderno possono influire sui meccanismi di autoregolazione del nostro organismo?
+    - Quali sono gli effetti della crescita demografica sulla capacità del nostro organismo di autoregolarsi?
+
+- intent: limitazione_cibo_passato
+  examples: |
+    - In che modo la quantità di cibo era limitata in passato?
+    - "Come veniva limitata la quantità di cibo nel passato?"
+    - "In che modo le persone limitavano il cibo nel passato?"
+    - "Quali erano i metodi utilizzati per limitare il cibo nel passato?"
+    - "Come si faceva per evitare il consumo eccessivo di cibo nel passato?"
+    - "Perché le persone nel passato limitavano la quantità di cibo?"
+    - "Quali erano le convinzioni culturali riguardo alla quantità di cibo nel passato?"
+    - "Quali fattori influenzavano la quantità di cibo nel passato?"
+    - "In che modo la tecnologia influiva sulla quantità di cibo nel passato?"
+    - "Quali erano i rischi associati al consumo eccessivo di cibo nel passato?"
+    - "Quali erano i vantaggi della limitazione della quantità di cibo nel passato?"
+
+- intent: problema_cibo_raffinato_meccanismi_autoregolazione
+  examples: |
+    - Perché il cibo raffinato è un problema per i meccanismi di autoregolazione del nostro organismo?
+    - "Perché il cibo raffinato può essere un problema per i meccanismi di autoregolazione del nostro corpo?"
+    - "In che modo il cibo raffinato può interferire con i meccanismi di autoregolazione del nostro organismo?"
+    - "Come può il cibo raffinato influenzare i meccanismi di autoregolazione del nostro corpo?"
+    - "Quali sono i motivi per cui il cibo raffinato è un problema per i meccanismi di autoregolazione del nostro corpo?"
+    - "Cosa succede al nostro organismo quando consumiamo cibo raffinato?"
+    - "Quali sono gli effetti del consumo di cibo raffinato sui meccanismi di autoregolazione del nostro corpo?"
+    - "In che modo il cibo raffinato può interferire con la regolazione dei livelli di zucchero nel sangue?"
+    - "Quali sono i rischi del consumo eccessivo di cibo raffinato per i nostri meccanismi di autoregolazione?"
+    - "Perché il cibo raffinato può causare disfunzioni nei nostri meccanismi di autoregolazione?"
+    - "Quali sono le conseguenze a lungo termine del consumo di cibo raffinato per i nostri meccanismi di autoregolazione?"
+
+- intent: alimenti_carboidrati
+  examples: |
+    - Quali sono gli alimenti che rientrano nella categoria dei cibi ricchi di carboidrati?
+    - "Quali sono gli alimenti ricchi di carboidrati?"
+    - "Esempi di alimenti ricchi di carboidrati"
+    - "Che alimenti contengono molti carboidrati?"
+    - "Elenco di alimenti che contengono carboidrati"
+    - "Cosa posso mangiare per assumere carboidrati?"
+    - "Che tipi di carboidrati sono presenti negli alimenti?"
+    - "Quali alimenti sono fonte di carboidrati complessi?"
+    - "Elenco di alimenti con carboidrati semplici"
+    - "Quali sono gli alimenti con basso contenuto di carboidrati?"
+    - "Posso avere una lista di alimenti senza carboidrati?"
+
+- intent: alimenti_ricchi_proteine
+  examples: |
+    - Quali sono gli alimenti che rientrano nella categoria dei cibi ricchi di proteine?
+    - "Quali alimenti sono ricchi di proteine?"
+    - "Cosa mangiare per avere abbastanza proteine?"
+    - "Quali sono i cibi che contengono molte proteine?"
+    - "Quale cibo dovrei mangiare per aumentare l'apporto di proteine?"
+    - "Esempi di cibi proteici?"
+    - "Cosa posso mangiare se voglio assumere proteine?"
+    - "Quali alimenti sono buoni per le proteine?"
+    - "Cosa dovrei mangiare per una dieta ad alto contenuto proteico?"
+    - "Cosa mangiare se seguo una dieta proteica?"
+    - "Quali sono i cibi proteici più economici?"
+
+- intent: alimenti_ricchi_di_grassi
+  examples: |
+    - Quali sono gli alimenti che rientrano nella categoria dei cibi ricchi di grassi?
+    - "Quali sono gli alimenti che contengono più grassi?"
+    - "Puoi elencare alcuni alimenti molto grassi?"
+    - "Quali sono i cibi ricchi di grassi che dovrei evitare?"
+    - "Che tipi di cibi sono alti in grassi?"
+    - "Quali alimenti sono particolarmente ricchi di grassi saturi?"
+    - "Quali cibi contengono più grassi buoni per la salute?"
+    - "Quali sono gli alimenti che hanno meno grassi?"
+    - "Quali cibi dovrebbero essere limitati per mantenere un'alimentazione bilanciata?"
+    - "Ci sono alimenti che contengono grassi, ma sono comunque sani?"
+    - "Quali sono le conseguenze del consumo eccessivo di alimenti grassi?"
+
+- intent: cibi_bassa_densita_calorica
+  examples: |
+    - Quali sono gli alimenti che rientrano nella categoria dei cibi a bassa densità calorica?
+    - "Quali sono gli alimenti a bassa densità calorica?"
+    - "Cosa si intende per cibi a bassa densità calorica?"
+    - "Quali alimenti hanno una bassa densità calorica?"
+    - "Che tipo di alimenti posso mangiare se voglio una dieta a bassa densità calorica?"
+    - "Come posso identificare gli alimenti a bassa densità calorica?"
+    - "Quali sono i cibi meno calorici?"
+    - "Cosa sono i cibi ad alta volume e bassa densità calorica?"
+    - "Quali sono i cibi che mi fanno sentire sazio senza aggiungere troppe calorie?"
+    - "Quali sono i cibi ideali per una dieta dimagrante?"
+    - "Come posso includere gli alimenti a bassa densità calorica nella mia dieta?"
+
+- intent: espressione_porzioni_alimentari
+  examples: |
+    - Come vengono espressi le porzioni di ogni categoria alimentare?
+    - "Come si esprime la porzione di frutta?"
+    - "Quante porzioni di frutta al giorno si dovrebbero consumare?"
+    - "Quali sono le dimensioni di una porzione di verdura?"
+    - "Come si misura la porzione di cereali?"
+    - "Qual è la dimensione di una porzione di latticini?"
+    - "Quante porzioni di proteine si dovrebbero consumare al giorno?"
+    - "Come si esprime la porzione di grassi?"
+    - "Quante porzioni di grassi si dovrebbero consumare al giorno?"
+    - "Qual è la dimensione di una porzione di carboidrati?"
+    - "Come si misura la porzione di legumi?"
+
+- intent: pesare_cibo
+  examples: |
+    - È necessario pesare ogni volta il cibo per seguire le categorie alimentari?
+    - "Devo pesare il cibo per seguire le categorie alimentari?"
+    - "È importante pesare il cibo per seguire le categorie alimentari?"
+    - "Posso seguire le categorie alimentari senza pesare il cibo?"
+    - "Quanto cibo dovrei pesare per seguire le categorie alimentari?"
+    - "Devo pesare il cibo ogni volta che mangio per seguire le categorie alimentari?"
+    - "Come posso seguire le categorie alimentari senza pesare il cibo?"
+    - "È più facile seguire le categorie alimentari pesando il cibo?"
+    - "Quali sono i benefici di pesare il cibo per seguire le categorie alimentari?"
+    - "Posso fare un'eccezione e non pesare il cibo per un pasto?"
+    - "È necessario pesare il cibo per ogni pasto per seguire le categorie alimentari?"
+
+- intent: calcolo_porzioni
+  examples: |
+    - Esiste un modo più semplice per calcolare le porzioni di ogni categoria alimentare?
+    - "Come posso calcolare le porzioni dei vari cibi?"
+    - "Esiste un modo semplice per calcolare le porzioni di ogni categoria alimentare?"
+    - "Come faccio a sapere la quantità di ogni alimento che dovrei mangiare?"
+    - "Esiste una formula per calcolare le porzioni?"
+    - "Ci sono delle linee guida per calcolare le porzioni?"
+    - "Quali sono i fattori che influenzano il calcolo delle porzioni?"
+    - "Quante porzioni di frutta e verdura dovrei mangiare ogni giorno?"
+    - "Quanto pesano le porzioni di carne e pesce?"
+    - "Come posso sapere se sto mangiando le giuste quantità di cibo?"
+    - "Esiste un'app o un sito che può aiutarmi a calcolare le porzioni?"
+
+- intent: importanza_categorie_alimentari
+  examples: |
+    - Perché è importante usare le categorie alimentari per la propria alimentazione?
+    - "Perché le categorie alimentari sono importanti?"
+    - "Come le categorie alimentari possono influenzare la salute?"
+    - "Quali sono i vantaggi dell'utilizzo delle categorie alimentari?"
+    - "In che modo le categorie alimentari possono aiutare a migliorare la salute?"
+    - "Quali sono i rischi di non utilizzare le categorie alimentari?"
+    - "Perché è importante bilanciare le categorie alimentari?"
+    - "Come posso utilizzare le categorie alimentari per migliorare la mia dieta?"
+    - "Quali sono le categorie alimentari principali?"
+    - "Come posso scegliere alimenti sani all'interno delle categorie alimentari?"
+    - "Quali sono i consigli per una corretta scelta delle categorie alimentari?"
+
+- intent: categorie_alimentari
+  examples: |
+    - Quali sono le categorie alimentari e quali alimenti rientrano in ognuna?
+    - "Quali sono le categorie alimentari?"
+    - "In quanti gruppi si dividono gli alimenti?"
+    - "Che tipo di classificazione ci sono degli alimenti?"
+    - "Cosa si intende per categorie alimentari?"
+    - "Quali sono le diverse categorie di alimenti?"
+    - "Puoi elencare le categorie degli alimenti?"
+    - "In che modo gli alimenti vengono suddivisi in categorie?"
+    - "Che cosa implica la suddivisione degli alimenti in categorie?"
+    - "Quali sono gli alimenti che rientrano nella categoria dei carboidrati?"
+    - "Quale tipo di alimenti fa parte della categoria delle proteine?"
+
+- intent: espressione_porzioni_categoria_alimentare
+  examples: |
+    - Come viene espressa la porzione di ogni categoria alimentare?
+    - "Quante porzioni di carboidrati dovrei consumare ogni giorno?"
+    - "Qual è la quantità di proteine ​​raccomandata per porzione?"
+    - "Come viene definita una porzione di frutta?"
+    - "Quali sono le dimensioni di una porzione di verdure?"
+    - "Cosa significa una porzione di cereali?"
+    - "Quali sono le quantità consigliate di latticini per porzione?"
+    - "Quanto dovrebbe essere grande una porzione di carne?"
+    - "Qual è la quantità di grassi raccomandata per porzione?"
+    - "Cosa significa una porzione di legumi?"
+    - "Come viene definita una porzione di frutta secca?"
+
+- intent: pesare_alimenti
+  examples: |
+    - È necessario pesare ogni volta il cibo per seguire le categorie alimentari?
+    - "Devo pesare ogni volta il cibo per seguire le categorie alimentari?"
+    - "Quanto preciso essere a pesare il cibo per seguire le categorie alimentari?"
+    - "Come faccio a sapere quanto pesare di un certo alimento per seguire le categorie alimentari?"
+    - "È necessario avere una bilancia per pesare il cibo per seguire le categorie alimentari?"
+    - "Quante volte al giorno devo pesare il cibo per seguire le categorie alimentari?"
+    - "Posso seguire le categorie alimentari senza pesare il cibo?"
+    - "Come posso pesare il cibo in modo semplice per seguire le categorie alimentari?"
+    - "Quanto tempo ci vuole per pesare il cibo per seguire le categorie alimentari?"
+    - "C'è un modo per pesare il cibo senza usare una bilancia per seguire le categorie alimentari?"
+    - "Posso approssimare il peso del cibo per seguire le categorie alimentari?"
+
+- intent: vantaggi_categorie_alimentari
+  examples: |
+    - Quali sono i vantaggi dell’uso delle categorie alimentari?
+    - "Quali sono i vantaggi dell'utilizzo delle categorie alimentari?"
+    - "Perché è utile utilizzare le categorie alimentari?"
+    - "Quali sono i motivi per cui si utilizzano le categorie alimentari?"
+    - "In cosa consistono le categorie alimentari e quali sono i loro vantaggi?"
+    - "Perché l'utilizzo delle categorie alimentari è importante?"
+    - "Cosa rende le categorie alimentari utili per l'organizzazione della dieta?"
+    - "Quali sono le principali categorie alimentari?"
+    - "In che modo le categorie alimentari facilitano la scelta degli alimenti?"
+    - "Come aiutano le categorie alimentari a comprendere meglio la propria alimentazione?"
+    - "Quali sono i vantaggi di un piano alimentare basato sulle categorie alimentari?"
+
+- intent: requisiti_categorie_alimentari
+  examples: |
+    - Quali sono i requisiti per seguire le categorie alimentari?
+    - "Quali sono i requisiti per seguire una dieta vegetariana?"
+    - "Come posso seguire una dieta vegana?"
+    - "Cosa devo sapere per seguire una dieta chetogenica?"
+    - "Quali sono i requisiti nutrizionali per una dieta a basso contenuto di carboidrati?"
+    - "Cosa significa mangiare in modo paleo?"
+    - "Quali sono i requisiti per seguire una dieta mediterranea?"
+    - "Cosa devo sapere per seguire una dieta a base di cibi interi?"
+    - "Quali sono i requisiti per seguire una dieta ad alta percentuale di proteine?"
+    - "Come posso seguire una dieta a basso contenuto di grassi?"
+    - "Cosa devo sapere per seguire una dieta a base di cibi biologici?"
+
+#VSS cap 3 - 3
+- intent: error_margin_categories
+  examples: |
+    - Qual è il margine di errore nell'utilizzo delle categorie alimentari per monitorare l'apporto calorico e dei macronutrienti?
+    - Qual è la precisione delle categorie alimentari per monitorare l'apporto calorico e dei macronutrienti?
+    - È affidabile l'utilizzo delle categorie alimentari per monitorare l'apporto calorico e dei macronutrienti?
+    - C'è un errore di valutazione quando si usano le categorie alimentari per monitorare l'apporto calorico e dei macronutrienti?
+    - In quale misura le categorie alimentari possono essere utilizzate per monitorare l'apporto calorico e dei macronutrienti?
+    - Esiste un margine di errore quando si utilizzano le categorie alimentari per monitorare l'apporto calorico e dei macronutrienti?
+    - È possibile monitorare in modo preciso l'apporto calorico e dei macronutrienti utilizzando le categorie alimentari?
+    - Quanto è affidabile l'utilizzo delle categorie alimentari per valutare l'apporto calorico e dei macronutrienti?
+    - Quali sono le limitazioni nell'utilizzo delle categorie alimentari per monitorare l'apporto calorico e dei macronutrienti?
+    - Quale è l'accuratezza dell'utilizzo delle categorie alimentari per monitorare l'apporto calorico e dei macronutrienti?
+    - Ci sono problemi di precisione quando si utilizzano le categorie alimentari per monitorare l'apporto calorico e dei macronutrienti?
+    - In quale misura le categorie alimentari possono essere utilizzate per stimare l'apporto calorico e dei macronutrienti?
+    - Qual è il margine di errore quando si utilizzano le categorie alimentari per valutare l'apporto calorico e dei macronutrienti?
+    - È possibile utilizzare le categorie alimentari per monitorare in modo accurato l'apporto calorico e dei macronutrienti?
+    - Quali sono le limitazioni dell'utilizzo delle categorie alimentari per valutare l'apporto calorico e dei macronutrienti?
+
+- intent: food_category_differences
+  examples: |
+    - Perché ci sono differenze nella composizione degli alimenti all'interno della stessa categoria?
+    - Quali sono le ragioni per cui gli alimenti della stessa categoria possono avere diverse composizioni nutrizionali?
+    - Come mai ci sono variazioni nella composizione degli alimenti all'interno della stessa categoria?
+    - Quali fattori influenzano la composizione nutrizionale degli alimenti all'interno della stessa categoria?
+    - Come si spiega la variazione nella composizione degli alimenti all'interno della stessa categoria?
+    - Perché gli alimenti della stessa categoria possono contenere quantità diverse di macronutrienti e micronutrienti?
+    - Quali sono le possibili cause delle differenze nella composizione degli alimenti all'interno della stessa categoria?
+    - Come mai la stessa categoria di alimenti può contenere quantità diverse di grassi, proteine e carboidrati?
+    - Quali fattori determinano la composizione degli alimenti all'interno della stessa categoria?
+    - Perché ci sono differenze nella quantità di nutrienti tra gli alimenti della stessa categoria?
+    - Come mai la stessa categoria di alimenti può contenere quantità diverse di vitamine e minerali?
+    - Quali sono le limitazioni nell'utilizzo delle categorie alimentari per monitorare l'assunzione di nutrienti?
+    - Perché gli alimenti all'interno della stessa categoria possono avere differenti quantità di fibre?
+    - Come mai la stessa categoria di alimenti può contenere quantità diverse di zuccheri e carboidrati complessi?
+    - Quali fattori possono causare variazioni nella quantità di calorie degli alimenti all'interno della stessa categoria?
+
+- intent: example_protein_differences
+  examples: |
+    - Qual è l'esempio citato nel testo per illustrare le differenze nella composizione dei cibi proteici?
+    - Qual è l'esempio di differenze nella composizione dei cibi proteici menzionato nel testo?
+    - Puoi fornire un esempio di differenze nella composizione dei cibi proteici?
+    - C'è un esempio specifico di come i cibi proteici possono differire nella loro composizione?
+    - Di che tipo di differenze nella composizione dei cibi proteici si parla nel testo?
+    - Qual è l'esempio di differenze nella composizione dei cibi proteici che il testo utilizza per illustrare il concetto?
+    - In che modo i cibi proteici possono differire nella loro composizione, come descritto nel testo?
+    - Qual è l'esempio di diversità nella composizione dei cibi proteici che viene menzionato nel testo?
+    - Di cosa si parla quando si dice che i cibi proteici possono variare nella loro composizione?
+    - Qual è l'esempio specifico di differenze nella composizione dei cibi proteici menzionato nel testo?
+    - In che modo gli alimenti proteici possono differire nella loro composizione e quale esempio viene citato nel testo?
+    - Qual è l'esempio di come i cibi proteici possono variare nella loro composizione?
+    - C'è un esempio specifico nel testo che spiega come i cibi proteici possano avere una diversa composizione?
+    - Come viene illustrata la diversità nella composizione dei cibi proteici nel testo e quale esempio viene fornito?
+    - Qual è l'esempio utilizzato nel testo per spiegare perché ci possono essere differenze nella composizione dei cibi proteici?
+
+- intent: precision_nutrition
+  examples: |
+    - Come posso essere preciso nella mia nutrizione?
+    - Quali sono i modi per monitorare con precisione la mia nutrizione?
+    - Come posso assicurarmi di mangiare in modo preciso per raggiungere i miei obiettivi di salute?
+    - Esistono strumenti o tecniche che posso utilizzare per migliorare la precisione della mia nutrizione?
+    - Quali sono le strategie migliori per mantenere un'alimentazione precisa e accurata?
+    - Come posso ottenere una valutazione accurata dell'apporto calorico e dei nutrienti che consumo?
+    - Quali sono gli errori più comuni che si possono commettere quando si cerca di monitorare la propria alimentazione in modo preciso?
+    - Come posso tenere traccia della mia assunzione calorica e dei nutrienti in modo efficiente e preciso?
+    - Quali sono le app o i programmi disponibili per monitorare con precisione l'alimentazione?
+    - Come posso regolare la mia alimentazione in modo preciso per soddisfare le esigenze specifiche del mio corpo?
+    - Quali sono gli strumenti di monitoraggio dell'alimentazione più affidabili?
+    - Come posso assicurarmi di ottenere la giusta quantità di nutrienti senza esagerare con le calorie?
+    - Quali sono le linee guida per una corretta alimentazione e come possono aiutarmi a essere più preciso?
+    - Come posso regolare la mia alimentazione per soddisfare i miei obiettivi di salute e fitness?
+    - Quali sono i metodi migliori per controllare le porzioni e le quantità degli alimenti che consumo? 
+
+- intent: define_count_calories
+  examples: |
+    - Cos'è un conta-calorie?
+    - Cosa significa il termine conta-calorie?
+    - Che cosa sono i conta-calorie?
+    - A cosa servono i conta-calorie?
+    - Come funzionano i conta-calorie?
+    - Qual è l'utilità dei conta-calorie?
+    - Perché usare un conta-calorie?
+    - Perché sono importanti i conta-calorie?
+    - Di cosa si tratta quando si parla di conta-calorie?
+    - Ho sentito parlare dei conta-calorie, cosa sono?
+    - Mi puoi spiegare cos'è un conta-calorie?
+    - In cosa consistono i conta-calorie?
+    - Posso usare i conta-calorie per dimagrire?
+    - Quali sono i vantaggi dei conta-calorie?
+    - I conta-calorie sono affidabili?
+
+- intent: calorie_counter
+  examples: |
+    - Perché usare il conta-calorie per brevi periodi di tempo?
+    - Qual è il motivo di usare il conta-calorie anche per brevi periodi di tempo?
+    - È utile utilizzare il conta-calorie anche per un breve periodo?
+    - Quanto a lungo si dovrebbe utilizzare il conta-calorie?
+    - Vale la pena utilizzare il conta-calorie per un breve periodo?
+    - Quali sono i benefici di utilizzare il conta-calorie anche per un breve periodo?
+    - Come utilizzare il conta-calorie per un breve periodo?
+    - Quanto tempo dovrei usare il conta-calorie?
+    - C'è un limite di tempo per l'utilizzo del conta-calorie?
+    - Come posso integrare il conta-calorie nella mia dieta per un breve periodo?
+    - Ci sono rischi nell'utilizzo del conta-calorie per un breve periodo?
+    - Quali sono gli svantaggi di utilizzare il conta-calorie per un breve periodo?
+    - Il conta-calorie può essere d'aiuto anche per brevi periodi?
+    - Posso utilizzare il conta-calorie solo per un breve periodo?
+    - In che modo il conta-calorie può essere utile per brevi periodi?
+
+- intent: food_tracking_tools
+  examples: |
+    - Quali sono le migliori app per il conteggio delle calorie?
+    - Che app posso utilizzare per tenere traccia dei miei pasti?
+    - Quali sono i migliori diari alimentari digitali?
+    - Quali sono i siti web per il conteggio delle calorie?
+    - Che strumenti posso utilizzare per monitorare la mia dieta?
+    - Esistono strumenti gratuiti per il conteggio delle calorie?
+    - Quali sono le app per il conteggio delle calorie più precise?
+    - Cosa consigliate per monitorare l'apporto calorico?
+    - Che app posso utilizzare per sapere quante calorie ha un alimento?
+    - Esistono app per il conteggio delle calorie senza pubblicità?
+    - Come posso tenere traccia delle mie calorie in modo facile e veloce?
+    - Che app posso utilizzare per tenere traccia dei miei macronutrienti?
+    - Quali sono le app per il conteggio delle calorie più popolari?
+    - Esistono app per il conteggio delle calorie in italiano?
+    - Quali sono le app per il conteggio delle calorie che supportano la scansione dei codici a barre?
+
+- intent: food_tracking_benefits
+  examples: |
+    - Quali sono i vantaggi dell'utilizzo di un diario alimentare?
+    - Quali sono i benefici del conteggio delle calorie?
+    - Quali sono i motivi per utilizzare un'app per il conteggio delle calorie?
+    - Come può aiutarmi un diario alimentare nella gestione del mio peso?
+    - In che modo l'utilizzo di un conta-calorie può migliorare la mia salute?
+    - Perché dovrei tenere traccia del mio apporto calorico giornaliero?
+    - Quali sono i vantaggi di monitorare la mia dieta?
+    - Come può il conteggio delle calorie aiutarmi a raggiungere i miei obiettivi di fitness?
+    - Quali sono i benefici di utilizzare un diario alimentare per la mia salute mentale?
+    - Come può il conteggio delle calorie aiutarmi a mangiare in modo più equilibrato?
+    - Quali sono i vantaggi di utilizzare un diario alimentare per la mia salute a lungo termine?
+    - In che modo un'app per il conteggio delle calorie può aiutarmi a fare scelte alimentari più consapevoli?
+    - Quali sono i benefici di utilizzare un diario alimentare per la mia autodisciplina?
+    - Come può l'utilizzo di un conta-calorie aiutarmi a prevenire malattie croniche?
+
+- intent: sustainable_food_tracking
+  examples: |
+    - Come posso rendere sostenibile l'utilizzo di un diario alimentare?
+    - Quali sono i modi per rendere sostenibile il conteggio delle calorie?
+    - Come posso utilizzare un conta-calorie in modo sostenibile?
+    - Quali sono le strategie per mantenere l'abitudine di tenere un diario alimentare?
+    - In che modo posso utilizzare un conta-calorie senza sentirlo come un dovere?
+    - Quali sono i modi per integrare il conteggio delle calorie nella mia routine quotidiana?
+    - Come posso utilizzare un diario alimentare senza diventare ossessionato dalla dieta?
+    - Quali sono i trucchi per rendere l'utilizzo di un conta-calorie una pratica sostenibile?
+    - In che modo posso gestire le situazioni sociali quando sto seguendo un piano alimentare?
+    - Come posso utilizzare un diario alimentare in modo flessibile e adattarlo alle mie esigenze?
+    - Quali sono i modi per rendere divertente l'utilizzo di un conta-calorie?
+    - In che modo posso coinvolgere amici e familiari nell'utilizzo di un diario alimentare?
+    - Quali sono le tecniche per rimanere motivati nel conteggio delle calorie?
+
+- intent: food_tracking_tutorial
+  examples: |
+    - Dove posso trovare un tutorial video su come usare un'app di diario alimentare?
+    - Esistono tutorial video per l'utilizzo delle app per il conteggio delle calorie?
+    - Quali sono i siti web che offrono tutorial video sul funzionamento dei diari alimentari?
+    - Dove posso trovare un tutorial video su come utilizzare un conta-calorie?
+    - Quali sono i canali YouTube che offrono tutorial video sull'utilizzo delle app per il conteggio delle calorie?
+    - Esistono video tutorial gratuiti per l'utilizzo di un diario alimentare?
+    - In che modo posso accedere a tutorial video su come utilizzare le app per la gestione della dieta?
+    - Quali sono i siti web che offrono recensioni e tutorial video sulle app di conteggio delle calorie?
+    - Dove posso trovare tutorial video su come utilizzare un'app di diario alimentare specifica?
+    - Quali sono le app di diario alimentare che offrono tutorial video sul loro funzionamento?
+    - Esistono tutorial video per l'utilizzo di un diario alimentare basato sull'intelligenza artificiale?
+    - Quali sono i tutorial video più popolari su come utilizzare le app per il conteggio delle calorie?
+    - Dove posso trovare un tutorial video sulle funzionalità avanzate delle app di diario alimentare?
+
+- intent: food_diary_info
+  examples: |
+    - Quali informazioni si possono ottenere da un diario alimentare?
+    - Cosa posso imparare dal tenere un diario alimentare?
+    - Quali benefici potrei ottenere dal monitorare la mia alimentazione?
+    - In che modo un diario alimentare può aiutarmi a raggiungere i miei obiettivi di salute?
+    - Quali sono le informazioni più importanti che un diario alimentare mi fornirà?
+    - Cosa posso fare con le informazioni raccolte dal mio diario alimentare?
+    - Come le informazioni raccolte dal diario alimentare possono aiutarmi a identificare cibi che mi fanno male?
+    - Come posso utilizzare il diario alimentare per identificare i miei trigger alimentari?
+    - Quali sono i modi per utilizzare le informazioni raccolte dal diario alimentare per migliorare la mia alimentazione?
+    - Come le informazioni raccolte dal diario alimentare possono aiutarmi a fare scelte alimentari più consapevoli?
+    - Quali sono le informazioni raccolte dal diario alimentare che mi aiuteranno a mangiare in modo più sano?
+
+- intent: flexible_dieting
+  examples: |
+    - Cosa significa "dieta flessibile"?
+    - In cosa consiste la "dieta flessibile"?
+    - Qual è il concetto di base della "dieta flessibile"?
+    - Come funziona la "dieta flessibile"?
+    - Quali sono i principi della "dieta flessibile"?
+    - Quali alimenti sono inclusi nella "dieta flessibile"?
+    - Come si possono pianificare i pasti in una "dieta flessibile"?
+    - Quali sono i vantaggi della "dieta flessibile"?
+    - La "dieta flessibile" funziona per tutti?
+    - Quali sono i rischi della "dieta flessibile"?
+    - Quali sono le differenze tra la "dieta flessibile" e altre diete?
+    - Come posso iniziare a seguire la "dieta flessibile"?
+    - Posso combinare la "dieta flessibile" con altri programmi alimentari?
+    - In che modo la "dieta flessibile" può aiutare a raggiungere gli obiettivi di salute e fitness?
+
+- intent: calorie_tracking_benefits
+  examples: |
+    - In che modo i conta-calorie possono aiutare a raggiungere un obiettivo alimentare?
+    - Quali sono i vantaggi dell'utilizzo dei conta-calorie per la dieta?
+    - Come possono i conta-calorie contribuire a un piano alimentare equilibrato?
+    - In che modo i conta-calorie possono aiutare a monitorare l'apporto calorico giornaliero?
+    - Quali sono le funzionalità dei conta-calorie che possono aiutare a gestire la dieta?
+    - Come possono i conta-calorie contribuire al controllo delle porzioni?
+    - Quali sono le app di conta-calorie più efficaci per raggiungere un obiettivo alimentare?
+    - Come posso utilizzare i conta-calorie per monitorare l'apporto di macro e micronutrienti?
+    - In che modo i conta-calorie possono aiutare a mantenere il peso forma?
+    - Quali sono le strategie per integrare l'uso dei conta-calorie nella vita quotidiana?
+    - Quali sono le sfide nell'utilizzo dei conta-calorie e come superarle?
+    - Posso utilizzare i conta-calorie per seguire una dieta vegetariana o vegana?
+    - Come posso valutare se i conta-calorie sono adatti al mio stile di vita e obiettivi?
+
+- intent: importance_of_knowing_sources
+  examples: |
+    - Perché è importante conoscere le fonti alimentari?
+    - Qual è il vantaggio di sapere da dove proviene il cibo che mangiamo?
+    - In che modo conoscere le fonti alimentari può influenzare la nostra salute?
+    - Come posso identificare le fonti alimentari affidabili?
+    - Quali sono le informazioni importanti da conoscere sulle fonti alimentari?
+    - Qual è il legame tra le fonti alimentari e l'impatto ambientale?
+    - Quali sono i rischi per la salute associati al consumo di cibi provenienti da fonti non sicure?
+    - Come posso assicurarmi di scegliere alimenti di qualità e di provenienza sicura?
+    - In che modo le conoscenze sulle fonti alimentari possono influire sulla sostenibilità della catena alimentare?
+    - Quali sono le implicazioni etiche di non conoscere le fonti alimentari?
+    - Come posso fare per approfondire la mia conoscenza sulle fonti alimentari?
+    - Qual è il ruolo delle etichette degli alimenti nel conoscere le fonti alimentari?
+    - Quali sono le possibili conseguenze del consumo di alimenti provenienti da fonti poco chiare o poco trasparenti?
+
+- intent: tdee_definition
+  examples: |
+    - Cosa significa TDEE?
+    - Qual è il significato di TDEE?
+    - Che cosa rappresenta l'acronimo TDEE?
+    - In che modo il TDEE è utile per la dieta?
+    - Come si calcola il TDEE?
+    - Quali fattori influenzano il TDEE?
+    - Qual è il rapporto tra TDEE e calorie?
+    - Qual è l'importanza del TDEE nella perdita di peso?
+    - Come posso utilizzare il TDEE per raggiungere i miei obiettivi di fitness?
+    - Qual è la relazione tra TDEE e BMR?
+    - In che modo il TDEE può aiutare a mantenere il peso forma?
+    - Quali sono le app di calcolo del TDEE più efficaci?
+    - Posso utilizzare il TDEE per pianificare i pasti?
+    - Quali sono i limiti del calcolo del TDEE?
+
+- intent: tdee_calculator_with_food_diary
+  examples: |
+    - Come si utilizza il calcolatore TDEE con il diario alimentare?
+    - Quali informazioni devo inserire nel calcolatore TDEE quando utilizzo il diario alimentare?
+    - Come posso calcolare il mio fabbisogno calorico giornaliero con un diario alimentare e il calcolatore TDEE?
+    - In che modo il calcolatore TDEE può aiutarmi a pianificare la mia dieta quando uso il diario alimentare?
+    - Quali sono i vantaggi di combinare il calcolatore TDEE con il diario alimentare?
+    - Posso utilizzare il calcolatore TDEE con il diario alimentare per perdere peso?
+    - Come posso utilizzare il calcolatore TDEE e il diario alimentare per aumentare la massa muscolare?
+    - Quali sono le app di diario alimentare e calcolatore TDEE più efficaci?
+    - In che modo l'utilizzo del calcolatore TDEE e del diario alimentare può aiutarmi a raggiungere i miei obiettivi di fitness?
+    - Quali sono le sfide nell'utilizzo del calcolatore TDEE e del diario alimentare e come superarle?
+    - Come posso monitorare il mio progresso quando utilizzo il calcolatore TDEE e il diario alimentare?
+    - In che modo il calcolatore TDEE e il diario alimentare possono aiutarmi a mantenere uno stile di vita sano?
+
+- intent: food_tracking_apps
+  examples: |
+    - Quali sono le migliori app per il diario alimentare?
+    - Quali sono le app consigliate per contare le calorie?
+    - Puoi suggerirmi alcune app per il monitoraggio dei pasti?
+    - Quali sono le app più popolari per il tracciamento degli alimenti?
+    - Quali app posso utilizzare per il controllo delle porzioni?
+    - Cosa ne pensi di MyFitnessPal come app di tracciamento alimentare?
+    - Ci sono app gratuite per il diario alimentare che mi consiglieresti?
+    - Conosci qualche app che mi permette di scansionare i codici a barre degli alimenti?
+    - Quali sono le app per il monitoraggio degli alimenti che integrano la funzionalità di conteggio dei macro?
+    - Ho sentito parlare di Cronometer, hai mai provato questa app di tracciamento alimentare?
+    - Come posso scegliere l'app giusta per il mio diario alimentare?
+    - Quali sono le caratteristiche importanti da considerare nella scelta di un'app di tracciamento alimentare?
+    - Posso sincronizzare le app di tracciamento alimentare con i miei dispositivi fitness?
+    - Le app di tracciamento alimentare sono sicure? Ci sono rischi per la privacy dei miei dati personali?
+
+- intent: pros_and_cons_of_food_diaries
+  examples: |
+    - Quali sono i vantaggi e gli svantaggi dei diari alimentari?
+    - Perché dovrei utilizzare un diario alimentare? Ci sono benefici reali?
+    - Ci sono svantaggi nell'uso dei diari alimentari?
+    - Quali sono i vantaggi di tracciare i miei pasti quotidiani?
+    - Quali sono gli svantaggi di registrare tutto ciò che mangio?
+    - Posso perdere peso utilizzando un diario alimentare? Quali sono le difficoltà?
+    - Cosa devo considerare prima di iniziare a utilizzare un diario alimentare?
+    - Quali sono i vantaggi dell'utilizzo di un'app per il diario alimentare rispetto alla versione cartacea?
+    - Come posso superare gli svantaggi dell'utilizzo di un diario alimentare?
+    - Quali sono gli errori comuni da evitare quando si utilizza un diario alimentare?
+    - Quali sono i vantaggi dell'utilizzo di un diario alimentare in combinazione con un piano di allenamento?
+    - Quali sono i vantaggi dell'utilizzo di un diario alimentare in gruppo?
+    - Quali sono i vantaggi dell'utilizzo di un diario alimentare per monitorare le intolleranze alimentari?
+    - Ci sono rischi per la salute nell'uso eccessivo dei diari alimentari?
+
+- intent: sustainable_food_diary
+  examples: |
+    - Come posso rendere sostenibile l'utilizzo del diario alimentare?
+    - Quali sono i modi per mantenere un diario alimentare senza sentirsi sopraffatti?
+    - Come posso mantenere un diario alimentare senza diventare ossessionato dall'osservazione delle calorie?
+    - Quali sono i modi per rendere l'utilizzo del diario alimentare un'abitudine duratura?
+    - Come posso utilizzare il diario alimentare senza sentirmi limitato o restrittivo?
+    - Come posso integrare il diario alimentare nella mia routine quotidiana in modo sostenibile?
+    - Quali sono i modi per mantenere la motivazione per utilizzare il diario alimentare nel lungo termine?
+    - Come posso evitare di sentirmi frustrato o colpevole quando non riesco a registrare ogni pasto o spuntino?
+    - Quali sono i consigli per mantenere l'utilizzo del diario alimentare semplice e sostenibile?
+    - Come posso incorporare il diario alimentare nella mia vita sociale senza sentirsi isolato o limitato?
+    - Quali sono i modi per utilizzare il diario alimentare come strumento di auto-cura a lungo termine?
+
+# VSS cap 3-4
+- intent: protein_powder_definition
+  examples: |
+    - Cosa sono le proteine in polvere e come vengono ottenute?
+    - Di cosa sono fatte le proteine in polvere e come si ottengono?
+    - Qual è l'origine delle proteine in polvere e come vengono prodotte?
+    - Cosa sono le proteine in polvere e da dove provengono?
+    - Come vengono create le proteine in polvere e da cosa sono fatte?
+    - Quali sono le fonti principali delle proteine in polvere e come sono processate?
+    - Cosa significa che le proteine in polvere sono isolate o concentrate?
+    - Quali sono i metodi utilizzati per estrarre le proteine in polvere dalle fonti alimentari?
+    - Come le proteine in polvere sono diverse dalle proteine alimentari naturali?
+    - Perché alcune persone scelgono di integrare le proteine in polvere nella loro dieta?
+
+- intent: protein_powder_harmful
+  examples: |
+    - Le proteine in polvere possono causare danni all'organismo?
+    - Sono le proteine in polvere dannose per la salute?
+    - Quali sono i possibili effetti negativi dell'assunzione di proteine in polvere?
+    - Possono le proteine in polvere causare problemi di salute?
+    - È vero che l'assunzione di proteine in polvere può danneggiare l'organismo?
+    - Le proteine in polvere possono provocare effetti collaterali indesiderati?
+    - Quali sono i rischi dell'utilizzo prolungato di proteine in polvere?
+    - Possono le proteine in polvere causare danni ai reni o al fegato?
+    - Esistono situazioni in cui l'uso di proteine in polvere è controindicato?
+    - Sono le proteine in polvere sicure per tutti o ci sono delle controindicazioni?
+
+- intent: processed_foods_problems
+  examples: |
+    - Quali sono i problemi legati ai cibi raffinati e processati?
+    - Sono i cibi raffinati e processati dannosi per la salute?
+    - Quali sono i rischi per la salute associati al consumo di cibi processati?
+    - Possono i cibi industriali causare problemi di salute?
+    - È vero che l'assunzione di cibi raffinati può causare obesità e malattie cardiache?
+    - Quali sono gli effetti negativi dell'assunzione di cibi ad alto contenuto di zuccheri e grassi?
+    - Esiste un legame tra il consumo di cibi processati e il cancro?
+    - Quali sono le sostanze nocive contenute nei cibi raffinati e processati?
+    - Come possono i cibi industriali influire sulla salute mentale?
+    - Quali sono gli effetti dell'assunzione prolungata di cibi raffinati e processati?
+
+- intent: processed_foods_consequences
+  examples: |
+    - Quali sono le conseguenze dell'assunzione eccessiva di cibi raffinati e processati?
+    - Possono i cibi industriali causare danni all'organismo?
+    - Che effetti può avere sul corpo il consumo eccessivo di cibi processati?
+    - Quali sono i rischi per la salute associati al consumo di cibi raffinati e processati?
+    - Che impatto hanno i cibi industriali sulla salute?
+    - Cosa succede al corpo quando si mangiano troppi cibi raffinati?
+    - Quali sono le malattie che possono svilupparsi a causa dell'assunzione eccessiva di cibi industriali?
+    - Che effetti hanno i conservanti e gli additivi chimici presenti nei cibi processati?
+    - È vero che l'assunzione di cibi raffinati può causare problemi di digestione?
+    - Come possono i cibi industriali influire sulla salute mentale?
+
+- intent: processed_foods_overconsumption
+  examples: |
+    - Come posso capire se sto esagerando con i cibi raffinati?
+    - Quali sono i segnali che indicano un consumo eccessivo di cibi processati?
+    - Cosa posso fare per sapere se sto mangiando troppi cibi industriali?
+    - Quali sono i sintomi di una dieta troppo ricca di cibi raffinati?
+    - Come posso monitorare il mio consumo di cibi processati?
+    - Quali sono le quantità consigliate di cibi industriali?
+    - Cosa succede se mangio troppi cibi raffinati?
+    - Come posso ridurre il mio consumo di cibi industriali?
+    - È possibile fare una diagnosi di un consumo eccessivo di cibi raffinati?
+    - Come posso capire se i miei sintomi sono causati dal consumo di cibi processati?
+
+- intent: refined_foods_to_avoid
+  examples: |
+    - Quali sono gli alimenti raffinati che dovrei evitare?
+    - Cosa sono gli alimenti raffinati e quali di essi dovrei evitare?
+    - Quali sono gli ingredienti che indicano la presenza di alimenti raffinati?
+    - Quali sono gli effetti sulla salute degli alimenti raffinati?
+    - Quali sono gli alimenti più raffinati che dovrei evitare?
+    - Quali sono le alternative agli alimenti raffinati?
+    - Come posso ridurre il consumo di alimenti raffinati nella mia dieta?
+    - Quali sono gli alimenti raffinati che spesso vengono consumati senza rendersene conto?
+    - Cosa succede se mangio alimenti raffinati troppo spesso?
+    - Quali sono gli effetti a lungo termine del consumo di alimenti raffinati?
+
+- intent: refined_foods_healthiness
+  examples: |
+    - I cibi raffinati sono sempre malsani?
+    - Esistono cibi raffinati che sono salutari?
+    - I cibi raffinati sono dannosi per la salute?
+    - Quali cibi raffinati dovrei evitare per rimanere in salute?
+    - Esistono cibi raffinati che posso mangiare con moderazione?
+    - I cibi raffinati sono meno salutari dei cibi integrali?
+    - È possibile includere cibi raffinati in una dieta equilibrata?
+    - Come posso capire se un cibo raffinato è salutare o meno?
+    - I cibi raffinati sono tutti uguali dal punto di vista nutrizionale?
+    - Posso mangiare cibi raffinati ogni tanto senza danneggiare la mia salute?
+
+- intent: getting_nutrients_without_refined_foods
+  examples: |
+    - Come posso ottenere i nutrienti di cui ho bisogno se evito i cibi raffinati?
+    - Ci sono alimenti alternativi ai cibi raffinati che possono fornire i nutrienti di cui ho bisogno?
+    - Quali cibi dovrei mangiare per ottenere i nutrienti di cui ho bisogno se evito i cibi raffinati?
+    - Come posso assicurarmi di ottenere abbastanza fibra senza mangiare cibi raffinati?
+    - Come posso sostituire i carboidrati raffinati nella mia dieta?
+    - Quali sono gli alimenti ricchi di vitamine e minerali che posso mangiare se evito i cibi raffinati?
+    - Ci sono fonti di proteine che non includono cibi raffinati?
+    - Quali cibi integrali dovrei mangiare per ottenere tutti i nutrienti di cui ho bisogno?
+
+- intent: improving_diet_quality
+  examples: |
+    - Come posso migliorare la qualità della mia alimentazione?
+    - Quali sono i modi per rendere la mia alimentazione più sana?
+    - Ci sono strategie per mangiare meglio e aumentare la qualità della mia alimentazione?
+    - Quali sono i cibi che dovrei mangiare per avere una dieta più sana?
+    - Come posso ridurre il consumo di cibi spazzatura e mangiare cibi più salutari?
+    - Quali sono gli alimenti che dovrei evitare per migliorare la qualità della mia alimentazione?
+    - Quali sono i nutrienti che dovrei cercare di includere nella mia alimentazione per renderla più sana?
+    - Quali sono le porzioni consigliate per ogni gruppo alimentare per avere una dieta equilibrata?
+    - Come posso programmare i pasti per garantire che sto mangiando una dieta sana?
+
+- intent: benefits_of_whole_foods
+  examples: |
+    - Quali sono i benefici di una dieta a base di cibi integrali?
+    - Quali sono i vantaggi di mangiare cibi non raffinati?
+    - Come può una dieta basata su alimenti integrali aiutare la mia salute?
+    - Quali sono i benefici per la salute di evitare i cibi raffinati?
+    - Come posso migliorare la mia salute mangiando cibi non raffinati?
+    - Quali sono le malattie che si possono prevenire mangiando cibi integrali?
+    - Quali sono i nutrienti presenti nei cibi non raffinati che migliorano la salute?
+    - Quali sono i cibi integrali che dovrei includere nella mia dieta per ottenere i massimi benefici per la salute?
+    - Come posso preparare cibi integrali in modo delizioso e salutare?
+
+- intent: high_quality_foods
+  examples: |
+    - Come posso scegliere cibi di alta qualità?
+    - Quali sono i fattori da considerare quando si sceglie cibo di alta qualità?
+    - Come posso distinguere tra cibi di alta e bassa qualità?
+    - Quali sono i cibi a cui dovrei prestare particolare attenzione per la qualità?
+    - Come posso valutare la freschezza dei cibi?
+    - Quali sono i fattori di cui devo tenere conto quando acquisto carne o pesce?
+    - Quali sono le caratteristiche che indicano la qualità dei prodotti ortofrutticoli?
+    - Come posso evitare cibi di bassa qualità e scegliere quelli migliori per la mia salute?
+    - Come posso fare acquisti in modo consapevole e sostenibile per la mia salute e per l'ambiente?
+
+- intent: protein_intake_from_whole_foods
+  examples: |
+    - Ci sono abbastanza proteine nei cibi non raffinati per soddisfare le esigenze di un atleta?
+    - Quali sono le migliori fonti di proteine tra i cibi non raffinati?
+    - Posso soddisfare il mio fabbisogno proteico con una dieta vegana a base di cibi non raffinati?
+    - È possibile aumentare la massa muscolare mangiando solo cibi integrali?
+    - Quanto proteine ​​posso assumere con una dieta a base di cibi non raffinati?
+    - Quali sono gli effetti di una dieta a basso contenuto proteico a base di cibi integrali?
+    - Come posso combinare i cibi non raffinati per ottenere una gamma completa di aminoacidi essenziali?
+    - I cibi non raffinati sono una buona fonte di proteine per i vegetariani?
+    - Quali sono gli alimenti a base vegetale con il maggior contenuto di proteine?
+    - La mancanza di proteine nei cibi non raffinati può influire negativamente sulla salute?
+
+- intent: common_refined_foods
+  examples: |
+    - Quali sono i cibi raffinati più comuni nella dieta occidentale?
+    - Cosa intendiamo quando parliamo di cibi raffinati?
+    - Quali sono gli alimenti che sono considerati raffinati?
+    - Quali cibi dovrei evitare se voglio ridurre il consumo di cibi raffinati?
+    - Quali sono i cibi più raffinati da evitare per una dieta sana?
+    - Quali sono i cibi altamente lavorati che dovrei cercare di evitare?
+    - Quali sono le fonti comuni di zuccheri raffinati?
+    - Come posso ridurre il consumo di cibi raffinati nella mia dieta quotidiana?
+
+- intent: occasional_refined_food
+  examples: |
+    - È possibile mangiare cibi raffinati occasionalmente?
+    - Posso concedermi cibi raffinati ogni tanto?
+    - Qual è la frequenza massima per consumare cibi raffinati?
+    - Posso mangiare cibi raffinati in piccole quantità?
+    - Sono autorizzato ad avere una scorpacciata di cibi raffinati ogni tanto?
+    - Quali sono i limiti per il consumo di cibi raffinati?
+    - È possibile mantenere una dieta equilibrata con l'occasione di cibi raffinati?
+    - Cosa succede se mangio cibi raffinati solo una volta alla settimana?
+    - Come posso bilanciare la mia dieta se mangio cibi raffinati occasionalmente?
+    - Quali cibi raffinati dovrei evitare anche se li consumo solo occasionalmente?
+
+- intent: protein_powder_effects
+  examples: |
+    - Quali sono gli effetti dell'assunzione eccessiva di proteine in polvere?
+    - Possono le proteine in polvere causare danni ai reni?
+    - Quali sono i rischi associati all'uso eccessivo di proteine in polvere?
+    - Come l'assunzione di proteine in polvere può influire sulla salute?
+    - Quali sono i possibili effetti collaterali dell'assunzione di proteine in polvere?
+    - Possono le proteine in polvere causare problemi digestivi?
+    - Cosa succede se si assume troppo proteine in polvere?
+    - Quali sono i sintomi dell'eccesso di proteine in polvere?
+    - Quali sono le controindicazioni dell'assunzione di proteine in polvere?
+    - È sicuro assumere proteine in polvere ogni giorno?
+
+- intent: health_effects_refined_foods
+  examples: |
+    - Quali sono gli effetti dell'assunzione eccessiva di cibi raffinati sulla salute?
+    - Come possono i cibi raffinati influire sulla mia salute?
+    - Quali sono gli effetti negativi dei cibi raffinati sull'organismo?
+    - Cosa succede al mio corpo quando mangio troppi cibi raffinati?
+    - Posso avere problemi di salute se mangio molti cibi raffinati?
+    - Come i cibi raffinati possono danneggiare la mia salute?
+    - Quali sono i rischi per la salute associati all'assunzione eccessiva di zucchero raffinato?
+    - Quali sono gli effetti dell'assunzione eccessiva di carboidrati raffinati sulla salute?
+    - Cosa succede al mio corpo se mangio troppi carboidrati raffinati?
+    - Possono i cibi raffinati aumentare il rischio di malattie croniche?
+
+- intent: protein_powder_as_meal_replacement
+  examples: |
+    - Posso sostituire i pasti con le proteine in polvere?
+    - Le proteine in polvere possono sostituire un pasto?
+    - È sicuro sostituire i pasti con le proteine in polvere?
+    - Come funziona sostituire i pasti con le proteine in polvere?
+    - Le proteine in polvere possono essere utilizzate come pasto?
+    - Cosa succede se sostituisco un pasto con le proteine in polvere?
+    - Quali sono i pro e i contro di sostituire i pasti con le proteine in polvere?
+    - Le proteine in polvere sono sufficienti per sostituire i pasti?
+    - Ci sono dei rischi nell'utilizzare le proteine in polvere come sostituto del pasto?
+    - In che modo le proteine in polvere possono essere utilizzate come pasto sostitutivo?
+
+- intent: refined_sugar_effects
+  examples: |
+    - Quali sono gli effetti dell'assunzione eccessiva di zuccheri raffinati sulla salute?
+    - Come influisce l'eccesso di zucchero raffinato sul nostro corpo?
+    - Quali sono i rischi per la salute legati all'eccesso di zuccheri raffinati?
+    - Quali sono i problemi di salute che possono derivare dal consumo eccessivo di zuccheri raffinati?
+    - Che cosa succede all'organismo se si consumano troppi zuccheri raffinati?
+    - Quali sono i danni che gli zuccheri raffinati possono causare alla salute?
+    - In che modo lo zucchero raffinato può contribuire a problemi di salute come l'obesità o il diabete?
+    - Cosa si intende per "eccesso" di zuccheri raffinati e qual è il limite raccomandato per la salute?
+    - Come ridurre l'assunzione di zuccheri raffinati nella dieta?
+    - Quali sono gli alimenti che contengono maggiormente gli zuccheri raffinati da evitare?
+
+- intent: protein_powder
+  examples: |
+    - Posso utilizzare le proteine in polvere come integratore?
+    - Le proteine in polvere possono essere utilizzate come supplemento alimentare?
+    - Come posso utilizzare le proteine in polvere nella mia dieta?
+    - Le proteine in polvere possono sostituire i pasti?
+    - Quanto spesso posso utilizzare le proteine in polvere nella mia dieta?
+    - Quali sono i benefici delle proteine in polvere come integratore?
+    - Ci sono effetti collaterali nell'utilizzo di proteine in polvere?
+    - Quali sono i diversi tipi di proteine in polvere disponibili sul mercato?
+    - Come posso scegliere la migliore marca di proteine in polvere per le mie esigenze?
+    - Le proteine in polvere sono adatte per tutti i tipi di dieta?
+
+- intent: refined_foods_children_health_effects
+  examples: |
+    - Quali sono gli effetti dell'assunzione eccessiva di alimenti raffinati sulla salute dei bambini?
+    - Come possono i cibi raffinati danneggiare la salute dei bambini?
+    - Quali sono gli effetti negativi dei cibi raffinati sulla salute dei bambini?
+    - Come posso proteggere la salute dei miei figli dai cibi raffinati?
+    - Quali cibi raffinati dovremmo evitare di dare ai nostri bambini?
+    - Cosa succede se i bambini mangiano troppi cibi raffinati?
+    - Quali sono gli effetti a lungo termine dei cibi raffinati sulla salute dei bambini?
+    - Quali sono i segni che il mio bambino sta mangiando troppi cibi raffinati?
+    - Quali sono le alternative salutari ai cibi raffinati per i bambini?
+    - Come posso incoraggiare i miei figli a mangiare cibi sani invece di cibi raffinati?
+
+- intent: whole_food_snacks
+  examples: |
+    - Quali sono le alternative ai cibi raffinati per uno spuntino veloce?
+    - Quali sono i cibi integrali che posso consumare come snack?
+    - Quali sono gli snack sani e non raffinati che posso portare con me in viaggio?
+    - Quali sono gli snack salutari e a basso contenuto di zuccheri raffinati?
+    - Come posso sostituire i cibi raffinati con spuntini sani e nutrienti?
+    - Quali sono i cibi naturali e interi che possono essere utilizzati come snack?
+    - Quali sono i cibi a basso contenuto di carboidrati che possono essere consumati come snack?
+    - Come posso preparare uno spuntino salutare in pochi minuti?
+    - Quali sono le opzioni di snack veloci e nutrienti che non contengono ingredienti raffinati?
+    - Quali sono i cibi freschi e non elaborati che posso utilizzare come snack per un'alimentazione più sana?
+
+- intent: health_effects_fried_foods
+  examples: |
+    - Quali sono gli effetti dell'assunzione eccessiva di alimenti fritti sulla salute?
+    - Possono i cibi fritti causare problemi di salute a lungo termine?
+    - Cosa accade all'organismo quando si mangiano cibi fritti regolarmente?
+    - Quali sono i rischi per la salute associati all'assunzione di cibi fritti?
+    - Che impatto hanno i cibi fritti sulla pressione sanguigna?
+    - In che modo i cibi fritti possono influire sui livelli di colesterolo?
+    - Come possono gli alimenti fritti causare problemi digestivi?
+    - Quanto spesso è sicuro mangiare cibi fritti?
+    - Quali sono i modi migliori per ridurre il consumo di cibi fritti?
+    - Come posso mantenere un'alimentazione sana senza rinunciare completamente ai cibi fritti?
+
+# VSS cap 4-1
+- intent: weight_loss_factor
+  examples: |
+    - Qual è il fattore principale che determina se guadagniamo o perdiamo peso?
+    - Cosa influenza il guadagno o la perdita di peso?
+    - Quali sono i fattori chiave che determinano il peso corporeo?
+    - Cosa determina se aumentiamo o diminuiamo di peso?
+    - Quali sono le cause principali della perdita di peso?
+    - Cosa influenza la capacità di perdere peso?
+    - Quali fattori influenzano la riduzione del peso corporeo?
+    - Cosa influenza la capacità di guadagnare o perdere peso?
+    - Quali fattori determinano la perdita di peso efficace?
+    - Cosa determina il successo o il fallimento nel perdere peso?
+
+- intent: weight_change_response
+  examples: |
+    - Che cosa fa il nostro cervello per difenderci dai cambiamenti di peso?
+    - Come il nostro corpo risponde ai cambiamenti di peso?
+    - Quali meccanismi attiva il nostro cervello in risposta a cambiamenti di peso?
+    - Come il nostro organismo regola il peso corporeo?
+    - Cosa accade nel nostro corpo quando guadagniamo o perdiamo peso?
+    - Quali sono le risposte fisiologiche del nostro corpo ai cambiamenti di peso?
+    - Come il nostro cervello influisce sulla regolazione del peso corporeo?
+    - Che ruolo gioca il sistema nervoso nell'adattamento ai cambiamenti di peso?
+    - Quali sono i meccanismi di adattamento del nostro organismo in risposta a cambiamenti di peso?
+    - Cosa succede nel nostro corpo quando cerchiamo di perdere peso?
+
+- intent: weight_loss_challenges
+  examples: |
+    - Perché può essere più difficile dimagrire che ingrassare?
+    - Quali sono le difficoltà nell'affrontare una dieta dimagrante?
+    - Cosa rende la perdita di peso così difficile?
+    - Perché molte persone lottano per dimagrire?
+    - Quali sono i fattori che influenzano la difficoltà nel perdere peso?
+    - Come può essere complicato mantenere una dieta a basso contenuto calorico?
+    - Perché le diete spesso falliscono?
+    - Quali sono le sfide comuni nel percorso di perdita di peso?
+    - Cosa rende più facile ingrassare rispetto a dimagrire?
+    - Quali sono le differenze tra guadagno e perdita di peso dal punto di vista dell'organismo?
+
+- intent: self_regulation_optimization
+  examples: |
+    - Come possiamo sfruttare al meglio la parte che funziona dei meccanismi di autoregolazione?
+    - Quali sono i modi per utilizzare al meglio i meccanismi di autoregolazione per raggiungere un obiettivo?
+    - Come possiamo massimizzare l'efficacia dei meccanismi di autoregolazione?
+    - Quali strategie possono aiutare a migliorare la capacità di autoregolazione?
+    - Come possiamo potenziare la nostra capacità di autoregolazione?
+    - Quali sono i fattori che influenzano l'efficacia della autoregolazione?
+    - Quali sono le tecniche più efficaci per migliorare la autoregolazione?
+    - Cosa possiamo fare per superare i limiti della nostra capacità di autoregolazione?
+    - Come possiamo utilizzare la tecnologia per migliorare la autoregolazione?
+    - Quali sono i modelli di comportamento più efficaci per ottimizzare la autoregolazione?
+
+- intent: overeating_consequences
+  examples: |
+    - Cosa succede se mangiamo troppo durante i pasti principali?
+    - Quali sono le conseguenze dell'iperfagia durante i pasti principali?
+    - Cosa accade al nostro corpo quando mangiamo troppo in un pasto?
+    - Quali sono i rischi per la salute di mangiare troppo durante i pasti principali?
+    - Come il sovralimentarsi durante i pasti principali influisce sul nostro organismo?
+    - Quali sono i problemi digestivi che possono verificarsi dopo aver mangiato troppo in un pasto?
+    - Come il sovraccarico di carboidrati, grassi o proteine può influire sul nostro organismo?
+    - Quali sono le conseguenze a lungo termine di mangiare troppo durante i pasti principali?
+    - Cosa possiamo fare per prevenire le conseguenze negative del sovralimentarsi durante i pasti principali?
+    - Quali sono i modi per ridurre la quantità di cibo che consumiamo durante i pasti principali?
+
+- intent: avoiding_overeating_main_meals
+  examples: |
+    - Cosa dovremmo fare durante i pasti principali per evitare di mangiare troppo?
+    - Quali sono i modi per evitare di mangiare troppo durante i pasti principali?
+    - Come possiamo controllare le porzioni durante i pasti principali?
+    - Quali sono le strategie per ridurre l'assunzione di calorie durante i pasti principali?
+    - Cosa possiamo fare per evitare il sovraccarico di carboidrati, grassi o proteine durante i pasti principali?
+    - Quali sono i consigli per mangiare in modo sano durante i pasti principali?
+    - Come possiamo ridurre la velocità con cui mangiamo per evitare di mangiare troppo?
+    - Quali sono le pratiche alimentari che possiamo adottare per evitare di mangiare troppo durante i pasti principali?
+    - Come possiamo gestire le porzioni di cibo durante i pasti principali quando mangiamo fuori casa?
+    - Quali sono i trucchi per evitare di mangiare troppo durante i pasti principali?
+
+- intent: benefits_of_small_meals_weight_management
+  examples: |
+    - Perché i pasti secondari possono essere utili per la gestione del peso?
+    - Quali sono i vantaggi di mangiare pasti più piccoli durante il giorno per la gestione del peso?
+    - Come i pasti frequenti possono aiutare a controllare l'appetito e il peso?
+    - Qual è l'effetto dei pasti frequenti sull'assunzione di calorie e sulla fame?
+    - Quali sono le ragioni per cui mangiare più volte al giorno può essere utile per dimagrire?
+    - Come mangiare più pasti durante il giorno può migliorare il metabolismo e la perdita di peso?
+    - Quali sono i motivi per cui mangiare pasti più piccoli e frequenti può essere più efficace per dimagrire rispetto a pasti più grandi e meno frequenti?
+    - Come i pasti frequenti possono influire sui livelli di zucchero nel sangue e sull'insulina?
+    - Quali sono i consigli per pianificare i pasti più piccoli e frequenti durante il giorno per la gestione del peso?
+    - Quali sono i tipi di cibi che dovremmo mangiare durante i pasti secondari per perdere peso in modo efficace?
+
+- intent: recommended_foods_small_meals
+  examples: |
+    - Cosa dovremmo mangiare durante i pasti secondari?
+    - Quali sono i cibi migliori da mangiare durante i pasti più piccoli durante il giorno?
+    - Come possiamo scegliere i cibi giusti per i pasti frequenti per la perdita di peso?
+    - Quali sono i cibi che possono aiutare a controllare l'appetito durante i pasti secondari?
+    - Quali sono i cibi che possono fornire energia a lunga durata durante i pasti più piccoli durante il giorno?
+    - Quali sono le opzioni di pasti più salutari per i pasti frequenti durante il giorno?
+    - Come possiamo bilanciare i nutrienti durante i pasti secondari per mantenere il controllo del peso?
+    - Quali sono i tipi di cibi che dovremmo evitare durante i pasti secondari per perdere peso in modo efficace?
+    - Quali sono i cibi ricchi di proteine che possiamo includere durante i pasti secondari per favorire la perdita di peso?
+    - Quali sono i consigli per preparare i pasti più piccoli e salutari durante il giorno?
+
+- intent: consequences_of_overeating_small_meals
+  examples: |
+    - Cosa succede se mangiamo troppo durante i pasti secondari?
+    - Quali sono le conseguenze di mangiare troppo durante i pasti più piccoli durante il giorno?
+    - Come può l'eccesso di cibo durante i pasti secondari influenzare il peso corporeo?
+    - Quali sono i rischi di mangiare troppo durante i pasti frequenti?
+    - Come l'eccesso di cibo durante i pasti secondari può influenzare la digestione e l'assorbimento dei nutrienti?
+    - Quali sono gli effetti dell'eccesso di cibo durante i pasti più piccoli sulla salute a lungo termine?
+    - Come l'eccesso di cibo durante i pasti frequenti può aumentare il rischio di problemi di salute?
+    - Quali sono i segnali che indicano che abbiamo mangiato troppo durante i pasti secondari?
+    - Come possiamo evitare di mangiare troppo durante i pasti più piccoli durante il giorno?
+    - Quali sono le strategie per controllare la quantità di cibo durante i pasti secondari per mantenere il controllo del peso?
+
+- intent: optimizing_small_meals
+  examples: |
+    - Quali sono le strategie che possiamo utilizzare per sfruttare al meglio i pasti secondari?
+    - Come possiamo ottimizzare i pasti più piccoli durante il giorno per il controllo del peso?
+    - Quali sono le tattiche per massimizzare i benefici dei pasti secondari?
+    - Come possiamo pianificare i pasti frequenti per ottenere i migliori risultati per la salute e il benessere?
+    - Quali sono gli alimenti migliori da scegliere durante i pasti secondari per il controllo del peso?
+    - Come possiamo equilibrare i pasti secondari con il resto della dieta per massimizzare i risultati per la salute?
+    - Quali sono le porzioni raccomandate per i pasti secondari?
+    - Come possiamo evitare gli spuntini poco salutari durante i pasti secondari?
+    - Quali sono le tecniche per mantenere il controllo delle calorie durante i pasti frequenti?
+    - Come possiamo pianificare i pasti secondari per mantenere stabile il livello di zuccheri nel sangue?
+
+- intent: physical_activity_for_weight_management
+  examples: |
+    - Qual è il ruolo dell'attività fisica nella gestione del peso?
+    - Come l'esercizio fisico può aiutare a perdere peso?
+    - Quali esercizi sono più efficaci per bruciare calorie e perdere peso?
+    - Quanto tempo dovrei dedicare all'attività fisica per controllare il mio peso?
+    - Posso perdere peso solo con l'attività fisica o devo anche seguire una dieta?
+
+- intent: calorie_intake_for_healthy_weight
+  examples: |
+    - Quante calorie dovrei mangiare al giorno per mantenere un peso sano?
+    - Qual è la quantità di calorie consigliata per mantenere un peso stabile?
+    - Come posso calcolare la mia necessità calorica giornaliera per mantenere il peso?
+    - Qual è la quantità di calorie giornaliere raccomandata per gli adulti?
+    - Devo mangiare di più o di meno per mantenere un peso sano?
+
+- intent: foods_to_avoid_for_healthy_weight
+  examples: |
+    - Quali sono gli alimenti che dovrei evitare per mantenere un peso sano?
+    - Quali alimenti sono associati all'aumento di peso?
+    - Cosa dovrei evitare di mangiare se voglio perdere peso?
+    - Quali cibi contribuiscono al sovrappeso e all'obesità?
+    - Quali sono gli alimenti ad alto contenuto calorico che dovrei limitare o evitare?
+
+- intent: foods_to_choose_for_healthy_weight
+  examples: |
+    - Quali sono gli alimenti che dovrei scegliere per mantenere un peso sano?
+    - Cosa dovrei mangiare per mantenere un peso stabile?
+    - Quali alimenti sono associati ad un peso sano?
+    - Quali sono i cibi ad alto contenuto proteico che posso mangiare per mantenere il peso?
+    - Cosa posso aggiungere alla mia dieta per aiutarmi a mantenere il peso forma?
+
+- intent: reduce_calories_during_main_meals
+  examples: |
+    - Come posso ridurre le calorie durante i pasti principali?
+    - Quali sono i modi per ridurre l'assunzione di calorie durante i pasti principali?
+    - Cosa posso fare per ridurre le calorie durante i pasti principali senza sentirsi affamato?
+    - Quali sono i cibi a basso contenuto calorico che posso includere nella mia dieta?
+    - Come posso preparare pasti salutari e a basso contenuto calorico?
+
+- intent: health_benefits_of_maintaining_a_healthy_weight
+  examples: |
+    - Quali sono i benefici per la salute di mantenere un peso sano?
+    - Come può mantenere un peso sano beneficiare la mia salute?
+    - Quali sono le conseguenze per la salute di un peso non sano?
+    - Cosa posso fare per mantenere un peso sano e godere di una buona salute?
+    - Quali sono le malattie croniche che potrebbero essere prevenute mantenendo un peso sano?
+
+- intent: avoid_overeating_during_main_meals
+  examples: |
+    - Quali sono i modi per evitare di mangiare troppo durante i pasti principali?
+    - Come posso ridurre la quantità di cibo che mangio durante i pasti principali?
+    - Cosa posso fare per evitare di mangiare troppo durante i pasti principali?
+    - Quali sono i segnali che il mio corpo invia quando ho mangiato abbastanza?
+    - Come posso praticare la consapevolezza alimentare durante i pasti principali per evitare di mangiare troppo?
+    - Ci sono degli alimenti che dovrei evitare per non mangiare troppo durante i pasti principali?
+    - Quali sono le porzioni raccomandate di cibo per un pasto principale?
+    - Quali tecniche di respirazione posso utilizzare durante i pasti principali per evitare di mangiare troppo?
+    - Quali sono i benefici di mangiare lentamente durante i pasti principali?
+    - Ci sono dei trucchi per evitare di mangiare troppo durante i pasti principali quando si è al ristorante? 
+
+- intent: motivation_for_healthy_lifestyle
+  examples: |
+    - Come posso trovare la motivazione per seguire uno stile di vita sano?
+    - Quali sono i benefici di uno stile di vita sano e come possono motivarmi a mantenerlo?
+    - Come posso superare la mancanza di motivazione per esercitarmi regolarmente?
+    - Quali sono gli obiettivi che posso impostare per mantenermi motivato a seguire uno stile di vita sano?
+    - Come posso coinvolgere i miei amici o familiari nella mia scelta di uno stile di vita sano per mantenermi motivato?
+    - Quali sono le app o i siti web che possono aiutarmi a mantenere uno stile di vita sano?
+    - Come posso creare una routine quotidiana che mi aiuti a seguire uno stile di vita sano e mantenermi motivato?
+    - Quali sono le strategie per superare le tentazioni alimentari e mantenere uno stile di vita sano?
+    - Come posso premiarmi quando raggiungo un obiettivo di salute per mantenermi motivato?
+    - Quali sono le storie di successo di altre persone che hanno adottato uno stile di vita sano che possono motivarmi?  
+
+- intent: benefits_of_water_for_weight_management
+  examples: |
+    - Quali sono i benefici dell'acqua per la gestione del peso?
+    - Come l'acqua può aiutare nella perdita di peso?
+    - Qual è il ruolo dell'acqua nella gestione del peso?
+    - L'acqua aiuta a perdere peso?
+    - Quanta acqua dovrei bere per perdere peso?
+    - L'acqua può aiutare a ridurre l'appetito?
+    - Bere acqua durante i pasti aiuta nella gestione del peso?
+    - Come l'acqua può contribuire a mantenere un peso sano?
+    - Quali sono i benefici dell'acqua rispetto alle bevande zuccherate per la gestione del peso?
+    - L'acqua può aiutare a ridurre il grasso corporeo?
+
+- intent: consequences_of_being_underweight
+  examples: |
+    - Quali sono le conseguenze dell'essere sottopeso?
+    - Che rischi comporta l'essere sottopeso?
+    - Cosa succede al tuo corpo se sei sottopeso?
+    - Quali sono gli effetti negativi dell'essere sottopeso?
+    - Essere sottopeso può causare problemi di salute?
+    - Che impatto ha l'essere sottopeso sulla tua salute?
+    - Quali sono le possibili complicazioni dell'essere sottopeso?
+    - Quali sono le conseguenze a lungo termine dell'essere sottopeso?
+    - Essere sottopeso può causare problemi di fertilità?
+    - Che tipo di malattie puoi sviluppare se sei sottopeso?
+
+- intent: consequences_of_being_overweight
+  examples: |
+    - Quali sono le conseguenze dell'essere sovrappeso?
+    - Che rischi comporta l'essere sovrappeso?
+    - Cosa succede al tuo corpo se sei sovrappeso?
+    - Quali sono gli effetti negativi dell'essere sovrappeso?
+    - Essere sovrappeso può causare problemi di salute?
+    - Che impatto ha l'essere sovrappeso sulla tua salute?
+    - Quali sono le possibili complicazioni dell'essere sovrappeso?
+    - Quali sono le conseguenze a lungo termine dell'essere sovrappeso?
+    - Essere sovrappeso può causare problemi di fertilità?
+    - Che tipo di malattie puoi sviluppare se sei sovrappeso?
+
+- intent: role_of_caloric_balance_in_weight_management
+  examples: |
+    - Qual è il ruolo dell'equilibrio calorico nella gestione del peso?
+    - Come funziona l'equilibrio calorico nel controllo del peso?
+    - Che rapporto c'è tra calorie e gestione del peso?
+    - L'equilibrio calorico è importante per perdere peso?
+    - Qual è l'importanza dell'equilibrio tra calorie consumate e calorie bruciate nella gestione del peso?
+    - Cosa succede se si mangiano più calorie di quante se ne bruciano?
+    - Qual è l'effetto dell'equilibrio calorico sulla composizione corporea?
+    - Come si può mantenere l'equilibrio calorico?
+    - L'equilibrio calorico funziona per tutti nella gestione del peso?
+    - Quali sono le conseguenze di un equilibrio calorico sbilanciato?
+
+- intent: monitoring_caloric_intake
+  examples: |
+    - Come possiamo monitorare la quantità di calorie che assumiamo?
+    - Quali sono i modi migliori per tenere traccia delle calorie che si consumano?
+    - Esistono applicazioni o strumenti per il monitoraggio delle calorie?
+    - Come posso sapere quante calorie ci sono nei cibi che mangio?
+    - Ci sono tecniche per monitorare la quantità di calorie che si assumono senza contare ogni singolo alimento?
+    - Quali sono i modi più semplici per tenere traccia della mia assunzione calorica?
+    - Come si può monitorare l'assunzione calorica quando si mangia fuori casa?
+    - Quali sono gli strumenti migliori per tenere traccia delle calorie che si assumono?
+    - Esistono metodi per stimare l'assunzione calorica senza pesare gli alimenti?
+    - Quali sono le app per il monitoraggio dell'assunzione calorica più popolari?
+
+- intent: consequences_of_overweight_during_pregnancy
+  examples: |
+    - Quali sono le conseguenze dell'essere in sovrappeso durante la gravidanza?
+    - Quali sono i rischi per la salute della madre e del feto se si è in sovrappeso durante la gravidanza?
+    - Essere sovrappeso influisce sulla salute del bambino durante la gravidanza?
+    - Quali sono le complicazioni legate alla gravidanza che possono verificarsi se si è in sovrappeso?
+    - Essere in sovrappeso può aumentare il rischio di aborto spontaneo?
+    - Essere in sovrappeso influisce sulla fertilità durante la gravidanza?
+    - Quali sono i rischi per la salute della madre se si è in sovrappeso durante la gravidanza?
+    - Essere in sovrappeso può causare complicazioni durante il parto?
+    - Quali sono le complicazioni legate alla gravidanza che possono verificarsi se si è in sovrappeso?
+    - Come l'essere in sovrappeso può influenzare la pressione sanguigna durante la gravidanza?
+
+- intent: consequences_of_underweight_during_pregnancy
+  examples: |
+    - Quali sono le conseguenze dell'essere sottopeso durante la gravidanza?
+    - Essere sottopeso durante la gravidanza può influire sulla salute del feto?
+    - Quali sono i rischi per la salute della madre e del bambino se si è sottopeso durante la gravidanza?
+    - Essere sottopeso può influire sulla fertilità durante la gravidanza?
+    - Come l'essere sottopeso può influire sulla salute della madre durante la gravidanza?
+    - Quali sono le complicazioni legate alla gravidanza che possono verificarsi se si è sottopeso?
+    - Essere sottopeso può causare un parto prematuro?
+    - Essere sottopeso può aumentare il rischio di anomalie congenite?
+    - Come l'essere sottopeso può influire sulla produzione di latte materno?
+    - Quali sono le raccomandazioni per le donne sottopeso durante la gravidanza?
+
+- intent: benefits_of_exercise_for_weight_management_during_pregnancy
+  examples: |
+    - Quali sono i benefici dell'attività fisica per la gestione del peso durante la gravidanza?
+    - Come l'esercizio fisico può aiutare a mantenere un peso sano durante la gravidanza?
+    - L'attività fisica può aiutare a controllare l'aumento di peso durante la gravidanza?
+    - Quali sono i benefici dell'esercizio fisico per la salute del feto durante la gravidanza?
+    - L'attività fisica può ridurre il rischio di complicazioni durante la gravidanza?
+    - Quali sono i tipi di esercizi consigliati durante la gravidanza per mantenere un peso sano?
+    - Come l'esercizio fisico può influire sulla pressione sanguigna durante la gravidanza?
+    - L'attività fisica può influire sulla salute mentale durante la gravidanza?
+    - Quali sono i benefici dell'esercizio fisico per il lavoro di parto e la consegna?
+    - L'attività fisica può influire sulla produzione di latte materno dopo la nascita del bambino?
+
+- intent: managing_postpartum_weight_loss
+  examples: |
+    - Come possiamo gestire la perdita di peso dopo la gravidanza?
+    - Quali sono i consigli per perdere peso in modo sano dopo la gravidanza?
+    - Quanto tempo ci vuole per perdere peso dopo la gravidanza?
+    - Quali sono gli esercizi migliori per aiutare a perdere peso dopo la gravidanza?
+    - Come la dieta può aiutare a perdere peso dopo la gravidanza?
+    - Quali sono le cose da evitare quando si cerca di perdere peso dopo la gravidanza?
+    - Quali sono le raccomandazioni per l'allattamento al seno durante la perdita di peso postpartum?
+    - Come il sonno può influire sulla perdita di peso dopo la gravidanza?
+    - Quali sono i rischi di perdere peso troppo velocemente dopo la gravidanza?
+    - Come possiamo mantenere la motivazione durante la perdita di peso postpartum?
+
+- intent: rules_for_composing_main_meals_in_intuitive_eating
+  examples: |
+    - Quali sono le regole per comporre i pasti principali nell'alimentazione intuitiva?
+    - Come posso bilanciare i miei pasti principali secondo i principi dell'alimentazione intuitiva?
+    - Quali sono gli alimenti che dovrei includere nei miei pasti principali nell'alimentazione intuitiva?
+    - L'alimentazione intuitiva prevede una quantità specifica di carboidrati, proteine e grassi nei pasti principali?
+    - Come posso ascoltare il mio corpo per capire cosa mangiare per il pasto principale?
+    - Quali sono le raccomandazioni per le porzioni durante i pasti principali nell'alimentazione intuitiva?
+    - Come posso fare scelte alimentari consapevoli durante i pasti principali nell'alimentazione intuitiva?
+    - Quali sono i consigli per preparare pasti principali sani e gustosi nell'alimentazione intuitiva?
+    - L'alimentazione intuitiva prevede un numero preciso di pasti principali al giorno?
+    - Quali sono le differenze tra l'alimentazione intuitiva e le diete tradizionali nel comporre i pasti principali?
+
+- intent: low_calorie_foods_in_intuitive_eating
+  examples: |
+    - Cosa si intende per cibi a basso contenuto calorico nei pasti principali dell'alimentazione intuitiva?
+    - Quali sono i cibi a basso contenuto calorico che posso includere nei pasti principali dell'alimentazione intuitiva?
+    - L'alimentazione intuitiva prevede l'uso di cibi a basso contenuto calorico per i pasti principali?
+    - Come posso scegliere cibi a basso contenuto calorico per i miei pasti principali nell'alimentazione intuitiva?
+    - Quali sono gli esempi di cibi a basso contenuto calorico per i pasti principali nell'alimentazione intuitiva?
+    - Come posso bilanciare i cibi a basso contenuto calorico con gli altri alimenti nei pasti principali dell'alimentazione intuitiva?
+    - L'alimentazione intuitiva suggerisce di eliminare completamente i cibi ad alto contenuto calorico dai pasti principali?
+    - Posso includere cibi ad alto contenuto calorico nei pasti principali dell'alimentazione intuitiva insieme a cibi a basso contenuto calorico?
+    - Quali sono i benefici di includere cibi a basso contenuto calorico nei pasti principali dell'alimentazione intuitiva?
+    - L'alimentazione intuitiva prevede una quantità specifica di cibi a basso contenuto calorico nei pasti principali?
+- intent: recommended_vegetables_in_intuitive_eating
+  examples: |
+    - Quali verdure sono consigliate nell'alimentazione intuitiva per i pasti principali?
+    - L'alimentazione intuitiva suggerisce di includere verdure nei pasti principali?
+    - Quali sono le verdure consigliate per l'alimentazione intuitiva?
+    - Come posso scegliere le verdure giuste per i pasti principali nell'alimentazione intuitiva?
+    - Quali sono gli esempi di verdure che posso includere nei pasti principali nell'alimentazione intuitiva?
+    - L'alimentazione intuitiva prevede una quantità specifica di verdure nei pasti principali?
+    - Come posso bilanciare le verdure con gli altri alimenti nei pasti principali dell'alimentazione intuitiva?
+    - Posso includere qualsiasi tipo di verdure nei pasti principali dell'alimentazione intuitiva?
+    - Quali sono i benefici di includere verdure nei pasti principali dell'alimentazione intuitiva?
+    - L'alimentazione intuitiva suggerisce di mangiare verdure crude o cotte nei pasti principali?
+
+- intent: variety_in_intuitive_eating_main_meals
+  examples: |
+    - Come posso variare nell'alimentazione intuitiva per i pasti principali?
+    - L'alimentazione intuitiva prevede la varietà nei pasti principali?
+    - Quali sono i modi per introdurre la varietà nei pasti principali nell'alimentazione intuitiva?
+    - Come posso evitare la monotonia nei pasti principali dell'alimentazione intuitiva?
+    - Posso modificare i pasti principali dell'alimentazione intuitiva a seconda delle stagioni?
+    - Quali sono gli esempi di alimenti da aggiungere per introdurre varietà nei pasti principali dell'alimentazione intuitiva?
+    - Come posso includere i cibi preferiti nei pasti principali dell'alimentazione intuitiva senza compromettere l'equilibrio?
+    - L'alimentazione intuitiva prevede la rotazione degli alimenti nei pasti principali?
+    - Posso utilizzare spezie e condimenti per variare i pasti principali dell'alimentazione intuitiva?
+    - Come posso rendere i pasti principali dell'alimentazione intuitiva interessanti e gustosi?
+
+- intent: moderate_high_calorie_intuitive_eating_main_meals
+  examples: |
+    - Quali sono i cibi a medio/alto contenuto calorico che posso includere nei pasti principali dell'alimentazione intuitiva?
+    - Posso consumare alimenti a medio/alto contenuto calorico nella dieta dell'alimentazione intuitiva?
+    - Cosa si intende per cibi a medio/alto contenuto calorico nella composizione dei pasti principali dell'alimentazione intuitiva?
+    - Quali sono gli esempi di alimenti a medio/alto contenuto calorico da aggiungere nei pasti principali dell'alimentazione intuitiva?
+    - Come posso bilanciare i pasti principali dell'alimentazione intuitiva con alimenti a medio/alto contenuto calorico?
+    - L'alimentazione intuitiva prevede il controllo delle calorie in ogni pasto principale?
+    - Quali sono i rischi dell'eccesso di cibi a medio/alto contenuto calorico nei pasti principali dell'alimentazione intuitiva?
+    - Quali sono i benefici di includere cibi a medio/alto contenuto calorico nei pasti principali dell'alimentazione intuitiva?
+    - Posso includere carboidrati e grassi nei pasti principali dell'alimentazione intuitiva?
+    - Quali sono le raccomandazioni per la quantità di cibi a medio/alto contenuto calorico nei pasti principali dell'alimentazione intuitiva?
+
+- intent: intuitive_eating_calorie_choice_based_on_goals
+  examples: |
+    - Quali cibi a medio/alto contenuto calorico devo scegliere se voglio dimagrire?
+    - Come scelgo i cibi a medio/alto contenuto calorico se il mio obiettivo è il mantenimento del peso?
+    - Quali sono i cibi a medio/alto contenuto calorico consigliati per l'aumento della massa muscolare nell'alimentazione intuitiva?
+    - Posso mangiare cibi a medio/alto contenuto calorico se voglio dimagrire con l'alimentazione intuitiva?
+    - Quali cibi a medio/alto contenuto calorico dovrei evitare se il mio obiettivo è il dimagrimento con l'alimentazione intuitiva?
+    - Come scelgo i pasti principali dell'alimentazione intuitiva se voglio aumentare la massa muscolare?
+    - Ci sono dei cibi a medio/alto contenuto calorico da preferire durante il mantenimento del peso con l'alimentazione intuitiva?
+    - L'alimentazione intuitiva è adatta per l'aumento della massa muscolare?
+    - Quali sono i cibi a medio/alto contenuto calorico da includere nell'alimentazione intuitiva per il mantenimento del peso?
+    - Come posso gestire la quantità di cibi a medio/alto contenuto calorico nell'alimentazione intuitiva in base ai miei obiettivi?
+
+- intent: intuitive_eating_composing_side_meals_rules
+  examples: |
+    - Quali sono le regole per comporre i pasti secondari nell'alimentazione intuitiva?
+    - Come posso scegliere i cibi per i pasti secondari nell'alimentazione intuitiva?
+    - Quali sono le linee guida per selezionare i pasti secondari nell'alimentazione intuitiva?
+    - Ci sono delle regole per comporre i pasti a base di frutta nell'alimentazione intuitiva?
+    - Quali cibi dovrei evitare nei pasti secondari dell'alimentazione intuitiva?
+    - Posso mangiare cibi ad alto contenuto calorico nei pasti secondari con l'alimentazione intuitiva?
+    - L'alimentazione intuitiva prevede la suddivisione dei pasti in primi e secondi?
+    - Quali sono le regole per abbinare i cibi nei pasti secondari dell'alimentazione intuitiva?
+    - Quali sono i cibi consigliati per i pasti secondari dell'alimentazione intuitiva?
+    - Come posso variare i pasti secondari nell'alimentazione intuitiva?
+  
+- intent: intuitive_eating_low_calorie_foods_side_meals
+  examples: |
+    - Cosa si intende per cibi a basso contenuto calorico nei pasti secondari dell'alimentazione intuitiva?
+    - Quali sono i cibi a basso contenuto calorico consigliati per i pasti secondari nell'alimentazione intuitiva?
+    - Ci sono degli snack a basso contenuto calorico che posso mangiare con l'alimentazione intuitiva?
+    - Posso mangiare frutta come spuntino con l'alimentazione intuitiva?
+    - Quali sono le verdure a basso contenuto calorico che posso scegliere per i pasti secondari nell'alimentazione intuitiva?
+    - Ci sono degli alimenti proteici a basso contenuto calorico che posso includere nei pasti secondari con l'alimentazione intuitiva?
+    - Quali sono gli snack salutari e a basso contenuto calorico che posso mangiare con l'alimentazione intuitiva?
+    - Posso mangiare cibi a basso contenuto calorico a qualsiasi ora del giorno con l'alimentazione intuitiva?
+    - Quali sono le porzioni consigliate per i cibi a basso contenuto calorico nei pasti secondari dell'alimentazione intuitiva?
+    - Come posso preparare cibi a basso contenuto calorico per i pasti secondari dell'alimentazione intuitiva?
+
+- intent: principi_alimentazione_intuitiva
+  examples: |
+    - Quali sono i principi fondamentali dell'alimentazione intuitiva?
+    - Quali sono i principi guida dell'alimentazione intuitiva?
+    - Cosa significa alimentazione intuitiva e quali sono i suoi principi fondamentali?
+    - Quali sono le regole dell'alimentazione intuitiva?
+    - In cosa consiste l'alimentazione intuitiva e quali sono i suoi principi chiave?
+    - Quali sono i principi base dell'alimentazione intuitiva?
+    - Cosa si intende per alimentazione intuitiva e quali sono i suoi principi fondamentali?
+    - Quali sono i principi dell'alimentazione intuitiva?
+    - Come funziona l'alimentazione intuitiva e quali sono i suoi principi fondamentali?
+    - Quali sono le linee guida dell'alimentazione intuitiva per comporre pasti equilibrati?
+
+- intent: variazioni_pastiprincipali_alimentazione_intuitiva
+  examples: |
+    - Come posso variare i pasti principali nell'alimentazione intuitiva?
+    - Quali sono le variazioni consigliate per i pasti principali nell'alimentazione intuitiva?
+    - Cosa posso fare per rendere i pasti principali più variegati nell'alimentazione intuitiva?
+    - Quali sono le opzioni per variare i pasti principali nell'alimentazione intuitiva?
+    - Come posso rendere i pasti principali più gustosi nell'alimentazione intuitiva?
+    - Quali sono le possibilità di variazione dei pasti principali nell'alimentazione intuitiva?
+    - Cosa posso fare per non annoiarmi nei pasti principali nell'alimentazione intuitiva?
+    - Come posso personalizzare i pasti principali nell'alimentazione intuitiva?
+    - Quali sono le alternative per i pasti principali nell'alimentazione intuitiva?
+    - Cosa posso fare per non mangiare sempre gli stessi pasti principali nell'alimentazione intuitiva?
+
+- intent: food_options
+  examples: |
+    - Quali cibi a medio/alto contenuto calorico posso mangiare nell'alimentazione intuitiva?
+    - Quali cibi con un contenuto calorico più elevato posso includere nella mia alimentazione intuitiva?
+    - Ci sono alimenti a medio/alto contenuto calorico che potrei considerare nell'ambito dell'alimentazione intuitiva?
+    - Come posso includere cibi a medio/alto contenuto calorico nella mia alimentazione intuitiva?
+    - Quali sono alcuni esempi di cibi a medio/alto contenuto calorico che posso includere nell'alimentazione intuitiva?
+    - L'alimentazione intuitiva prevede l'inclusione di cibi a medio/alto contenuto calorico? Quali sono?
+    - Come posso bilanciare l'apporto calorico dei cibi a medio/alto contenuto calorico nell'alimentazione intuitiva?
+    - Quali sono le opzioni di cibi a medio/alto contenuto calorico raccomandati dall'alimentazione intuitiva?
+    - Quali sono i cibi con un contenuto calorico più alto che si adattano all'alimentazione intuitiva?
+    - Come posso scegliere cibi a medio/alto contenuto calorico in modo sano nell'ambito dell'alimentazione intuitiva?
+
+- intent: meal_balance
+  examples: |
+    - Come posso bilanciare il pasto con cibi ad alto contenuto calorico e a basso contenuto calorico?
+    - Quali sono i modi per bilanciare il pasto con alimenti a basso e alto contenuto calorico?
+    - Come posso creare un pasto equilibrato tra alimenti a basso contenuto calorico e ad alto contenuto calorico?
+    - Quali sono i cibi ad alto contenuto calorico che possono essere abbinati a quelli a basso contenuto calorico per bilanciare un pasto?
+    - Cosa si intende per bilanciare il pasto tra alimenti a basso e alto contenuto calorico nell'alimentazione intuitiva?
+    - Come posso equilibrare un pasto con alimenti a medio/alto contenuto calorico e a basso contenuto calorico nell'alimentazione intuitiva?
+    - Quali sono i principi per creare un pasto bilanciato con alimenti a basso e alto contenuto calorico?
+    - Cosa posso fare per equilibrare il pasto con cibi ad alto contenuto calorico e a basso contenuto calorico nell'alimentazione intuitiva?
+    - Come posso combinare cibi a basso contenuto calorico e ad alto contenuto calorico per bilanciare un pasto nell'alimentazione intuitiva?
+    - Quali sono le regole per bilanciare un pasto con cibi ad alto contenuto calorico e a basso contenuto calorico nell'alimentazione intuitiva?
+
+- intent: bilanciare_pasti_secondari
+  examples: |
+    - Come bilanciare i pasti secondari nell'alimentazione intuitiva?
+    - Quali sono i principi per bilanciare i pasti secondari nell'alimentazione intuitiva?
+    - Come posso bilanciare le porzioni dei pasti secondari nell'alimentazione intuitiva?
+    - Quali sono le regole per bilanciare gli snack nell'alimentazione intuitiva?
+    - Come posso bilanciare i pasti leggeri nell'alimentazione intuitiva?
+    - Come si bilanciano le porzioni dei dolci nell'alimentazione intuitiva?
+    - Quali sono i cibi consigliati per bilanciare i pasti secondari nell'alimentazione intuitiva?
+    - Quali sono le dosi consigliate per bilanciare i pasti secondari nell'alimentazione intuitiva?
+    - Come si possono abbinare i cibi per bilanciare i pasti secondari nell'alimentazione intuitiva?
+    - Quali sono le alternative salutari per bilanciare i pasti secondari nell'alimentazione intuitiva?
+
+- intent: rules_high_calorie_foods_main_meals
+  examples: |
+    - Quali sono le regole per scegliere cibi a medio/alto contenuto calorico nei pasti principali?
+    - Quali cibi a medio/alto contenuto calorico dovrei scegliere per i pasti principali?
+    - Come posso scegliere cibi a medio/alto contenuto calorico per i pasti principali nell'alimentazione intuitiva?
+    - Cosa dovrei considerare quando scelgo cibi a medio/alto contenuto calorico per i pasti principali?
+    - Quali regole devo seguire per scegliere cibi a medio/alto contenuto calorico nei pasti principali nell'alimentazione intuitiva?
+    - Quali sono le linee guida per la scelta di cibi a medio/alto contenuto calorico per i pasti principali?
+    - Cosa devo tenere a mente quando scelgo cibi a medio/alto contenuto calorico per i pasti principali?
+    - Come posso bilanciare i cibi a medio/alto contenuto calorico con quelli a basso contenuto calorico nei pasti principali?
+    - Quali sono le migliori opzioni di cibi a medio/alto contenuto calorico per i pasti principali nell'alimentazione intuitiva?
+    - Quali sono i cibi a medio/alto contenuto calorico consigliati per i pasti principali dell'alimentazione intuitiva?
+
+- intent: low_calorie_food_options
+  examples: |
+    - Quali sono i cibi a basso contenuto calorico che posso mangiare per pranzo?
+    - Cosa posso mangiare di leggero per cena?
+    - Quali sono i cibi a basso contenuto calorico che mi consigli per la pausa pranzo?
+    - Quali sono i pasti secondari a basso contenuto calorico che mi consigli?
+    - Cosa mangiare per uno spuntino leggero durante la giornata?
+    - Quali sono i cibi a basso contenuto calorico che posso aggiungere alla mia dieta?
+    - Mi puoi consigliare dei cibi a basso contenuto calorico per la colazione?
+    - Cosa posso mangiare per cena senza esagerare con le calorie?
+    - Quali sono i cibi a basso contenuto calorico che posso mangiare a pranzo senza ingrassare?
+    - Quali sono i pasti secondari più leggeri che mi consigli per l'alimentazione intuitiva?
+
+- intent: balance_junk_food_with_healthy_options
+  examples: |
+    - Come posso bilanciare i pasti secondari dell'alimentazione intuitiva se voglio mangiare cibo spazzatura?
+    - Quali sono i modi migliori per bilanciare il junk food nei pasti secondari dell'alimentazione intuitiva?
+    - Come posso integrare il junk food nei pasti secondari senza esagerare?
+    - Come faccio a bilanciare i pasti secondari dell'alimentazione intuitiva se voglio concedermi un po' di junk food?
+    - Quali sono i cibi salutari che posso abbinare al junk food per bilanciare il pasto?
+    - Come posso mangiare cibo spazzatura senza compromettere il mio bilanciamento calorico giornaliero?
+    - Quali sono le strategie migliori per bilanciare il junk food con cibi sani?
+    - Cosa posso mangiare insieme al junk food per bilanciare il pasto?
+    - Quali sono le porzioni ideali di junk food e cibo sano per bilanciare il pasto?
+    - Come faccio a bilanciare il junk food con cibi sani nei pasti secondari dell'alimentazione intuitiva?
+
+- intent: assessing_balance_of_meals
+  examples: |
+    - Come posso capire se sto bilanciando correttamente le due parti del pasto nell'alimentazione intuitiva?
+    - Quali sono gli indicatori che mi dicono se sto bilanciando correttamente le due parti del pasto?
+    - Come posso valutare se sto mangiando abbastanza cibo sano e cibo indulgente?
+    - Quali sono i segni che indicano che sto bilanciando male le due parti del pasto?
+    - Come posso sapere se sto mangiando abbastanza proteine e verdure in ogni pasto?
+    - Come faccio a sapere se sto mangiando abbastanza carboidrati e grassi in ogni pasto?
+    - Quali sono i segnali che mi indicano se sto mangiando troppo o troppo poco?
+    - Come posso monitorare il mio bilanciamento calorico giornaliero per assicurarmi di mangiare in modo sano e bilanciato?
+    - Quali sono le strategie migliori per capire se sto bilanciando correttamente le due parti del pasto?
+    - Come faccio a sapere se sto mangiando abbastanza cibo sano senza privarmi di cibo indulgente?
+
+- intent: varying_secondary_meals
+  examples: |
+    - Come posso variare i pasti secondari nell'alimentazione intuitiva?
+    - Quali sono i modi migliori per cambiare i pasti secondari nella mia dieta?
+    - Come posso creare pasti secondari diversi ed equilibrati ogni giorno?
+    - Quali sono i cibi salutari che posso aggiungere ai miei pasti secondari per variare la mia alimentazione?
+    - Come posso evitare di mangiare sempre gli stessi cibi nei pasti secondari dell'alimentazione intuitiva?
+    - Quali sono i modi creativi per preparare i pasti secondari nell'alimentazione intuitiva?
+    - Come posso rendere più interessanti i pasti secondari dell'alimentazione intuitiva?
+    - Quali sono le opzioni di pasti secondari sani e nutrienti che posso provare?
+    - Come posso creare pasti secondari deliziosi e allo stesso tempo nutrienti?
+    - Quali sono i modi migliori per combinare i cibi in modo da avere un pasto secondario equilibrato ed interessante?
+
+- intent: recommended_portions_main_meals
+  examples: |
+    - Quali sono le porzioni consigliate nei pasti principali dell'alimentazione intuitiva?
+    - Come posso determinare le porzioni giuste per i pasti principali dell'alimentazione intuitiva?
+    - Quali sono i consigli per le porzioni dei pasti principali dell'alimentazione intuitiva?
+    - Come posso capire se sto mangiando la giusta quantità di cibo nei pasti principali dell'alimentazione intuitiva?
+    - Quali sono i segni che mi indicano se sto mangiando troppo o troppo poco nei pasti principali?
+    - Come posso sapere se sto mangiando abbastanza proteine, carboidrati e grassi nei pasti principali?
+    - Quali sono le linee guida per determinare le porzioni dei pasti principali dell'alimentazione intuitiva?
+    - Come posso monitorare la quantità di cibo che mangio nei pasti principali per assicurarmi di mangiare abbastanza?
+    - Quali sono le quantità di cibo raccomandate per i pasti principali nell'alimentazione intuitiva?
+    - Come posso fare per evitare di mangiare troppo o troppo poco nei pasti principali dell'alimentazione intuitiva?
+
+- intent: recommended_portions_secondary_meals
+  examples: |
+    - Quali sono le porzioni consigliate nei pasti secondari dell'alimentazione intuitiva?
+    - Come posso determinare le porzioni giuste per i pasti secondari dell'alimentazione intuitiva?
+    - Quali sono i consigli per le porzioni dei pasti secondari dell'alimentazione intuitiva?
+    - Come posso capire se sto mangiando la giusta quantità di cibo nei pasti secondari dell'alimentazione intuitiva?
+    - Quali sono i segni che mi indicano se sto mangiando troppo o troppo poco nei pasti secondari?
+    - Come posso sapere se sto mangiando abbastanza proteine, carboidrati e grassi nei pasti secondari?
+    - Quali sono le linee guida per determinare le porzioni dei pasti secondari dell'alimentazione intuitiva?
+    - Come posso monitorare la quantità di cibo che mangio nei pasti secondari per assicurarmi di mangiare abbastanza?
+    - Quali sono le quantità di cibo raccomandate per i pasti secondari nell'alimentazione intuitiva?
+    - Come posso fare per evitare di mangiare troppo o troppo poco nei pasti secondari dell'alimentazione intuitiva?
+
+- intent: balancing_meals_for_weight_loss
+  examples: |
+    - Come posso bilanciare i pasti principali e secondari nell'alimentazione intuitiva se voglio perdere peso?
+    - Quali sono i consigli per bilanciare i pasti principali e secondari nell'alimentazione intuitiva per la perdita di peso?
+    - Come posso fare per controllare la quantità di calorie che mangio nei pasti principali e secondari dell'alimentazione intuitiva?
+    - Quali sono i cibi che devo evitare per bilanciare i pasti principali e secondari nell'alimentazione intuitiva per il dimagrimento?
+    - Come posso ridurre le porzioni senza sentirsi privati nei pasti principali e secondari dell'alimentazione intuitiva?
+    - Quali sono le strategie per bilanciare i pasti principali e secondari per la perdita di peso nell'alimentazione intuitiva?
+    - Come posso fare per soddisfare il mio appetito nei pasti principali e secondari e allo stesso tempo perdere peso nell'alimentazione intuitiva?
+    - Quali sono i pasti principali e secondari raccomandati per perdere peso nell'alimentazione intuitiva?
+    - Quali sono i trucchi per ridurre l'apporto calorico nei pasti principali e secondari dell'alimentazione intuitiva per il dimagrimento?
+    - Come posso mantenere il giusto equilibrio tra i pasti principali e secondari nell'alimentazione intuitiva se voglio dimagrire?
+
+- intent: balancing_meals_for_muscle_gain
+  examples: |
+    - Quali sono i consigli per bilanciare i pasti principali e secondari nell'alimentazione intuitiva per l'aumento della massa muscolare?
+    - Come posso aumentare la massa muscolare bilanciando i pasti principali e secondari nell'alimentazione intuitiva?
+    - Quali sono i pasti principali e secondari raccomandati per aumentare la massa muscolare nell'alimentazione intuitiva?
+    - Come posso fare per aumentare l'apporto calorico nei pasti principali e secondari dell'alimentazione intuitiva per aumentare la massa muscolare?
+    - Quali sono i cibi che devo includere nei pasti principali e secondari dell'alimentazione intuitiva per aumentare la massa muscolare?
+    - Come posso fare per mangiare abbastanza proteine nei pasti principali e secondari dell'alimentazione intuitiva per aumentare la massa muscolare?
+    - Quali sono le porzioni raccomandate per i pasti principali e secondari dell'alimentazione intuitiva per aumentare la massa muscolare?
+    - Come posso fare per mantenere il giusto equilibrio tra i pasti principali e secondari nell'alimentazione intuitiva se voglio aumentare la massa muscolare?
+    - Quali sono le linee guida per bilanciare i pasti principali e secondari nell'alimentazione intuitiva per l'aumento della massa muscolare?
+    - Come posso bilanciare i carboidrati, le proteine e i grassi nei pasti principali e secondari dell'alimentazione intuitiva per aumentare la massa muscolare?
+
+- intent: balancing_meals_for_weight_maintenance
+  examples: |
+    - Come posso bilanciare i pasti principali e secondari nell'alimentazione intuitiva per mantenere il mio peso?
+    - Quali sono le linee guida per bilanciare i pasti principali e secondari nell'alimentazione intuitiva per il mantenimento del peso?
+    - Quali sono i pasti principali e secondari raccomandati per mantenere il peso nell'alimentazione intuitiva?
+    - Come posso fare per mantenere il giusto equilibrio tra i pasti principali e secondari nell'alimentazione intuitiva se voglio mantenere il mio peso?
+    - Quali sono i cibi che devo includere nei pasti principali e secondari dell'alimentazione intuitiva per mantenere il peso?
+    - Quali sono le porzioni raccomandate per i pasti principali e secondari dell'alimentazione intuitiva per mantenere il peso?
+    - Come posso fare per bilanciare i carboidrati, le proteine e i grassi nei pasti principali e secondari dell'alimentazione intuitiva per mantenere il peso?
+    - Quali sono i consigli per mantenere un equilibrio sano tra i pasti principali e secondari nell'alimentazione intuitiva per il mantenimento del peso?
+    - Come posso fare per mantenere un apporto calorico adeguato nei pasti principali e secondari dell'alimentazione intuitiva per mantenere il peso?
+    - Quali sono le strategie per bilanciare i pasti principali e secondari nell'alimentazione intuitiva se voglio mantenere il mio peso attuale?
+
+- intent: benefits_of_intuitive_eating
+  examples: |
+    - Quali sono i benefici dell'alimentazione intuitiva per la salute?
+    - Come può l'alimentazione intuitiva migliorare il benessere generale?
+    - Quali sono i vantaggi dell'alimentazione intuitiva rispetto alle diete tradizionali?
+    - Quali sono i benefici psicologici dell'alimentazione intuitiva?
+    - Quali sono i vantaggi per la salute mentale dell'alimentazione intuitiva?
+    - Come può l'alimentazione intuitiva aiutare a ridurre il rischio di disturbi alimentari?
+    - Quali sono i benefici dell'alimentazione intuitiva per il controllo del peso?
+    - Quali sono i vantaggi dell'alimentazione intuitiva in termini di benessere emotivo?
+    - Come può l'alimentazione intuitiva migliorare la relazione con il cibo?
+    - Quali sono i benefici a lungo termine dell'alimentazione intuitiva per la salute e il benessere?
+
+- intent: limitations_of_intuitive_eating
+  examples: |
+    - Quali sono i limiti dell'alimentazione intuitiva?
+    - Cosa non funziona nell'alimentazione intuitiva?
+    - Quali sono le sfide dell'alimentazione intuitiva?
+    - Quali sono i limiti dell'alimentazione intuitiva per il controllo del peso?
+    - Come l'alimentazione intuitiva può diventare problematica per alcune persone?
+    - Quali sono i potenziali rischi dell'alimentazione intuitiva?
+    - Cosa si dovrebbe considerare prima di adottare l'alimentazione intuitiva?
+    - Quali sono i limiti dell'alimentazione intuitiva per le persone con determinati problemi di salute?
+    - Quali sono i casi in cui l'alimentazione intuitiva potrebbe non essere raccomandata?
+    - Come l'alimentazione intuitiva può non essere adatta per tutti?
+
+- intent: learning_intuitive_eating
+  examples: |
+    - Come posso imparare ad adottare l'alimentazione intuitiva?
+    - Quali sono i primi passi per iniziare con l'alimentazione intuitiva?
+    - Come si può avvicinare all'alimentazione intuitiva?
+    - Quali sono i consigli per iniziare ad adottare l'alimentazione intuitiva?
+    - Come si può fare la transizione da una dieta tradizionale all'alimentazione intuitiva?
+    - Quali sono le risorse disponibili per imparare l'alimentazione intuitiva?
+    - Come si può iniziare a capire il proprio corpo e i propri bisogni alimentari?
+    - Quali sono i libri o i siti web consigliati per imparare l'alimentazione intuitiva?
+    - Come si può utilizzare la mindfulness per migliorare l'alimentazione intuitiva?
+    - Quali sono i consigli per mantenere la motivazione nell'adozione dell'alimentazione intuitiva?
+
+- intent: first_tip_intuitive_eating
+  examples: |
+    - Qual è il primo consiglio per seguire un' alimentazione intuitiva?
+    - Quali sono i primi passi per adottare un' alimentazione intuitiva?
+    - Come posso iniziare a mangiare in modo intuitivo?
+    - Qual è il primo passo per adottare l'alimentazione intuitiva?
+    - Come si può iniziare a capire i propri bisogni alimentari?
+    - Quali sono i consigli per iniziare l'alimentazione intuitiva?
+    - Qual è la prima cosa da fare per adottare l'alimentazione intuitiva?
+    - Come si può iniziare ad ascoltare il proprio corpo durante i pasti?
+    - Qual è il primo consiglio per iniziare a seguire l'alimentazione intuitiva?
+    - Come si può iniziare a riconoscere la fame e la sazietà in modo intuitivo?
+    - Quali sono i suggerimenti per iniziare ad ascoltare le proprie esigenze alimentari?
+
+- intent: self_regulation_mechanisms
+  examples: |
+    - Quali sono i meccanismi di autoregolazione nel nostro corpo?
+    - Quali sono i meccanismi di autoregolazione del nostro organismo?
+    - Come funzionano i meccanismi di autoregolazione del nostro corpo?
+    - Quali sono i processi di autoregolazione che avvengono nel nostro organismo?
+    - In che modo il nostro corpo mantiene l'omeostasi?
+    - Quali sono le tecniche di autoregolazione che il nostro corpo utilizza?
+    - Come si regolano i processi biologici nel nostro organismo?
+    - In che modo il nostro corpo mantiene l'equilibrio chimico interno?
+    - Quali sono i meccanismi di autoregolazione che controllano la temperatura corporea?
+    - Come funzionano i meccanismi di autoregolazione del nostro sistema nervoso?
+    - Quali sono le strategie che il nostro corpo utilizza per mantenere l'equilibrio energetico?
+
+- intent: intuitive_eating_weight_management
+  examples: |
+    - L'alimentazione intuitiva aiuta a dimagrire o aumentare la massa muscolare?
+    - L'alimentazione intuitiva può aiutare a perdere peso o a guadagnare massa muscolare?
+    - Quali sono gli effetti dell'alimentazione intuitiva sulla composizione corporea?
+    - L'alimentazione intuitiva può essere utile per raggiungere un determinato peso o una certa massa muscolare?
+    - Come l'alimentazione intuitiva può influenzare il processo di dimagrimento o di aumento della massa muscolare?
+    - È possibile dimagrire o aumentare la massa muscolare seguendo un' alimentazione intuitiva?
+    - Quali sono le linee guida dell'alimentazione intuitiva per il dimagrimento o l'aumento della massa muscolare?
+    - L'alimentazione intuitiva è adatta a chi vuole perdere peso o guadagnare massa muscolare?
+    - In che modo l'alimentazione intuitiva può supportare la gestione del peso e della composizione corporea?
+    - Quali sono i fattori che influenzano l'efficacia dell'alimentazione intuitiva per il dimagrimento o l'aumento della massa muscolare?
+    - Come l'alimentazione intuitiva può aiutare a mantenere un peso sano e raggiungere una forma fisica desiderata?
+
+- intent: undereating_intuitive_eating
+  examples: |
+    - Cosa succede se mangio meno di quello che il mio corpo chiede seguendo l'alimentazione intuitiva?
+    - Posso mangiare meno di quello che il mio corpo chiede se seguo l'alimentazione intuitiva?
+    - L'alimentazione intuitiva funziona anche se mangio meno del mio fabbisogno calorico?
+    - Quali sono le conseguenze di mangiare meno di quello che il mio corpo richiede nell'alimentazione intuitiva?
+    - E se mangio troppo poco seguendo l'alimentazione intuitiva?
+    - È possibile avere un deficit calorico seguendo l'alimentazione intuitiva?
+    - L'alimentazione intuitiva funziona comunque se mangio meno calorie di quante ne ho bisogno?
+    - Cosa succede se mangio meno di quanto mi sento affamato seguendo l'alimentazione intuitiva?
+    - L'alimentazione intuitiva è adatta a chi vuole perdere peso riducendo le calorie?
+    - Quali sono le linee guida dell'alimentazione intuitiva per evitare di mangiare troppo poco?
+
+- intent: intuitive_eating_80_20_rule
+  examples: |
+    - Cosa significa la regola 80-20 nell'alimentazione intuitiva?
+    - Come funziona la regola 80-20 dell'alimentazione intuitiva?
+    - Come posso seguire la regola 80-20 nell'alimentazione intuitiva?
+    - Quali sono i vantaggi della regola 80-20 nell'alimentazione intuitiva?
+    - La regola 80-20 dell'alimentazione intuitiva significa che posso mangiare cibo spazzatura?
+    - Qual è la differenza tra la regola 80-20 e la dieta cheat day?
+    - È necessario seguire la regola 80-20 per l'alimentazione intuitiva?
+    - Come posso gestire la regola 80-20 nell'alimentazione intuitiva se ho problemi di controllo del cibo?
+    - La regola 80-20 dell'alimentazione intuitiva funziona per tutti?
+    - Cosa devo fare se supero la regola 20% nell'alimentazione intuitiva?
+
+- intent: intuitive_eating_protein
+  examples: |
+    - Quanto è importante l'apporto proteico nell'alimentazione intuitiva?
+    - Qual è il ruolo delle proteine nell'alimentazione intuitiva?
+    - Quanto proteine dovrei mangiare con l'alimentazione intuitiva?
+    - Come posso ottenere abbastanza proteine nell'alimentazione intuitiva se sono vegano o vegetariano?
+    - Posso mangiare troppo proteine nell'alimentazione intuitiva?
+    - Quali sono le fonti migliori di proteine nell'alimentazione intuitiva?
+    - L'apporto proteico è diverso per coloro che vogliono dimagrire o aumentare la massa muscolare nell'alimentazione intuitiva?
+    - Come posso bilanciare l'apporto di proteine con gli altri nutrienti nell'alimentazione intuitiva?
+    - Quali sono gli effetti di una carenza di proteine nell'alimentazione intuitiva?
+    - Posso integrare le proteine in polvere nell'alimentazione intuitiva?
+
+- intent: who_can_follow_intuitive_eating
+  examples: |
+    - Chi può seguire l'alimentazione intuitiva?
+    - L'alimentazione intuitiva è adatta per tutti?
+    - Ci sono limiti di età o di salute per seguire l'alimentazione intuitiva?
+    - L'alimentazione intuitiva è adatta per i bambini?
+    - Gli atleti possono seguire l'alimentazione intuitiva?
+    - L'alimentazione intuitiva è adatta per coloro che hanno disturbi alimentari?
+    - Posso seguire l'alimentazione intuitiva se ho problemi di digestione o di allergie alimentari?
+    - Le donne in gravidanza o che allattano possono seguire l'alimentazione intuitiva?
+    - Chi ha un obiettivo di dimagrimento può seguire l'alimentazione intuitiva?
+    - L'alimentazione intuitiva è adatta per coloro che hanno un'intolleranza al lattosio o al glutine?
+
+- intent: weight_loss_without_exercise
+  examples: |
+    - Si può dimagrire senza fare esercizio fisico seguendo l'alimentazione intuitiva?
+    - Seguendo l'alimentazione intuitiva si può perdere peso senza fare sport?
+    - È possibile dimagrire senza fare esercizio fisico con l'alimentazione intuitiva?
+    - Posso perdere peso senza fare esercizio fisico con l'alimentazione intuitiva?
+    - L'alimentazione intuitiva può portare alla perdita di peso senza esercizio fisico?
+    - Si può perdere peso solo con l'alimentazione intuitiva, senza fare esercizio fisico?
+    - Senza fare attività fisica, si può comunque dimagrire con l'alimentazione intuitiva?
+    - L'alimentazione intuitiva funziona per dimagrire senza esercizio fisico?
+    - Si può dimagrire senza fare esercizio fisico seguendo l'approccio dell'alimentazione intuitiva?
+    - L'alimentazione intuitiva è adatta per dimagrire senza esercizio fisico?
+
+- intent: rischi_diete_restrittive
+  examples: |
+    - Quali sono i rischi delle diete restrittive?
+    - Quali sono le conseguenze delle diete restrittive?
+    - Cosa succede al nostro corpo quando seguiamo diete restrittive?
+    - Le diete restrittive possono essere pericolose per la salute?
+    - Come le diete restrittive possono influire sulla nostra salute?
+    - Quali sono i potenziali effetti collaterali delle diete restrittive?
+    - Le diete restrittive possono causare danni all'organismo?
+    - Cosa succede quando si segue una dieta restrittiva per troppo tempo?
+    - Quali sono le conseguenze delle diete restrittive a lungo termine?
+    - Come le diete restrittive possono influire sul nostro benessere psicofisico?
+
+- intent: ask_prevent_eating_disorders
+  examples: |
+    - L'alimentazione intuitiva può aiutare a prevenire i disturbi alimentari?
+    - La pratica dell'alimentazione intuitiva può prevenire i disturbi alimentari?
+    - L'alimentazione intuitiva è efficace per prevenire i disturbi alimentari?
+    - Posso prevenire i disturbi alimentari seguendo l'alimentazione intuitiva?
+    - L'alimentazione intuitiva è utile per prevenire i disturbi alimentari?
+    - Cosa posso fare per prevenire i disturbi alimentari con l'alimentazione intuitiva?
+    - In che modo l'alimentazione intuitiva aiuta a prevenire i disturbi alimentari?
+    - La pratica dell'alimentazione intuitiva può essere una strategia per prevenire i disturbi alimentari?
+    - Quali sono i vantaggi dell'alimentazione intuitiva nella prevenzione dei disturbi alimentari?
+    - L'alimentazione intuitiva può essere un approccio per prevenire i disturbi alimentari?
