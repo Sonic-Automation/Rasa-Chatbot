@@ -2,7 +2,3091 @@ version: "3.1"
 
 rules:
 
-- rule: Say "I am a bot" anytime the user challenges
+- rule: Say 'I am a bot' anytime the user challenges
   steps:
   - intent: bot_challenge
   - action: utter_bot_challenge
+
+- rule: Quali sono le proteine grasse?
+  steps:
+  - intent: proteine_grasse
+  - action: utter_proteine_grasse
+
+- rule: Come vanno abbinati gli alimenti proteici?
+  steps:
+  - intent: abbinamento_proteine
+  - action: utter_abbinamento_proteine
+
+- rule: Diventare vegani è costoso?
+  steps:
+  - intent: costo_diventare_vegani
+  - action: utter_costo_diventare_vegani
+
+- rule: Perché ho sempre fame?
+  steps:
+  - intent: fame
+  - action: utter_fame
+
+- rule: Come posso aumentare il valore degli alimenti vegetali nella mia dieta?
+  steps:
+  - intent: valore_alimenti_vegetali
+  - action: utter_valore_alimenti_vegetali
+
+# Copia di Q&A-da 6 a 10
+
+- rule: È normale sentirsi gonfi all’inizio della transizione vegana?
+  steps:
+  - intent: gonfiore_inizio_transizione_vegana
+  - action: utter_gonfiore_inizio_transizione_vegana
+
+- rule: Come e quanto deve essere completa un’alimentazione vegana, per essere buona?
+  steps:
+  - intent: completezza_alimentazione_vegana
+  - action: utter_completezza_alimentazione_vegana
+
+- rule: Quali sono le proteine grasse?
+  steps:
+  - intent: proteine_grasse
+  - action: utter_proteine_grasse
+
+- rule: Quali sono gli aspetti tecnici da definire per una dieta vegana equilibrata?
+  steps:
+  - intent: aspetti_tecnici
+  - action: utter_aspetti_tecnici
+
+- rule: Devono per forza esistere alimenti di serie A e B nella dieta vegana?
+  steps:
+  - intent: alimenti_serie_a_b
+  - action: utter_alimenti_serie_a_b
+
+- rule: Esiste un pasto bilanciato?
+  steps:
+  - intent: pasto_bilanciato
+  - action: utter_pasto_bilanciato
+
+- rule: Cosa ne pensi dell'Healthy every size?
+  steps:
+  - intent: healthy_every_size
+  - action: utter_healthy_every_size
+
+- rule: Mi esce molta aria che ho in pancia. È normale?
+  steps:
+  - intent: aria_in_pancia
+  - action: utter_aria_in_pancia
+
+- rule: Legumi + verdure va bene?
+  steps:
+  - intent: legumi_verdure
+  - action: utter_legumi_verdure
+
+- rule: Qual è l'orario migliore per allenarsi?
+  steps:
+  - intent: orario_migliore_allenarsi
+  - action: utter_orario_migliore_allenarsi
+
+# VSS cap 1 - 3
+- rule: Chi è l'EFSA?
+  steps:
+  - intent: info_efsa
+  - action: utter_info_efsa
+
+- rule: Quale studio ha pubblicato l'EFSA riguardo la vitamina B12?
+  steps:
+  - intent: studio_vitamina_b12
+  - action: utter_studio_vitamina_b12
+
+- rule: Perché c'è una carenza di vitamina D?
+  steps:
+  - intent: carenza_vitamina_d
+  - action: utter_carenza_vitamina_d
+
+- rule: Le diete vegetariane sono prive di alcune vitamine importanti?
+  steps:
+  - intent: dieta_vegetale_vitamine
+  - action: utter_dieta_vegetale_vitamine
+
+- rule: Perché l'iodio è stato aggiunto al sale da cucina?
+  steps:
+  - intent: iodio_sale
+  - action: utter_iodio_sale
+
+- rule: cQual è la percentuale della popolazione mondiale afflitta da carenza di vitamina D
+  steps:
+  - intent: carenza_vitamina_d_percentuale
+  - action: utter_carenza_vitamina_d_percentuale
+
+- rule: Quali sono i detrattori principali delle diete vegetali?
+  steps:
+  - intent: detrattori_diete_vegetali
+  - action: utter_detrattori_diete_vegetali
+
+- rule: Quali sono le conseguenze di una dieta carente di Omega 3 a lunga catena?
+  steps:
+  - intent: conseguenze_dieta_omega3
+  - action: utter_conseguenze_dieta_omega3
+
+- rule: Perché bisognerebbe evitare di stabilire se un'alimentazione è adatta o meno solo sulla base delle carenze nutrizionali?
+  steps:
+  - intent: evitare_giudizi_dieta
+  - action: utter_evitare_giudizi_dieta
+
+- rule: Quale sarebbe il modo più sensato per valutare se un'alimentazione è adatta o meno per l'essere umano?
+  steps:
+  - intent: valutare_alimentazione
+  - action: utter_valutare_alimentazione
+
+- rule: Qual è l'impatto della dieta vegana sulla salute?
+  steps:
+  - intent: impatto_dieta_vegana
+  - action: utter_impatto_dieta_vegana
+
+- rule: La dieta vegana è semplice d impostare come una dieta onnivora?
+  steps:
+  - intent: difficolta_dieta_vegana
+  - action: utter_difficolta_dieta_vegana
+
+- rule: Quali sono le principali differenze tra una dieta vegana, vegetariana e onnivora?
+  steps:
+  - intent: differenze_diete
+  - action: utter_differenze_diete
+
+- rule: È possibile ottenere tutti i nutrienti necessari da una dieta vegana?
+  steps:
+  - intent: possibilita_nutrienti_dieta_vegana
+  - action: utter_possibilita_nutrienti_dieta_vegana
+
+- rule: Quali sono i principali problemi nella scelta di un'alimentazione vegana?
+  steps:
+  - intent: problemi_scelta_alimentazione_vegana
+  - action: utter_problemi_scelta_alimentazione_vegana
+
+- rule: Quali sono le differenze principali tra alimentazione vegana, vegetariana e onnivora?
+  steps:
+  - intent: differenze_alimentazioni
+  - action: utter_differenze_alimentazioni
+
+- rule: Quali sono i principali vantaggi della dieta vegana per la salute?
+  steps:
+  - intent: vantaggi_dieta_vegana
+  - action: utter_vantaggi_dieta_vegana
+
+- rule: In che modo la scelta di una dieta vegana influisce sul bilancio nutrizionale dei nutrienti?
+  steps:
+  - intent: bilancio_nutrizionale_dieta_vegana
+  - action: utter_bilancio_nutrizionale_dieta_vegana
+
+- rule: Quali sono le difficoltà principali nell'ottenere una dieta vegetale bilanciata?
+  steps:
+  - intent: difficolta_bilanciare_dieta_vegetale
+  - action: utter_difficolta_bilanciare_dieta_vegetale
+
+- rule: Qual è la principale distorsione statistica negli studi scientifici sulla dieta vegana?
+  steps:
+  - intent: distorsione_statistica_studi_dieta_vegana
+  - action: utter_distorsione_statistica_studi_dieta_vegana
+
+- rule: Qual è il problema principale nella dieta vegana per quanto riguarda la sostenibilità?
+  steps:
+  - intent: problema_dieta_vegana_sostenibilità
+  - action: utter_problema_dieta_vegana_sostenibilità
+#VSS cap 1 - conclusioni
+
+- rule: Quali sono le principali preoccupazioni riguardo alle diete vegetariane per la salute?
+  steps:
+  - intent: preoccupazioni_dieta_vegetariana_salute
+  - action: utter_preoccupazioni_dieta_vegetariana_salute
+
+- rule: Ha detto l'WHO che le diete vegetariane sono salutari?
+  steps:
+  - intent: parere_WHO_diete_vegetariane
+  - action: utter_parere_WHO_diete_vegetariane
+
+- rule: Quali sono i gruppi di popolazione per i quali potrebbe essere più rischioso seguire una dieta vegana?
+  steps:
+  - intent: gruppi_rischio_dieta_vegana
+  - action: utter_gruppi_rischio_dieta_vegana
+
+- rule: Come posso prevenire le carenze nutrizionali in una dieta vegana?
+  steps:
+  - intent: evitare_carenze_dieta_vegana
+  - action: utter_evitare_carenze_dieta_vegana
+
+- rule: È possibile evitare completamente le carenze nutrizionali con una dieta vegana?
+  steps:
+  - intent: rischio_carenze_dieta_vegana
+  - action: utter_rischio_carenze_dieta_vegana
+
+- rule: È consigliabile seguire una dieta vegana senza la supervisione di un professionista?
+  steps:
+  - intent: consiglio_supervisione_professionale_dieta_vegana
+  - action: utter_consiglio_supervisione_professionale_dieta_vegana
+
+- rule: Quali sono le carenze nutrizionali più comuni in una dieta vegana?
+  steps:
+  - intent: carenze_nutrizionali_dieta_vegana
+  - action: utter_carenze_nutrizionali_dieta_vegana
+
+- rule: È possibile seguire una dieta vegetariana correttamente bilanciata per ridurre al minimo il rischio di carenze nutrizionali?
+  steps:
+  - intent: dieta_vegetariana_bilanciata
+  - action: utter_dieta_vegetariana_bilanciata
+
+- rule: Chi dovrebbe supervisionare la dieta di una donna incinta o di un individuo con patologie?
+  steps:
+  - intent: supervisione_dieta_particolari
+  - action: utter_supervisione_dieta_particolari
+
+#VSS cap 1 - sport
+- rule: Quali sono gli sport in cui si sta verificando un aumento di atleti vegetariani e vegani?
+  steps:
+  - intent: sport_atleti_vegetariani_vegani 
+  - action: utter_sport_atleti_vegetariani_vegani 
+
+- rule: È stato dimostrato che esiste una differenza nella prestazione atletica tra onnivori e vegani?
+  steps:
+  - intent: differenze_prestazione_atletica
+  - action: utter_differenze_prestazione_atletica
+
+- rule: E' possibile osservare la presenza di atleti vegetariani e vegani ai vertici dello sport?
+  steps:
+  - intent: atleti_vegetariani_e_vegani
+  - action: utter_atleti_vegetariani_e_vegani
+
+- rule: È necessaria la supervisione di un medico per gli atleti vegani?
+  steps:
+  - intent: supervisione_medica_atleti_vegani
+  - action: utter_supervisione_medica_atleti_vegani
+
+- rule: Esiste una relazione tra una dieta correttamente programmata e la prestazione atletica?
+  steps:
+  - intent: relazione_dieta_prestazione_atletica
+  - action: utter_relazione_dieta_prestazione_atletica
+
+# VSS cap 3-2 
+
+- rule: Quale motivo causa il fatto che molte persone ingrassino, dimagriscano troppo o sviluppino carenze nutrizionali nonostante il nostro organismo abbia un sistema di autoregolazione?
+  steps:
+  - intent: cause_weight_nutrition_issues
+  - action: utter_cause_weight_nutrition_issues
+
+- rule: Quali sono stati questi cambiamenti che hanno influito sulla autoregolazione del nostro organismo?
+  steps:
+  - intent: ask_autoregulation_changes
+  - action: utter_ask_autoregulation_changes
+
+- rule: In passato, come veniva compensata l'assunzione calorica derivata dal cibo?
+  steps:
+  - intent: ask_compensation_in_past
+  - action: utter_ask_compensation_in_past
+
+- rule: Perché in passato c'era una quantità limitata di cibo?
+  steps:
+  - intent: why_food_scarcity
+  - action: utter_why_food_scarcity
+
+- rule: Perché in passato il cibo era meno raffinato di oggi?
+  steps:
+  - intent: why_food_less_refined
+  - action: utter_why_food_less_refined
+
+- rule: In che modo i cibi raffinati influiscono sulla autoregolazione del nostro organismo?
+  steps:
+  - intent: refined_food_impact_on_self_regulation
+  - action: utter_refined_food_impact_on_self_regulation
+
+- rule: Qual è il motivo per cui gli alimenti conditi spingono a mangiare anche quando non ne abbiamo più bisogno?
+  steps:
+  - intent: seasoned_food_overeating
+  - action: utter_seasoned_food_overeating
+
+- rule: Che cos'è l'alimentazione intuitiva?
+  steps:
+  - intent: what_is_intuitive_eating
+  - action: utter_what_is_intuitive_eating
+
+- rule: Perché molte persone hanno problemi di sovrappeso, dimagrimento eccessivo o carenze nutrizionali nonostante l'alimentazione intuitiva?
+  steps:
+  - intent: issues_with_intuitive_eating
+  - action: utter_issues_with_intuitive_eating
+
+- rule: Quali sono i cambiamenti avvenuti negli ultimi secoli che hanno influito sull'alimentazione intuitiva?
+  steps:
+  - intent: changes_in_intuitive_eating
+  - action: utter_changes_in_intuitive_eating
+
+- rule: Come ha influito la mancanza di movimento e sforzo fisico sull'alimentazione intuitiva?
+  steps:
+  - intent: sedentary_lifestyle_and_intuitive_eating
+  - action: utter_sedentary_lifestyle_and_intuitive_eating
+
+- rule: Come ha influito la quantità illimitata di cibo sull'alimentazione intuitiva?
+  steps:
+  - intent: unlimited_food_and_intuitive_eating
+  - action: utter_unlimited_food_and_intuitive_eating
+
+- rule: Che cosa significa che il cibo non era raffinato in passato?
+  steps:
+  - intent: unrefined_food_definition
+  - action: utter_unrefined_food_definition
+
+- rule: Che effetto ha la raffinazione del cibo sui meccanismi di autoregolazione del corpo?
+  steps:
+  - intent: refined_food_effects
+  - action: utter_refined_food_effects
+
+- rule: Qual è il motivo per cui molte persone ingrassano o sviluppano carenze nutrizionali nonostante il sistema di autoregolazione del nostro organismo?
+  steps:
+  - intent: regulation_system_issues
+  - action: utter_regulation_system_issues
+
+- rule: Cosa sono questi cambiamenti avvenuti negli ultimi secoli?
+  steps:
+  - intent: changes_last_centuries
+  - action: utter_changes_last_centuries
+
+- rule: Perché il cibo raffinato può essere negativo per la salute?
+  steps:
+  - intent: refined_food_negative_health
+  - action: utter_refined_food_negative_health
+
+- rule: Esistono animali obesi in natura?
+  steps:
+  - intent: obese_animals_in_nature
+  - action: utter_obese_animals_in_nature
+
+- rule: Come influisce lo stile di vita dell'uomo sulla salute degli animali?
+  steps:
+  - intent: impact_human_lifestyle_on_animal_health
+  - action: utter_impact_human_lifestyle_on_animal_health
+
+- rule: Perché il nostro cervello non riesce a adattarsi ai cambiamenti nello stile di vita e nel cibo disponibile?
+  steps:
+  - intent: brain_unable_to_adapt_to_lifestyle_changes
+  - action: utter_brain_unable_to_adapt_to_lifestyle_changes
+
+- rule: Qual è la relazione tra l'affamamento e il cibo disponibile?
+  steps:
+  - intent: relationship_between_hunger_and_food
+  - action: utter_relationship_between_hunger_and_food
+
+- rule: In che modo il nostro organismo si autoregola?
+  steps:
+  - intent: self-regulation_of_our_body
+  - action: utter_self-regulation_of_our_body
+
+- rule: Quali sono le cause dell'accumulo di grasso corporeo nonostante una dieta sana?
+  steps:
+  - intent: reasons_for_weight_fluctuations_and_nutritional_deficiencies
+  - action: utter_reasons_for_weight_fluctuations_and_nutritional_deficiencies
+
+- rule: Quali sono i cambiamenti che hanno influito sui meccanismi di autoregolazione del nostro organismo?
+  steps:
+  - intent: regulatory_system_changes
+  - action: utter_regulatory_system_changes
+
+- rule: In che modo la quantità di cibo era limitata in passato?
+  steps:
+  - intent: limitazione_cibo_passato
+  - action: utter_limitazione_cibo_passato
+
+- rule: Perché il cibo raffinato è un problema per i meccanismi di autoregolazione del nostro organismo?
+  steps:
+  - intent: problema_cibo_raffinato_meccanismi_autoregolazione
+  - action: utter_problema_cibo_raffinato_meccanismi_autoregolazione
+
+- rule: Quali sono gli alimenti che rientrano nella categoria dei cibi ricchi di carboidrati?
+  steps:
+  - intent: alimenti_carboidrati
+  - action: utter_alimenti_carboidrati
+
+- rule: Quali sono gli alimenti che rientrano nella categoria dei cibi ricchi di proteine?
+  steps:
+  - intent: alimenti_ricchi_proteine
+  - action: utter_alimenti_ricchi_proteine
+
+- rule: Quali sono gli alimenti che rientrano nella categoria dei cibi ricchi di grassi?
+  steps:
+  - intent: alimenti_ricchi_di_grassi
+  - action: utter_alimenti_ricchi_di_grassi
+
+- rule: Quali sono gli alimenti che rientrano nella categoria dei cibi a bassa densità calorica?
+  steps:
+  - intent: cibi_bassa_densita_calorica
+  - action: utter_cibi_bassa_densita_calorica
+
+- rule: Come vengono espressi le porzioni di ogni categoria alimentare?
+  steps:
+  - intent: espressione_porzioni_alimentari
+  - action: utter_espressione_porzioni_alimentari
+
+- rule: È necessario pesare ogni volta il cibo per seguire le categorie alimentari?
+  steps:
+  - intent: pesare_cibo
+  - action: utter_pesare_cibo
+
+- rule: Esiste un modo più semplice per calcolare le porzioni di ogni categoria alimentare?
+  steps:
+  - intent: calcolo_porzioni
+  - action: utter_calcolo_porzioni
+
+- rule: Perché è importante usare le categorie alimentari per la propria alimentazione?
+  steps:
+  - intent: importanza_categorie_alimentari
+  - action: utter_importanza_categorie_alimentari
+
+- rule: Quali sono le categorie alimentari e quali alimenti rientrano in ognuna?
+  steps:
+  - intent: categorie_alimentari
+  - action: utter_categorie_alimentari
+
+- rule: Come viene espressa la porzione di ogni categoria alimentare?
+  steps:
+  - intent: espressione_porzioni_categoria_alimentare
+  - action: utter_espressione_porzioni_categoria_alimentare
+
+- rule: È necessario pesare ogni volta il cibo per seguire le categorie alimentari?
+  steps:
+  - intent: pesare_alimenti
+  - action: utter_pesare_alimenti
+
+- rule: Quali sono i vantaggi dell’uso delle categorie alimentari?
+  steps:
+  - intent: vantaggi_categorie_alimentari
+  - action: utter_vantaggi_categorie_alimentari
+
+- rule: Quali sono i requisiti per seguire le categorie alimentari?
+  steps:
+  - intent: requisiti_categorie_alimentari
+  - action: utter_requisiti_categorie_alimentari
+#VSS cap 3 - 3
+- rule: Qual è il margine di errore nell'utilizzo delle categorie alimentari per monitorare l'apporto calorico e dei macronutrienti?
+  steps:
+  - intent: error_margin_categories
+  - action: utter_error_margin_categories 
+
+- rule: Perché ci sono differenze nella composizione degli alimenti all'interno della stessa categoria?
+  steps:
+  - intent: food_category_differences
+  - action: utter_food_category_differences
+
+- rule: Qual è l'esempio citato nel testo per illustrare le differenze nella composizione dei cibi proteici?
+  steps:
+  - intent: example_protein_differences
+  - action: utter_example_protein_differences
+
+- rule: Come posso essere preciso nella mia nutrizione?
+  steps:
+  - intent: precision_nutrition
+  - action: utter_precision_nutrition
+
+- rule: Cos'è un conta-calorie?
+  steps:
+  - intent: define_count_calories
+  - action: utter_define_count_calories
+
+- rule: Perché usare il conta-calorie per brevi periodi di tempo?
+  steps:
+  - intent: calorie_counter
+  - action: utter_calorie_counter
+
+- rule: Quali sono le migliori app per il conteggio delle calorie?
+  steps:
+  - intent: food_tracking_tools
+  - action: utter_food_tracking_tools
+
+- rule: Quali sono i vantaggi dell'utilizzo di un diario alimentare?
+  steps:
+  - intent: food_tracking_benefits
+  - action: utter_food_tracking_benefits
+
+- rule: Come posso rendere sostenibile l'utilizzo di un diario alimentare?
+  steps:
+  - intent: sustainable_food_tracking
+  - action: utter_sustainable_food_tracking
+
+- rule: Dove posso trovare un tutorial video su come usare un'app di diario alimentare?
+  steps:
+  - intent: food_tracking_tutorial
+  - action: utter_food_tracking_tutorial
+
+- rule: Quali informazioni si possono ottenere da un diario alimentare?
+  steps:
+  - intent: food_diary_info
+  - action: utter_food_diary_info
+
+- rule: Cosa significa "dieta flessibile"?
+  steps:
+  - intent: flexible_dieting
+  - action: utter_flexible_dieting
+
+- rule: In che modo i conta-calorie possono aiutare a raggiungere un obiettivo alimentare?
+  steps:
+  - intent: calorie_tracking_benefits
+  - action: utter_calorie_tracking_benefits
+
+- rule: Perché è importante conoscere le fonti alimentari?
+  steps:
+  - intent: importance_of_knowing_sources
+  - action: utter_importance_of_knowing_sources
+
+- rule: Cosa significa TDEE?
+  steps:
+  - intent: tdee_definition
+  - action: utter_tdee_definition
+
+- rule: tdee_calculator_with_food_diary
+  steps:
+  - intent: tdee_calculator_with_food_diary
+  - action: utter_tdee_calculator_with_food_diary
+
+- rule: Quali sono le migliori app per il diario alimentare?
+  steps:
+  - intent: food_tracking_apps
+  - action: utter_food_tracking_apps
+
+- rule: Quali sono i vantaggi e gli svantaggi dei diari alimentari?
+  steps:
+  - intent: pros_and_cons_of_food_diaries
+  - action: utter_pros_and_cons_of_food_diaries
+
+- rule: Come posso rendere sostenibile l'utilizzo del diario alimentare?
+  steps:
+  - intent: sustainable_food_diary
+  - action: utter_sustainable_food_diary
+# VSS cap 3-4
+
+- rule: Cosa sono le proteine in polvere e come vengono ottenute?
+  steps:
+  - intent: protein_powder_definition
+  - action: utter_protein_powder_definition
+
+- rule: Le proteine in polvere possono causare danni all'organismo?
+  steps:
+  - intent: protein_powder_harmful
+  - action: utter_protein_powder_harmful
+
+- rule: Quali sono i problemi legati ai cibi raffinati e processati?
+  steps:
+  - intent: processed_foods_problems
+  - action: utter_processed_foods_problems
+
+- rule: Quali sono le conseguenze dell'assunzione eccessiva di cibi raffinati e processati?
+  steps:
+  - intent: processed_foods_consequences
+  - action: utter_processed_foods_consequences
+
+- rule: Come posso capire se sto esagerando con i cibi raffinati?
+  steps:
+  - intent: processed_foods_overconsumption
+  - action: utter_processed_foods_overconsumption
+
+- rule: Quali sono gli alimenti raffinati che dovrei evitare?
+  steps:
+  - intent: refined_foods_to_avoid
+  - action: utter_refined_foods_to_avoid
+
+- rule: I cibi raffinati sono sempre malsani?
+  steps:
+  - intent: refined_foods_healthiness
+  - action: utter_refined_foods_healthiness
+
+- rule: Come posso ottenere i nutrienti di cui ho bisogno se evito i cibi raffinati?
+  steps: 
+  - intent: getting_nutrients_without_refined_foods
+  - action: utter_getting_nutrients_without_refined_foods
+
+- rule: Come posso migliorare la qualità della mia alimentazione?
+  steps:
+  - intent: improving_diet_quality
+  - action: utter_improving_diet_quality
+
+- rule: Quali sono i benefici di una dieta a base di cibi integrali?
+  steps:
+  - intent: benefits_of_whole_foods
+  - action: utter_benefits_of_whole_foods
+
+- rule: Come posso scegliere cibi di alta qualità?
+  steps:
+  - intent: high_quality_foods
+  - action: utter_high_quality_foods
+
+- rule: Ci sono abbastanza proteine nei cibi non raffinati per soddisfare le esigenze di un atleta?
+  steps:
+  - intent: protein_intake_from_whole_foods
+  - action: utter_protein_intake_from_whole_foods
+
+- rule: Quali sono i cibi raffinati più comuni nella dieta occidentale?
+  steps:
+  - intent: common_refined_foods
+  - action: utter_common_refined_foods
+
+- rule: È possibile mangiare cibi raffinati occasionalmente?
+  steps:
+  - intent: occasional_refined_food
+  - action: utter_occasional_refined_food
+
+- rule: Quali sono gli effetti dell'assunzione eccessiva di proteine in polvere?
+  steps:
+  - intent: protein_powder_effects
+  - action: utter_protein_powder_effects
+
+- rule: Quali sono gli effetti dell'assunzione eccessiva di cibi raffinati sulla salute?
+  steps:
+  - intent: health_effects_refined_foods
+  - action: utter_health_effects_refined_foods
+
+- rule: Posso sostituire i pasti con le proteine in polvere?
+  steps:
+  - intent: protein_powder_as_meal_replacement
+  - action: utter_protein_powder_as_meal_replacement
+
+- rule: Quali sono gli effetti dell'assunzione eccessiva di zuccheri raffinati sulla salute?
+  steps:
+  - intent: refined_sugar_effects
+  - action: utter_refined_sugar_effects
+
+- rule: Posso utilizzare le proteine in polvere come integratore?
+  steps:
+  - intent: protein_powder
+  - action: utter_protein_powder
+
+- rule: Quali sono gli effetti dell'assunzione eccessiva di alimenti raffinati sulla salute dei bambini?
+  steps:
+  - intent: refined_foods_children_health_effects
+  - action: utter_refined_foods_children_health_effects
+
+- rule: Quali sono le alternative ai cibi raffinati per uno spuntino veloce?
+  steps:
+  - intent: whole_food_snacks
+  - action: utter_whole_food_snacks
+
+- rule: Quali sono gli effetti dell'assunzione eccessiva di alimenti fritti sulla salute?
+  steps:
+  - intent: health_effects_fried_foods
+  - action: utter_health_effects_fried_foods
+
+ # VSS cap 4-1
+- rule: Qual è il fattore principale che determina se guadagniamo o perdiamo peso?
+  steps:
+  - intent: weight_loss_factor
+  - action: utter_weight_loss_factor
+  
+- rule: Che cosa fa il nostro cervello per difenderci dai cambiamenti di peso?
+  steps:
+  - intent: weight_change_response
+  - action: utter_weight_change_response
+  
+- rule: Perché può essere più difficile dimagrire che ingrassare?
+  steps:
+  - intent: weight_loss_challenges
+  - action: utter_weight_loss_challenges
+  
+- rule: Come possiamo sfruttare al meglio la parte che funziona dei meccanismi di autoregolazione?
+  steps:
+  - intent: self_regulation_optimization
+  - action: utter_self_regulation_optimization
+  
+- rule: Cosa succede se mangiamo troppo durante i pasti principali?
+  steps:
+  - intent: overeating_consequences
+  - action: utter_overeating_consequences
+  
+- rule: Cosa dovremmo fare durante i pasti principali per evitare di mangiare troppo?
+  steps:
+  - intent: avoiding_overeating_main_meals
+  - action: utter_avoiding_overeating_main_meals
+  
+- rule: Perché i pasti secondari possono essere utili per la gestione del peso?
+  steps:
+  - intent: benefits_of_small_meals_weight_management
+  - action: utter_benefits_of_small_meals_weight_management
+  
+- rule: Cosa dovremmo mangiare durante i pasti secondari?
+  steps:
+  - intent: recommended_foods_small_meals
+  - action: utter_recommended_foods_small_meals
+  
+- rule: Cosa succede se mangiamo troppo durante i pasti secondari?
+  steps:
+  - intent: consequences_of_overeating_small_meals
+  - action: utter_consequences_of_overeating_small_meals
+  
+- rule: Quali sono le strategie che possiamo utilizzare per sfruttare al meglio i pasti secondari? 
+  steps:
+  - intent: optimizing_small_meals
+  - action: utter_optimizing_small_meals
+  
+- rule: Qual è il ruolo dell'attività fisica nella gestione del peso?
+  steps:
+  - intent: physical_activity_for_weight_management
+  - action: utter_physical_activity_for_weight_management
+  
+- rule: Quante calorie dovrei mangiare al giorno per mantenere un peso sano?
+  steps:
+  - intent: calorie_intake_for_healthy_weight
+  - action: utter_calorie_intake_for_healthy_weight
+  
+- rule: Quali sono gli alimenti che dovrei evitare per mantenere un peso sano?
+  steps:
+  - intent: foods_to_avoid_for_healthy_weight
+  - action: utter_foods_to_avoid_for_healthy_weight
+  
+- rule: Quali sono gli alimenti che dovrei scegliere per mantenere un peso sano?
+  steps:
+  - intent: foods_to_choose_for_healthy_weight
+  - action: utter_foods_to_choose_for_healthy_weight
+  
+- rule: Come posso ridurre le calorie durante i pasti principali?
+  steps:
+  - intent: reduce_calories_during_main_meals
+  - action: utter_reduce_calories_during_main_meals
+  
+- rule: Quali sono i benefici per la salute di mantenere un peso sano?
+  steps:
+  - intent: health_benefits_of_maintaining_a_healthy_weight
+  - action: utter_health_benefits_of_maintaining_a_healthy_weight
+  
+- rule: Quali sono i modi per evitare di mangiare troppo durante i pasti principali?
+  steps:
+  - intent: avoid_overeating_during_main_meals
+  - action: utter_avoid_overeating_during_main_meals
+  
+- rule: Come posso trovare la motivazione per seguire uno stile di vita sano?
+  steps:
+  - intent: motivation_for_healthy_lifestyle
+  - action: utter_motivation_for_healthy_lifestyle
+  
+- rule: Quali sono i benefici dell'acqua per la gestione del peso?
+  steps:
+  - intent: benefits_of_water_for_weight_management
+  - action: utter_benefits_of_water_for_weight_management
+  
+- rule: Quali sono le conseguenze dell'essere sottopeso?
+  steps:
+  - intent: consequences_of_being_underweight
+  - action: utter_consequences_of_being_underweight
+  
+- rule: Quali sono le conseguenze dell'essere sovrappeso?
+  steps:
+  - intent: consequences_of_being_overweight
+  - action: utter_consequences_of_being_overweight
+  
+- rule: Qual è il ruolo dell'equilibrio calorico nella gestione del peso?
+  steps:
+  - intent: role_of_caloric_balance_in_weight_management
+  - action: utter_role_of_caloric_balance_in_weight_management
+  
+- rule: Come possiamo monitorare la quantità di calorie che assumiamo?
+  steps:
+  - intent: monitoring_caloric_intake
+  - action: utter_monitoring_caloric_intake
+  
+- rule: Quali sono le conseguenze dell'essere in sovrappeso durante la gravidanza?
+  steps:
+  - intent: consequences_of_overweight_during_pregnancy
+  - action: utter_consequences_of_overweight_during_pregnancy
+  
+- rule: Quali sono le conseguenze dell'essere sottopeso durante la gravidanza?
+  steps:
+  - intent: consequences_of_underweight_during_pregnancy
+  - action: utter_consequences_of_underweight_during_pregnancy
+  
+- rule: Quali sono i benefici dell'attività fisica per la gestione del peso durante la gravidanza?
+  steps:
+  - intent: benefits_of_exercise_for_weight_management_during_pregnancy
+  - action: utter_benefits_of_exercise_for_weight_management_during_pregnancy
+  
+- rule: Come possiamo gestire la perdita di peso dopo la gravidanza?
+  steps:
+  - intent: managing_postpartum_weight_loss
+  - action: utter_managing_postpartum_weight_loss
+  
+- rule: Quali sono le regole per comporre i pasti principali nell'alimentazione intuitiva?
+  steps:
+  - intent: rules_for_composing_main_meals_in_intuitive_eating
+  - action: utter_rules_for_composing_main_meals_in_intuitive_eating
+  
+- rule: Cosa si intende per cibi a basso contenuto calorico nei pasti principali dell'alimentazione intuitiva?
+  steps:
+  - intent: low_calorie_foods_in_intuitive_eating
+  - action: utter_low_calorie_foods_in_intuitive_eating
+  
+- rule: Quali verdure sono consigliate nell'alimentazione intuitiva per i pasti principali?
+  steps:
+  - intent: recommended_vegetables_in_intuitive_eating
+  - action: utter_recommended_vegetables_in_intuitive_eating
+  
+- rule: Come posso variare nell'alimentazione intuitiva per i pasti principali?
+  steps:
+  - intent: variety_in_intuitive_eating_main_meals
+  - action: utter_variety_in_intuitive_eating_main_meals
+  
+- rule: Quali sono i cibi a medio/alto contenuto calorico che posso includere nei pasti principali dell'alimentazione intuitiva?
+  steps:
+  - intent: moderate_high_calorie_intuitive_eating_main_meals
+  - action: utter_moderate_high_calorie_intuitive_eating_main_meals
+  
+- rule: Quali cibi a medio/alto contenuto calorico devo scegliere se voglio dimagrire?
+  steps:
+  - intent: intuitive_eating_calorie_choice_based_on_goals
+  - action: utter_intuitive_eating_calorie_choice_based_on_goals
+  
+- rule:  Quali sono le regole per comporre i pasti secondari nell'alimentazione intuitiva?
+  steps:
+  - intent: intuitive_eating_composing_side_meals_rules
+  - action: utter_intuitive_eating_composing_side_meals_rules
+  
+- rule: Cosa si intende per cibi a basso contenuto calorico nei pasti secondari dell'alimentazione intuitiva?
+  steps:
+  - intent: intuitive_eating_low_calorie_foods_side_meals
+  - action: utter_intuitive_eating_low_calorie_foods_side_meals
+  
+- rule: Quali sono i principi fondamentali dell'alimentazione intuitiva?
+  steps:
+  - intent: principi_alimentazione_intuitiva
+  - action: utter_principi_alimentazione_intuitiva
+  
+- rule: Come posso variare i pasti principali nell'alimentazione intuitiva?
+  steps:
+  - intent: variazioni_pastiprincipali_alimentazione_intuitiva
+  - action: utter_variazioni_pastiprincipali_alimentazione_intuitiva
+  
+- rule: Quali cibi a medio/alto contenuto calorico posso mangiare nell'alimentazione intuitiva?
+  steps:
+  - intent: food_options
+  - action: utter_food_options
+  
+- rule: Come posso bilanciare il pasto con cibi ad alto contenuto calorico e a basso contenuto calorico?
+  steps:
+  - intent: meal_balance
+  - action: utter_meal_balance
+  
+- rule: Come bilanciare i pasti secondari nell'alimentazione intuitiva?
+  steps:
+  - intent: bilanciare_pasti_secondari
+  - action: utter_bilanciare_pasti_secondari
+  
+- rule: Quali sono le regole per scegliere cibi a medio/alto contenuto calorico nei pasti principali?
+  steps:
+  - intent: rules_high_calorie_foods_main_meals
+  - action: utter_rules_high_calorie_foods_main_meals
+  
+- rule: Quali sono i cibi a basso contenuto calorico che posso mangiare per pranzo?
+  steps:
+  - intent: low_calorie_food_options
+  - action: utter_low_calorie_food_options
+  
+- rule: Come posso bilanciare i pasti secondari dell'alimentazione intuitiva se voglio mangiare cibo spazzatura?
+  steps:
+  - intent: balance_junk_food_with_healthy_options
+  - action: utter_balance_junk_food_with_healthy_options
+  
+- rule: Come posso capire se sto bilanciando correttamente le due parti del pasto nell'alimentazione intuitiva?
+  steps:
+  - intent: assessing_balance_of_meals
+  - action: utter_assessing_balance_of_meals
+  
+- rule: Come posso variare i pasti secondari nell'alimentazione intuitiva?
+  steps:
+  - intent: varying_secondary_meals
+  - action: utter_varying_secondary_meals
+  
+- rule: Quali sono le porzioni consigliate nei pasti principali dell'alimentazione intuitiva?
+  steps:
+  - intent: recommended_portions_main_meals
+  - action: utter_recommended_portions_main_meals
+  
+- rule: Quali sono le porzioni consigliate nei pasti secondari dell'alimentazione intuitiva?
+  steps:
+  - intent: recommended_portions_secondary_meals
+  - action: utter_recommended_portions_secondary_meals
+  
+- rule: Come posso bilanciare i pasti principali e secondari nell'alimentazione intuitiva se voglio perdere peso?
+  steps:
+  - intent: balancing_meals_for_weight_loss
+  - action: utter_balancing_meals_for_weight_loss
+  
+- rule: Quali sono i consigli per bilanciare i pasti principali e secondari nell'alimentazione intuitiva per l'aumento della massa muscolare?
+  steps:
+  - intent: balancing_meals_for_muscle_gain
+  - action: utter_balancing_meals_for_muscle_gain
+  
+- rule: Come posso bilanciare i pasti principali e secondari nell'alimentazione intuitiva per mantenere il mio peso?
+  steps:
+  - intent: balancing_meals_for_weight_maintenance
+  - action: utter_balancing_meals_for_weight_maintenance
+  
+- rule: Quali sono i benefici dell'alimentazione intuitiva per la salute?
+  steps:
+  - intent: benefits_of_intuitive_eating
+  - action: utter_benefits_of_intuitive_eating
+  
+- rule: Quali sono i limiti dell'alimentazione intuitiva?
+  steps:
+  - intent: limitations_of_intuitive_eating
+  - action: utter_limitations_of_intuitive_eating
+  
+- rule: Come posso imparare ad adottare l'alimentazione intuitiva?
+  steps:
+  - intent: learning_intuitive_eating
+  - action: utter_learning_intuitive_eating
+  
+- rule: Qual è il primo consiglio per seguire un' alimentazione intuitiva?
+  steps:
+  - intent: first_tip_intuitive_eating
+  - action: utter_first_tip_intuitive_eating
+  
+- rule: Quali sono i meccanismi di autoregolazione nel nostro corpo?
+  steps:
+  - intent: self_regulation_mechanisms
+  - action: utter_self_regulation_mechanisms
+  
+- rule:  L'alimentazione intuitiva aiuta a dimagrire o aumentare la massa muscolare?
+  steps:
+  - intent: intuitive_eating_weight_management
+  - action: utter_intuitive_eating_weight_management
+  
+- rule: Cosa succede se mangio meno di quello che il mio corpo chiede seguendo l'alimentazione intuitiva?
+  steps:
+  - intent: undereating_intuitive_eating
+  - action: utter_undereating_intuitive_eating
+  
+- rule: Cosa significa la regola 80-20 nell'alimentazione intuitiva?
+  steps:
+  - intent: intuitive_eating_80_20_rule
+  - action: utter_intuitive_eating_80_20_rule
+  
+- rule: Quanto è importante l'apporto proteico nell'alimentazione intuitiva?
+  steps:
+  - intent: intuitive_eating_protein
+  - action: utter_intuitive_eating_protein
+  
+- rule: Chi può seguire l'alimentazione intuitiva?
+  steps:
+  - intent: who_can_follow_intuitive_eating
+  - action: utter_who_can_follow_intuitive_eating
+  
+- rule: Si può dimagrire senza fare esercizio fisico seguendo l'alimentazione intuitiva?
+  steps:
+  - intent: weight_loss_without_exercise
+  - action: utter_weight_loss_without_exercise
+  
+- rule: Quali sono i rischi delle diete restrittive?
+  steps:
+  - intent: rischi_diete_restrittive
+  - action: utter_rischi_diete_restrittive
+  
+- rule: L'alimentazione intuitiva può aiutare a prevenire i disturbi alimentari?
+  steps:
+  - intent: ask_prevent_eating_disorders
+  - action: utter_ask_prevent_eating_disorders
+
+# VSS cap 4-2
+- rule: Qual è la differenza tra perdere peso e dimagrire?
+  steps:
+  - intent: difference_weight_loss
+  - action: utter_difference_weight_loss
+
+- rule: Cosa significa che perdere peso non sempre equivale a dimagrire?
+  steps:
+  - intent: weight_loss_difference
+  - action: utter_weight_loss_difference
+
+- rule: Qual è l'influenza di insulina, ormoni e metabolismo sulla perdita di peso?
+  steps:
+  - intent: weight_loss_factors
+  - action: utter_weight_loss_factors
+
+- rule: Quali sono le conseguenze di una perdita di peso troppo rapida?
+  steps:
+  - intent: rapid_weight_loss_consequences
+  - action: utter_rapid_weight_loss_consequences
+
+- rule: Come posso perdere peso in modo efficace?
+  steps:
+  - intent: weight_loss_methods
+  - action: utter_weight_loss_methods
+
+- rule: Come posso aumentare di peso in modo sano?
+  steps:
+  - intent: weight_gain_methods
+  - action: utter_weight_gain_methods
+
+- rule: Qual è il deficit calorico adeguato per dimagrire?
+  steps:
+  - intent: calorie_deficit_for_weight_loss
+  - action: utter_calorie_deficit_for_weight_loss
+
+- rule: Qual è il surplus calorico consigliato per aumentare la massa muscolare?
+  steps:
+  - intent: calorie_surplus_for_muscle_gain
+  - action: utter_calorie_surplus_for_muscle_gain
+
+- rule: Quali sono i tempi fisiologici della mobilizzazione del grasso dai suoi depositi?
+  steps:
+  - intent: physiological_times_of_fat_mobilization
+  - action: utter_physiological_times_of_fat_mobilization
+
+- rule: Cosa si verifica di solito quando si passa a una dieta vegetale?
+  steps:
+  - intent: effects_of_switching_to_vegetarian_diet
+  - action: utter_effects_of_switching_to_vegetarian_diet
+
+- rule: Quale è il ruolo delle proteine nell'alimentazione?
+  steps:
+  - intent: role_of_proteins_in_nutrition
+  - action: utter_role_of_proteins_in_nutrition
+
+- rule: Quale è il ruolo dei carboidrati nell'alimentazione?
+  steps:
+  - intent: role_of_carbohydrates_in_nutrition
+  - action: utter_role_of_carbohydrates_in_nutrition
+
+- rule: Quale è il ruolo dei grassi nell'alimentazione?
+  steps:
+  - intent: role_of_fats_in_nutrition
+  - action: utter_role_of_fats_in_nutrition
+
+- rule: Quale è il ruolo delle verdure nell'alimentazione?
+  steps:
+  - intent: role_of_vegetables_in_nutrition
+  - action: utter_role_of_vegetables_in_nutrition
+
+- rule: Quale è il ruolo della frutta nell'alimentazione?
+  steps:
+  - intent: role_of_fruit_in_nutrition
+  - action: utter_role_of_fruit_in_nutrition
+
+- rule: Che cosa si intende per approccio basato sulle categorie alimentari?
+  steps:
+  - intent: category-based_approach
+  - action: utter_category-based_approach
+
+- rule: Quali sono le categorie alimentari dell'approccio basato sulle categorie?
+  steps:
+  - intent: food_categories
+  - action: utter_food_categories
+
+- rule: Come posso adattare l'approccio basato sulle categorie alimentari alla mia dieta?
+  steps:
+  - intent: customize_food_categories
+  - action: utter_customize_food_categories
+
+- rule: Come si può capire quanto mangiare?
+  steps:
+  - intent: how_much_to_eat
+  - action: utter_how_much_to_eat
+
+- rule: Come faccio a capire se sto mangiando troppo o troppo poco?
+  steps:
+  - intent: ask_nutrition
+  - action: utter_ask_nutrition
+
+- rule: Quali fattori devo considerare per adattare le porzioni di cibo alla mia situazione?
+  steps:
+  - intent: ask_portions
+  - action: utter_ask_portions
+
+- rule: Come posso verificare se sto mangiando abbastanza calorie rispetto al mio fabbisogno?
+  steps:
+  - intent: ask_calorie_intake
+  - action: utter_ask_calorie_intake
+
+- rule: Qual è il modo migliore per capire se sto perdendo massa grassa o massa magra?
+  steps:
+  - intent: ask_body_composition
+  - action: utter_ask_body_composition
+
+- rule: Quali alimenti dovrei mangiare per evitare di perdere massa muscolare durante la dieta?
+  steps:
+  - intent: prevent_muscle_loss
+  - action: utter_prevent_muscle_loss
+
+- rule: Cosa significa "surplus calorico"?
+  steps:
+  - intent: define_calorie_surplus
+  - action: utter_define_calorie_surplus
+
+- rule: Cosa significa "deficit calorico"?
+  steps:
+  - intent: define_calorie_deficit
+  - action: utter_ define_calorie_deficit
+
+# VSS cap 4-3
+
+- rule: Qual è la formula per stimare il metabolismo basale (BMR)?
+  steps:
+  - intent: bmr_formula
+  - action: utter_bmr_formula
+
+- rule: Perché è importante stimare il metabolismo basale nella determinazione dell'apporto calorico giornaliero?
+  steps:
+  - intent: bmr_importance
+  - action: utter_bmr_importance
+
+- rule: Quali sono i fattori che influenzano il metabolismo basale?
+  steps:
+  - intent: bmr_factors
+  - action: utter_bmr_factors
+
+- rule: Come si calcola il metabolismo basale?
+  steps:
+  - intent: calculate_basal_metabolism
+  - action: utter_calculate_basal_metabolism
+
+- rule: Cosa si intende per metabolismo basale (BMR)?
+  steps:
+  - intent: define_basal_metabolism
+  - action: utter_define_basal_metabolism
+
+- rule: Come si stima il dispendio calorico totale (TDEE)?
+  steps:
+  - intent: tdee_methodology
+  - action: utter_tdee_methodology
+
+- rule: Come si stima la massa magra?
+  steps:
+  - intent: estimate_lean_mass
+  - action: utter_estimate_lean_mass
+
+- rule: Come si calcola il coefficiente di attività fisica (LAF)?
+  steps:
+  - intent: calculate_laf
+  - action: utter_calculate_laf
+
+- rule: Come si aggiunge il dispendio calorico dell'attività sportiva (EAT)?
+  steps:
+  - intent: add_activity_expenditure
+  - action: utter_add_activity_expenditure
+
+- rule: Come si verificano sperimentalmente i calcoli del dispendio calorico?
+  steps:
+  - intent: verify_energy_expenditure_calculations
+  - action: utter_verify_energy_expenditure_calculations
+
+- rule: Qual è la differenza tra il dispendio calorico a riposo e il dispendio calorico totale?
+  steps:
+  - intent: difference_energy_expenditure
+  - action: utter_difference_energy_expenditure
+
+- rule: Quali sono i fattori che influenzano il dispendio calorico dovuto all'attività fisica?
+  steps:
+  - intent: factors_affecting_energy_expenditure
+  - action: utter_factors_affecting_energy_expenditure
+
+- rule: Come posso calcolare il dispendio calorico dell'attività fisica?
+  steps:
+  - intent: calculate_energy_expenditure
+  - action: utter_calculate_energy_expenditure
+
+- rule: Come posso calcolare il dispendio calorico degli allenamenti?
+  steps:
+  - intent: calculate_workout_calories
+  - action: utter_calculate_workout_calories
+
+- rule: Quali sono i fattori da considerare per stimare il dispendio calorico dovuto all'attività fisica?
+  steps:
+  - intent: factors_affecting_calorie_expenditure
+  - action: utter_factors_affecting_calorie_expenditure
+
+- rule: Come posso calcolare il dispendio calorico durante le attività fisiche quotidiane?
+  steps:
+  - intent: estimate_non_sport_calorie_expenditure
+  - action: utter_estimate_non_sport_calorie_expenditure
+
+- rule: Qual è il modo migliore per calcolare il consumo calorico durante l'attività sportiva?
+  steps:
+  - intent: calculate_sports_calorie_expenditure
+  - action: utter_calculate_sports_calorie_expenditure
+
+- rule: Come posso impostare il mio apporto calorico se ho difficoltà ad aumentare la massa muscolare?
+  steps:
+  - intent: set_calorie_intake_difficulty_increasing_muscle_mass
+  - action: utter_set_calorie_intake_difficulty_increasing_muscle_mass
+
+- rule: Come posso impostare il mio apporto calorico per perdere peso?
+  steps:
+  - intent: set_calorie_intake_weight_loss
+  - action: utter_set_calorie_intake_weight_loss
+
+- rule: Come posso impostare il mio apporto calorico per aumentare la mia massa muscolare?
+  steps:
+  - intent: set_calorie_intake_muscle_gain
+  - action: utter_set_calorie_intake_muscle_gain
+
+- rule: Come posso valutare se sto assumendo il giusto apporto calorico?
+  steps:
+  - intent: evaluating_calorie_intake
+  - action: utter_evaluating_calorie_intake
+
+- rule: Quali sono i limiti minimi e massimi di apporto calorico per il mantenimento del peso?
+  steps:
+  - intent: caloric_intake_limits
+  - action: utter_caloric_intake_limits
+
+- rule: Quali sono i limiti minimi e massimi di apporto calorico per il dimagrimento?
+  steps:
+  - intent: caloric_intake_limits_weight_loss
+  - action: utter_caloric_intake_limits_weight_loss
+
+- rule: Quali sono i benefici per chi segue una dieta vegana?
+  steps:
+  - intent: vegan_diet_benefits
+  - action: utter_vegan_diet_benefits
+
+- rule: Come posso stimare le calorie bruciate durante un'attività fisica se non conosco il MET?
+  steps:
+  - intent: calories_burned_estimate_without_met
+  - action: utter_calories_burned_estimate_without_met
+
+- rule: Come posso stimare il dispendio calorico durante l'attività fisica?
+  steps:
+  - intent: estimate_calories_expenditure_sport
+  - action: utter_estimate_calories_expenditure_sport
+
+# VSS cap 4-4
+- rule: Cosa si intende per sostenibilità dell'alimentazione e come incide sulla dieta corretta?
+  steps:
+  - intent: question_sustainability_nutrition
+  - action: utter_question_sustainability_nutrition
+
+- rule: Qual è il ruolo del pasto libero in una dieta sensata?
+  steps:
+  - intent: question_diet_free_meal
+  - action: utter_question_diet_free_meal
+
+- rule: Quali sono gli errori più comuni quando si segue una dieta restrittiva?
+  steps:
+  - intent: question_common_mistakes_diet
+  - action: utter_question_common_mistakes_diet
+
+- rule: Cosa si intende per diet break e quando è il momento giusto per farlo?
+  steps:
+  - intent: question_diet_break
+  - action: utter_question_diet_break
+
+- rule: Quali sono i diversi tipi di diet break e a cosa servono?
+  steps:
+  - intent: question_types_diet_break
+  - action: utter_question_types_diet_break
+
+- rule: Come si fa un diet break in modo sicuro ed efficace?
+  steps:
+  - intent: question_effective_safe_diet_break
+  - action: utter_question_effective_safe_diet_break
+
+- rule: Quali sono i benefici di concedersi un pasto libero durante una dieta?
+  steps:
+  - intent: question_benefits_cheat_meal
+  - action: utter_question_benefits_cheat_meal
+
+- rule: Come si fa a non esagerare durante un pasto libero?
+  steps:
+  - intent: question_avoid_overeating_cheat_meal
+  - action: utter_question_avoid_overeating_cheat_meal
+
+- rule: Quali sono gli effetti positivi del diet break sulla salute mentale e fisica?
+  steps:
+  - intent: question_effects_diet_break_mental_physical_health
+  - action: utter_question_effects_diet_break_mental_physical_health
+
+- rule: Come si può capire se è il momento di fare un diet break?
+  steps:
+  - intent: question_when_to_take_diet_break
+  - action: utter_question_when_to_take_diet_break
+
+- rule: Quali sono le regole da seguire durante un diet break per non riprendere peso?
+  steps:
+  - intent: question_rules_during_diet_break
+  - action: utter_question_rules_during_diet_break
+
+- rule: Quali sono i consigli per tornare a una dieta corretta dopo un diet break?
+  steps:
+  - intent: question_return_to_diet_after_diet_break
+  - action: utter_question_return_to_diet_after_diet_break
+
+- rule: Quali sono i rischi di non concedersi un pasto libero durante una dieta?
+  steps:
+  - intent: question_no_free_meal_risks
+  - action: utter_question_no_free_meal_risks
+
+- rule: Come posso bilanciare la scelta degli alimenti durante un pasto libero?
+  steps:
+  - intent: question_balancing_food_choice_during_free_meal
+  - action: utter_question_balancing_food_choice_during_free_meal
+
+- rule: Come posso evitare di perdere il controllo durante un pasto libero?
+  steps:
+  - intent: question_avoid_losing_control_during_free_meal
+  - action: utter_question_avoid_losing_control_during_free_meal
+
+- rule: Quali sono i possibili effetti collaterali di un diet break?
+  steps:
+  - intent: question_possible_side_effects_of_diet_break
+  - action: utter_question_possible_side_effects_of_diet_break
+
+- rule: Quali sono le strategie per tornare alla mia dieta dopo un pasto libero?
+  steps:
+  - intent: question_strategies_to_get_back_on_track_after_free_meal
+  - action: utter_question_strategies_to_get_back_on_track_after_free_meal
+
+- rule: Come posso evitare di sentirmi in colpa dopo un pasto libero?
+  steps:
+  - intent: question_avoid_feeling_guilty_after_free_meal
+  - action: utter_question_avoid_feeling_guilty_after_free_meal
+
+- rule: Quali sono i vantaggi del diet break per chi pratica sport?
+  steps:
+  - intent: question_benefits_of_diet_break_for_athletes
+  - action: utter_question_benefits_of_diet_break_for_athletes
+
+- rule: Quali sono le conseguenze di un diet break troppo lungo?
+  steps:
+  - intent: question_consequences_of_too_long_diet_break
+  - action: utter_question_consequences_of_too_long_diet_break
+
+- rule: Quali sono gli effetti collaterali di un pasto libero e come evitarli?
+  steps:
+  - intent: question_possible_side_effects_of_cheat_meals_and_how_to_avoid_them
+  - action: utter_question_possible_side_effects_of_cheat_meals_and_how_to_avoid_them
+
+- rule: Quali sono i vantaggi del diet break per il metabolismo?
+  steps:
+  - intent: question_metabolic_benefits_of_diet_break
+  - action: utter_question_metabolic_benefits_of_diet_break
+
+- rule: Come ritornare a una dieta sana senza sentirsi privati dopo un diet break?
+  steps:
+  - intent: question_returning_to_healthy_diet_without_feeling_deprived_after_diet_break
+  - action: utter_question_returning_to_healthy_diet_without_feeling_deprived_after_diet_break
+
+  # VSS cap 5-1
+
+- rule: Perché le proteine sono così importanti nella dieta vegana?
+  steps:
+  - intent: protein_importance
+  - action: utter_protein_importance  
+
+- rule: Perché gli apporti proteici non ottimali sono un problema per i vegani?
+  steps:
+  - intent: protein_problem
+  - action: utter_protein_problem  
+
+- rule: Da dove si possono ottenere le proteine in una dieta vegana?
+  steps:
+  - intent: protein_sources
+  - action: utter_protein_sources  
+
+- rule: Cosa significa "valore biologico" delle proteine?
+  steps:
+  - intent: protein_biovalue
+  - action: utter_protein_biovalue  
+
+- rule: Quali sono i principali aminoacidi presenti nelle proteine?
+  steps:
+  - intent: amino_acids_role
+  - action: utter_amino_acids_role  
+
+- rule: Quali sono i rischi di una dieta vegana povera di proteine?
+  steps:
+  - intent: protein_deficiency_risks
+  - action: utter_protein_deficiency_risks  
+
+- rule: Come combinare le fonti proteiche vegetali per ottenere un valore biologico completo?
+  steps:
+  - intent: combine_plant_protein_sources
+  - action: utter_combine_plant_protein_sources  
+
+- rule: Come assicurarsi di assumere abbastanza proteine in una dieta vegana?
+  steps:
+  - intent: ensure_protein_intake
+  - action: utter_ensure_protein_intake  
+
+- rule: Qual è il valore biologico delle proteine vegetali?
+  steps:
+  - intent: vegetable_protein_biologic_value
+  - action: utter_vegetable_protein_biologic_value  
+
+- rule: Quali sono le fonti proteiche più comuni tra i cereali?
+  steps:
+  - intent: common_protein_sources_cereals
+  - action: utter_common_protein_sources_cereals  
+
+- rule: Quali sono i principali derivati della soia e in cosa consistono?
+  steps:
+  - intent: soy_derivatives
+  - action: utter_soy_derivatives  
+
+- rule: Quali sono i principali legumi a basso contenuto di carboidrati?
+  steps:
+  - intent: low_carb_legumes
+  - action: utter_low_carb_legumes  
+
+- rule: Come si può combinare cereali e legumi per ottenere un apporto proteico completo?
+  steps:
+  - intent: combine_cereals_legumes
+  - action: utter_combine_cereals_legumes  
+
+- rule: Quali sono le proteine in polvere a base vegetale più comuni?
+  steps:
+  - intent: common_vegetable_protein_powders
+  - action: utter_common_vegetable_protein_powders  
+
+- rule: Quali sono le fonti proteiche vegetali a basso contenuto di carboidrati e grassi?
+  steps:
+  - intent: low_carb_low_fat_vegetable_protein_sources
+  - action: utter_low_carb_low_fat_vegetable_protein_sources  
+
+- rule:  È possibile ottenere abbastanza proteine da una dieta vegetariana?
+  steps:
+  - intent: enough_protein_vegetarian_diet
+  - action: utter_enough_protein_vegetarian_diet  
+
+- rule: Quali sono le proteine vegetali che possono causare problemi di digestione?
+  steps:
+  - intent: hard_to_digest_vegetable_proteins
+  - action: utter_hard_to_digest_vegetable_proteins  
+
+- rule: Quali sono i rischi di una dieta vegana carente di proteine?
+  steps:
+  - intent: vegan_protein_deficiency_risks
+  - action: utter_vegan_protein_deficiency_risks  
+
+- rule: Qual è la preoccupazione principale dei vegani riguardo alle proteine nella loro alimentazione?
+  steps:
+  - intent: vegan_protein_concern
+  - action: utter_vegan_protein_concern  
+
+- rule: È possibile assumere abbastanza proteine con una dieta vegana?
+  steps:
+  - intent: vegan_protein_intake
+  - action: utter_vegan_protein_intake  
+
+- rule: Quali sono le conseguenze di un'assunzione non ottimale di proteine nella dieta vegana?
+  steps:
+  - intent: protein_deficiency_consequences
+  - action: utter_protein_deficiency_consequences  
+
+- rule: Quali sono le fonti proteiche concentrate nella dieta vegana?
+  steps:
+  - intent: concentrated_protein_sources
+  - action: utter_concentrated_protein_sources  
+
+- rule: Perché le proteine sono una preoccupazione per i vegani?
+  steps:
+  - intent: protein_concerns_for_vegans
+  - action: utter_protein_concerns_for_vegans  
+
+- rule: Quali sono le fonti proteiche concentrate ideali per una dieta vegana?
+  steps:
+  - intent: concentrated_protein_sources_for_vegan_diet
+  - action: utter_concentrated_protein_sources_for_vegan_diet  
+
+- rule: Quali sono le conseguenze di un'assunzione proteica non ottimale per i vegani?
+  steps:
+  - intent: protein_deficiency_consequences_for_vegans
+  - action: utter_protein_deficiency_consequences_for_vegans  
+
+- rule: Cosa significa "valore biologico" delle proteine?
+  steps:
+  - intent: biological_value_of_proteins
+  - action: utter_biological_value_of_proteins  
+
+- rule: Quali sono le categorie di proteine vegetali?
+  steps:
+  - intent: plant_protein_categories
+  - action: utter_plant_protein_categories  
+
+- rule: Quali sono i problemi associati a un'assunzione proteica non bilanciata?
+  steps:
+  - intent: unbalanced_protein_intake_problems
+  - action: utter_unbalanced_protein_intake_problems  
+
+- rule: Quali sono i cibi che dovrebbero comporre la seconda parte dei pasti principali nella dieta intuitiva?
+  steps:
+  - intent: intuitive_eating_protein_sources
+  - action: utter_intuitive_eating_protein_sources  
+
+- rule: Quanta proteina dovrebbe rappresentare questa parte del pasto?
+  steps:
+  - intent: recommended_protein_intake
+  - action: utter_recommended_protein_intake  
+
+- rule: Quali sono le fonti proteiche consigliate?
+  steps:
+  - intent: recommended_protein_sources
+  - action: utter_recommended_protein_sources  
+
+- rule: Perché è importante variare le fonti proteiche nella dieta?
+  steps:
+  - intent: importance_of_variety_in_protein_sources
+  - action: utter_importance_of_variety_in_protein_sources  
+
+- rule: Quali sono gli effetti dell'assunzione di proteine sulla salute?
+  steps:
+  - intent: effects_of_protein_intake_on_health
+  - action: utter_effects_of_protein_intake_on_health  
+
+- rule: Cosa succede se non si assume una quantità sufficiente di proteine?
+  steps:
+  - intent: insufficient_protein_intake
+  - action: utter_insufficient_protein_intake  
+
+- rule: Come varia l'apporto proteico in base al peso e allo stile di vita?
+  steps:
+  - intent: protein_intake_variations
+  - action: utter_protein_intake_variations  
+
+- rule: Qual è la differenza nell'apporto proteico necessario tra uomini e donne?
+  steps:
+  - intent: gender_differences_in_protein_intake
+  - action: utter_gender_differences_in_protein_intake  
+
+- rule: Perché le donne potrebbero avere bisogno di un apporto proteico più basso?
+  steps:
+  - intent: low_protein_intake_for_women
+  - action: utter_low_protein_intake_for_women  
+
+- rule: Come possono gli sportivi soddisfare il loro fabbisogno proteico?
+  steps:
+  - intent: meeting_protein_needs_for_athletes
+  - action: utter_meeting_protein_needs_for_athletes  
+
+- rule: Come varia l'apporto proteico in base all'obiettivo?
+  steps:
+  - intent: protein_intake_variation_based_on_goal
+  - action: utter_protein_intake_variation_based_on_goal  
+
+- rule: Serve fare modifiche all'obiettivo mantenimento per quanto riguarda l'apporto proteico?
+  steps:
+  - intent: protein_intake_modification_for_maintenance
+  - action: utter_protein_intake_modification_for_maintenance  
+
+- rule: Quali sono i principali fattori che influenzano l'apporto proteico?
+  steps:
+  - intent: factors_affecting_protein_intake
+  - action: utter_factors_affecting_protein_intake  
+
+- rule: Perché le donne necessitano di meno proteine rispetto agli uomini?
+  steps:
+  - intent: less_protein_women
+  - action: utter_less_protein_women  
+
+- rule: Come possono gli sportivi soddisfare il loro fabbisogno proteico?
+  steps:
+  - intent: protein_needs_athletes
+  - action: utter_protein_needs_athletes  
+
+- rule: In che modo il deficit calorico influisce sull'apporto proteico?
+  steps:
+  - intent: calorie_deficit_protein_intake
+  - action: utter_calorie_deficit_protein_intake  
+
+- rule: Qual è l'apporto proteico consigliato per chi cerca di aumentare la massa muscolare?
+  steps:
+  - intent: protein_intake_muscle_mass
+  - action: utter_protein_intake_muscle_mass  
+
+- rule: È necessario modificare l'apporto proteico per chi cerca di mantenere il peso?
+  steps:
+  - intent: protein_intake_weight_maintenance
+  - action: utter_protein_intake_weight_maintenance  
+
+# VSS cap 5-2
+  
+- rule: Come posso calcolare il numero di porzioni di proteine da assumere in base al mio peso se sono un uomo in fase di dimagrimento?
+  steps:
+  - intent: calculate_protein_servings_for_weight_loss_men
+  - action: utter_calculate_protein_servings_for_weight_loss_men  
+
+- rule: Qual è il numero di porzioni di proteine da assumere se sono una donna in fase di mantenimento o aumento della massa?
+  steps:  
+  - intent: protein_servings_for_maintenance_or_gain_women
+  - action: utter_protein_servings_for_maintenance_or_gain_women  
+
+- rule: Quali sono le fonti proteiche vegetali che posso scegliere nella mia dieta?
+  steps:  
+  - intent: plant_protein_sources
+  - action: utter_plant_protein_sources  
+
+- rule: Quali sono le categorie alimentari che forniscono proteine nella dieta vegana?
+  steps:  
+  - intent: food_categories_providing_protein
+  - action: utter_food_categories_providing_protein  
+
+- rule: Quali sono gli esempi di fonti proteiche che posso includere nella mia dieta vegana durante la giornata?
+  steps:  
+  - intent: examples_of_plant_protein_sources
+  - action: utter_examples_of_plant_protein_sources  
+
+- rule: Quali sono le fonti proteiche di soia e i loro derivati nella dieta vegana?
+  steps:  
+  - intent: soy_protein_sources
+  - action: utter_soy_protein_sources  
+
+- rule: Quali sono le fonti proteiche di glutine e i loro derivati nella dieta vegana?
+  steps:  
+  - intent: gluten_protein_sources
+  - action: utter_gluten_protein_sources  
+
+- rule: Quali sono le fonti proteiche di legumi e i loro derivati nella dieta vegana?
+  steps:  
+  - intent: legume_protein_sources
+  - action: utter_legume_protein_sources  
+
+- rule: Quali sono le fonti proteiche vegane più comuni?
+  steps:  
+  - intent: common_vegan_protein_sources
+  - action: utter_common_vegan_protein_sources  
+
+- rule: Qual è l'importanza di consumare la giusta quantità di proteine sulla dieta vegana?
+  steps:  
+  - intent: importance_of_protein_intake
+  - action: utter_importance_of_protein_intake  
+
+- rule: È possibile ottenere proteine "pure" nella dieta vegana?
+  steps:  
+  - intent: pure_proteins_vegan
+  - action: utter_pure_proteins_vegan  
+
+- rule: Qual è la porzione standard per i cibi proteici nella dieta vegana?
+  steps:  
+  - intent: standard_protein_serving
+  - action: utter_standard_protein_serving  
+
+- rule: Come posso scegliere le fonti proteiche nella mia dieta vegana?
+  steps:  
+  - intent: choose_protein_sources
+  - action: utter_choose_protein_sources  
+
+- rule: Qual è la differenza tra le porzioni di proteine raccomandate per gli uomini in fase di dimagrimento e quelli in fase di mantenimento o aumento della massa?
+  steps:  
+  - intent: protein_portion_difference
+  - action: utter_protein_portion_difference  
+
+- rule: Cosa si intende per una porzione di cibo proteico nella dieta vegana?
+  steps:  
+  - intent: protein_serving_definition
+  - action: utter_protein_serving_definition  
+
+- rule: Cosa devo tenere a mente se faccio un uso eccessivo di cibi con molti grassi o carboidrati residui nella mia dieta vegana?
+  steps:  
+  - intent: excessive_fat_carb_intake
+  - action: utter_excessive_fat_carb_intake  
+
+- rule: Quali sono i prodotti dolci/junk food che posso includere nella mia dieta come fonte proteica?
+  steps:  
+  - intent: sweet_junkfood_protein_sources
+  - action: utter_sweet_junkfood_protein_sources  
+
+- rule: Quali sono le fonti proteiche di prodotti dolci/junk food nella dieta vegana?
+  steps:  
+  - intent: sweet_junkfood_protein_sources_list
+  - action: utter_sweet_junkfood_protein_sources_list  
+
+- rule: Come si può variare la scelta delle fonti proteiche nella dieta vegana?
+  steps:  
+  - intent: vary_protein_sources
+  - action: utter_vary_protein_sources  
+
+- rule: Come posso calcolare la quantità di proteine di cui ho bisogno sulla dieta vegana?
+  steps:  
+  - intent: calculate_protein_needs
+  - action: utter_calculate_protein_needs  
+
+- rule: Cosa significa che ci sono sempre dei residui di carboidrati e grassi nei cibi proteici vegani?
+  steps:  
+  - intent: residues_carbs_fats_proteins
+  - action: utter_residues_carbs_fats_proteins  
+
+# VSS cap 5-4
+- rule: Che cos'è l'integrazione con gli aminoacidi essenziali (EAA)?
+  steps: 
+  - intent: what_is_eaa_supplementation
+  - action: utter_what_is_eaa_supplementation  
+
+- rule: Quali sono i vantaggi dell'integrazione con gli EAA?
+  steps: 
+  - intent: advantages_of_eaa_supplementation
+  - action: utter_advantages_of_eaa_supplementation  
+
+- rule: Come si fa l'integrazione con gli EAA?
+  steps: 
+  - intent: how_to_supplement_with_eaa
+  - action: utter_how_to_supplement_with_eaa  
+
+- rule: Qual è il rapporto tra proteine e EAA nella dieta?
+  steps: 
+  - intent: protein_eaa_ratio_in_diet
+  - action: utter_protein_eaa_ratio_in_diet  
+
+- rule: Quali sono i principali svantaggi delle diete vegetali?
+  steps: 
+  - intent: vegan_diet_disadvantages
+  - action: utter_vegan_diet_disadvantages  
+
+- rule: Quali sono i motivi per cui le diete falliscono spesso?
+  steps: 
+  - intent: reasons_for_diet_failure
+  - action: utter_reasons_for_diet_failure  
+
+# VSS cap 6-1
+
+- rule: Quali alimenti in natura sono ricchi di carboidrati?
+  steps:
+  - intent: natural_sources_of_carbohydrates
+  - action: utter_natural_sources_of_carbohydrates  
+
+- rule: Quali alimenti in natura sono ricchi di proteine?
+  steps:  
+  - intent: natural_sources_of_proteins
+  - action: utter_natural_sources_of_proteins  
+
+- rule: Quali alimenti in natura sono ricchi di grassi?
+  steps:  
+  - intent: natural_sources_of_fats
+  - action: utter_natural_sources_of_fats  
+
+- rule: Come dovremmo gestire la combinazione di carboidrati e grassi nei pasti per dimagrire?
+  steps:  
+  - intent: weight_loss_diet_recommendation
+  - action: utter_weight_loss_diet_recommendation  
+
+- rule: Quali sono le fonti di carboidrati e di grassi che dovremmo scegliere?
+  steps:  
+  - intent: sources_of_carbs_and_fats
+  - action: utter_sources_of_carbs_and_fats  
+
+- rule: Quali cibi con alto contenuto di grassi e carboidrati dovremmo evitare per mantenere un'alimentazione salutare?
+  steps:  
+  - intent: high_fat_carb_foods_to_avoid
+  - action: utter_high_fat_carb_foods_to_avoid  
+
+- rule: Quali sono le fonti di carboidrati nell'alimentazione vegana?
+  steps:  
+  - intent: vegan_sources_of_carbs
+  - action: utter_vegan_sources_of_carbs  
+
+- rule: Quali sono le fonti di grassi nell'alimentazione vegana?
+  steps:  
+  - intent: vegan_sources_of_fats
+  - action: utter_vegan_sources_of_fats  
+
+- rule: Quali sono i cibi con alti grassi e carboidrati da consumare con moderazione nell'alimentazione vegana?
+  steps:  
+  - intent: vegan_high_fat_carb_foods_in_moderation
+  - action: utter_vegan_high_fat_carb_foods_in_moderation  
+
+- rule: Come si dovrebbero scegliere le fonti di carboidrati e grassi nell'alimentazione vegana?
+  steps:  
+  - intent: choosing_carb_fat_sources_in_vegan_diet
+  - action: utter_choosing_carb_fat_sources_in_vegan_diet  
+
+- rule: Quale regola bisognerebbe seguire per il consumo di cibi con alti grassi e carboidrati nell'alimentazione vegana?
+  steps:  
+  - intent: rule_for_consuming_high_fat_carb_foods_in_vegan_diet
+  - action: utter_rule_for_consuming_high_fat_carb_foods_in_vegan_diet  
+
+- rule: Quali sono le fonti naturali di carboidrati che rientrano nella dieta vegana?
+  steps:  
+  - intent: natural_sources_of_carbohydrates_in_vegan_diet
+  - action: utter_natural_sources_of_carbohydrates_in_vegan_diet  
+
+- rule: Quali sono le fonti naturali di grassi nella dieta vegana?
+  steps:  
+  - intent: natural_sources_of_fat_in_vegan_diet
+  - action: utter_natural_sources_of_fat_in_vegan_diet  
+
+- rule: Quali sono i cibi che contengono sia grassi che carboidrati e come dovrebbero essere consumati nella dieta vegana?
+  steps:  
+  - intent: foods_containing_both_fat_and_carbohydrates_in_vegan_diet
+  - action: utter_foods_containing_both_fat_and_carbohydrates_in_vegan_diet  
+
+- rule: Qual è il motivo per cui il nostro organismo ha un'ancestrale predilezione per i cibi ricchi di grassi e carboidrati?
+  steps:  
+  - intent: reason_for_body_preference_for_fatty_and_carbohydrate_rich_foods
+  - action: utter_reason_for_body_preference_for_fatty_and_carbohydrate_rich_foods  
+  
+# VSS cap 6-3
+
+- rule: Perché è importante fare riferimento alla massa magra quando si calcolano i carboidrati e i grassi nell'alimentazione vegana?
+  steps:
+  - intent: lean_mass_calculation
+  - action: utter_lean_mass_calculation  
+
+- rule: Che cosa sono i livelli minimi di glucosio e acidi grassi?
+  steps:
+  - intent: glucose_fatty_acids_levels
+  - action: utter_glucose_fatty_acids_levels  
+
+- rule: Perché i carboidrati e i grassi sono considerati essenziali, nonostante il corpo sia in grado di produrli?
+  steps:
+  - intent: essential_carbs_fats
+  - action: utter_essential_carbs_fats  
+
+- rule: Quale dovrebbe essere il primo passo per calcolare l'apporto di grassi e carboidrati nell'alimentazione vegana?
+  steps:
+  - intent: calculate_macronutrient_intake
+  - action: utter_calculate_macronutrient_intake  
+
+- rule: Che cosa accade se i livelli di carboidrati non sono soddisfacenti una volta impostati i grassi?
+  steps:
+  - intent: carb_fat_balance
+  - action: utter_carb_fat_balance  
+
+- rule: Che cosa sono le diete chetogeniche e low fat estreme?
+  steps:
+  - intent: keto_low_fat_diets
+  - action: utter_keto_low_fat_diets  
+
+- rule: Quali sono i livelli minimi di carboidrati e grassi che dobbiamo assumere nella nostra dieta vegana?
+  steps:
+  - intent: minimum_levels
+  - action: utter_minimum_levels  
+
+- rule: Come viene calcolato l'apporto di carboidrati e grassi nella dieta vegana?
+  steps:
+  - intent: calculate_macronutrients
+  - action: utter_calculate_macronutrients  
+
+- rule: Qual è la differenza tra carboidrati e grassi nella dieta vegana?
+  steps:
+  - intent: carb_vs_fat
+  - action: utter_carb_vs_fat  
+
+- rule: Perché i carboidrati e i grassi sono necessari nella dieta vegana?
+  steps:
+  - intent: why_need_carbs_fats
+  - action: utter_why_need_carbs_fats  
+
+- rule: Quali sono i rischi delle diete chetogeniche a bassissimi carboidrati nella dieta vegana?
+  steps:
+  - intent: risks_of_extreme_diets
+  - action: utter_risks_of_extreme_diets  
+
+- rule: Qual è il modo corretto per calcolare l'apporto di grassi nella dieta vegana?
+  steps:
+  - intent: calculating_nutrient_intake
+  - action: utter_calculating_nutrient_intake  
+
+- rule: Qual è il ruolo del glucosio nell'utilizzo dei carboidrati dal corpo?
+  steps:
+  - intent: role_of_glucose
+  - action: utter_role_of_glucose  
+
+- rule: Qual è la differenza tra i grassi e il glucosio?
+  steps:
+  - intent: difference_fats_glucose
+  - action: utter_difference_fats_glucose  
+
+- rule: Perché i carboidrati e i grassi sono considerati necessari nell'alimentazione vegana?
+  steps:
+  - intent: vegan_diet_nutrients
+  - action: utter_vegan_diet_nutrients  
+
+- rule: Qual è l'errore commesso dai fautori delle diete chetogeniche o low fat estreme?
+  steps:
+  - intent: errors_of_extreme_diets
+  - action: utter_errors_of_extreme_diets  
+
+- rule: Qual è il minimo raccomandabile di grassi nell'alimentazione vegana?
+  steps:
+  - intent: vegan_minimum_fat_intake
+  - action: utter_vegan_minimum_fat_intake  
+
+- rule: Qual è l'importanza dei grassi per il sistema ormonale?
+  steps:
+  - intent: importance_of_fat_for_hormones
+  - action: utter_importance_of_fat_for_hormones  
+
+- rule: Qual è il minimo di grassi necessario per non incorrere in problemi ormonali?
+  steps:
+  - intent: minimum_fat_for_hormonal_balance
+  - action: utter_minimum_fat_for_hormonal_balance  
+
+- rule: Qual è il massimo di grassi che possono essere assorbiti dal nostro organismo?
+  steps:
+  - intent: maximum_fat_absorption
+  - action: utter_maximum_fat_absorption  
+
+- rule: Come facciamo a capire il nostro limite individuale di grassi?
+  steps:
+  - intent: personal_fat_limit
+  - action: utter_personal_fat_limit  
+
+- rule: Cosa succede se superiamo il massimo di grassi che possiamo sopportare?
+  steps:
+  - intent: consequences_of_excess_fat
+  - action: utter_consequences_of_excess_fat  
+
+- rule: Qual è il minimo raccomandato di grassi nell'alimentazione vegana?
+  steps:
+  - intent: fat_recommendation
+  - action: utter_fat_recommendation  
+
+- rule: Perché il corpo non è in grado di produrre grassi se mancano nella dieta?
+  steps:
+  - intent: body_unable_to_produce_fats
+  - action: utter_body_unable_to_produce_fats  
+
+- rule: Qual è il minimo di grassi necessario per evitare problemi ormonali?
+  steps:
+  - intent: fat_and_hormones
+  - action: utter_fat_and_hormones  
+
+- rule: Come si può capire il nostro limite individuale di grassi?
+  steps:
+  - intent: individual_fat_limit
+  - action: utter_individual_fat_limit  
+
+- rule: Quali sono le conseguenze di un apporto eccessivo di grassi nella dieta?
+  steps:
+  - intent: excessive_fat_intake
+  - action: utter_excessive_fat_intake  
+
+- rule: Qual è il minimo raccomandabile di grassi nell'alimentazione vegana per evitare carenze di vitamine liposolubili?
+  steps:
+  - intent: minimum_fat_intake
+  - action: utter_minimum_fat_intake  
+
+- rule: Perché il corpo non è in grado di produrre i grassi da solo se mancano nella dieta?
+  steps:
+  - intent: body_inability_to_produce_fats
+  - action: utter_body_inability_to_produce_fats  
+
+- rule: Qual è il minimo di grassi necessario per evitare problemi ormonali nell'alimentazione vegana?
+  steps:
+  - intent: minimum_fat_for_hormones
+  - action: utter_minimum_fat_for_hormones  
+
+- rule: Qual è il tetto massimo nell'apporto di grassi nella dieta vegana?
+  steps:
+  - intent: maximum_fat_intake
+  - action: utter_maximum_fat_intake  
+
+- rule: Quali sono i segnali che indicano che sto assumendo troppi grassi nella dieta vegana?
+  steps:
+  - intent: signs_of_excess_fat
+  - action: utter_signs_of_excess_fat  
+
+- rule: Qual è la quantità minima di grassi che dovrei assumere in una dieta?
+  steps:
+  - intent: fat_intake_minimal
+  - action: utter_fat_intake_minimal  
+
+- rule: Quale è la quantità di grassi consigliata per una dieta con un apporto di grassi basso?
+  steps:
+  - intent: fat_intake_low
+  - action: utter_fat_intake_low  
+
+- rule: Quale è la quantità di grassi consigliata per una dieta con un apporto di grassi medio?
+  steps:
+  - intent: fat_intake_medium
+  - action: utter_fat_intake_medium  
+
+- rule: Quanto grasso dovrei assumere se voglio seguire una dieta con un apporto di grassi alto?
+  steps:
+  - intent: fat_intake_high
+  - action: utter_fat_intake_high  
+
+- rule: Qual è la quantità massima di grassi che posso assumere se voglio seguire una dieta con un apporto di grassi molto alto?
+  steps:
+  - intent: fat_intake_very_high
+  - action: utter_fat_intake_very_high  
+
+- rule: Qual è il prezzo da pagare per adattarsi alla chetosi a causa di una scarsità di carboidrati?
+  steps:
+  - intent: carb_adaptation_price
+  - action: utter_carb_adaptation_price  
+
+- rule: Qual è il minimo di carboidrati che dovrei consumare per evitare gli adattamenti negativi?
+  steps:
+  - intent: carb_minimum_intake
+  - action: utter_carb_minimum_intake  
+
+- rule: Quali sono gli adattamenti negativi che si verificano in caso di carenza di carboidrati?
+  steps:
+  - intent: carb_negative_adaptations
+  - action: utter_carb_negative_adaptations  
+
+- rule: Qual è l'apporto minimo di carboidrati consigliato per tutte le persone e fasi dell'alimentazione?
+  steps:
+  - intent: carb_recommended_intake
+  - action: utter_carb_recommended_intake  
+
+- rule: Qual è il massimo tollerabile di carboidrati che posso assumere?
+  steps:
+  - intent: carb_maximum_tolerable
+  - action: utter_carb_maximum_tolerable  
+
+- rule: Cosa succede ai carboidrati in eccesso che non vengono immagazzinati come grasso?
+  steps:
+  - intent: excess_carbs
+  - action: utter_excess_carbs  
+
+- rule: Perché il nostro corpo ha bisogno di un minimo di carboidrati?
+  steps:
+  - intent: carb_minimum
+  - action: utter_carb_minimum  
+
+- rule: Qual è il prezzo da pagare per adattarsi alla chetosi?
+  steps:
+  - intent: ketosis_adaptation
+  - action: utter_ketosis_adaptation  
+
+- rule: Qual è il minimo di carboidrati necessario per evitare adattamenti negativi?
+  steps:
+  - intent: minimum_carbs
+  - action: utter_minimum_carbs  
+
+- rule: Come posso gestire i giorni di basso apporto di carboidrati nella mia dieta?
+  steps:
+  - intent: low_carb_days
+  - action: utter_low_carb_days  
+
+- rule: Qual è il destino delle calorie extra nella dieta ipercalorica?
+  steps:
+  - intent: extra_calories_fate
+  - action: utter_extra_calories_fate  
+
+- rule: Perché i carboidrati in eccesso non vengono convertiti in grasso e accumulati nelle riserve?
+  steps:
+  - intent: excess_carbs_to_fat
+  - action: utter_excess_carbs_to_fat  
+
+- rule: Qual è il prezzo da pagare per andare in chetosi e utilizzare di più i grassi?
+  steps:
+  - intent: cost_of_ketosis
+  - action: utter_cost_of_ketosis  
+
+- rule: Che cosa succede se non rispettiamo il fabbisogno minimo di carboidrati a lungo termine?
+  steps:
+  - intent: consequences_of_low_carb
+  - action: utter_consequences_of_low_carb  
+
+- rule: Quale è il minimo di carboidrati per evitare gli adattamenti negativi?
+  steps:
+  - intent: minimum_carb_requirement
+  - action: utter_minimum_carb_requirement  
+
+- rule: È possibile andare oltre i 7 g di carboidrati per kg?
+  steps:
+  - intent: exceeding_carb_intake
+  - action: utter_exceeding_carb_intake  
+
+- rule: Cosa succede alle calorie extra assunte in una dieta ipercalorica?
+  steps:
+  - intent: excess_calories_and_carbs
+  - action: utter_excess_calories_and_carbs  
+
+- rule: Qual è il livello minimo raccomandato di apporto di carboidrati nell'alimentazione?
+  steps:
+  - intent: carbohydrate_intake_recommendation
+  - action: utter_carbohydrate_intake_recommendation  
+
+- rule: Qual è il livello di apporto di carboidrati considerato "basso"?
+  steps:
+  - intent: low_carb_intake
+  - action: utter_low_carb_intake  
+
+- rule: Qual è il livello di apporto di carboidrati considerato "medio"?
+  steps:
+  - intent: medium_carb_intake
+  - action: utter_medium_carb_intake  
+
+- rule: Qual è il livello di apporto di carboidrati raccomandato per una dieta sana?
+  steps:
+  - intent: good_carb_intake
+  - action: utter_good_carb_intake  
+
+- rule: Qual è il livello di apporto di carboidrati considerato "molto buono"?
+  steps:
+  - intent: very_good_carb_intake
+  - action: utter_very_good_carb_intake  
+
+- rule: Qual è il livello di apporto di carboidrati considerato "eccellente"?
+  steps:
+  - intent: excellent_carb_intake
+  - action: utter_excellent_carb_intake  
+
+- rule: Quali sono le conseguenze dell'insulino-resistenza?
+  steps:
+  - intent: consequences_of_insulin_resistance
+  - action: utter_consequences_of_insulin_resistance  
+
+- rule: Qual è l'importanza dell'apporto calorico nell'insulino-resistenza?
+  steps:
+  - intent: importance_of_calorie_intake_in_insulin_resistance
+  - action: utter_importance_of_calorie_intake_in_insulin_resistance  
+
+- rule: Qual è l'effetto di una dieta ipocalorica sulla sensibilità all'insulina?
+  steps:
+  - intent: insulin_sensitivity
+  - action: utter_insulin_sensitivity  
+
+- rule: Come influenza la tolleranza ai carboidrati la gestione dei carboidrati?
+  steps:
+  - intent: carb_tolerance_impact
+  - action: utter_carb_tolerance_impact  
+
+- rule: Come posso migliorare la mia tolleranza ai carboidrati?
+  steps:
+  - intent: improving_carb_tolerance
+  - action: utter_improving_carb_tolerance  
+
+- rule: Che fine fanno i carboidrati in eccesso se le capacità di immagazzinamento sono limitate?
+  steps:
+  - intent: excess_carbs_storage
+  - action: utter_excess_carbs_storage  
+
+- rule: Cosa comporta l'insulino-resistenza sul lungo periodo?
+  steps:
+  - intent: long_term_insulin_resistance
+  - action: utter_long_term_insulin_resistance  
+
+- rule: Cosa cambia nella gestione dei carboidrati durante una fase di ipocalorica?
+  steps:
+  - intent: carb_management_during_hypocaloric_phase
+  - action: utter_carb_management_during_hypocaloric_phase  
+
+# VSS cap 7-1
+
+- rule: Quali sono i benefici delle fibre per l'organismo?
+  steps:
+  - intent: fiber_functions
+  - action: utter_fiber_functions
+
+- rule: Quali sono le fonti di fibre nell'alimentazione vegana?
+  steps:
+  - intent: fiber_sources
+  - action: utter_fiber_sources
+
+- rule: Quali sono i rischi dell'eccesso di fibre nell'alimentazione?
+  steps:
+  - intent: fiber_risks
+  - action: utter_fiber_risks
+
+- rule: Qual è il consiglio per chi accusa disturbi digestivi dovuti all'eccesso di fibre?
+  steps:
+  - intent: fiber_digestive_issues
+  - action: utter_fiber_digestive_issues
+
+- rule: Qual è l'importanza dell'acqua nell'assunzione di fibre?
+  steps:
+  - intent: fiber_water_importance
+  - action: utter_fiber_water_importance
+
+- rule: È vero che non si dovrebbero assumere liquidi durante i pasti?
+  steps:
+  - intent: drinking_liquids_with_meals
+  - action: utter_drinking_liquids_with_meals
+
+- rule: Quali sono le fonti di fibre?
+  steps:
+  - intent: sources_of_fiber
+  - action: utter_sources_of_fiber
+
+- rule: Quali sono i rischi dell'assunzione eccessiva di fibre?
+  steps:
+  - intent: risks_of_excessive_fiber
+  - action: utter_risks_of_excessive_fiber
+
+- rule: Cosa succede se si consuma troppa fibra senza adeguata idratazione?
+  steps:
+  - intent: consequences_of_insufficient_hydration_with_fiber
+  - action: utter_consequences_of_insufficient_hydration_with_fiber
+
+- rule: È necessario bere acqua a basso residuo fisso?
+  steps:
+  - intent: low_residue_water_intake
+  - action: utter_low_residue_water_intake
+
+- rule: È vero che non si dovrebbe bere durante i pasti per non causare problemi digestivi?
+  steps:
+  - intent: drinking_during_meals
+  - action: utter_drinking_during_meals
+
+- rule: Come le fibre ci aiutano a dimagrire?
+  steps:
+  - intent: fiber_weight_loss
+  - action: utter_fiber_weight_loss
+
+- rule: In che modo le fibre influiscono sul microbiota intestinale?
+  steps:
+  - intent: fiber_microbiota
+  - action: utter_fiber_microbiota
+
+- rule: Perché i medici consigliano sempre di prediligere alimenti integrali e cibi freschi?
+  steps:
+  - intent: whole_foods_freshness
+  - action: utter_whole_foods_freshness
+
+- rule: È sempre meglio mangiare più fibre per mantenere una buona salute?
+  steps:
+  - intent: benefits_of_fiber
+  - action: utter_benefits_of_fiber
+
+- rule: Perché le fibre aiutano a mantenere la sazietà?
+  steps:
+  - intent: satiety_of_fiber
+  - action: utter_satiety_of_fiber
+
+- rule: 
+  steps:
+  - intent: fiber_and_digestion
+  - action: utter_fiber_and_digestion
+
+- rule: 
+  steps:
+  - intent: fiber_and_gut_bacteria
+  - action: utter_fiber_and_gut_bacteria
+
+- rule: 
+  steps:
+  - intent: whole_foods_vs_junk_food
+  - action: utter_whole_foods_vs_junk_food
+
+- rule: 
+  steps:
+  - intent: negative_effects_of_fiber
+  - action: utter_negative_effects_of_fiber
+
+- rule: 
+  steps:
+  - intent: limits_of_fiber_intake
+  - action: utter_limits_of_fiber_intake
+
+- rule: 
+  steps:
+  - intent: importance_of_water_with_fiber
+  - action: utter_importance_of_water_with_fiber
+
+- rule: 
+  steps:
+  - intent: low_residue_water_for_kidney_stones
+  - action: utter_low_residue_water_for_kidney_stones
+
+- rule: 
+  steps:
+  - intent: excess_fiber_results
+  - action: utter_excess_fiber_results
+
+- rule: 
+  steps:
+  - intent: fiber_tolerance
+  - action: utter_fiber_tolerance
+
+- rule: 
+  steps:
+  - intent: reducing_fiber_intake
+  - action: utter_reducing_fiber_intake
+
+- rule: 
+  steps:
+  - intent: importance_of_water
+  - action: utter_importance_of_water
+
+- rule: 
+  steps:
+  - intent: tap_water_vs_mineral_water
+  - action: utter_tap_water_vs_mineral_water
+
+- rule: 
+  steps:
+  - intent: problems_of_dehydration
+  - action: utter_problems_of_dehydration
+
+- rule: 
+  steps:
+  - intent: fiber_intake
+  - action: utter_fiber_intake
+
+- rule: 
+  steps:
+  - intent: fiber_symptoms
+  - action: utter_fiber_symptoms
+
+- rule: 
+  steps:
+  - intent: low_fiber
+  - action: utter_low_fiber
+
+- rule: 
+  steps:
+  - intent: hydration_level
+  - action: utter_hydration_level
+
+- rule: 
+  steps:
+  - intent: dehydration_disadvantages
+  - action: utter_dehydration_disadvantages
+
+- rule: 
+  steps:
+  - intent: diet_gut_health
+  - action: utter_diet_gut_health
+
+- rule: 
+  steps:
+  - intent: excessive_fiber_intake
+  - action: utter_excessive_fiber_intake
+
+- rule: 
+  steps:
+  - intent: irregular_bowel_movement
+  - action: utter_irregular_bowel_movement
+
+- rule: 
+  steps:
+  - intent: hydration_check
+  - action: utter_hydration_check
+
+- rule: 
+  steps:
+  - intent: two_main_health_concerns
+  - action: utter_two_main_health_concerns
+
+- rule: 
+  steps:
+  - intent: daily_fiber_intake_guidelines
+  - action: utter_daily_fiber_intake_guidelines
+
+- rule: 
+  steps:
+  - intent: vegans_difficulty_ketosis
+  - action: utter_vegans_difficulty_ketosis
+
+# VSS cap 8-1
+
+- rule:
+  steps:
+  - intent: natural_vs_synthetic_nutrients
+  - action: utter_natural_vs_synthetic_nutrients  
+
+- rule:
+  steps:
+  - intent: food_vs_supplements
+  - action: utter_food_vs_supplements  
+
+- rule:
+  steps:
+  - intent: role_of_nutrition
+  - action: utter_role_of_nutrition  
+
+- rule:
+  steps:
+  - intent: reasons_for_nutrient_deficiencies
+  - action: utter_reasons_for_nutrient_deficiencies  
+
+- rule:
+  steps:
+  - intent: nutrient_supplementation
+  - action: utter_nutrient_supplementation  
+
+- rule:
+  steps:
+  - intent: extra_nutrient_supplementation
+  - action: utter_extra_nutrient_supplementation  
+
+- rule:
+  steps:
+  - intent: importance_of_B12
+  - action: utter_importance_of_B12  
+
+- rule:
+  steps:
+  - intent: sources_of_B12
+  - action: utter_sources_of_B12  
+
+- rule:
+  steps:
+  - intent: B12_for_vegans
+  - action: utter_B12_for_vegans  
+
+- rule:
+  steps:
+  - intent: B12_production_in_gut
+  - action: utter_B12_production_in_gut  
+
+- rule:
+  steps:
+  - intent: b12_integration_recommendation
+  - action: utter_b12_integration_recommendation  
+
+- rule:
+  steps:
+  - intent: b12_deficiency_risks
+  - action: utter_b12_deficiency_risks  
+
+- rule:
+  steps:
+  - intent: b12_historical_exposure
+  - action: utter_b12_historical_exposure  
+
+- rule:
+  steps:
+  - intent: b12_presence_reduction
+  - action: utter_b12_presence_reduction  
+
+- rule:
+  steps:
+  - intent: b12_production_by_gut_flora
+  - action: utter_b12_production_by_gut_flora  
+
+- rule:
+  steps:
+  - intent: vitamin_b12_deficiency
+  - action: utter_vitamin_b12_deficiency  
+
+- rule:
+  steps:
+  - intent: vitamin_b12_importance
+  - action: utter_vitamin_b12_importance  
+
+- rule:
+  steps:
+  - intent: sources_of_vitamin_b12
+  - action: utter_sources_of_vitamin_b12  
+
+- rule:
+  steps:
+  - intent: vitamin_b12_deficiency_veganism
+  - action: utter_vitamin_b12_deficiency_veganism  
+
+- rule:
+  steps:
+  - intent: vitamin_b12_intestinal_bacteria
+  - action: utter_vitamin_b12_intestinal_bacteria  
+
+- rule:
+  steps:
+  - intent: types_of_B12_supplements
+  - action: utter_types_of_B12_supplements  
+
+- rule:
+  steps:
+  - intent: EFSA_study_on_B12_deficiency
+  - action: utter_EFSA_study_on_B12_deficiency  
+
+- rule:
+  steps:
+  - intent: consequences_of_D_deficiency
+  - action: utter_consequences_of_D_deficiency  
+
+- rule:
+  steps:
+  - intent: main_source_of_vitamin_d
+  - action: utter_main_source_of_vitamin_d  
+
+- rule:
+  steps:
+  - intent: sources_of_vitamin_d
+  - action: utter_sources_of_vitamin_d  
+
+- rule:
+  steps:
+  - intent: vitamin_D_production_time
+  - action: utter_vitamin_D_production_time  
+
+- rule:
+  steps:
+  - intent: daily_vitamin_D_intake
+  - action: utter_daily_vitamin_D_intake  
+
+- rule:
+  steps:
+  - intent: vitamin_D_synergy
+  - action: utter_vitamin_D_synergy  
+
+- rule:
+  steps:
+  - intent: most_effective_vitamin_D_form
+  - action: utter_most_effective_vitamin_D_form  
+
+- rule:
+  steps:
+  - intent: risks_of_vitamin_D_deficiency
+  - action: utter_risks_of_vitamin_D_deficiency  
+
+- rule:
+  steps:
+  - intent: vitamin_d_deficiency
+  - action: utter_vitamin_d_deficiency  
+
+- rule:
+  steps:
+  - intent: vitamin_d_cheese
+  - action: utter_vitamin_d_cheese  
+
+- rule:
+  steps:
+  - intent: vitamin_d_and_k2
+  - action: utter_vitamin_d_and_k2  
+
+- rule:
+  steps:
+  - intent: vitamin_d_main_sources
+  - action: utter_vitamin_d_main_sources  
+
+- rule:
+  steps:
+  - intent: vit_d_deficiency
+  - action: utter_vit_d_deficiency  
+
+- rule:
+  steps:
+  - intent: vit_d_functions
+  - action: utter_vit_d_functions  
+
+- rule:
+  steps:
+  intent: - vit_d_dosage
+  - action: utter_vit_d_dosage  
+
+- rule:
+  steps:
+  - intent: vit_d_interaction
+  - action: utter_vit_d_interaction  
+
+- rule:
+  steps:
+  - intent:  vit_d_sources
+  - action: utter_vit_d_sources  
+
+#VSS cap 8-2
+
+- rule: 
+  steps:
+  - intent: omega3_functions
+  - action: utter_omega3_functions
+
+- rule: 
+  steps:
+  - intent: omega3_short_vs_long_chain
+  - action: utter_omega3_short_vs_long_chain
+
+- rule: 
+  steps:
+  - intent: vegan_sources_omega3_long_chain
+  - action: utter_vegan_sources_omega3_long_chain
+
+- rule: 
+  steps:
+  - intent: omega3_dosage_recommendation
+  - action: utter_omega3_dosage_recommendation
+
+- rule: 
+  steps:
+  - intent: omega3_omega6_imbalance_risks
+  - action: utter_omega3_omega6_imbalance_risks
+
+- rule: 
+  steps:
+  - intent: omega3_importance
+  - action: utter_omega3_importance
+
+- rule: 
+  steps:
+  - intent: omega3_essential
+  - action: utter_omega3_essential
+
+- rule: 
+  steps:
+  - intent: omega3_vs_omega6
+  - action: utter_omega3_vs_omega6
+
+- rule: 
+  steps:
+  - intent: vegan_sources_omega3
+  - action: utter_vegan_sources_omega3
+
+- rule: 
+  steps:
+  - intent: EPA_DHA_sources
+  - action: utter_EPA_DHA_sources
+
+- rule: 
+  steps:
+  - intent: sources_of_omega_3
+  - action: utter_sources_of_omega_3
+
+- rule: 
+  steps:
+  - intent: algae_for_omega_3
+  - action: utter_algae_for_omega_3
+
+- rule: 
+  steps:
+  - intent: essential_fatty_acids
+  - action: utter_essential_fatty_acids
+
+- rule: 
+  steps:
+  - intent: functions_of_omega_3_6
+  - action: utter_functions_of_omega_3_6
+
+- rule: 
+  steps:
+  - intent: importance_of_omega_3_6_balance
+  - action: utter_importance_of_omega_3_6_balance
+
+- rule: 
+  steps:
+  - intent: sources_of_omega3
+  - action: utter_sources_of_omega3
+
+- rule: 
+  steps:
+  - intent: importance_of_omega3
+  - action: utter_importance_of_omega3
+
+- rule: 
+  steps:
+  - intent: omega3_deficiency
+  - action: utter_omega3_deficiency
+
+- rule: 
+  steps:
+  - intent: omega3_omega6_balance
+  - action: utter_omega3_omega6_balance
+
+- rule: 
+  steps:
+  - intent: vegan_sources_of_omega3
+  - action: utter_vegan_sources_of_omega3
+
+- rule: 
+  steps:
+  - intent: vegan_omega3_sources
+  - action: utter_vegan_omega3_sources
+
+- rule: 
+  steps:
+  - intent: vegan_micronutrient_deficiencies
+  - action: utter_vegan_micronutrient_deficiencies
+
+- rule: 
+  steps:
+  - intent: vegan_calcium_sources
+  - action: utter_vegan_calcium_sources
+
+- rule: 
+  steps:
+  - intent: vegan_iodine_sources
+  - action: utter_vegan_iodine_sources
+
+- rule: 
+  steps:
+  - intent: vegan_epa_dha_sources
+  - action: utter_vegan_epa_dha_sources
+
+- rule: 
+  steps:
+  - intent: vegan_selenium_source
+  - action: utter_vegan_selenium_source
+
+- rule: 
+  steps:
+  - intent: vegan_nutrient_supplementation
+  - action: utter_vegan_nutrient_supplementation
+
+- rule: 
+  steps:
+  - intent: vegan_multivitamin_difficulties
+  - action: utter_vegan_multivitamin_difficulties
+
+- rule: 
+  steps:
+  - intent: vegan_nutrient_deficiencies
+  - action: utter_vegan_nutrient_deficiencies
+
+- rule: 
+  steps:
+  - intent: vegan_nutrient_intake_difficulties
+  - action: utter_vegan_nutrient_intake_difficulties
+
+- rule: 
+  steps:
+  - intent: vegan_micronutrients_solution
+  - action: utter_vegan_micronutrients_solution
+
+- rule: 
+  steps:
+  - intent: iodine_supplementation
+  - action: utter_iodine_supplementation
+
+- rule: 
+  steps:
+  - intent: vegan_multivitamin_challenge
+  - action: utter_vegan_multivitamin_challenge
+
+- rule: 
+  steps:
+  - intent: calcium_in_vegan_diet
+  - action: utter_calcium_in_vegan_diet
+
+- rule: 
+  steps:
+  - intent: iodine_deficiency_prevention
+  - action: utter_iodine_deficiency_prevention
+
+- rule: 
+  steps:
+  - intent: selenium_source
+  - action: utter_selenium_source
+
+- rule: 
+  steps:
+  - intent: vitamin_zinc_supplementation
+  - action: utter_vitamin_zinc_supplementation
+
+# VSS cap 8-3
+
+- rule: 
+  steps:
+  - intent: creatine_benefits
+  - action: utter_creatine_benefits
+
+- rule: 
+  steps:
+  - intent: creatine_recommendation
+  - action: utter_creatine_recommendation
+
+- rule: 
+  steps:
+  - intent: creatine_non_responders
+  - action: utter_creatine_non_responders
+
+- rule: 
+  steps:
+  - intent: creatine_water_retention
+  - action: utter_creatine_water_retention
+
+- rule: 
+  steps:
+  - intent: creatine_loading_phase
+  - action: utter_creatine_loading_phase
+
+- rule: 
+  steps:
+  - intent: creatine_effects_on_muscle_mass
+  - action: utter_creatine_effects_on_muscle_mass
+
+- rule: 
+  steps:
+  - intent: creatine_role_in_sports_performance
+  - action: utter_creatine_role_in_sports_performance
+
+- rule: 
+  steps:
+  - intent: creatine_health_effects
+  - action: utter_creatine_health_effects
+
+- rule: 
+  steps:
+  - intent: creatine_effectiveness
+  - action: utter_creatine_effectiveness
+
+- rule: 
+  steps:
+  - intent: creatine_dosage
+  - action: utter_creatine_dosage
+
+- rule: 
+  steps:
+  - intent: creatine_water_consequences
+  - action: utter_creatine_water_consequences
+
+- rule: 
+  steps:
+  - intent: creatine_cycling
+  - action: utter_creatine_cycling
+
+- rule: 
+  steps:
+  - intent: creatine_response_percentage
+  - action: utter_creatine_response_percentage
+
+- rule: 
+  steps:
+  - intent: cognitive_benefits_of_creatine
+  - action: utter_cognitive_benefits_of_creatine
+
+- rule: 
+  steps:
+  - intent: beta_alanine_definition
+  - action: utter_beta_alanine_definition
+
+- rule: 
+  steps:
+  - intent: beta_alanine_side_effects
+  - action: utter_beta_alanine_side_effects
+
+- rule: 
+  steps:
+  - intent: beta_alanine_dosage
+  - action: utter_beta_alanine_dosage
+
+- rule: 
+  steps:
+  - intent: beta_alanine_vs_creatine
+  - action: utter_beta_alanine_vs_creatine
+
+- rule: 
+  steps:
+  - intent: safety_of_beta_alanine
+  - action: utter_safety_of_beta_alanine
+
+- rule: 
+  steps:
+  - intent: recommended_dosage_beta_alanine
+  - action: utter_recommended_dosage_beta_alanine
+
+- rule: 
+  steps:
+  - intent: benefits_of_taurine
+  - action: utter_benefits_of_taurine
+
+- rule: 
+  steps:
+  - intent: what_is_taurine
+  - action: utter_what_is_taurine
+
+- rule: 
+  steps:
+  - intent: taurine_daily_dosage
+  - action: utter_taurine_daily_dosage
+
+- rule: 
+  steps:
+  - intent: caffeine_effects_on_health_performance
+  - action: utter_caffeine_effects_on_health_performance
+
+- rule: 
+  steps:
+  - intent: caffeine_timing
+  - action: utter_caffeine_timing
+
+- rule: 
+  steps:
+  - intent: caffeine_benefits
+  - action: utter_caffeine_benefits
+
+- rule: 
+  steps:
+  - intent: beta_alanine_vs_caffeine
+  - action: utter_beta_alanine_vs_caffeine
+  
+# VSS cap 9-1
+
+- rule: 
+  steps:
+  - intent: meal_timing_importance
+  - action: utter_meal_timing_importance
+
+- rule: 
+  steps:
+  - intent: weight_loss_timing
+  - action: utter_weight_loss_timing
+
+- rule: 
+  steps:
+  - intent: breakfast_skip_weight_loss
+  - action: utter_breakfast_skip_weight_loss
+
+- rule: 
+  steps:
+  - intent: nutrients_weight_loss_effect
+  - action: utter_nutrients_weight_loss_effect
+
+- rule: 
+  steps:
+  - intent: meal_nutrient_timing_importance
+  - action: utter_meal_nutrient_timing_importance
+
+- rule: 
+  steps:
+  - intent: breakfast_importance
+  - action: utter_breakfast_importance
+
+- rule: 
+  steps:
+  - intent: carbs_at_night_weight_gain
+  - action: utter_carbs_at_night_weight_gain
+
+- rule: 
+  steps:
+  - intent: food_intake_metabolism
+  - action: utter_food_intake_metabolism
+
+- rule: 
+  steps:
+  - intent: timing_of_nutrient_intake
+  - action: utter_timing_of_nutrient_intake
+
+- rule: 
+  steps:
+  - intent: importance_of_timing
+  - action: utter_importance_of_timing
+
+- rule: 
+  steps:
+  - intent: real_importance_of_timing
+  - action: utter_real_importance_of_timing
+
+- rule: 
+  steps:
+  - intent: carb_timing
+  - action: utter_carb_timing
+
+- rule: 
+  steps:
+  - intent: meal_nutrient_timing
+  - action: utter_meal_nutrient_timing
+
+- rule: 
+  steps:
+  - intent: total_food_intake
+  - action: utter_total_food_intake
+
+- rule: 
+  steps:
+  - intent: breakfast_skipping
+  - action: utter_breakfast_skipping
+
+# VSS cap 9-2
+
+- rule: 
+  steps:
+  - intent: protein_distribution_for_performance
+  - action: utter_protein_distribution_for_performance
+
+- rule: 
+  steps:
+  - intent: maximum_protein_absorption
+  - action: utter_maximum_protein_absorption
+
+- rule: 
+  steps:
+  - intent: risks_of_hydrolyzed_proteins
+  - action: utter_risks_of_hydrolyzed_proteins
+
+- rule: 
+  steps:
+  - intent: importance_of_protein_distribution
+  - action: utter_importance_of_protein_distribution
+
+- rule: 
+  steps:
+  - intent: protein_distribution_bulking
+  - action: utter_protein_distribution_bulking
+
+- rule: 
+  steps:
+  - intent: protein_absorption
+  - action: utter_protein_absorption
+
+- rule: 
+  steps:
+  - intent: liver_protein_processing
+  - action: utter_liver_protein_processing
+
+- rule: 
+  steps:
+  - intent: hydrolyzed_whey_protein
+  - action: utter_hydrolyzed_whey_protein
+
+- rule: 
+  steps:
+  - intent: reason_for_protein_distribution
+  - action: utter_reason_for_protein_distribution
+
+- rule: 
+  steps:
+  - intent: protein_timing_in_cutting
+  - action: utter_protein_timing_in_cutting
+
+- rule: 
+  steps:
+  - intent: protein_waste
+  - action: utter_protein_waste
+
+- rule: 
+  steps:
+  - intent: protein_distribution
+  - action: utter_protein_distribution
+
+- rule: 
+  steps:
+  - intent: protein_timing_and_goal
+  - action: utter_protein_timing_and_goal
+
+- rule: 
+  steps:
+  - intent: protein_intake_timing
+  - action: utter_protein_intake_timing
+
+- rule: 
+  steps:
+  - intent: high_dosage_hydrolyzed_proteins
+  - action: utter_high_dosage_hydrolyzed_proteins
+
+- rule: 
+  steps:
+  - intent: performance_loss_prevention
+  - action: utter_performance_loss_prevention
+
+- rule: 
+  steps:
+  - intent: high_carbohydrate_sports
+  - action: utter_high_carbohydrate_sports
+
+- rule: 
+  steps:
+  - intent: nutritional_needs_in_caloric_surplus
+  - action: utter_nutritional_needs_in_caloric_surplus
+
+- rule: 
+  steps:
+  - intent: nutrient_timing_post_workout
+  - action: utter_nutrient_timing_post_workout
+
+- rule: 
+  steps:
+  - intent: calorie_diversion_before_workout
+  - action: utter_calorie_diversion_before_workout
+
+- rule: 
+  steps:
+  - intent: nutrient_cycling_mass_phase
+  - action: utter_nutrient_cycling_mass_phase
+
+- rule: 
+  steps:
+  - intent: carb_intake_sport_performance
+  - action: utter_carb_intake_sport_performance
+
+- rule: 
+  steps:
+  - intent: fasted_cardio_burning_fat
+  - action: utter_fasted_cardio_burning_fat
+
+- rule: 
+  steps:
+  - intent: not_needed_fasted_cardio
+  - action: utter_not_needed_fasted_cardio
+
+- rule: 
+  steps:
+  - intent: effect_fasted_cardio_calories_burned
+  - action: utter_effect_fasted_cardio_calories_burned
+
+- rule: 
+  steps:
+  - intent: nutrients_during_training
+  - action: utter_nutrients_during_training
+
+- rule: 
+  steps:
+  - intent: poor_performance_fasted_training
+  - action: utter_poor_performance_fasted_training
