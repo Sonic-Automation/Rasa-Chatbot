@@ -2540,7 +2540,7 @@ rules:
 
 - rule: Qual è il dosaggio raccomandato di vitamina D?
   steps:
-  intent: - vit_d_dosage
+  intent: vit_d_dosage
   - action: utter_vit_d_dosage  
 
 - rule: La vitamina D ha bisogno di altre vitamine per funzionare correttamente?
