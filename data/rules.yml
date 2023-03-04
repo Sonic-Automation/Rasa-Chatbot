@@ -1110,7 +1110,7 @@ rules:
 - rule: Cosa significa "deficit calorico"?
   steps:
   - intent: define_calorie_deficit
-  - action: utter_ define_calorie_deficit
+  - action: utter_define_calorie_deficit
 
 # VSS cap 4-3
 
