@@ -3,23 +3,26 @@ version: "3.1"
 intents:
   - greeting
   - bot_challenge
-  - pasta_e_fagioli # Copia di Q&A-da 1 a 5
+# Copia di Q&A-da 1 a 5
+  - pasta_e_fagioli 
   - abbinamento_proteine
   - costo_diventare_vegani
   - fame
   - valore_alimenti_vegetali
-
-  - sentirsi_gonfi_transizione_vegana # Copia di Q&A-da 6 a 10
-  - alimentazione_vegana_completa
+# Copia di Q&A-da 6 a 10
+  - gonfiore_inizio_transizione_vegana 
+  - completezza_alimentazione_vegana
   - proteine_grasse
   - aspetti_tecnici
-  - alimenti_serie_AB 
-  - pasto_bilanciato # Copia di Q&A-da 11 a 15
+  - alimenti_serie_a_b 
+# Copia di Q&A-da 11 a 15
+  - pasto_bilanciato 
   - healthy_every_size
-  - emissione_di_aria_dalla_pancia
-  - legumi_e_verdure_come_pasto
-  - orario_migliore_per_allenamento
-  - info_efsa # VSS cap 1 - 3
+  - aria_in_pancia
+  - legumi_verdure
+  - orario_migliore_allenarsi
+# VSS cap 1 - 3
+  - info_efsa 
   - studio_vitamina_b12
   - carenza_vitamina_d
   - dieta_vegetale_vitamine
@@ -40,7 +43,8 @@ intents:
   - difficolta_bilanciare_dieta_vegetale
   - distorsione_statistica_studi_dieta_vegana
   - problema_dieta_vegana_sostenibilità
-  - preoccupazioni_dieta_vegetariana_salute #VSS cap 1 - conclusioni
+#VSS cap 1 - conclusioni
+  - preoccupazioni_dieta_vegetariana_salute
   - parere_WHO_diete_vegetariane
   - gruppi_rischio_dieta_vegana
   - evitare_carenze_dieta_vegana
@@ -49,12 +53,14 @@ intents:
   - carenze_nutrizionali_dieta_vegana
   - dieta_vegetariana_bilanciata
   - supervisione_dieta_particolari
-  - sport_atleti_vegetariani_vegani # VSS cap 1 - sport
+# VSS cap 1 - sport
+  - sport_atleti_vegetariani_vegani 
   - differenze_prestazione_atletica
   - atleti_vegetariani_e_vegani
   - supervisione_medica_atleti_vegani
   - relazione_dieta_prestazione_atletica
-  - cause_weight_nutrition_issues # VSS cap 3-2
+# VSS cap 3-2
+  - cause_weight_nutrition_issues
   - ask_autoregulation_changes
   - ask_compensation_in_past
   - why_food_scarcity
@@ -93,8 +99,8 @@ intents:
   - pesare_alimenti
   - vantaggi_categorie_alimentari
   - requisiti_categorie_alimentari
-
-  - error_margin_categories #VSS cap 3 - 3
+#VSS cap 3 - 3
+  - error_margin_categories 
   - food_category_differences
   - example_protein_differences
   - precision_nutrition
@@ -113,7 +119,7 @@ intents:
   - food_tracking_apps
   - pros_and_cons_of_food_diaries
   - sustainable_food_diary
-  - nutrition_errors_weight_stall
+
 # VSS cap 3-4
   - protein_powder_definition
   - protein_powder_harmful
@@ -138,69 +144,69 @@ intents:
   - whole_food_snacks
   - health_effects_fried_foods
   # VSS cap 4-1
-  - weight_loss_factor #1
-  - weight_change_response #2
-  - weight_loss_challenges #3
-  - self_regulation_optimization #4
-  - overeating_consequences #5
-  - avoiding_overeating_main_meals #6
-  - benefits_of_small_meals_weight_management #7
-  - recommended_foods_small_meals #8
-  - consequences_of_overeating_small_meals #9
-  - optimizing_small_meals #10
-  - physical_activity_for_weight_management #11
-  - calorie_intake_for_healthy_weight #12
-  - foods_to_avoid_for_healthy_weight #13
-  - foods_to_choose_for_healthy_weight #14
-  - reduce_calories_during_main_meals #15
-  - health_benefits_of_maintaining_a_healthy_weight #16
-  - avoid_overeating_during_main_meals #17
-  - motivation_for_healthy_lifestyle #18
-  - benefits_of_water_for_weight_management #19
-  - consequences_of_being_underweight #20
-  - consequences_of_being_overweight #21
-  - role_of_caloric_balance_in_weight_management #22
-  - monitoring_caloric_intake #23
-  - consequences_of_overweight_during_pregnancy #24
-  - consequences_of_underweight_during_pregnancy #25
-  - benefits_of_exercise_for_weight_management_during_pregnancy #26
-  - managing_postpartum_weight_loss #27
-  - rules_for_composing_main_meals_in_intuitive_eating #28
-  - low_calorie_foods_in_intuitive_eating #29
-  - recommended_vegetables_in_intuitive_eating #30
-  - variety_in_intuitive_eating_main_meals #31
-  - moderate_high_calorie_intuitive_eating_main_meals #32
-  - intuitive_eating_calorie_choice_based_on_goals #33
-  - intuitive_eating_composing_side_meals_rules #34
-  - intuitive_eating_low_calorie_foods_side_meals #35
-  - principi_alimentazione_intuitiva #36
-  - variazioni_pastiprincipali_alimentazione_intuitiva #37
-  - food_options #38
-  - meal_balance #39
-  - bilanciare_pasti_secondari #40
-  - rules_high_calorie_foods_main_meals #41
-  - low_calorie_food_options #42
-  - balance_junk_food_with_healthy_options #43
-  - assessing_balance_of_meals #44
-  - varying_secondary_meals #45
-  - recommended_portions_main_meals #46
-  - recommended_portions_secondary_meals #47
-  - balancing_meals_for_weight_loss #48
-  - balancing_meals_for_muscle_gain #49
-  - balancing_meals_for_weight_maintenance #50
-  - benefits_of_intuitive_eating #51
-  - limitations_of_intuitive_eating #52
-  - learning_intuitive_eating #53
-  - first_tip_intuitive_eating #54
-  - self_regulation_mechanisms #55
-  - intuitive_eating_weight_management #56
-  - undereating_intuitive_eating #57
-  - intuitive_eating_80_20_rule #58
-  - intuitive_eating_protein #59
-  - who_can_follow_intuitive_eating #60
-  - weight_loss_without_exercise #61
-  - rischi_diete_restrittive #62
-  - ask_prevent_eating_disorders #63
+  - weight_loss_factor
+  - weight_change_response
+  - weight_loss_challenges
+  - self_regulation_optimization
+  - overeating_consequences
+  - avoiding_overeating_main_meals
+  - benefits_of_small_meals_weight_management
+  - recommended_foods_small_meals
+  - consequences_of_overeating_small_meals
+  - optimizing_small_meals
+  - physical_activity_for_weight_management
+  - calorie_intake_for_healthy_weight
+  - foods_to_avoid_for_healthy_weight
+  - foods_to_choose_for_healthy_weight
+  - reduce_calories_during_main_meals
+  - health_benefits_of_maintaining_a_healthy_weight
+  - avoid_overeating_during_main_meals
+  - motivation_for_healthy_lifestyle
+  - benefits_of_water_for_weight_management
+  - consequences_of_being_underweight
+  - consequences_of_being_overweight
+  - role_of_caloric_balance_in_weight_management
+  - monitoring_caloric_intake
+  - consequences_of_overweight_during_pregnancy
+  - consequences_of_underweight_during_pregnancy
+  - benefits_of_exercise_for_weight_management_during_pregnancy
+  - managing_postpartum_weight_loss
+  - rules_for_composing_main_meals_in_intuitive_eating
+  - low_calorie_foods_in_intuitive_eating
+  - recommended_vegetables_in_intuitive_eating
+  - variety_in_intuitive_eating_main_meals
+  - moderate_high_calorie_intuitive_eating_main_meals
+  - intuitive_eating_calorie_choice_based_on_goals
+  - intuitive_eating_composing_side_meals_rules
+  - intuitive_eating_low_calorie_foods_side_meals
+  - principi_alimentazione_intuitiva
+  - variazioni_pastiprincipali_alimentazione_intuitiva
+  - food_options
+  - meal_balance
+  - bilanciare_pasti_secondari
+  - rules_high_calorie_foods_main_meals
+  - low_calorie_food_options
+  - balance_junk_food_with_healthy_options
+  - assessing_balance_of_meals
+  - varying_secondary_meals
+  - recommended_portions_main_meals
+  - recommended_portions_secondary_meals
+  - balancing_meals_for_weight_loss
+  - balancing_meals_for_muscle_gain
+  - balancing_meals_for_weight_maintenance
+  - benefits_of_intuitive_eating
+  - limitations_of_intuitive_eating
+  - learning_intuitive_eating
+  - first_tip_intuitive_eating
+  - self_regulation_mechanisms
+  - intuitive_eating_weight_management
+  - undereating_intuitive_eating
+  - intuitive_eating_80_20_rule
+  - intuitive_eating_protein
+  - who_can_follow_intuitive_eating
+  - weight_loss_without_exercise
+  - rischi_diete_restrittive
+  - ask_prevent_eating_disorders
 # VSS cap 4-2
   - difference_weight_loss
   - weight_loss_difference
@@ -441,7 +447,7 @@ intents:
   - excess_carbs_storage
   - long_term_insulin_resistance
   - carb_management_during_hypocaloric_phase
-# VSS cap 7
+# VSS cap 7-1
   - fiber_functions
   - fiber_sources
   - fiber_risks
