@@ -2231,862 +2231,862 @@ rules:
   - intent: satiety_of_fiber
   - action: utter_satiety_of_fiber
 
-- rule: 
+- rule: Come le fibre influiscono sul transito intestinale?
   steps:
   - intent: fiber_and_digestion
   - action: utter_fiber_and_digestion
 
-- rule: 
+- rule: In che modo le fibre nutrono i batteri intestinali?
   steps:
   - intent: fiber_and_gut_bacteria
   - action: utter_fiber_and_gut_bacteria
 
-- rule: 
+- rule: Perché i medici consigliano di evitare il junk food e di prediligere alimenti freschi e integrali?
   steps:
   - intent: whole_foods_vs_junk_food
   - action: utter_whole_foods_vs_junk_food
 
-- rule: 
+- rule: Quali sono gli effetti negativi dell'eccesso di fibra nell'organismo?
   steps:
   - intent: negative_effects_of_fiber
   - action: utter_negative_effects_of_fiber
 
-- rule: 
+- rule: Quali sono i limiti nell'assunzione di fibre?
   steps:
   - intent: limits_of_fiber_intake
   - action: utter_limits_of_fiber_intake
 
-- rule: 
+- rule: Perché è importante bere acqua quando si consumano molte fibre?
   steps:
   - intent: importance_of_water_with_fiber
   - action: utter_importance_of_water_with_fiber
 
-- rule: 
+- rule: Serve l'acqua a basso residuo fisso per evitare i calcoli renali?
   steps:
   - intent: low_residue_water_for_kidney_stones
   - action: utter_low_residue_water_for_kidney_stones
 
-- rule: 
+- rule: Quali sono i risultati di un eccesso di fibre nell'organismo?
   steps:
   - intent: excess_fiber_results
   - action: utter_excess_fiber_results
 
-- rule: 
+- rule: Qual è la quantità di fibre che l'organismo è in grado di tollerare?
   steps:
   - intent: fiber_tolerance
   - action: utter_fiber_tolerance
 
-- rule: 
+- rule: Qual è il modo migliore per limitare l'assunzione di fibre se si accusano disturbi digestivi?
   steps:
   - intent: reducing_fiber_intake
   - action: utter_reducing_fiber_intake
 
-- rule: 
+- rule: Perché è importante aumentare il consumo di acqua?
   steps:
   - intent: importance_of_water
   - action: utter_importance_of_water
 
-- rule: 
+- rule: Posso bere l'acqua del rubinetto anziché acqua a basso residuo fisso per evitare i calcoli?
   steps:
   - intent: tap_water_vs_mineral_water
   - action: utter_tap_water_vs_mineral_water
 
-- rule: 
+- rule: Quali sono i problemi causati dalla disidratazione?
   steps:
   - intent: problems_of_dehydration
   - action: utter_problems_of_dehydration
 
-- rule: 
+- rule: Come posso calcolare la quantità di fibre di cui ho bisogno?
   steps:
   - intent: fiber_intake
   - action: utter_fiber_intake
 
-- rule: 
+- rule: Quali sono i sintomi dell'assunzione di troppe fibre?
   steps:
   - intent: fiber_symptoms
   - action: utter_fiber_symptoms
 
-- rule: 
+- rule: Come posso sapere se sto assumendo poche fibre nella dieta vegana?
   steps:
   - intent: low_fiber
   - action: utter_low_fiber
 
-- rule: 
+- rule: Qual è il livello di idratazione giornaliero raccomandato?
   steps:
   - intent: hydration_level
   - action: utter_hydration_level
 
-- rule: 
+- rule: Quali sono gli svantaggi della disidratazione nella dieta vegana?
   steps:
   - intent: dehydration_disadvantages
   - action: utter_dehydration_disadvantages
 
-- rule: 
+- rule: Quali sono le conseguenze di un equilibrio tra alimentazione e intestino non corretto?
   steps:
   - intent: diet_gut_health
   - action: utter_diet_gut_health
 
-- rule: 
+- rule: Cosa succede se stiamo assumendo troppe fibre?
   steps:
   - intent: excessive_fiber_intake
   - action: utter_excessive_fiber_intake
 
-- rule: 
+- rule: Cosa succede se non riusciamo ad andare di corpo tutti i giorni?
   steps:
   - intent: irregular_bowel_movement
   - action: utter_irregular_bowel_movement
 
-- rule: 
+- rule: Come capire se stiamo bevendo a sufficienza?
   steps:
   - intent: hydration_check
   - action: utter_hydration_check
 
-- rule: 
+- rule: Quali sono le due cose principali da cui dobbiamo prendere cura per mantenere una buona salute?
   steps:
   - intent: two_main_health_concerns
   - action: utter_two_main_health_concerns
 
-- rule: 
+- rule: Quante fibre dovrei assumere al giorno?
   steps:
   - intent: daily_fiber_intake_guidelines
   - action: utter_daily_fiber_intake_guidelines
 
-- rule: 
+- rule: Quali sono le sfide per i vegani nel mantenere la chetosi?
   steps:
   - intent: vegans_difficulty_ketosis
   - action: utter_vegans_difficulty_ketosis
 
 # VSS cap 8-1
 
-- rule:
+- rule: Che cosa significa che un nutriente è "naturale"?
   steps:
   - intent: natural_vs_synthetic_nutrients
   - action: utter_natural_vs_synthetic_nutrients  
 
-- rule:
+- rule: Perché è meglio assumere i nutrienti dal cibo piuttosto che dagli integratori?
   steps:
   - intent: food_vs_supplements
   - action: utter_food_vs_supplements  
 
-- rule:
+- rule: Cosa dovrebbe fornire l'alimentazione?
   steps:
   - intent: role_of_nutrition
   - action: utter_role_of_nutrition  
 
-- rule:
+- rule: Perché l'alimentazione potrebbe non fornire tutti i nutrienti di cui abbiamo bisogno?
   steps:
   - intent: reasons_for_nutrient_deficiencies
   - action: utter_reasons_for_nutrient_deficiencies  
 
-- rule:
+- rule: Quando è consigliabile integrare i nutrienti nella dieta?
   steps:
   - intent: nutrient_supplementation
   - action: utter_nutrient_supplementation  
 
-- rule:
+- rule: Come posso integrare i nutrienti se ho un fabbisogno aumentato?
   steps:
   - intent: extra_nutrient_supplementation
   - action: utter_extra_nutrient_supplementation  
 
-- rule:
+- rule: Perché è importante integrare la vitamina B12?
   steps:
   - intent: importance_of_B12
   - action: utter_importance_of_B12  
 
-- rule:
+- rule: Quali sono le fonti di vitamina B12?
   steps:
   - intent: sources_of_B12
   - action: utter_sources_of_B12  
 
-- rule:
+- rule: La vitamina B12 è importante solo per i vegani?
   steps:
   - intent: B12_for_vegans
   - action: utter_B12_for_vegans  
 
-- rule:
+- rule: È possibile che la vitamina B12 sia prodotta dai batteri nell'intestino?
   steps:
   - intent: B12_production_in_gut
   - action: utter_B12_production_in_gut  
 
-- rule:
+- rule: Qual è il modo migliore per integrare la vitamina B12?
   steps:
   - intent: b12_integration_recommendation
   - action: utter_b12_integration_recommendation  
 
-- rule:
+- rule: Quali sono i rischi di una carenza di vitamina B12?
   steps:
   - intent: b12_deficiency_risks
   - action: utter_b12_deficiency_risks  
 
-- rule:
+- rule: In passato, come l'uomo è stato esposto alla vitamina B12?
   steps:
   - intent: b12_historical_exposure
   - action: utter_b12_historical_exposure  
 
-- rule:
+- rule: Perché la vitamina B12 è meno presente oggi nella dieta umana?
   steps:
   - intent: b12_presence_reduction
   - action: utter_b12_presence_reduction  
 
-- rule:
+- rule: La flora intestinale produce vitamina B12?
   steps:
   - intent: b12_production_by_gut_flora
   - action: utter_b12_production_by_gut_flora  
 
-- rule:
+- rule: Quali sono i sintomi di una carenza di vitamina B12?
   steps:
   - intent: vitamin_b12_deficiency
   - action: utter_vitamin_b12_deficiency  
 
-- rule:
+- rule: Che cos'è la vitamina B12 e perché è importante?
   steps:
   - intent: vitamin_b12_importance
   - action: utter_vitamin_b12_importance  
 
-- rule:
+- rule: Da dove viene la vitamina B12 in genere?
   steps:
   - intent: sources_of_vitamin_b12
   - action: utter_sources_of_vitamin_b12  
 
-- rule:
+- rule: La carenza di vitamina B12 riguarda solo i vegani?
   steps:
   - intent: vitamin_b12_deficiency_veganism
   - action: utter_vitamin_b12_deficiency_veganism  
 
-- rule:
+- rule: È vero che i batteri nell'intestino producono vitamina B12 e quindi non c'è bisogno di integrarla?
   steps:
   - intent: vitamin_b12_intestinal_bacteria
   - action: utter_vitamin_b12_intestinal_bacteria  
 
-- rule:
+- rule: Quali sono i diversi tipi di integratori di vitamina B12?
   steps:
   - intent: types_of_B12_supplements
   - action: utter_types_of_B12_supplements  
 
-- rule:
+- rule: Cosa è stato scoperto dallo studio dell'EFSA sulla carenza di vitamina B12 nei neonati?
   steps:
   - intent: EFSA_study_on_B12_deficiency
   - action: utter_EFSA_study_on_B12_deficiency  
 
-- rule:
+- rule: Quali sono le conseguenze di una carenza di vitamina D?
   steps:
   - intent: consequences_of_D_deficiency
   - action: utter_consequences_of_D_deficiency  
 
-- rule:
+- rule: Qual è la principale fonte di vitamina D?
   steps:
   - intent: main_source_of_vitamin_d
   - action: utter_main_source_of_vitamin_d  
 
-- rule:
+- rule: Si possono trovare fonti affidabili di vitamina D nell'alimentazione?
   steps:
   - intent: sources_of_vitamin_d
   - action: utter_sources_of_vitamin_d  
 
-- rule:
+- rule: Qual è la fascia oraria in cui la produzione di vitamina D è attiva?
   steps:
   - intent: vitamin_D_production_time
   - action: utter_vitamin_D_production_time  
 
-- rule:
+- rule: Quanti UI di vitamina D si dovrebbero assumere al giorno?
   steps:
   - intent: daily_vitamin_D_intake
   - action: utter_daily_vitamin_D_intake  
 
-- rule:
+- rule: La vitamina D ha bisogno di un'altra vitamina per funzionare correttamente?
   steps:
   - intent: vitamin_D_synergy
   - action: utter_vitamin_D_synergy  
 
-- rule:
+- rule: Qual è la forma di vitamina D più efficace per la salute umana?
   steps:
   - intent: most_effective_vitamin_D_form
   - action: utter_most_effective_vitamin_D_form  
 
-- rule:
+- rule: La carenza di vitamina D può essere pericolosa per la salute?
   steps:
   - intent: risks_of_vitamin_D_deficiency
   - action: utter_risks_of_vitamin_D_deficiency  
 
-- rule:
+- rule: Qual è la percentuale di popolazione mondiale che soffre di carenza di vitamina D?
   steps:
   - intent: vitamin_d_deficiency
   - action: utter_vitamin_d_deficiency  
 
-- rule:
+- rule: La vitamina D presente nei formaggi è una fonte affidabile?
   steps:
   - intent: vitamin_d_cheese
   - action: utter_vitamin_d_cheese  
 
-- rule:
+- rule: Qual è la quantità di vitamina K2 necessaria per ottenere un effetto ottimale sulla vitamina D?
   steps:
   - intent: vitamin_d_and_k2
   - action: utter_vitamin_d_and_k2  
 
-- rule:
+- rule: Quali sono le principali fonti di vitamina D?
   steps:
   - intent: vitamin_d_main_sources
   - action: utter_vitamin_d_main_sources  
 
-- rule:
+- rule: Perché la maggior parte della popolazione mondiale è carente di vitamina D?
   steps:
   - intent: vit_d_deficiency
   - action: utter_vit_d_deficiency  
 
-- rule:
+- rule: Quali sono le funzioni della vitamina D nel corpo umano?
   steps:
   - intent: vit_d_functions
   - action: utter_vit_d_functions  
 
-- rule:
+- rule: Qual è il dosaggio raccomandato di vitamina D?
   steps:
   intent: - vit_d_dosage
   - action: utter_vit_d_dosage  
 
-- rule:
+- rule: La vitamina D ha bisogno di altre vitamine per funzionare correttamente?
   steps:
   - intent: vit_d_interaction
   - action: utter_vit_d_interaction  
 
-- rule:
+- rule: È possibile assumere la vitamina D attraverso l'alimentazione o solo tramite integratori?
   steps:
   - intent:  vit_d_sources
   - action: utter_vit_d_sources  
 
 #VSS cap 8-2
 
-- rule: 
+- rule: Quali sono le funzioni degli acidi grassi omega 3?
   steps:
   - intent: omega3_functions
   - action: utter_omega3_functions
 
-- rule: 
+- rule: Qual è la differenza tra acidi grassi omega 3 a catena corta e a catena lunga?
   steps:
   - intent: omega3_short_vs_long_chain
   - action: utter_omega3_short_vs_long_chain
 
-- rule: 
+- rule: Quali alimenti vegani contengono omega 3 a catena lunga?
   steps:
   - intent: vegan_sources_omega3_long_chain
   - action: utter_vegan_sources_omega3_long_chain
 
-- rule: 
+- rule: Qual è la dose raccomandata di EPA e DHA per i vegani?
   steps:
   - intent: omega3_dosage_recommendation
   - action: utter_omega3_dosage_recommendation
 
-- rule: 
+- rule: Quali sono i rischi di un rapporto squilibrato tra omega 3 e omega 6 nella dieta?
   steps:
   - intent: omega3_omega6_imbalance_risks
   - action: utter_omega3_omega6_imbalance_risks
 
-- rule: 
+- rule: Perché è importante integrare gli acidi grassi omega 3 nella dieta vegana?
   steps:
   - intent: omega3_importance
   - action: utter_omega3_importance
 
-- rule: 
+- rule: Gli omega 3 sono essenziali per il nostro corpo?
   steps:
   - intent: omega3_essential
   - action: utter_omega3_essential
 
-- rule: 
+- rule: Qual è la differenza tra gli omega 3 ed omega 6?
   steps:
   - intent: omega3_vs_omega6
   - action: utter_omega3_vs_omega6
 
-- rule: 
+- rule: Gli alimenti vegani sono sufficienti per coprire il fabbisogno di omega 3?
   steps:
   - intent: vegan_sources_omega3
   - action: utter_vegan_sources_omega3
 
-- rule: 
+- rule: Dove i vegani possono trovare EPA e DHA?
   steps:
   - intent: EPA_DHA_sources
   - action: utter_EPA_DHA_sources
 
-- rule: 
+- rule: Quali alimenti sono ricchi di omega 3 per i vegani?
   steps:
   - intent: sources_of_omega_3
   - action: utter_sources_of_omega_3
 
-- rule: 
+- rule: Mangiare alghe aiuta a coprire il fabbisogno di omega 3?
   steps:
   - intent: algae_for_omega_3
   - action: utter_algae_for_omega_3
 
-- rule: 
+- rule: Quali sono gli acidi grassi essenziali di cui l'organismo umano ha bisogno ma non può produrre da solo?
   steps:
   - intent: essential_fatty_acids
   - action: utter_essential_fatty_acids
 
-- rule: 
+- rule: Qual è la funzione degli omega 3 e degli omega 6 nell'organismo?
   steps:
   - intent: functions_of_omega_3_6
   - action: utter_functions_of_omega_3_6
 
-- rule: 
+- rule: Perché è importante avere un equilibrio tra omega 3 e omega 6 nella dieta?
   steps:
   - intent: importance_of_omega_3_6_balance
   - action: utter_importance_of_omega_3_6_balance
 
-- rule: 
+- rule: Quali sono le migliori fonti di omega 3 per i vegani?
   steps:
   - intent: sources_of_omega3
   - action: utter_sources_of_omega3
 
-- rule: 
+- rule: Perché gli omega 3 sono importanti nella dieta vegana?
   steps:
   - intent: importance_of_omega3
   - action: utter_importance_of_omega3
 
-- rule: 
+- rule: Perché la nostra alimentazione è carente di omega 3?
   steps:
   - intent: omega3_deficiency
   - action: utter_omega3_deficiency
 
-- rule: 
+- rule: I vegani sono esenti dal problema di squilibrio omega 3/omega 6?
   steps:
   - intent: omega3_omega6_balance
   - action: utter_omega3_omega6_balance
 
-- rule: 
+- rule: Quali sono gli alimenti vegani più ricchi di omega 3?
   steps:
   - intent: vegan_sources_of_omega3
   - action: utter_vegan_sources_of_omega3
 
-- rule: 
+- rule: Sono sufficienti i semi di lino o l'olio di lino per integrare gli omega 3 nella dieta vegana?
   steps:
   - intent: vegan_omega3_sources
   - action: utter_vegan_omega3_sources
 
-- rule: 
+- rule: Quali sono i micronutrienti che potrebbero essere carenti nella dieta vegana?
   steps:
   - intent: vegan_micronutrient_deficiencies
   - action: utter_vegan_micronutrient_deficiencies
 
-- rule: 
+- rule: Come posso garantire un adeguato apporto di calcio nella dieta vegana?
   steps:
   - intent: vegan_calcium_sources
   - action: utter_vegan_calcium_sources
 
-- rule: 
+- rule: È necessario ridurre il consumo di sale per garantire un adeguato apporto di iodio nella dieta vegana?
   steps:
   - intent: vegan_iodine_sources
   - action: utter_vegan_iodine_sources
 
-- rule: 
+- rule: Da dove possono essere ottenuti gli EPA e DHA per i vegani?
   steps:
   - intent: vegan_epa_dha_sources
   - action: utter_vegan_epa_dha_sources
 
-- rule: 
+- rule: Qual è l'unica fonte di selenio nella dieta vegana?
   steps:
   - intent: vegan_selenium_source
   - action: utter_vegan_selenium_source
 
-- rule: 
+- rule: Perché è consigliata l'integrazione di zinco nella dieta vegana?
   steps:
   - intent: vegan_nutrient_supplementation
   - action: utter_vegan_nutrient_supplementation
 
-- rule: 
+- rule: Quali sono le difficoltà nel trovare un buon multivitaminico per la dieta vegana?
   steps:
   - intent: vegan_multivitamin_difficulties
   - action: utter_vegan_multivitamin_difficulties
 
-- rule: 
+- rule: Quali nutrienti rischiano di essere carenti nella dieta vegana?
   steps:
   - intent: vegan_nutrient_deficiencies
   - action: utter_vegan_nutrient_deficiencies
 
-- rule: 
+- rule: È difficile raggiungere gli apporti raccomandati di questi nutrienti nella dieta vegana?
   steps:
   - intent: vegan_nutrient_intake_difficulties
   - action: utter_vegan_nutrient_intake_difficulties
 
-- rule: 
+- rule: Come posso evitare carenze di micronutrienti nella dieta vegana?
   steps:
   - intent: vegan_micronutrients_solution
   - action: utter_vegan_micronutrients_solution
 
-- rule: 
+- rule: È necessario integrare lo iodio nella dieta vegana?
   steps:
   - intent: iodine_supplementation
   - action: utter_iodine_supplementation
 
-- rule: 
+- rule: Qual è la sfida nella scelta di un buon multivitaminico per la dieta vegana?
   steps:
   - intent: vegan_multivitamin_challenge
   - action: utter_vegan_multivitamin_challenge
 
-- rule: 
+- rule: È necessario preoccuparsi del calcio nella dieta vegana?
   steps:
   - intent: calcium_in_vegan_diet
   - action: utter_calcium_in_vegan_diet
 
-- rule: 
+- rule: Quali sono le fonti di iodio nella dieta vegana?
   steps:
   - intent: iodine_deficiency_prevention
   - action: utter_iodine_deficiency_prevention
 
-- rule: 
+- rule: Quali alimenti vegani sono ricchi di selenio?
   steps:
   - intent: selenium_source
   - action: utter_selenium_source
 
-- rule: 
+- rule: Quali alimenti vegani sono ricchi di zinco e vitamine B1, B2 e B3?
   steps:
   - intent: vitamin_zinc_supplementation
   - action: utter_vitamin_zinc_supplementation
 
 # VSS cap 8-3
 
-- rule: 
+- rule: Quali sono i benefici della creatina sulla performance sportiva?
   steps:
   - intent: creatine_benefits
   - action: utter_creatine_benefits
 
-- rule: 
+- rule: Qual è la quantità raccomandata di creatina da assumere al giorno?
   steps:
   - intent: creatine_recommendation
   - action: utter_creatine_recommendation
 
-- rule: 
+- rule: Che cosa succede se una persona non risponde all'assunzione di creatina?
   steps:
   - intent: creatine_non_responders
   - action: utter_creatine_non_responders
 
-- rule: 
+- rule: La creatina fa ritenzione idrica?
   steps:
   - intent: creatine_water_retention
   - action: utter_creatine_water_retention
 
-- rule: 
+- rule: C'è bisogno di fare delle fasi di carico e scarico con la creatina?
   steps:
   - intent: creatine_loading_phase
   - action: utter_creatine_loading_phase
 
-- rule: 
+- rule: La creatina aumenta la massa muscolare?
   steps:
   - intent: creatine_effects_on_muscle_mass
   - action: utter_creatine_effects_on_muscle_mass
 
-- rule: 
+- rule: Qual è il ruolo della creatina nella performance sportiva?
   steps:
   - intent: creatine_role_in_sports_performance
   - action: utter_creatine_role_in_sports_performance
 
-- rule: 
+- rule: La creatina ha effetti negativi sulla salute?
   steps:
   - intent: creatine_health_effects
   - action: utter_creatine_health_effects
 
-- rule: 
+- rule: La creatina funziona per tutti gli sportivi?
   steps:
   - intent: creatine_effectiveness
   - action: utter_creatine_effectiveness
 
-- rule: 
+- rule: Qual è il dosaggio consigliato di creatina per gli adulti?
   steps:
   - intent: creatine_dosage
   - action: utter_creatine_dosage
 
-- rule: 
+- rule: Quali sono le conseguenze dell'assunzione di creatina sulla ritenzione idrica?
   steps:
   - intent: creatine_water_consequences
   - action: utter_creatine_water_consequences
 
-- rule: 
+- rule: È necessario ciclizzare l'assunzione di creatina?
   steps:
   - intent: creatine_cycling
   - action: utter_creatine_cycling
 
-- rule: 
+- rule: Qual è la percentuale di persone che non risponde all'assunzione di creatina?
   steps:
   - intent: creatine_response_percentage
   - action: utter_creatine_response_percentage
 
-- rule: 
+- rule: Quali sono i benefici cognitivi evidenziati recentemente per quanto riguarda l'assunzione di creatina?
   steps:
   - intent: cognitive_benefits_of_creatine
   - action: utter_cognitive_benefits_of_creatine
 
-- rule: 
+- rule: Che cos'è la beta alanina?
   steps:
   - intent: beta_alanine_definition
   - action: utter_beta_alanine_definition
 
-- rule: 
+- rule: Quali sono gli effetti collaterali della beta alanina?
   steps:
   - intent: beta_alanine_side_effects
   - action: utter_beta_alanine_side_effects
 
-- rule: 
+- rule: Qual è il dosaggio raccomandato di beta alanina?
   steps:
   - intent: beta_alanine_dosage
   - action: utter_beta_alanine_dosage
 
-- rule: 
+- rule: In che modo la beta alanina si differenzia dalla creatina come integratore?
   steps:
   - intent: beta_alanine_vs_creatine
   - action: utter_beta_alanine_vs_creatine
 
-- rule: 
+- rule: La beta alanina è sicura da usare come integratore?
   steps:
   - intent: safety_of_beta_alanine
   - action: utter_safety_of_beta_alanine
 
-- rule: 
+- rule: Qual è il dosaggio giornaliero consigliato di beta alanina?
   steps:
   - intent: recommended_dosage_beta_alanine
   - action: utter_recommended_dosage_beta_alanine
 
-- rule: 
+- rule: Quali sono i beneficrittori della taurina?
   steps:
   - intent: benefits_of_taurine
   - action: utter_benefits_of_taurine
 
-- rule: 
+- rule: Che cos'è la taurina e come agisce?
   steps:
   - intent: what_is_taurine
   - action: utter_what_is_taurine
 
-- rule: 
+- rule: Qual è il dosaggio giornaliero consigliato di taurina?
   steps:
   - intent: taurine_daily_dosage
   - action: utter_taurine_daily_dosage
 
-- rule: 
+- rule: Come agisce la caffeina sulla salute e la performance fisica?
   steps:
   - intent: caffeine_effects_on_health_performance
   - action: utter_caffeine_effects_on_health_performance
 
-- rule: 
+- rule: Qual è il timing di assunzione consigliato per la caffeina?
   steps:
   - intent: caffeine_timing
   - action: utter_caffeine_timing
 
-- rule: 
+- rule: Quali sono i beneficrittori principali della caffeina e come agisce?
   steps:
   - intent: caffeine_benefits
   - action: utter_caffeine_benefits
 
-- rule: 
+- rule: Qual è la differenza tra l'effetto della beta alanina e della caffeina?
   steps:
   - intent: beta_alanine_vs_caffeine
   - action: utter_beta_alanine_vs_caffeine
   
 # VSS cap 9-1
 
-- rule: 
+- rule: E' importante il timing dei pasti?
   steps:
   - intent: meal_timing_importance
   - action: utter_meal_timing_importance
 
-- rule: 
+- rule: Qual è l'effetto del timing sulle abitudini alimentari?
   steps:
   - intent: weight_loss_timing
   - action: utter_weight_loss_timing
 
-- rule: 
+- rule: Perché saltare la colazione non ha un effetto negativo sulla perdita di peso?
   steps:
   - intent: breakfast_skip_weight_loss
   - action: utter_breakfast_skip_weight_loss
 
-- rule: 
+- rule: I nutrienti hanno lo stesso effetto sulla perdita di peso?
   steps:
   - intent: nutrients_weight_loss_effect
   - action: utter_nutrients_weight_loss_effect
 
-- rule: 
+- rule: Qual è l'importanza del timing dei nutrienti nella dieta?
   steps:
   - intent: meal_nutrient_timing_importance
   - action: utter_meal_nutrient_timing_importance
 
-- rule: 
+- rule: La colazione è davvero il pasto più importante della giornata?
   steps:
   - intent: breakfast_importance
   - action: utter_breakfast_importance
 
-- rule: 
+- rule: I carboidrati consumati la sera fanno ingrassare?
   steps:
   - intent: carbs_at_night_weight_gain
   - action: utter_carbs_at_night_weight_gain
 
-- rule: 
+- rule: Qual è l'effetto del totale di cibo consumato sul metabolismo?
   steps:
   - intent: food_intake_metabolism
   - action: utter_food_intake_metabolism
 
-- rule: 
+- rule: È importante che le proteine vengano consumate a colazione?
   steps:
   - intent: timing_of_nutrient_intake
   - action: utter_timing_of_nutrient_intake
 
-- rule: 
+- rule: Perché è importante il timing nell'alimentazione?
   steps:
   - intent: importance_of_timing
   - action: utter_importance_of_timing
 
-- rule: 
+- rule: ual è la reale importanza del timing nell'alimentazione?
   steps:
   - intent: real_importance_of_timing
   - action: utter_real_importance_of_timing
 
-- rule: 
+- rule: Quando è il momento migliore per consumare i carboidrati?
   steps:
   - intent: carb_timing
   - action: utter_carb_timing
 
-- rule: 
+- rule: Quanto è importante il timing dei pasti per la nostra alimentazione?
   steps:
   - intent: meal_nutrient_timing
   - action: utter_meal_nutrient_timing
 
-- rule: 
+- rule: Qual è l'importanza del totale del cibo che ingeriamo durante la giornata e la settimana?
   steps:
   - intent: total_food_intake
   - action: utter_total_food_intake
 
-- rule: 
+- rule: Saltare la colazione ha effetti negativi sulla salute?
   steps:
   - intent: breakfast_skipping
   - action: utter_breakfast_skipping
 
 # VSS cap 9-2
 
-- rule: 
+- rule: Come posso distribuire le proteine durante la giornata per migliorare la mia performance in allenamento?
   steps:
   - intent: protein_distribution_for_performance
   - action: utter_protein_distribution_for_performance
 
-- rule: 
+- rule: Il corpo umano può assorbire più di 30 g di proteine per pasto?
   steps:
   - intent: maximum_protein_absorption
   - action: utter_maximum_protein_absorption
 
-- rule: 
+- rule: Cosa succede se assumiamo troppe proteine idrolizzate?
   steps:
   - intent: risks_of_hydrolyzed_proteins
   - action: utter_risks_of_hydrolyzed_proteins
 
-- rule: 
+- rule: Perché è importante distribuire le proteine durante la giornata?
   steps:
   - intent: importance_of_protein_distribution
   - action: utter_importance_of_protein_distribution
 
-- rule: 
+- rule: È importante distribuire le proteine durante la fase di massa?
   steps:
   - intent: protein_distribution_bulking
   - action: utter_protein_distribution_bulking
 
-- rule: 
+- rule: Quanti grammi di proteine dovrebbero essere consumati per pasto per ottenere il massimo assorbimento?
   steps:
   - intent: protein_absorption
   - action: utter_protein_absorption
 
-- rule: 
+- rule: Il fegato è in grado di processare più di 28 grammi di proteine l'ora?
   steps:
   - intent: liver_protein_processing
   - action: utter_liver_protein_processing
 
-- rule: 
+- rule: Le proteine del siero del latte idrolizzate possono causare la saturazione dei meccanismi di assimilazione?
   steps:
   - intent: hydrolyzed_whey_protein
   - action: utter_hydrolyzed_whey_protein
 
-- rule: 
+- rule: Qual è il motivo principale per distribuire le proteine durante la giornata?
   steps:
   - intent: reason_for_protein_distribution
   - action: utter_reason_for_protein_distribution
 
-- rule: 
+- rule: Qual è l'importanza del timing delle proteine in una fase di definizione?
   steps:
   - intent: protein_timing_in_cutting
   - action: utter_protein_timing_in_cutting
 
-- rule: 
+- rule: Se assumo troppe proteine del siero del latte idrolizzate, una parte di esse andrà sprecata?
   steps:
   - intent: protein_waste
   - action: utter_protein_waste
 
-- rule: 
+- rule: Quale dovrebbe essere il motivo per cui le proteine dovrebbero essere distribuite durante la giornata?
   steps:
   - intent: protein_distribution
   - action: utter_protein_distribution
 
-- rule: 
+- rule: Come influisce l'obiettivo sulla distribuzione delle proteine durante la giornata?
   steps:
   - intent: protein_timing_and_goal
   - action: utter_protein_timing_and_goal
 
-- rule: 
+- rule: È vero che se mangiamo tutta la dose di proteine la mattina, lo stimolo sarà subito massimo ma poi scenderà durante la giornata?
   steps:
   - intent: protein_intake_timing
   - action: utter_protein_intake_timing
 
-- rule: 
+- rule: Cosa succede se si assume un dosaggio troppo elevato di proteine idrolizzate?
   steps:
   - intent: high_dosage_hydrolyzed_proteins
   - action: utter_high_dosage_hydrolyzed_proteins
 
-- rule: 
+- rule: In che modo possiamo prevenire la compromissione della performance durante la fase di perdita di grasso?
   steps:
   - intent: performance_loss_prevention
   - action: utter_performance_loss_prevention
 
-- rule: 
+- rule: Quali sono gli sport che richiedono più carboidrati?
   steps:
   - intent: high_carbohydrate_sports
   - action: utter_high_carbohydrate_sports
 
-- rule: 
+- rule: Come cambiano le necessità nutrizionali durante la fase di massa con un surplus calorico?
   steps:
   - intent: nutritional_needs_in_caloric_surplus
   - action: utter_nutritional_needs_in_caloric_surplus
 
-- rule: 
+- rule: Quanto tempo dopo l'allenamento è il momento migliore per assumere proteine?
   steps:
   - intent: nutrient_timing_post_workout
   - action: utter_nutrient_timing_post_workout
 
-- rule: 
+- rule: Quali sono le migliori opzioni per dirottare le calorie prima dell'allenamento durante la fase di perdita di grasso?
   steps:
   - intent: calorie_diversion_before_workout
   - action: utter_calorie_diversion_before_workout
 
-- rule: 
+- rule: Qual è l'obiettivo della ciclizzazione dei nutrienti durante la fase di massa con un surplus calorico?
   steps:
   - intent: nutrient_cycling_mass_phase
   - action: utter_nutrient_cycling_mass_phase
 
-- rule: 
+- rule: Come influisce l'assunzione di carboidrati sulla performance sportiva?
   steps:
   - intent: carb_intake_sport_performance
   - action: utter_carb_intake_sport_performance
 
-- rule: 
+- rule: Si bruciano davvero più grassi durante l'attività aerobica a digiuno?
   steps:
   - intent: fasted_cardio_burning_fat
   - action: utter_fasted_cardio_burning_fat
 
-- rule: 
+- rule: Perché non è necessario fare cardio a digiuno?
   steps:
   - intent: not_needed_fasted_cardio
   - action: utter_not_needed_fasted_cardio
 
-- rule: 
+- rule: Fare cardio a digiuno aiuta a bruciare più calorie durante la giornata?
   steps:
   - intent: effect_fasted_cardio_calories_burned
   - action: utter_effect_fasted_cardio_calories_burned
 
-- rule: 
+- rule: Quali nutrienti dovrei assumere durante l'allenamento?
   steps:
   - intent: nutrients_during_training
   - action: utter_nutrients_during_training
 
-- rule: 
+- rule: Perché l'allenamento a digiuno può portare a una prestazione peggiore?
   steps:
   - intent: poor_performance_fasted_training
   - action: utter_poor_performance_fasted_training
