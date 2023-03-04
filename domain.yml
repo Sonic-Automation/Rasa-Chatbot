@@ -641,7 +641,12 @@ intents:
   - nutrients_during_training
   - poor_performance_fasted_training
 
-responses: 
+responses:
+
+  utter_bot_challenge:
+  - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
+      e alimentato da Rasa.
+  
   utter_greeting:
   - text: Ciao! come posso aiutarti oggi?
   
@@ -696,8 +701,8 @@ responses:
       questi due aspetti. Quindi- il primo si controbilancia semplicemente mangiando e variando l’alimentazione durante la giornata; il profilo 
       amminoacidico si completa in maniera quasi automatica. A meno che veramente la nostra alimentazione non si sbilanciata. Nel secondo caso, 
       possiamo aggiungere degli amminoacidi essenziali o aumentare l’apporto proteico.
-
-  utter_sentirsi_gonfi_transizione_vegana:
+# Copia di Q&A-da 6 a 10
+  utter_gonfiore_inizio_transizione_vegana:
   - text: Quando si passa a un’alimentazione vegetale, ci può stare all’inizio di sentirsi un po’ più gonfi 
        o con qualche problema intestinale. E questo è dovuto principalmente da due ragioni- uno, l’aumento 
        della complessità digestiva degli alimenti, in quanto si sa che quelli vegetali sono un po’ più 
@@ -706,7 +711,7 @@ responses:
        il nostro organismo si è adattato. Viceversa, se questo non succede e continuiamo a sentirci gonfi, stiamo sbagliando qualcosa- 
        stiamo assumendo troppe fibre o stiamo ancora facendo altri errori. Questo non si può dire a prescindere.
 
-  utter_alimentazione_vegana_completa:
+  utter_completezza_alimentazione_vegana:
    - text: Vediamo quindi che per raggiungere i nostri obiettivi di proteine,calorie,macronutrienti ecc. 
         dovrò per forza impostare l’alimentazione in un certo modo. E quindi fatto di- “completo, metto i 
         legumi, metto i cereali” diventerà comunque obsoleto. È una cosa che non sarà più importante controllare. 
@@ -740,7 +745,7 @@ responses:
        tull per farlo. Altrimenti c’è la nostra APP “In-Forma” che racchiude questo ma anche tante altre cose, legate allo stile di vita e 
        all’allenamento che usiamo con le persone che seguiamo per andare da zero fino all’alimentazione flessibile. E quella diciamo è il TOP 
        e il non plus ultra della flessibilità.   
-  utter_alimenti_serie_AB:
+  utter_alimenti_serie_a_b:
   - text: Mi capita spesso di leggere sui blog o sugli articoli che non devono esistere alimenti di serie A e di serie B, soprattutto 
        nell’educazione dei bambini perché poi così si creano disturbi del comportamento alimentare, poi preferiranno le schifezze ecc. 
        ecc. ecco, secondo me questo è un gigantesco errore. Nel senso che, vuoi o non vuoi esistono per forza alimenti di serie A, di 
@@ -749,23 +754,23 @@ responses:
        la nostra alimentazione in modo da comprendere entrambi i tipi di cibi in diverse quantità. Questo nel tempo ci porterà a diventare veramente liberi 
        e padroni della nostra alimentazione e invece che schiavi dei vari cibi e dei nostri meccanismi mentali e soprattutto, delle varie trappolòe che ci 
        offre l’alimentazione di oggi.
-  
+ # Copia di Q&A-da 11 a 15 
   utter_pasto_bilanciato:
   - text: Nella V-GUIDE non c’è nessun esempio di pasto bilanciato e questa è una scelta completamente voluta. Nel senso che il pasto bilanciato non esiste. Ma prima di tutto pasto bilanciato per chi? È ovvio che se peso 50kg sarà diverso, avrò dei fabbisogni diversi rispetto a chi ne pesa 100(kg). Poi l’obbiettivo- se io penso di dimagrire avrò dei fabbisogni diversi da chi vuole aumentare di massa grassa. Stessa cosa per l’attività fisica, se non mi muovo e se mi muovo. Quindi “bilanciato” cosa vuol dire in questo caso? Secondariamente dobbiamo uscire dal concetto di “pasto”, quindi preoccuparci del “singolo” pasto e cominciare a pensare al totale dell’alimentazione. Per esempio- io potrei mangiare in un pasto anche sbilanciato, solo carboidrati e poi bilanciare con il resto dell’alimentazione; quindi mangiando le proteine e tutto il resto, per raggiungere l’apporto calorico la sera a cena. Quindi purtroppo non esiste il “pasto bilanciato”.
   
   utter_healthy_every_size:
   - text: Ultimamente sta molto prendendo piede un movimento che si chiama “Healthy every size” ovvero che, fondamentalmente possiamo essere in salute a qualsiasi peso, quindi anche essere grassi o obesi. Questo fa anche molto “politicamente corretto” e anche uno dei motivi per cui va tanto di moda. Cosa ne penso io? Beh sono assolutamente CONTRARIO! Primo- scientificamente non c’è alcuna prova che si possa essere in salute in forte sovrappeso anzi, la scienza dice esattamente il contrario. Essere in forte sovrappeso già di per sé non è salute, quindi non c’è modo di essere in salute se abbiamo un eccesso, un forte eccesso di grasso. Due- questa cosa non mi piace nemmeno a livello etico, perché anche se è vero che fondamentalmente è importante avere un minimo di accettazione di sé, in realtà poi il cercare di migliorarsi continuamente, avere degli stimoli per fare qualcosa che ci spinga un po’ più in alto è la chiave per avere una vita soddisfacente. Quindi smettiamo di fare come “La volpe e l’uva”, oggi non ci sono più scuse. Chiunque voglia migliorare la propria condizione lo può fare.
 
-  utter_emissione_di_aria_dalla_pancia:
+  utter_aria_in_pancia:
   - text: Il meteorismo, ovvero avere tanta aria nella pancia che poi deve essere espulsa attraverso i peti, può avere diverse cause prima di tutto però voglio assicurare che produrre un po’ di aria è assolutamente normale. Questo perché il nostro intestino lavora, i batteri lavorano e quindi non ci si può fare nulla. Il problema è quando però (e nei vegani succede spesso) questa cosa è eccessiva, perché ci causa un sacco di problemi a livello sociale e nonché anche indice di una non buona salute dell’intestino. Quindi questa cosa può venire magari per uno squilibrio dell’alimentazione. Quindi o un eccesso di zuccheri, o un eccesso di fibre (che abbiamo visto è molto frequente nei vegani) o un eccesso di proteine (che al contrario è molto poco frequente). Comunque se noi abbiamo un eccesso di questi, i batteri fermenteranno l’eccesso e produrranno un sacco di gas. Ma la cosa può avvenire anche se non c’è squilibrio. Pensiamo all’intolleranza FADMAP- ci sono delle piccole molecole che tante persone non riescono a digerire, che quindi vengono fermentate causando meteorismo.
 
-  utter_legumi_e_verdure_come_pasto:
+  utter_legumi_verdure:
   - text: L’altro giorno parlavo di come nell’alimentazione vegana sia molto facile sforare con i carboidrati. Ed ecco che ci troviamo con poche proteine e troppi carboidrati, quindi troppe calorie. Quindi mi chiedono- <<Allora legumi + verdure va bene?>>. Allora, è vero- i legumi hanno un po’ più proteine rispetto ai cereali. Ok? E anche un pochettino meno di carboidrati. Ma il discorso rimane sempre quello- se io devo raggiungere la quota proteica, sfruttando solo i legumi è molto probabile che le calorie saliranno molto. Poi le verdure sono ottime perché hanno un bel po’ di fibre, ma a livello di macronutrienti non ci cambiano praticamente niente. Vi faccio un esempio molto semplice e neanche troppo veritiero, ma che fa capire bene la situazione- se io devo arrivare a 100g di proteine e 200g di carboidrati durante il giorno e voglio usare solo i legumi, non ce la posso fare. Perché arrivare a 100g di proteine (a parte che servirebbero 500g di legumi, che sono una mostruosità!) ma comunque, staremmo a 250g di carboidrati, ovvero più del massimo che noi c’eravamo prefissi.
 
-
-  utter_orario_migliore_per_allenamento:
+  utter_orario_migliore_allenarsi:
   - text: Non ci sono momenti migliori durante il giorno per allenarsi, in modo da stimolare il metabolismo. Questo perché il metabolismo è deciso in buona parte a livello genetico e in altra parte a livello dell’allenamento che facciamo; ma del TIPO di allenamento che facciamo, non QUANDO di alleniamo! Quindi, se noi facciamo un allenamento che stimola il nostro corpo ad adattarsi a livello enzimatico, a livello muscolare, sicuramente consumeremo di più. Altro discorso è quando io rendo di più ad allenarmi. È normale che se mi sento meglio alla mattina, otterrò dei risultati migliori. Quindi crescerò di più a livello muscolare, consumerò più calorie, stimolerò di più il metabolismo. Viceversa se io sono uno che è più sveglio il pomeriggio e più attivo il pomeriggio, sarà meglio allenarsi il pomeriggio. Ma questo prescinde dallo stimolare il metabolismo a livellon assoluto.
-  
+
+#VSS cap 1-3
   utter_info_efsa:
   - text: L'EFSA è l'Autorità Europea per la Sicurezza Alimentare.
 
@@ -828,6 +833,7 @@ responses:
 
   utter_problema_dieta_vegana_sostenibilità:
   - text: Il problema principale nella dieta vegana per quanto riguarda la sostenibilità è la difficoltà nel reperire tutti i nutrienti necessari in un'alimentazione sostenibile, anche economicamente.
+#VSS cap 1 - conclusioni
 
   utter_preoccupazioni_dieta_vegetariana_salute:
   - text: La principale preoccupazione riguardo alle diete vegetariane per la salute è la carenza di Vitamina B12 e di acidi grassi DHA della serie omega-3, la cui carenza potrebbe provocare seri danni al sistema nervoso centrale dei giovani in età pediatrica.
@@ -856,7 +862,6 @@ responses:
   utter_supervisione_dieta_particolari:
   - text: La dieta di una donna incinta o di un individuo con patologie dovrebbe essere supervisionata da un medico.
 # VSS cap 1 - sport
-
   utter_sport_atleti_vegetariani_vegani:
   - text: Gli atleti vegetariani e vegani sono presenti ai vertici di tutti i tipi di sport, da quelli di ultra-resistenza, resistenza, tecnici, di potenza/velocità, di forza, di elasticità/agilità, di massa muscolare e di combattimento.
 
@@ -1048,8 +1053,6 @@ responses:
   utter_sustainable_food_diary:
   - text: Per rendere sostenibile l'utilizzo dei diari alimentari è possibile adattarli alle proprie esigenze e preferenze alimentari, scegliendo gli alimenti che si preferiscono e registrandoli in modo più semplice e veloce.
 
-  utter_nutrition_errors_weight_stall:
-  - text: Gli errori nella propria alimentazione, come la sottostima dell'apporto calorico, possono influire sullo stallo del peso, facendoci credere che ci sia un problema metabolico, quando in realtà si sta mangiando più di quanto si pensa
 # VSS cap 3-4
   utter_protein_powder_definition:
   - text: Le proteine in polvere sono ottenute a partire da alimenti come il latte, la soia o i legumi, dai quali viene isolata la parte proteica attraverso un trattamento, eliminando tutto il resto. Successivamente, la polvere ottenuta può essere aromatizzata o modificata per migliorarne il sapore o la consistenza.
@@ -1306,6 +1309,7 @@ responses:
 
   utter_ask_prevent_eating_disorders:
   - text: Sì, l'alimentazione intuitiva aiuta a prevenire i disturbi alimentari, perché si impara ad ascoltare i segnali del proprio corpo e a mangiare in modo sano e bilanciato.
+
 # VSS cap 4-2
   utter_difference_weight_loss:
   - text: Per perdere peso occorre mangiare meno di quanto si consuma, mentre per dimagrire si intende la perdita della massa grassa. La perdita di peso può coinvolgere anche la massa magra, che comprende muscoli, acqua, ossa, organi, ecc
@@ -1895,7 +1899,6 @@ responses:
   
   utter_signs_of_excess_fat:
   - text: I segnali che indicano che si sta superando il proprio limite nell'apporto di grassi sono problemi intestinali, fastidio per il cibo, perdita dell'appetito o nausea. In questi casi, sarà sufficiente ridurre l'apporto di grassi appena sotto il valore raggiunto per risolvere il problema.
-
 
   utter_fat_intake_minimal:
   - text: Dovresti assumere almeno 30 grammi di grassi al giorno, che corrispondono a un apporto di 0,5 grammi di grassi per chilogrammo di peso corporeo.
@@ -2566,11 +2569,6 @@ responses:
 
   utter_poor_performance_fasted_training:
   - text: Una prestazione sportiva peggiore durante l'allenamento a digiuno può portare a un minor consumo calorico totale, ma non avrà alcun vantaggio e rimarranno solo svantaggi.
-
-  utter_bot_challenge:
-  - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
-       e alimentato da Rasa.
-
 
 session_config:
   session_expiration_time: 60

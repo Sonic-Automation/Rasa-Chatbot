@@ -58,7 +58,7 @@ rules:
   steps:
   - intent: alimenti_serie_a_b
   - action: utter_alimenti_serie_a_b
-
+# Copia di Q&A-da 11 a 15
 - rule: Esiste un pasto bilanciato?
   steps:
   - intent: pasto_bilanciato
