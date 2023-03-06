@@ -11,6 +11,7 @@ nlu:
 
 - intent: maximum_protein_absorption
   examples: |
+    - Il corpo può assorbire più di 30 g di proteine per pasto?
     - Il corpo umano può assorbire più di 30 g di proteine per pasto?
     - Qual è la quantità massima di proteine che il corpo può assorbire per pasto?
     - Cosa succede se assumo troppa proteina in un pasto?
