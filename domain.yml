@@ -644,7 +644,7 @@ intents:
 responses:
 
   utter_please_rephrase:
-  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+  - text: Scusa, non l'avevo capito bene. Potresti riformulare?
 
   utter_bot_challenge:
   - text: Sono un eAssistant, il chatbot ufficiale di eCommerce! Sono stato sviluppato da Sonic Automation
