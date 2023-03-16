@@ -1,214 +1,135 @@
 version: "3.1"
 
 nlu:
-#Metabolismo basale (BMR)
+
 - intent: bmr_formula
   examples: |
     - Qual è la formula per stimare il metabolismo basale (BMR)?
     - Come si calcola il metabolismo basale (BMR)?
-    - Potresti indicarmi la formula per stimare il BMR?
-    - Qual è l'equazione per calcolare il BMR?
-    - Come posso stimare il mio metabolismo basale?
 
 - intent: bmr_importance
   examples: |
     - Perché è importante stimare il metabolismo basale nella determinazione dell'apporto calorico giornaliero?
     - Qual è il ruolo del metabolismo basale nell'apporto calorico giornaliero?
-    - Potresti spiegarmi l'importanza del metabolismo basale nella dieta?
-    - Come il BMR influenza l'apporto calorico giornaliero?
-    - In che modo la stima del metabolismo basale può aiutare a pianificare la dieta?
 
 - intent: bmr_factors
   examples: |
     - Quali sono i fattori che influenzano il metabolismo basale?
     - Cosa può influire sul metabolismo basale?
-    - Potresti elencarmi i fattori che determinano il BMR?
-    - Quali sono le variabili che influenzano il metabolismo basale?
-    - In che modo la genetica può influire sul BMR?
 
 - intent: calculate_basal_metabolism
   examples: |
     - Come si calcola il metabolismo basale?
     - Qual è la formula per calcolare il metabolismo basale?
-    - Ho bisogno di sapere il mio metabolismo basale.
-    - Qual è il mio metabolismo basale?
-    - Posso calcolare il mio metabolismo basale da solo?
 
 - intent: define_basal_metabolism
   examples: |
     - Cosa si intende per metabolismo basale (BMR)?
     - Puoi spiegare cos'è il metabolismo basale?
-    - Ho sentito parlare di metabolismo basale, ma non so di cosa si tratti.
-    - Cos'è il BMR?
-    - Mi puoi dire di cosa si tratta il metabolismo basale?
-# Dispendio calorico
+
 - intent: tdee_methodology
   examples: |
     - Come si stima il dispendio calorico totale (TDEE)?
     - Qual è la metodologia per calcolare il TDEE?
-    - Come si fa a stimare il TDEE?
-    - Puoi spiegare la metodologia per il calcolo del TDEE?
-    - Mi puoi dire come calcolare il mio TDEE?
 
 - intent: estimate_lean_mass
   examples: |
     - Come si stima la massa magra?
     - Qual è il metodo per calcolare la massa magra?
-    - C'è un modo per stimare la massa magra?
-    - Come faccio a sapere quanto muscolo ho?
-    - Puoi spiegare come calcolare la massa magra del mio corpo?
 
 - intent: calculate_laf
   examples: |
     - Come si calcola il coefficiente di attività fisica (LAF)?
     - Qual è la formula per il calcolo del LAF?
-    - Come posso calcolare il mio LAF?
-    - Puoi spiegare come si determina il LAF?
-    - Mi puoi dire come calcolare il coefficiente di attività fisica?
 
 - intent: add_activity_expenditure
   examples: |
     - Come si aggiunge il dispendio calorico dell'attività sportiva (EAT)?
     - Qual è il metodo per calcolare l'EAT?
-    - Come posso determinare il dispendio calorico dovuto all'attività fisica?
-    - Puoi spiegare come si aggiunge il dispendio calorico per l'attività sportiva?
-    - Mi puoi dire come calcolare l'EAT?
 
 - intent: verify_energy_expenditure_calculations
   examples: |
     - Come si verificano sperimentalmente i calcoli del dispendio calorico?
     - Quali sono i metodi per verificare sperimentalmente il dispendio energetico?
-    - C'è un modo per verificare se i miei calcoli del dispendio calorico sono corretti?
-    - Puoi spiegare come si verifica sperimentalmente il dispendio energetico?
-    - Quali sono le tecniche per verificare i calcoli del dispendio calorico?
+
 
 - intent: difference_energy_expenditure
   examples: |
     - Qual è la differenza tra il dispendio calorico a riposo e il dispendio calorico totale?
     - Puoi spiegare la differenza tra il dispendio energetico a riposo e il dispendio calorico totale?
-    - C'è una differenza tra il dispendio calorico a riposo e il dispendio calorico totale?
-    - Quali sono le differenze tra il dispendio energetico a riposo e il dispendio calorico totale?
-    - In cosa differiscono il dispendio calorico a riposo e il dispendio calorico totale?
 
 - intent: factors_affecting_energy_expenditure
   examples: |
     - Quali sono i fattori che influenzano il dispendio calorico dovuto all'attività fisica?
     - Cosa può influire sul dispendio energetico dell'attività fisica?
-    - Quali sono i fattori che possono influenzare il dispendio calorico dell'attività fisica?
-    - C'è qualche cosa che può influenzare il dispendio calorico dell'attività fisica?
-    - Come influenzano il dispendio calorico dell'attività fisica i diversi fattori?
 
 - intent: calculate_energy_expenditure
   examples: |
     - Come posso calcolare il dispendio calorico dell'attività fisica?
     - Qual è il modo migliore per calcolare il dispendio energetico dell'attività fisica?
-    - Cosa devo fare per calcolare il dispendio calorico dell'attività fisica?
-    - Come posso sapere quanti calorie ho bruciato durante l'attività fisica?
-    - Esiste un modo per calcolare il dispendio calorico dell'attività fisica in modo preciso?
 
 - intent: calculate_workout_calories
   examples: |
     - Come posso calcolare il dispendio calorico degli allenamenti?
     - Qual è il modo migliore per calcolare il dispendio energetico degli allenamenti?
-    - Cosa devo fare per calcolare il dispendio calorico degli esercizi fisici?
-    - Come posso sapere quanti calorie ho bruciato durante gli allenamenti?
-    - Esiste un modo per calcolare il dispendio calorico degli allenamenti in modo preciso?
+
 
 - intent: factors_affecting_calorie_expenditure
   examples: |
     - Quali sono i fattori da considerare per stimare il dispendio calorico dovuto all'attività fisica?
     - Cosa influisce sul dispendio calorico durante l'attività fisica?
-    - Quali fattori influenzano il consumo calorico durante l'esercizio fisico?
-    - Come posso aumentare il mio dispendio calorico durante l'attività fisica?
-    - Quali fattori devo considerare quando voglio bruciare più calorie durante l'allenamento?
 
 - intent: estimate_non_sport_calorie_expenditure
   examples: |
     - Come posso calcolare il dispendio calorico durante le attività fisiche quotidiane?
     - Qual è il modo migliore per stimare il consumo calorico durante le attività domestiche?
-    - Come posso sapere quante calorie brucio durante le attività quotidiane non sportive?
-    - Quali sono i fattori da considerare per calcolare il dispendio calorico durante le attività non sportive?
-    - Esiste un modo preciso per stimare il dispendio energetico durante le attività fisiche non sportive?
 
 - intent: calculate_sports_calorie_expenditure
   examples: |
     - Qual è il modo migliore per calcolare il consumo calorico durante l'attività sportiva?
     - Come posso sapere quante calorie brucio durante l'allenamento?
-    - Quali fattori devo considerare per stimare il dispendio calorico durante l'attività sportiva?
-    - Esiste un modo preciso per calcolare il dispendio energetico durante l'attività sportiva?
-    - Come si può calcolare il dispendio calorico durante una partita di calcio o un'altra attività sportiva?
 
 - intent: set_calorie_intake_difficulty_increasing_muscle_mass
   examples: |
     - Come posso impostare il mio apporto calorico se ho difficoltà ad aumentare la massa muscolare?
     - Qual è il modo migliore per calcolare le calorie se ho difficoltà ad aumentare la massa muscolare?
-    - Come posso modificare il mio apporto calorico per aumentare la massa muscolare se ho difficoltà?
-    - Quali sono le strategie per impostare il mio apporto calorico se ho difficoltà ad aumentare la massa muscolare?
-    - Esiste un modo per impostare il mio apporto calorico in modo efficace se ho difficoltà ad aumentare la massa muscolare?
 
 - intent: set_calorie_intake_weight_loss
   examples: |
     - Come posso impostare il mio apporto calorico per perdere peso?
     - Qual è il modo migliore per calcolare le calorie per dimagrire?
-    - Come posso modificare il mio apporto calorico per raggiungere il mio obiettivo di dimagrimento?
-    - Quali sono le strategie per impostare il mio apporto calorico per perdere peso?
-    - Esiste un modo per impostare il mio apporto calorico in modo efficace per raggiungere il mio obiettivo di dimagrimento?
 
 - intent: set_calorie_intake_muscle_gain
   examples: |
     - Come posso impostare il mio apporto calorico per aumentare la mia massa muscolare?
     - Qual è il modo migliore per calcolare le calorie per aumentare la massa muscolare?
-    - Come posso modificare il mio apporto calorico per raggiungere il mio obiettivo di guadagno muscolare?
-    - Quali sono le strategie per impostare il mio apporto calorico per aumentare la massa muscolare?
-    - Esiste un modo per impostare il mio apporto calorico in modo efficace per raggiungere il mio obiettivo di guadagno muscolare?
 
 - intent: evaluating_calorie_intake
   examples: |
     - Come posso valutare se sto assumendo il giusto apporto calorico?
     - Quali indicatori posso utilizzare per capire se sto mangiando abbastanza?
-    - Esiste un modo per monitorare il mio apporto calorico?
-    - Come faccio a sapere se sto consumando abbastanza calorie per il mio livello di attività fisica?
-    - Ci sono segnali che indicano se sto assumendo un apporto calorico insufficiente o eccessivo?
 
 - intent: caloric_intake_limits
   examples: |
     - Quali sono i limiti minimi e massimi di apporto calorico per il mantenimento del peso?
     - C'è un range di apporto calorico da rispettare per il mantenimento del peso?
-    - Quali sono i limiti di apporto calorico per non perdere o guadagnare peso?
-    - Esiste un valore minimo o massimo di calorie che dovrei assumere al giorno?
-    - Quanti calorie al giorno sono necessarie per mantenere il mio peso attuale?
 
 - intent: caloric_intake_limits_weight_loss
   examples: |
     - Quali sono i limiti minimi e massimi di apporto calorico per il dimagrimento?
     - C'è un range di apporto calorico da rispettare per perdere peso?
-    - Quali sono i limiti di apporto calorico per perdere peso in modo sano?
-    - Esiste un valore minimo o massimo di calorie che dovrei assumere al giorno se voglio perdere peso?
-    - Quanti calorie al giorno dovrei mangiare se voglio dimagrire?
-# Dieta vegana
 
 - intent: vegan_diet_benefits
   examples: |
     - Quali sono i benefici per chi segue una dieta vegana?
     - In che modo una dieta vegana può migliorare la salute?
-    - Quali sono i vantaggi per la salute di una dieta vegana?
-    - Cosa si guadagna seguendo una dieta vegana?
-    - Come una dieta vegana può aiutare a migliorare la vita?
-
-# Calorie bruciate durante l'attività fisica
 
 - intent: calories_burned_estimate_without_met
   examples: |
     - Come posso stimare le calorie bruciate durante un'attività fisica se non conosco il MET?
     - È possibile calcolare le calorie bruciate senza conoscere il MET dell'attività fisica?
-    - Come posso stimare il dispendio calorico di un'attività fisica se non ho il valore del MET?
-    - C'è un modo per stimare le calorie bruciate senza conoscere il valore del MET?
-    - Qual è il metodo migliore per calcolare il dispendio calorico se non ho il valore del MET?
 
 - intent: estimate_calories_expenditure_sport
   examples: |
     - Come posso stimare il dispendio calorico durante l'attività fisica?
     - Quali sono i fattori da considerare per stimare il dispendio calorico dovuto alle attività sportive?
-    - Ci sono delle formule per calcolare il dispendio calorico durante lo sport?
-    - Come posso calcolare il dispendio calorico durante una sessione di allenamento?
-    - Quali strumenti posso utilizzare per stimare le calorie bruciate durante l'attività fisica?

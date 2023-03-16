@@ -5,166 +5,104 @@ nlu:
   examples: |
     - Come posso calcolare il numero di porzioni di proteine da assumere in base al mio peso se sono un uomo in fase di dimagrimento?
     - Quante porzioni di proteine dovrei assumere se sono un uomo che vuole dimagrire sulla dieta vegana?
-    - Qual è il quantitativo di proteine che devo assumere ogni giorno per perdere peso sulla dieta vegana?
-    - Come calcolare la quantità di proteine necessarie per perdere peso sulla dieta vegana?
-    - Qual è la quantità di proteine necessarie per un uomo in fase di dimagrimento sulla dieta vegana?
 
 - intent: protein_servings_for_maintenance_or_gain_women
   examples: |
     - Qual è il numero di porzioni di proteine da assumere se sono una donna in fase di mantenimento o aumento della massa?
     - Quante porzioni di proteine dovrei assumere se sono una donna in fase di mantenimento sulla dieta vegana?
-    - Quale quantitativo di proteine dovrei assumere se sono una donna che vuole aumentare la massa muscolare sulla dieta vegana?
-    - Come calcolare la quantità di proteine necessarie per mantenere il peso sulla dieta vegana?
-    - Quale quantitativo di proteine dovrei assumere se sono una donna sulla dieta vegana?
 
 - intent: plant_protein_sources
   examples: |
     - Quali sono le fonti proteiche vegetali che posso scegliere nella mia dieta?
     - Quali sono le migliori fonti proteiche vegetali?
-    - Quali cibi vegani contengono proteine?
-    - Quali sono gli alimenti vegani più ricchi di proteine?
-    - Quali cibi vegani posso includere nella mia dieta per aumentare l'apporto proteico?
 
 - intent: food_categories_providing_protein
   examples: |
     - Quali sono le categorie alimentari che forniscono proteine nella dieta vegana?
     - Quali sono i cibi che forniscono proteine nella dieta vegana?
-    - Quali alimenti vegani contengono proteine?
-    - In quali categorie alimentari posso trovare proteine nella dieta vegana?
-    - Quali alimenti devo includere nella mia dieta vegana per ottenere abbastanza proteine?
 
 - intent: examples_of_plant_protein_sources
   examples: |
     - Quali sono gli esempi di fonti proteiche che posso includere nella mia dieta vegana durante la giornata?
     - Cosa posso mangiare per aumentare l'apporto proteico sulla dieta vegana?
-    - Quali sono i cibi che contengono proteine vegetali?
-    - Quali sono le fonti proteiche vegetali che posso includere nella colazione?
-    - Quali sono i cibi che posso mangiare a pranzo per aumentare l'apporto proteico sulla dieta vegana
 
 - intent: soy_protein_sources
   examples: |
     - Quali sono le fonti proteiche di soia e i loro derivati nella dieta vegana?
     - Come posso ottenere abbastanza proteine dalla soia nella mia dieta vegana?
-    - Quali sono i prodotti a base di soia che contengono proteine?
-    - Cosa sono le proteine di soia isolate e come si usano nella dieta vegana?
-    - Quali sono i cibi a base di soia che forniscono un alto contenuto di proteine?
 
 - intent: gluten_protein_sources
   examples: |
     - Quali sono le fonti proteiche di glutine e i loro derivati nella dieta vegana?
     - Cosa sono le proteine del glutine e dove si possono trovare nella dieta vegana?
-    - Quali sono i prodotti vegani a base di glutine che contengono proteine?
-    - Quali sono i cibi a base di glutine che forniscono un alto contenuto di proteine?
-    - Come posso usare il glutine per aumentare l'apporto proteico nella mia dieta vegana?
 
 - intent: legume_protein_sources
   examples: |
     - Quali sono le fonti proteiche di legumi e i loro derivati nella dieta vegana?
     - Quali legumi sono più ricchi di proteine?
-    - Quali sono i prodotti vegani a base di legumi che contengono proteine?
-    - Come posso usare i legumi per aumentare l'apporto proteico nella mia dieta vegana?
-    - Quali sono i cibi a base di legumi che forniscono un alto contenuto di proteine?
 
 - intent: common_vegan_protein_sources
   examples: |
     - Quali sono le fonti proteiche vegane più comuni?
     - Cosa mangiano i vegani per ottenere abbastanza proteine?
-    - Quali sono i cibi a base vegetale che contengono più proteine?
-    - Quali sono i prodotti vegani ad alto contenuto proteico?
-    - Come posso bilanciare la mia dieta vegana per ottenere abbastanza proteine?
 
 - intent: importance_of_protein_intake
   examples: |
     - Qual è l'importanza di consumare la giusta quantità di proteine sulla dieta vegana?
     - Cosa succede se non si assume abbastanza proteine sulla dieta vegana?
-    - Quali sono le conseguenze di una carenza proteica sulla dieta vegana?
-    - Perché è importante assumere abbastanza proteine sulla dieta vegana?
-    - Come posso sapere se sto assumendo abbastanza proteine sulla mia dieta vegana?
 
 - intent: pure_proteins_vegan
   examples: |
     - È possibile ottenere proteine "pure" nella dieta vegana?
     - Ci sono proteine "pure" nella dieta vegana?
-    - È possibile ottenere proteine isolate dalla dieta vegana?
-    - Posso ottenere proteine vegane senza contaminanti?
-    - Esistono integratori di proteine vegani "puri"?
 
 - intent: standard_protein_serving
   examples: |
     - Qual è la porzione standard per i cibi proteici nella dieta vegana?
     - Quanto cibo proteico dovrei mangiare a ogni pasto sulla mia dieta vegana?
-    - Qual è la quantità di proteine consigliata per pasto in una dieta vegana?
-    - Come posso capire la giusta quantità di proteine per ogni pasto?
-    - Quanto tofu o seitan dovrei mangiare per avere una porzione di proteine completa?
 
 - intent: choose_protein_sources
   examples: |
     - Come posso scegliere le fonti proteiche nella mia dieta vegana?
     - Quali sono le fonti proteiche migliori nella dieta vegana?
-    - Come posso trovare alternative vegane ai cibi proteici animali?
-    - Quali cibi proteici sono meglio evitare sulla dieta vegana?
-    - Cosa devo sapere prima di scegliere le proteine per la mia dieta vegana?
 
 - intent: protein_portion_difference
   examples: |
     - Qual è la differenza tra le porzioni di proteine raccomandate per gli uomini in fase di dimagrimento e quelli in fase di mantenimento o aumento della massa?
     - Quanto tofu dovrei mangiare se voglio aumentare la mia massa muscolare?
-    - Qual è la quantità di proteine raccomandata per un uomo che vuole dimagrire?
-    - Come si differenziano le porzioni di proteine in base all'obiettivo della dieta vegana?
-    - Quali sono i consigli per la quantità di proteine in base al mio obiettivo sulla dieta vegana?
 
 - intent: protein_serving_definition
   examples: |
     - Cosa si intende per una porzione di cibo proteico nella dieta vegana?
     - Qual è la definizione di porzione di proteine sulla mia dieta vegana?
-    - Come posso capire cosa significa porzione di proteine nella mia dieta vegana?
-    - Qual è la dimensione di una porzione di proteine vegane?
-    - Come si misura la quantità di proteine che devo mangiare sulla mia dieta vegana?
 
 - intent: excessive_fat_carb_intake
   examples: |
     - Cosa devo tenere a mente se faccio un uso eccessivo di cibi con molti grassi o carboidrati residui nella mia dieta vegana?
     - Come posso bilanciare una dieta vegana ricca di carboidrati e grassi?
-    - Quali sono i rischi di una dieta vegana ricca di grassi e carboidrati?
-    - Come posso evitare di assumere troppe calorie nella mia dieta vegana?
-    - Quali sono gli effetti sulla salute di una dieta vegana ad alto contenuto di grassi e carboidrati?
 
 - intent: sweet_junkfood_protein_sources
   examples: |
     - Quali sono i prodotti dolci/junk food che posso includere nella mia dieta come fonte proteica?
     - Come posso ottenere proteine dalla mia dieta vegana senza dover rinunciare ai dolci?
-    - Ci sono snack dolci vegani che contengono proteine?
-    - Posso soddisfare il mio bisogno di proteine con prodotti junk food vegani?
-    - Quali sono i dolci vegani che contengono proteine?
 
 - intent: sweet_junkfood_protein_sources_list
   examples: |
     - Quali sono le fonti proteiche di prodotti dolci/junk food nella dieta vegana?
     - Quali sono i dolci vegani che contengono proteine?
-    - Ci sono prodotti junk food vegani che contengono proteine?
-    - Quali sono i prodotti dolci vegani che contengono proteine?
-    - Quali snack dolci vegani contengono proteine?
 
 - intent: vary_protein_sources
   examples: |
     - Come si può variare la scelta delle fonti proteiche nella dieta vegana?
     - Quali sono le migliori fonti proteiche vegane per variare la dieta?
-    - Quali alimenti vegani sono ricchi di proteine e diversi tra loro?
-    - Come posso fare per variare la mia dieta vegana proteica?
     - Quali sono i cibi vegani con proteine che posso usare per variare la mia alimentazione?
 
 - intent: calculate_protein_needs
   examples: |
     - Come posso calcolare la quantità di proteine di cui ho bisogno sulla dieta vegana?
     - Qual è la quantità di proteine di cui ho bisogno sulla dieta vegana?
-    - Come posso calcolare la mia dose giornaliera di proteine sulla dieta vegana?
-    - Quali sono i fattori da considerare per calcolare la quantità di proteine necessaria sulla dieta vegana?
-    - Come si calcola la quantità di proteine che serve al mio corpo sulla dieta vegana?
 
 - intent: residues_carbs_fats_proteins
   examples: |
     - Cosa significa che ci sono sempre dei residui di carboidrati e grassi nei cibi proteici vegani?
     - È vero che ci sono sempre carboidrati e grassi nei cibi proteici vegani?
-    - Qual è la relazione tra proteine, carboidrati e grassi nei cibi vegani?
-    - Come posso fare per controllare l'apporto di grassi e carboidrati nella dieta vegana proteica?
-    - Cosa posso fare per limitare i carboidrati e i grassi presenti nei cibi proteici vegani?

@@ -5,292 +5,184 @@ nlu:
   examples: |
     - Quali sono le funzioni degli acidi grassi omega 3?
     - Come beneficiano gli acidi grassi omega 3 la salute?
-    - Quali sono i benefici degli acidi grassi omega 3 per i vegani?
-    - Perché è importante includere acidi grassi omega 3 nella dieta vegana?
-    - Come gli acidi grassi omega 3 influenzano la salute mentale?
-    
+
 - intent: omega3_short_vs_long_chain
   examples: |
     - Qual è la differenza tra acidi grassi omega 3 a catena corta e a catena lunga?
     - Cosa significa che gli acidi grassi omega 3 sono a catena corta o a catena lunga?
-    - Quali sono gli alimenti che contengono acidi grassi omega 3 a catena corta?
-    - Quali alimenti contengono acidi grassi omega 3 a catena lunga?
-    - Quali sono i vantaggi degli acidi grassi omega 3 a catena lunga rispetto a quelli a catena corta?
 
 - intent: vegan_sources_omega3_long_chain
   examples: |
     - Quali alimenti vegani contengono omega 3 a catena lunga?
     - Cosa posso mangiare per ottenere abbastanza omega 3 a catena lunga nella dieta vegana?
-    - Quali sono le fonti vegane più ricche di acidi grassi omega 3 a catena lunga?
-    - Come posso includere abbastanza omega 3 a catena lunga nella mia dieta vegana?
-    - Quali sono gli alimenti vegani più ricchi di EPA e DHA?
 
 - intent: omega3_dosage_recommendation
   examples: |
     - Qual è la dose raccomandata di EPA e DHA per i vegani?
     - Come posso sapere di avere abbastanza EPA e DHA nella mia dieta vegana?
-    - Quanto EPA e DHA dovrei assumere se sono vegano?
-    - Quali sono le linee guida per il consumo di omega 3 nei vegani?
-    - Cosa succede se non assumo abbastanza EPA e DHA nella mia dieta vegana?
 
 - intent: omega3_omega6_imbalance_risks
   examples: |
     - Quali sono i rischi di un rapporto squilibrato tra omega 3 e omega 6 nella dieta?
     - Cosa succede se ho un eccesso di omega 6 rispetto agli omega 3 nella mia dieta vegana?
-    - Come posso mantenere un rapporto sano tra omega 3 e omega 6 nella mia dieta vegana?
-    - Quali alimenti vegani contengono omega 6 e come posso bilanciarli con gli omega 3?
-    - Cosa succede se non mantengo un equilibrio tra omega 3 e omega 6 nella mia dieta vegana?
 
 - intent: omega3_importance
   examples: |
     - Perché è importante integrare gli acidi grassi omega 3 nella dieta vegana?
     - Quali sono i benefici per la salute degli omega 3 nella dieta vegana?
-    - Cosa succede se non si assume abbastanza omega 3 nella dieta vegana?
-    - Quali sono gli alimenti ricchi di omega 3 che si possono includere nella dieta vegana?
-    - Come posso integrare gli omega 3 nella mia dieta vegana?
 
 - intent: omega3_essential
   examples: |
     - Gli omega 3 sono essenziali per il nostro corpo?
     - Di cosa abbiamo bisogno degli omega 3 nel nostro corpo?
-    - Cosa succede se non si assume abbastanza omega 3?
-    - Quali sono i benefici per la salute degli omega 3?
 
 - intent: omega3_vs_omega6
   examples: |
     - Qual è la differenza tra gli omega 3 ed omega 6?
     - Quali sono gli effetti degli omega 3 e degli omega 6 sulla salute?
-    - Cosa succede se assumiamo troppi omega 6 e pochi omega 3 nella dieta vegana?
-    - Come posso mantenere un equilibrio tra omega 3 ed omega 6 nella mia dieta vegana?
 
 - intent: vegan_sources_omega3
   examples: |
     - Gli alimenti vegani sono sufficienti per coprire il fabbisogno di omega 3?
     - Quali sono le fonti di omega 3 nella dieta vegana?
-    - Come posso assicurarmi di assumere abbastanza omega 3 con una dieta vegana?
-    - Quali sono gli alimenti ricchi di omega 3 che si possono includere nella dieta vegana?
-    - Esistono integratori di omega 3 adatti alla dieta vegana?
 
 - intent: EPA_DHA_sources
   examples: |
     - Dove i vegani possono trovare EPA e DHA?
     - Ci sono alimenti vegani che contengono EPA e DHA?
-    - Come posso integrare EPA e DHA nella mia dieta vegana?
-    - Esistono integratori di EPA e DHA adatti alla dieta vegana?
-    - Quali sono le fonti di EPA e DHA nella dieta vegana?
 
 - intent: sources_of_omega_3
   examples: |
     - Quali alimenti sono ricchi di omega 3 per i vegani?
     - Come posso incorporare gli omega 3 nella mia dieta vegana?
-    - Quali sono le fonti vegetali di omega 3?
-    - Quali sono i migliori integratori di omega 3 per i vegani?
-    - Cosa posso mangiare per assumere abbastanza omega 3 nella mia dieta vegana?
 
 - intent: algae_for_omega_3
   examples: |
     - Mangiare alghe aiuta a coprire il fabbisogno di omega 3?
     - Quali alghe contengono gli omega 3?
-    - Posso assumere abbastanza omega 3 mangiando solo alghe?
-    - Quanto dovrei mangiare di alghe per avere abbastanza omega 3 nella mia dieta?
-    - Come posso incorporare le alghe nella mia dieta vegana per ottenere gli omega 3?
 
 - intent: essential_fatty_acids
   examples: |
     - Quali sono gli acidi grassi essenziali di cui l'organismo umano ha bisogno ma non può produrre da solo?
     - Quali sono i grassi che il nostro corpo non può produrre?
-    - Cosa succede se non assumo abbastanza acidi grassi essenziali?
-    - Quali sono gli effetti di una carenza di acidi grassi essenziali nella dieta?
-    - Come posso assicurarmi di assumere abbastanza acidi grassi essenziali nella mia dieta?
 
 - intent: functions_of_omega_3_6
   examples: |
     - Qual è la funzione degli omega 3 e degli omega 6 nell'organismo?
     - Cosa fanno gli omega 3 nel nostro corpo?
-    - Quali sono i benefici degli omega 6?
-    - Come gli omega 3 e gli omega 6 lavorano insieme nel nostro corpo?
-    - Quali sono le conseguenze di una dieta sbilanciata di omega 3 e omega 6?
 
 - intent: importance_of_omega_3_6_balance
   examples: |
     - Perché è importante avere un equilibrio tra omega 3 e omega 6 nella dieta?
     - Qual è il rapporto ottimale di omega 3 e omega 6 nella dieta?
-    - Cosa succede se si assume troppo omega 6 rispetto agli omega 3?
-    - Come posso mantenere un equilibrio tra omega 3 e omega 6 nella mia dieta vegana?
-    - Quali sono gli effetti di una dieta sbilanciata di omega 3 e omega 6? 
 
 - intent: sources_of_omega3
   examples: |
     - Quali sono le migliori fonti di omega 3 per i vegani?
     - Cosa posso mangiare per ottenere abbastanza omega 3 sulla dieta vegana?
-    - Quali sono gli alimenti di origine vegetale più ricchi di omega 3?
-    - Come posso assicurarmi di avere un adeguato apporto di omega 3 nella mia dieta vegana?
-    - Quali alimenti vegetali sono ricchi di omega 3?
 
 - intent: importance_of_omega3
   examples: |
     - Perché gli omega 3 sono importanti nella dieta vegana?
     - Quali sono i benefici degli omega 3 per la salute?
-    - Cosa succede se non si assume abbastanza omega 3 nella dieta vegana?
-    - Come posso mantenere un equilibrio tra omega 3 e omega 6 nella mia dieta vegana?
-    - È necessario assumere integratori di omega 3 sulla dieta vegana?
 
 - intent: omega3_deficiency
   examples: |
     - Perché la nostra alimentazione è carente di omega 3?
     - Quali sono le cause della carenza di omega 3 nella dieta moderna?
-    - Come posso sapere se ho una carenza di omega 3 nella mia dieta vegana?
-    - Quali sono i sintomi di una carenza di omega 3?
-    - Come posso prevenire una carenza di omega 3 sulla dieta vegana?
 
 - intent: omega3_omega6_balance
   examples: |
     - I vegani sono esenti dal problema di squilibrio omega 3/omega 6?
     - Quali sono i rischi di un eccesso di omega 6 rispetto agli omega 3 nella dieta vegana?
-    - Come posso mantenere un corretto equilibrio tra omega 3 e omega 6 sulla dieta vegana?
-    - Quali alimenti sono ricchi di omega 6 nella dieta vegana?
-    - Come posso evitare un eccesso di omega 6 sulla dieta vegana?
 
 - intent: vegan_sources_of_omega3
   examples: |
     - Quali sono gli alimenti vegani più ricchi di omega 3?
     - Cosa posso mangiare sulla dieta vegana per ottenere un adeguato apporto di omega 3?
-    - Quali sono i migliori alimenti di origine vegetale per l'apporto di omega 3?
-    - Quali semi e noci sono ricchi di omega 3 sulla dieta vegana?
-    - È possibile ottenere abbastanza omega 3 sulla dieta vegana senza integratori?
 
 - intent: vegan_omega3_sources
   examples: |
     - Sono sufficienti i semi di lino o l'olio di lino per integrare gli omega 3 nella dieta vegana?
     - Quali sono le migliori fonti di EPA e DHA per i vegani?
-    - Come posso assumere abbastanza omega 3 nella dieta vegana?
-    - Ci sono alternative al pesce per ottenere gli omega 3 nella dieta vegana?
-    - Quali sono le conseguenze di una carenza di omega 3 nella dieta vegana?
 
 - intent: vegan_micronutrient_deficiencies
   examples: |
     - Quali sono i micronutrienti che potrebbero essere carenti nella dieta vegana?
     - Come posso evitare le carenze di micronutrienti nella dieta vegana?
-    - Ci sono integratori consigliati per i vegani per evitare le carenze di micronutrienti?
-    - Come posso sapere se ho carenze di micronutrienti nella mia dieta vegana?
-    - Quali sono le conseguenze di una carenza di micronutrienti nella dieta vegana?
 
 - intent: vegan_calcium_sources
   examples: |
     - Come posso garantire un adeguato apporto di calcio nella dieta vegana?
     - Quali sono le migliori fonti di calcio nella dieta vegana?
-    - Ci sono alimenti vegani ricchi di calcio?
-    - Quali sono le conseguenze di una carenza di calcio nella dieta vegana?
-    - È necessario assumere integratori di calcio nella dieta vegana?
 
 - intent: vegan_iodine_sources
   examples: |
     - È necessario ridurre il consumo di sale per garantire un adeguato apporto di iodio nella dieta vegana?
     - Quali sono le migliori fonti di iodio nella dieta vegana?
-    - Ci sono integratori consigliati per i vegani per garantire un adeguato apporto di iodio?
-    - Quali sono le conseguenze di una carenza di iodio nella dieta vegana?
-    - Come posso sapere se ho carenze di iodio nella mia dieta vegana?
 
 - intent: vegan_epa_dha_sources
   examples: |
     - Da dove possono essere ottenuti gli EPA e DHA per i vegani?
     - Ci sono alimenti vegani che contengono EPA e DHA?
-    - Quali sono le conseguenze di una carenza di EPA e DHA nella dieta vegana?
-    - Quali sono gli integratori consigliati per i vegani per assumere abbastanza EPA e DHA?
-    - Quali sono le differenze tra le fonti di EPA e DHA nella dieta vegana? 
 
 - intent: vegan_selenium_source
   examples: |
     - Qual è l'unica fonte di selenio nella dieta vegana?
     - Da dove si può ottenere selenio in una dieta vegana?
-    - Esiste una fonte di selenio diversa dai prodotti animali nella dieta vegana?
-    - Quali alimenti sono ricchi di selenio per i vegani?
-    - Come posso garantire un adeguato apporto di selenio nella mia dieta vegana?
 
 - intent: vegan_nutrient_supplementation
   examples: |
     - Perché è consigliata l'integrazione di zinco nella dieta vegana?
     - Quali sono i motivi per cui si consiglia l'integrazione di vitamine B1, B2 e B3 nella dieta vegana?
-    - È necessario prendere integratori di zinco e vitamine del gruppo B nella dieta vegana?
-    - Come posso garantire un adeguato apporto di zinco e vitamine del gruppo B nella mia dieta vegana?
-    - Quali sono i benefici dell'integrazione di zinco e vitamine del gruppo B nella dieta vegana?
 
 - intent: vegan_multivitamin_difficulties
   examples: |
     - Quali sono le difficoltà nel trovare un buon multivitaminico per la dieta vegana?
     - Esistono multivitaminici appositamente formulati per i vegani?
-    - Come posso scegliere un multivitaminico adatto alla mia dieta vegana?
-    - Quali sono le opzioni disponibili per integrare la mia dieta vegana con i nutrienti necessari?
-    - Come posso evitare di scegliere un multivitaminico inappropriato per la mia dieta vegana?
+
 
 - intent: vegan_nutrient_deficiencies
   examples: |
     - Quali nutrienti rischiano di essere carenti nella dieta vegana?
     - Come posso evitare le carenze di nutrienti nella mia dieta vegana?
-    - Quali sono i sintomi di carenza di nutrienti nella dieta vegana?
-    - È possibile ottenere tutti i nutrienti necessari dalla sola dieta vegana?
-    - Quali sono i nutrienti più critici per i vegani?
 
 - intent: vegan_nutrient_intake_difficulties
   examples: |
     - È difficile raggiungere gli apporti raccomandati di questi nutrienti nella dieta vegana?
     - Come posso assicurarmi di assumere abbastanza nutrienti nella mia dieta vegana?
-    - Quali sono i metodi per garantire un adeguato apporto di nutrienti nella dieta vegana?
-    - Come posso evitare carenze nutrizionali nella mia dieta vegana?
-    - È facile ottenere tutti i nutrienti necessari dalla sola dieta vegana? 
 
 - intent: vegan_micronutrients_solution
   examples: |
     - Come posso evitare carenze di micronutrienti nella dieta vegana?
     - Qual è la soluzione per ottenere tutti i nutrienti necessari nella dieta vegana?
-    - Quali sono le strategie per prevenire carenze di micronutrienti nella dieta vegana?
-    - Cosa posso fare per assicurarmi di avere un'adeguata assunzione di micronutrienti nella dieta vegana?
-    - Come posso bilanciare la mia dieta vegana per evitare carenze di micronutrienti?
 
 - intent: iodine_supplementation
   examples: |
     - È necessario integrare lo iodio nella dieta vegana?
     - Cosa posso mangiare per aumentare l'assunzione di iodio nella dieta vegana?
-    - Quali sono le fonti vegetali di iodio nella dieta vegana?
-    - Cosa succede se non si assume abbastanza iodio nella dieta vegana?
-    - Come posso integrare lo iodio nella mia dieta vegana?
 
 - intent: vegan_multivitamin_challenge
   examples: |
     - Qual è la sfida nella scelta di un buon multivitaminico per la dieta vegana?
     - Come posso scegliere il miglior multivitaminico per la mia dieta vegana?
-    - Quali sono le cose da considerare quando si sceglie un multivitaminico vegano?
-    - Esistono multivitaminici specifici per la dieta vegana?
-    - Come posso sapere se un multivitaminico è adatto alla mia dieta vegana?
 
 - intent: calcium_in_vegan_diet
   examples: |
     - È necessario preoccuparsi del calcio nella dieta vegana?
     - Quali sono le fonti di calcio nella dieta vegana?
-    - Come posso assicurarmi di avere un'adeguata assunzione di calcio nella dieta vegana?
-    - Quali sono gli effetti di una dieta vegana povera di calcio?
-    - Cosa posso fare per aumentare l'assunzione di calcio nella dieta vegana?
 
 - intent: iodine_deficiency_prevention
   examples: |
     - Quali sono le fonti di iodio nella dieta vegana?
     - Come posso evitare la carenza di iodio nella dieta vegana?
-    - Ci sono integratori di iodio che posso prendere come vegano?
-    - Quali alimenti vegani posso includere nella mia dieta per evitare la carenza di iodio?
-    - Quali sono i sintomi della carenza di iodio nella dieta vegana?
 
 - intent: selenium_source
   examples: |
     - Quali alimenti vegani sono ricchi di selenio?
     - Come posso ottenere abbastanza selenio nella mia dieta vegana?
-    - Quali sono le fonti principali di selenio nella dieta vegana?
-    - Ci sono integratori di selenio che posso prendere come vegano?
-    - Cosa succede se non assumo abbastanza selenio nella mia dieta vegana?
 
 - intent: vitamin_zinc_supplementation
   examples: |
     - Quali alimenti vegani sono ricchi di zinco e vitamine B1, B2 e B3?
     - È necessario integrare zinco e vitamine B1, B2 e B3 nella dieta vegana?
-    - Ci sono rischi per la salute associati alla carenza di zinco e vitamine B1, B2 e B3 nella dieta vegana?
-    - Quali sono gli integratori di zinco e vitamine B1, B2 e B3 che posso prendere come vegano?
-    - Come posso evitare la carenza di zinco e vitamine B1, B2 e B3 nella mia dieta vegana?

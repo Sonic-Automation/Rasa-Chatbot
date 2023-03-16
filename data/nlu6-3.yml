@@ -5,427 +5,266 @@ nlu:
   examples: |
     - Perché è importante fare riferimento alla massa magra quando si calcolano i carboidrati e i grassi nell'alimentazione vegana?
     - Come influisce la massa magra sui calcoli dell'apporto di carboidrati e grassi nella dieta vegana?
-    - Perché la massa magra è importante per determinare il fabbisogno di carboidrati e grassi nella dieta vegana?
-    - Qual è il ruolo della massa magra nell'assunzione di carboidrati e grassi nella dieta vegana?
-    - Come calcolare l'apporto di carboidrati e grassi tenendo conto della massa magra nella dieta vegana?
-
+    
 - intent: glucose_fatty_acids_levels
   examples: |
     - Che cosa sono i livelli minimi di glucosio e acidi grassi?
     - Quali sono i livelli normali di glucosio e acidi grassi nel corpo umano?
-    - Come influiscono i livelli di glucosio e acidi grassi sulla salute umana?
-    - Quali sono i problemi di salute associati a livelli anormali di glucosio e acidi grassi nel corpo?
-    - Come posso mantenere i livelli di glucosio e acidi grassi nel corpo nella norma?
 
 - intent: essential_carbs_fats
   examples: |
     - Perché i carboidrati e i grassi sono considerati essenziali, nonostante il corpo sia in grado di produrli?
     - Qual è il ruolo dei carboidrati e dei grassi nella dieta umana?
-    - Come si differenziano i carboidrati e i grassi essenziali da quelli non essenziali?
-    - Quali sono i problemi di salute associati a una carenza di carboidrati o grassi essenziali nella dieta?
-    - Come posso assicurarmi di assumere abbastanza carboidrati e grassi essenziali nella mia dieta vegana?
 
 - intent: calculate_macronutrient_intake
   examples: |
     - Quale dovrebbe essere il primo passo per calcolare l'apporto di grassi e carboidrati nell'alimentazione vegana?
     - Come posso calcolare l'apporto di macronutrienti nella mia dieta vegana?
-    - Quali sono le formule per calcolare l'apporto di grassi e carboidrati nella dieta vegana?
-    - Come posso stabilire un equilibrio tra carboidrati e grassi nella mia dieta vegana?
-    - Quali sono gli strumenti disponibili per calcolare l'apporto di macronutrienti nella dieta vegana?
 
 - intent: carb_fat_balance
   examples: |
     - Che cosa accade se i livelli di carboidrati non sono soddisfacenti una volta impostati i grassi?
     - Come influisce l'assunzione di grassi sulla necessità di carboidrati nella dieta?
-    - Qual è il rapporto ideale tra carboidrati e grassi nella dieta vegana?
-    - Quali sono le conseguenze di una dieta vegana troppo ricca di carboidrati o grassi?
-    - Come posso bilanciare l'apporto
 
 - intent: keto_low_fat_diets
   examples: |
     - Che cosa sono le diete chetogeniche e low fat estreme?
     - Perché le diete chetogeniche e low fat estreme sono considerate un errore?
-    - Quali sono i rischi associati alle diete chetogeniche e low fat estreme nella dieta vegana?
-    - Cosa succede al nostro corpo quando seguiamo una dieta chetogenica o low fat estrema nella dieta vegana?
-    - Come possiamo evitare gli errori delle diete chetogeniche e low fat estreme nella dieta vegana?
 
 - intent: minimum_levels
   examples: |
     - Quali sono i livelli minimi di carboidrati e grassi che dobbiamo assumere nella nostra dieta vegana?
     - Quanto carboidrati e grassi dobbiamo assumere nella dieta vegana?
-    - Quali sono le linee guida per l'apporto di carboidrati e grassi nella dieta vegana?
-    - Come posso determinare i livelli minimi di carboidrati e grassi nella mia dieta vegana?
-    - Qual è il rapporto ideale tra carboidrati e grassi nella dieta vegana?
 
 - intent: calculate_macronutrients
   examples: |
     - Come viene calcolato l'apporto di carboidrati e grassi nella dieta vegana?
     - Quali strumenti posso utilizzare per calcolare l'apporto di carboidrati e grassi nella mia dieta vegana?
-    - Quali sono le formule per calcolare l'apporto di carboidrati e grassi nella dieta vegana?
-    - Cosa devo considerare quando calcolo l'apporto di carboidrati e grassi nella mia dieta vegana?
-    - Come posso regolare l'apporto di carboidrati e grassi nella mia dieta vegana?
 
 - intent: carb_vs_fat
   examples: |
     - Qual è la differenza tra carboidrati e grassi nella dieta vegana?
     - Quali sono i vantaggi dei carboidrati nella dieta vegana?
-    - Quali sono i vantaggi dei grassi nella dieta vegana?
-    - Cosa succede se assumo troppi carboidrati o troppi grassi nella dieta vegana?
-    - Quali sono le fonti migliori di carboidrati e grassi nella dieta vegana?
 
 - intent: why_need_carbs_fats
   examples: |
     - Perché i carboidrati e i grassi sono necessari nella dieta vegana?
     - Quali sono le funzioni dei carboidrati e dei grassi nella dieta vegana?
-    - Cosa succede se non assumo abbastanza carboidrati o grassi nella mia dieta vegana?
-    - Quali sono le fonti migliori di carboidrati e grassi nella dieta vegana?
-    - Come posso bilanciare l'apporto di carboidrati e grassi nella mia dieta vegana?
 
 - intent: risks_of_extreme_diets
   examples: |
     - Quali sono i rischi delle diete chetogeniche a bassissimi carboidrati nella dieta vegana?
     - Ci sono rischi per la salute associati alle diete low fat estreme a bassissimi grassi nella dieta vegana?
-    - Quali sono le conseguenze di una dieta vegana con bassissimo apporto di carboidrati?
-    - Cosa succede se si segue una dieta vegana a bassissimo apporto di grassi?
-    - Come posso evitare i rischi associati alle diete estreme nella dieta vegana?
 
 - intent: calculating_nutrient_intake
   examples: |
     - Qual è il modo corretto per calcolare l'apporto di grassi nella dieta vegana?
     - Come posso calcolare l'apporto di carboidrati nella mia dieta vegana?
-    - Quali sono le fonti migliori di carboidrati e grassi nella dieta vegana?
-    - Quanto carboidrati e grassi dovrei assumere nella mia dieta vegana?
-    - Come posso monitorare l'apporto di nutrienti nella mia dieta vegana?
 
 - intent: role_of_glucose
   examples: |
     - Qual è il ruolo del glucosio nell'utilizzo dei carboidrati dal corpo?
     - Come viene utilizzato il glucosio dal nostro corpo?
-    - Quali sono le fonti di glucosio nella nostra alimentazione?
-    - Che effetto ha l'assunzione di carboidrati sulla produzione di glucosio nel nostro corpo?
-    - Cosa succede se non si assume abbastanza glucosio nella dieta?
 
 - intent: difference_fats_glucose
   examples: |
     - Qual è la differenza tra i grassi e il glucosio?
     - In cosa differiscono i grassi e i carboidrati nella nostra alimentazione?
-    - Come vengono utilizzati i grassi e il glucosio dal nostro corpo?
-    - Quali sono le fonti migliori di grassi e glucosio nella dieta vegana?
-    - Come posso bilanciare l'apporto di grassi e carboidrati nella mia dieta vegana?
 
 - intent: vegan_diet_nutrients
   examples: |
     - Perché i carboidrati e i grassi sono considerati necessari nell'alimentazione vegana?
     - Quali sono le fonti di grassi e carboidrati nella dieta vegana?
-    - Come posso assicurarmi di assumere abbastanza carboidrati e grassi nella mia dieta vegana?
-    - Quali sono le conseguenze di una dieta vegana povera di carboidrati o grassi?
-    - Quali sono gli effetti positivi di una dieta vegana equilibrata in carboidrati e grassi?
 
 - intent: errors_of_extreme_diets
   examples: |
     - Qual è l'errore commesso dai fautori delle diete chetogeniche o low fat estreme?
     - Quali sono i rischi per la salute associati alle diete estreme nella dieta vegana?
-    - Cosa succede se si segue una dieta estrema nella dieta vegana?
-    - Come posso evitare gli errori delle diete estreme nella dieta vegana?
-    - Quali sono le conseguenze a lungo termine di una dieta estrema nella dieta vegana?
-
-- intent: calculating_nutrient_intake
-  examples: |
-    - Qual è il processo di calcolo degli apporti di grassi e carboidrati nell'alimentazione vegana?
-    - Come posso calcolare gli apporti di grassi e carboidrati nella mia dieta vegana?
-    - Quali sono gli strumenti disponibili per il calcolo degli apporti nutrizionali nella dieta vegana?
-    - Qual è l'apporto di grassi e carboidrati consigliato per una dieta vegana equilibrata?
-    - Come posso bilanciare l'apporto di grassi e carboidrati nella mia dieta vegana?
 
 - intent: vegan_minimum_fat_intake
   examples: |
     - Qual è il minimo raccomandabile di grassi nell'alimentazione vegana?
     - Di quanti grassi ho bisogno nella mia dieta vegana?
-    - Qual è l'apporto di grassi ideale per una dieta vegana?
-    - Quanto grasso dovrei consumare se seguo una dieta vegana?
-    - Come posso sapere se sto assumendo abbastanza grassi nella mia dieta vegana?
 
 - intent: importance_of_fat_for_hormones
   examples: |
     - Qual è l'importanza dei grassi per il sistema ormonale?
     - Come influenzano i grassi i nostri ormoni?
-    - Di che tipo di grassi ho bisogno per mantenere un equilibrio ormonale?
-    - Qual è il rapporto tra grassi e ormoni?
-    - Come posso migliorare la mia salute ormonale tramite la dieta vegana?
 
 - intent: minimum_fat_for_hormonal_balance
   examples: |
     - Qual è il minimo di grassi necessario per non incorrere in problemi ormonali?
     - Cosa succede se mangio troppo poco grasso nella mia dieta vegana?
-    - Qual è il rapporto tra grassi e problemi ormonali?
-    - Di che tipo di grassi ho bisogno per mantenere un equilibrio ormonale?
-    - Come posso sapere se sto assumendo abbastanza grassi per mantenere un equilibrio ormonale nella mia dieta vegana?
 
 - intent: maximum_fat_absorption
   examples: |
     - Qual è il massimo di grassi che possono essere assorbiti dal nostro organismo?
     - Ci sono limiti alla quantità di grassi che possiamo digerire?
-    - Come vengono assorbiti i grassi dall'organismo?
-    - Quali sono i fattori che influenzano l'assorbimento dei grassi?
-    - Come posso evitare di assumere troppi grassi nella mia dieta vegana?
 
 - intent: personal_fat_limit
   examples: |
     - Come facciamo a capire il nostro limite individuale di grassi?
     - Qual è la mia soglia personale di assunzione di grassi?
-    - Come posso capire se sto assumendo troppi o troppo pochi grassi nella mia dieta vegana?
-    - Ci sono test per capire il nostro fabbisogno individuale di grassi?
-    - Come posso adattare la mia dieta vegana alle mie esigenze personali?
 
 - intent: consequences_of_excess_fat
   examples: |
     - Cosa succede se superiamo il massimo di grassi che possiamo sopportare?
     - Quali sono le conseguenze di una dieta vegana troppo ricca di grassi?
-    - Come posso capire se sto assumendo troppi grassi nella mia dieta vegana?
-    - Quali sono i rischi per la salute associati a un consumo eccessivo di grassi nella dieta vegana?
-    - Come posso evitare di assumere troppi grassi nella mia dieta vegana? 
 
 - intent: fat_recommendation
   examples: |
     - Qual è il minimo raccomandato di grassi nell'alimentazione vegana?
     - Quanto grasso dovrei consumare ogni giorno seguendo una dieta vegana?
-    - Qual è la quantità di grassi che dovrei mangiare per seguire una dieta vegana equilibrata?
-    - Come posso sapere se sto consumando abbastanza grassi nella mia dieta vegana?
-    - Quali sono le fonti migliori di grassi nella dieta vegana?
 
 - intent: body_unable_to_produce_fats
   examples: |
     - Perché il corpo non è in grado di produrre grassi se mancano nella dieta?
     - Cosa succede se non assumo abbastanza grassi nella mia dieta vegana?
-    - Come il corpo umano elabora e utilizza i grassi presenti nella dieta?
-    - Quali sono le conseguenze di una dieta vegana povera di grassi per il nostro organismo?
-    - Come posso evitare carenze di grassi nella mia dieta vegana?
 
 - intent: fat_and_hormones
   examples: |
     - Qual è il minimo di grassi necessario per evitare problemi ormonali?
     - Come i grassi influenzano il sistema ormonale del nostro corpo?
-    - Quali sono le conseguenze di una dieta vegana a basso contenuto di grassi sui livelli ormonali?
-    - Come posso regolare il mio consumo di grassi per evitare squilibri ormonali nella dieta vegana?
-    - Quali sono i segnali che il mio corpo sta avendo carenza di grassi nella dieta vegana?
-
-- intent: maximum_fat_absorption
-  examples: |
-    - Qual è il massimo di grassi che possono essere assorbiti dal nostro organismo?
-    - Cosa succede se mangio troppi grassi nella mia dieta vegana?
-    - Quali sono le conseguenze di un eccesso di grassi nella dieta vegana?
-    - Come posso capire quanto grasso posso mangiare nella mia dieta vegana?
-    - Quali sono i limiti consigliati per il consumo di grassi nella dieta vegana?
 
 - intent: individual_fat_limit
   examples: |
     - Come si può capire il nostro limite individuale di grassi?
-    - Quali fattori influenzano la capacità del nostro corpo di metabolizzare i grassi?
-    - Come posso calcolare il mio fabbisogno di grassi nella dieta vegana?
-    - Quali sono le differenze individuali nel metabolismo dei grassi nella dieta vegana?
-    - Come posso adattare la mia dieta vegana alle mie esigenze specifiche in termini di grassi?  
+    - Quali fattori influenzano la capacità del nostro corpo di metabolizzare i grassi? 
 
 - intent: excessive_fat_intake
   examples: |
     - Quali sono le conseguenze di un apporto eccessivo di grassi nella dieta?
     - Cosa succede se mangio troppi grassi nella mia dieta vegana?
-    - Come posso evitare di assumere troppi grassi nella dieta vegana?
-    - Quali sono i rischi per la salute di una dieta vegana troppo ricca di grassi?
-    - Come mantenere un equilibrio tra grassi e altri nutrienti nella dieta vegana?
 
 - intent: minimum_fat_intake
   examples: |
     - Qual è il minimo raccomandabile di grassi nell'alimentazione vegana per evitare carenze di vitamine liposolubili?
     - Quanto grasso devo assumere nella dieta vegana per evitare carenze di vitamine liposolubili?
-    - Quali sono le fonti di grassi essenziali nella dieta vegana?
-    - Come posso assicurarmi di assumere abbastanza grassi nella dieta vegana?
-    - Quali sono i rischi per la salute di una dieta vegana troppo povera di grassi?
 
 - intent: body_inability_to_produce_fats
   examples: |
     - Perché il corpo non è in grado di produrre i grassi da solo se mancano nella dieta?
     - Quali sono i grassi che il nostro corpo non è in grado di produrre da solo?
-    - Come posso assicurarmi di assumere abbastanza grassi essenziali nella mia dieta vegana?
-    - Quali sono i rischi per la salute di una dieta vegana povera di grassi essenziali?
-    - Come posso ottenere grassi essenziali nella dieta vegana?
 
 - intent: minimum_fat_for_hormones
   examples: |
     - Qual è il minimo di grassi necessario per evitare problemi ormonali nell'alimentazione vegana?
     - Cosa succede se non assumo abbastanza grassi nella mia dieta vegana per mantenere gli ormoni?
-    - Quali sono i grassi che aiutano a mantenere un equilibrio ormonale nella dieta vegana?
-    - Come posso assicurarmi di assumere abbastanza grassi per mantenere gli ormoni nella dieta vegana?
-    - Quali sono i rischi per la salute di una dieta vegana povera di grassi per mantenere gli ormoni?
 
 - intent: maximum_fat_intake
   examples: |
     - Qual è il tetto massimo nell'apporto di grassi nella dieta vegana?
     - Qual è la quantità massima di grassi che si dovrebbe assumere nella dieta vegana?
-    - Ci sono dei limiti nell'apporto di grassi nella dieta vegana?
-    - Quanto grasso si dovrebbe assumere al giorno nella dieta vegana?
-    - Quali sono le linee guida per l'assunzione di grassi nella dieta vegana?
 
 - intent: individual_fat_limit
   examples: |
     - Come posso capire il mio limite individuale nell'apporto di grassi?
     - Quali fattori influenzano il mio apporto ideale di grassi nella dieta vegana?
-    - Come posso personalizzare la mia dieta vegana in base alle mie esigenze di grassi?
-    - Quali strumenti ci sono per monitorare il mio apporto di grassi nella dieta vegana?
-    - Come posso capire se sto assumendo troppi grassi nella mia dieta vegana?
 
 - intent: signs_of_excess_fat
   examples: |
     - Quali sono i segnali che indicano che sto assumendo troppi grassi nella dieta vegana?
     - Come posso capire se sto superando il mio limite nell'apporto di grassi nella dieta vegana?
-    - Quali sono gli effetti di un eccesso di grassi nella dieta vegana?
-    - Quali sono i sintomi di una dieta vegana troppo ricca di grassi?
-    - Cosa devo fare se supero il mio limite di grassi nella dieta vegana?
 
 - intent: fat_intake_minimal
   examples: |
     - Qual è la quantità minima di grassi che dovrei assumere in una dieta?
     - Quanta percentuale di grassi dovrebbe essere presente nella mia dieta se voglio assumere il minimo possibile?
-    - Cosa succede se non assumo abbastanza grassi nella mia dieta?
-    - Quale dovrebbe essere la fonte principale di grassi in una dieta con apporto minimo di grassi?
-    - Come posso trovare il giusto equilibrio tra grassi, carboidrati e proteine se voglio seguire una dieta con apporto minimo di grassi?
 
 - intent: fat_intake_low
   examples: |
     - Quale è la quantità di grassi consigliata per una dieta con un apporto di grassi basso?
     - Qual è la percentuale di grassi ideale in una dieta con un apporto di grassi basso?
-    - Quali sono le fonti di grassi consigliate per una dieta con apporto di grassi basso?
-    - Come posso evitare di assumere troppi grassi nella mia dieta a basso contenuto di grassi?
-    - Quanto dovrei aumentare l'apporto di grassi se sento di non assumere abbastanza in una dieta con apporto di grassi basso?
 
 - intent: fat_intake_medium
   examples: |
     - Quale è la quantità di grassi consigliata per una dieta con un apporto di grassi medio?
     - Qual è la percentuale di grassi ideale in una dieta con un apporto di grassi medio?
-    - Quali sono le fonti di grassi consigliate per una dieta con apporto di grassi medio?
-    - Come posso evitare di assumere troppi grassi nella mia dieta a medio contenuto di grassi?
-    - Quanto dovrei diminuire l'apporto di grassi se sento di assumere troppi grassi nella mia dieta a medio contenuto di grassi?
 
 - intent: fat_intake_high
   examples: |
     - Quanto grasso dovrei assumere se voglio seguire una dieta con un apporto di grassi alto?
     - Qual è la quantità di grassi consigliata per una dieta con un apporto di grassi alto?
-    - Qual è la percentuale di grassi ideale in una dieta con un apporto di grassi alto?
-    - Quali sono le fonti di grassi consigliate per una dieta con apporto di grassi alto?
-    - Come posso evitare di assumere troppi grassi nella mia dieta ad alto contenuto di grassi?
 
 - intent: fat_intake_very_high
   examples: |
     - Qual è la quantità massima di grassi che posso assumere se voglio seguire una dieta con un apporto di grassi molto alto?
     - Quale dovrebbe essere la percentuale di grassi in una dieta con apporto di grassi molto alto?
-    - Quali sono i rischi associati a una dieta con apporto di grassi molto alto?
-    - Come posso assicurarmi di assumere abbastanza proteine e carboidrati se voglio seguire una dieta con apporto di grassi molto alto?
-    - Quanto grasso dovrei rid
-
+  
 - intent: carb_adaptation_price
   examples: |
     - Qual è il prezzo da pagare per adattarsi alla chetosi a causa di una scarsità di carboidrati?
     - Ci sono effetti collaterali nell'adattarsi alla chetosi a causa della mancanza di carboidrati?
-    - Quali sono le conseguenze di un apporto di carboidrati insufficiente nella dieta?
-    - Come si può evitare di pagare un prezzo troppo alto nell'adattarsi alla chetosi?
-    - Quali sono gli effetti sulla salute dell'adattamento alla chetosi a causa di una dieta povera di carboidrati?
 
 - intent: carb_minimum_intake
   examples: |
     - Qual è il minimo di carboidrati che dovrei consumare per evitare gli adattamenti negativi?
     - Cosa succede se non assumo abbastanza carboidrati nella mia dieta?
-    - Quale dovrebbe essere l'apporto minimo di carboidrati nella dieta?
-    - Qual è il livello di carboidrati raccomandato per evitare problemi di salute?
-    - Qual è il livello di carboidrati che dovrebbe essere sempre presente nella mia dieta?
 
 - intent: carb_negative_adaptations
   examples: |
     - Quali sono gli adattamenti negativi che si verificano in caso di carenza di carboidrati?
     - Cosa succede al corpo quando si riduce l'apporto di carboidrati?
-    - Quali sono gli effetti di una dieta troppo povera di carboidrati sulla salute?
-    - Come posso evitare gli adattamenti negativi causati dalla carenza di carboidrati?
-    - Cosa posso fare per mitigare gli effetti negativi della riduzione dei carboidrati nella mia dieta?
 
 - intent: carb_recommended_intake
   examples: |
     - Qual è l'apporto minimo di carboidrati consigliato per tutte le persone e fasi dell'alimentazione?
     - Quale dovrebbe essere il livello di carboidrati nella mia dieta per una salute ottimale?
-    - Qual è la quantità raccomandata di carboidrati per una dieta sana ed equilibrata?
-    - Quale è la percentuale di carboidrati raccomandata nella mia dieta?
-    - Come posso determinare il giusto apporto di carboidrati nella mia dieta?
 
 - intent: carb_maximum_tolerable
   examples: |
     - Qual è il massimo tollerabile di carboidrati che posso assumere?
     - Qual è la quantità massima di carboidrati che dovrei consumare ogni giorno?
     - Qual è il livello massimo di carboidrati che posso consumare senza rischi per la salute?
-    - Come posso stabilire il limite massimo di carboidrati nella mia dieta?
-    - Cosa succede se supero il limite massimo di carboidrati nella mia dieta? 
 
 - intent: excess_carbs
   examples: |
     - Cosa succede ai carboidrati in eccesso che non vengono immagazzinati come grasso?
     - I carboidrati in eccesso vengono eliminati dal corpo?
-    - Posso mangiare carboidrati in eccesso se faccio molta attività fisica?
-    - Quali sono le conseguenze di un eccesso di carboidrati nella dieta?
-    - Come posso evitare l'accumulo di carboidrati in eccesso nel mio corpo?
 
 - intent: carb_minimum
   examples: |
     - Perché il nostro corpo ha bisogno di un minimo di carboidrati?
     - Cosa succede se non rispettiamo il fabbisogno minimo di carboidrati?
     - Come posso sapere qual è il mio fabbisogno di carboidrati?
-    - Quali sono le conseguenze di una dieta povera di carboidrati?
-    - Come posso bilanciare la mia dieta per garantire un adeguato apporto di carboidrati?
 
 - intent: ketosis_adaptation
   examples: |
     - Qual è il prezzo da pagare per adattarsi alla chetosi?
     - Cosa succede al nostro corpo quando entriamo in chetosi?
-    - Quali sono i sintomi della chetosi?
-    - Quanto tempo ci vuole per adattarsi alla chetosi?
+
     - Quali sono i rischi associati alla chetosi prolungata?
 
 - intent: minimum_carbs
   examples: |
     - Qual è il minimo di carboidrati necessario per evitare adattamenti negativi?
     - Qual è la quantità minima di carboidrati consigliata per la salute?
-    - Come posso evitare gli effetti negativi di una dieta a bassissimo apporto di carboidrati?
-    - Cosa succede se si mangiano troppo pochi carboidrati nella dieta?
 
 - intent: low_carb_days
   examples: |
     - Come posso gestire i giorni di basso apporto di carboidrati nella mia dieta?
     - Quali alimenti posso mangiare nei giorni di low carb?
-    - Come posso bilanciare i giorni di low carb con quelli a più alto apporto di carboidrati?
-    - Quali sono le conseguenze di un apporto irregolare di carboidrati nella dieta?
 
 - intent: extra_calories_fate
   examples: |
     - Qual è il destino delle calorie extra nella dieta ipercalorica?
     - Cosa succede alle calorie extra che non vengono bruciate durante l'esercizio fisico?
-    - Posso accumulare grasso anche se mangio troppi carboidrati?
-    - Come posso evitare di accumulare grasso con un alto apporto calorico?
 
 - intent: excess_carbs_to_fat
   examples: |
     - Perché i carboidrati in eccesso non vengono convertiti in grasso e accumulati nelle riserve?
     - Cosa succede agli zuccheri in eccesso che non vengono utilizzati dall'organismo?
-    - È vero che il corpo non accumula grasso a partire dai carboidrati in eccesso?
-    - Come funziona il processo di accumulo di grasso nell'organismo? 
 
 - intent: cost_of_ketosis
   examples: |
     - Qual è il prezzo da pagare per andare in chetosi e utilizzare di più i grassi?
     - Ci sono svantaggi nell'adattarsi a utilizzare di più i grassi nella dieta?
-    - Che cosa succede durante la fase di adattamento alla chetosi?
-    - Quali sono le possibili conseguenze a lungo termine della chetosi nella dieta?
 
 - intent: consequences_of_low_carb
   examples: |
     - Che cosa succede se non rispettiamo il fabbisogno minimo di carboidrati a lungo termine?
     - Quali sono i rischi di una dieta povera di carboidrati?
     - Cosa succede se mangio troppi grassi e non abbastanza carboidrati?
-    - Quale è il minimo di carboidrati per evitare gli adattamenti negativi?
 
 - intent: minimum_carb_requirement
   examples: |
@@ -455,128 +294,78 @@ nlu:
   examples: |
     - Qual è il livello minimo raccomandato di apporto di carboidrati nell'alimentazione?
     - Qual è il livello di apporto di carboidrati raccomandato per la salute?
-    - Quanto dovrebbe essere alto l'apporto di carboidrati nella mia dieta?
-    - Qual è il livello di apporto di carboidrati consigliato per una dieta sana ed equilibrata?
-    - Qual è il rapporto tra carboidrati, proteine e grassi raccomandato per una dieta sana?
 
 - intent: low_carb_intake
   examples: |
     - Qual è il livello di apporto di carboidrati considerato "basso"?
     - Come si definisce una dieta a basso contenuto di carboidrati?
-    - Qual è il massimo di carboidrati che posso assumere per una dieta a basso contenuto di carboidrati?
-    - Quali sono le conseguenze di una dieta troppo povera di carboidrati?
-    - Posso seguire una dieta a basso contenuto di carboidrati se sono vegano?
 
 - intent: medium_carb_intake
   examples: |
     - Qual è il livello di apporto di carboidrati considerato "medio"?
     - Come si definisce una dieta con apporto di carboidrati "medio"?
-    - Quali sono i benefici di una dieta con apporto di carboidrati moderato?
-    - Qual è il livello di apporto di carboidrati consigliato per i vegani?
-    - Come posso calcolare il mio apporto di carboidrati nella dieta?
 
 - intent: good_carb_intake
   examples: |
     - Qual è il livello di apporto di carboidrati raccomandato per una dieta sana?
     - Qual è la quantità di carboidrati che dovrei consumare ogni giorno?
-    - Quanto dovrebbero essere i carboidrati nella mia dieta per mantenere una buona salute?
-    - Come posso sapere se sto assumendo abbastanza carboidrati nella mia dieta?
-    - Qual è la percentuale di carboidrati raccomandata nella dieta quotidiana?
 
 - intent: very_good_carb_intake
   examples: |
     - Qual è il livello di apporto di carboidrati considerato "molto buono"?
     - Quanto carboidrati dovrei assumere per avere un apporto "molto buono"?
-    - Qual è il livello di apporto di carboidrati che dovrei cercare di raggiungere?
-    - Cosa succede se non assumo abbastanza carboidrati?
-    - Come posso aumentare il mio apporto di carboidrati in modo sano?
 
 - intent: excellent_carb_intake
   examples: |
     - Qual è il livello di apporto di carboidrati considerato "eccellente"?
     - Quanto carboidrati dovrei assumere per avere un apporto "eccellente"?
-    - Qual è il livello di apporto di carboidrati che dovrei cercare di superare per avere una dieta ottimale?
-    - Come posso raggiungere un livello di apporto di carboidrati "eccellente" nella mia dieta?
-    - Quali sono i benefici di un alto apporto di carboidrati nella dieta vegana?
 
 - intent: carb_intake_recommendation
   examples: |
     - Qual è il livello minimo raccomandato di apporto di carboidrati nell'alimentazione?
     - Quale dovrebbe essere il mio apporto giornaliero di carboidrati?
-    - Qual è il livello di apporto di carboidrati considerato "basso"?
-    - Qual è il livello di apporto di carboidrati considerato "medio"?
-    - Qual è il livello di apporto di carboidrati considerato "buono"?
-    - Qual è il livello di apporto di carboidrati considerato "molto buono"?
-    - Qual è il livello di apporto di carboidrati considerato "eccellente"?
 
 - intent: excess_carbs
   examples: |
     - Che cosa succede se mangio troppi carboidrati e le riserve sono piene?
     - Cosa accade al glucosio in eccesso quando il glicogeno è già pieno?
-    - Qual è il destino dei carboidrati in eccesso se non vengono utilizzati come energia?
-    - Cosa succede se non si utilizzano i carboidrati in eccesso come fonte di energia?
-    - Come si possono evitare le conseguenze di un eccesso di carboidrati nella dieta?
 
 - intent: consequences_of_insulin_resistance
   examples: |
     - Quali sono le conseguenze dell'insulino-resistenza?
     - Cosa accade al corpo in caso di insulino-resistenza?
-    - Quali sono i sintomi dell'insulino-resistenza?
-    - Come si può prevenire l'insulino-resistenza?
-    - Come si può trattare l'insulino-resistenza?
 
 - intent: importance_of_calorie_intake_in_insulin_resistance
   examples: |
     - Qual è l'importanza dell'apporto calorico nell'insulino-resistenza?
     - Come influisce l'apporto calorico sulla resistenza all'insulina?
-    - Qual è il rapporto tra il consumo di calorie e l'insulino-resistenza?
-    - Come posso gestire le calorie nella dieta se ho l'insulino-resistenza?
-    - Cosa succede se si assume un numero insufficiente di calorie con l'insulino-resistenza?
 
 - intent: insulin_sensitivity
   examples: |
     - Qual è l'effetto di una dieta ipocalorica sulla sensibilità all'insulina?
     - Come cambia la sensibilità all'insulina in una fase di riduzione calorica?
-    - Qual è il rapporto tra calorie e sensibilità all'insulina?
-    - Come influisce la riduzione calorica sull'insulino-resistenza?
-    - Quali sono i benefici di una dieta che migliora la sensibilità all'insulina?
 
 - intent: carb_tolerance_impact
   examples: |
     - Come influenza la tolleranza ai carboidrati la gestione dei carboidrati?
     - Qual è l'effetto della tolleranza ai carboidrati sulla dieta?
-    - Come la tolleranza ai carboidrati influenza il consumo di carboidrati?
-    - Quali sono i rischi di una bassa tolleranza ai carboidrati nella dieta?
-    - Come posso gestire meglio i carboidrati se ho una bassa tolleranza ai carboidrati?
 
 - intent: improving_carb_tolerance
   examples: |
     - Come posso migliorare la mia tolleranza ai carboidrati?
     - Quali sono i metodi per aumentare la tolleranza ai carboidrati nella dieta?
-    - Cosa posso fare per migliorare la mia capacità di tollerare i carboidrati?
-    - Quali sono i rimedi naturali per aumentare la tolleranza ai carboidrati?
-    - Quali sono i cibi che possono aiutare a migliorare la tolleranza ai carboidrati?
 
 - intent: excess_carbs_storage
   examples: |
     - Che fine fanno i carboidrati in eccesso se le capacità di immagazzinamento sono limitate?
     - Cosa succede se mangio troppi carboidrati e non posso immagazzinarli?
-    - Quali sono le conseguenze dell'eccesso di carboidrati nella dieta?
-    - Come posso gestire l'eccesso di carboidrati nella mia dieta vegana?
-    - Quali sono le fonti di carboidrati che devo evitare se ho problemi di immagazzinamento?
 
 - intent: long_term_insulin_resistance
   examples: |
     - Cosa comporta l'insulino-resistenza sul lungo periodo?
     - Quali sono le conseguenze dell'insulino-resistenza sulla salute?
-    - Come si può prevenire l'insulino-resistenza a lungo termine?
-    - Quali sono i sintomi dell'insulino-resistenza?
-    - Quali sono le cause dell'insulino-resistenza?
 
 - intent: carb_management_during_hypocaloric_phase
   examples: |
     - Cosa cambia nella gestione dei carboidrati durante una fase di ipocalorica?
     - Quali sono le linee guida per gestire i carboidrati durante una dieta ipocalorica?
-    - Come si può mantenere un equilibrio nella dieta durante una fase di ipocalorica?
-    - Quali sono le conseguenze dell'assunzione insufficiente di carboidrati durante una dieta ipocalorica?
-    - Come posso assicurarmi di assumere abbastanza carboidrati durante una fase di ipocalorica?

@@ -5,121 +5,73 @@ nlu:
   examples: |
     - Quali alimenti in natura sono ricchi di carboidrati?
     - Quali cibi naturali contengono carboidrati?
-    - Quali sono gli alimenti a base di carboidrati che si trovano in natura?
-    - Puoi suggerirmi alcuni cibi naturali ricchi di carboidrati?
-    - Quali fonti di carboidrati posso trovare in natura?
-    - Quali cibi naturali mi consigli per aumentare l'apporto di carboidrati nella mia dieta?
 
 - intent: natural_sources_of_proteins
   examples: |
     - Quali alimenti in natura sono ricchi di proteine?
     - Quali cibi naturali contengono proteine?
-    - Quali sono gli alimenti a base di proteine che si trovano in natura?
-    - Puoi suggerirmi alcuni cibi naturali ricchi di proteine?
-    - Quali fonti di proteine posso trovare in natura?
-    - Quali cibi naturali mi consigli per aumentare l'apporto di proteine nella mia dieta?
 
 - intent: natural_sources_of_fats
   examples: |
     - Quali alimenti in natura sono ricchi di grassi?
     - Quali cibi naturali contengono grassi?
-    - Quali sono gli alimenti a base di grassi che si trovano in natura?
-    - Puoi suggerirmi alcuni cibi naturali ricchi di grassi?
-    - Quali fonti di grassi posso trovare in natura?
-    - Quali cibi naturali mi consigli per aumentare l'apporto di grassi nella mia dieta?
 
 - intent: weight_loss_diet_recommendation
   examples: |
+    - Come dovremmo gestire la combinazione di carboidrati e grassi nei pasti per dimagrire?
     - Qual è la combinazione di carboidrati e grassi migliore per dimagrire?
-    - Come devo combinare carboidrati e grassi nei pasti per perdere peso?
-    - Quali alimenti dovrei mangiare per ottenere la giusta combinazione di carboidrati e grassi nella dieta dimagrante?
-    - Qual è il rapporto ideale tra carboidrati e grassi per perdere peso in modo efficace?
-    - Quali sono le raccomandazioni per la combinazione di carboidrati e grassi nella dieta dimagrante?
 
 - intent: sources_of_carbs_and_fats
   examples: |
     - Quali sono le fonti di carboidrati e di grassi che dovremmo scegliere?
     - Quali alimenti dovremmo scegliere per aumentare l'apporto di carboidrati e grassi nella dieta?
-    - Come possiamo scegliere le fonti migliori di carboidrati e grassi per la nostra salute?
-    - Quali sono i cibi naturali migliori per l'apporto di carboidrati e grassi?
-    - Quali sono i cibi naturali che contengono sia carboidrati che grassi?
 
 - intent: high_fat_carb_foods_to_avoid
   examples: |
     - Quali cibi con alto contenuto di grassi e carboidrati dovremmo evitare per mantenere un'alimentazione salutare?
     - Quali alimenti non dovrei mangiare per evitare di assumere troppe calorie dalla dieta?
-    - Quali sono i cibi con alto contenuto calorico che dovremmo evitare?
-    - Quali sono i cibi ricchi di grassi e carboidrati che sono dannosi per la salute?
-    - Ci sono cibi con alto contenuto di grassi e carboidrati che dovrei evitare per dimagrire?
 
 - intent: vegan_sources_of_carbs
   examples: |
     - Quali sono le fonti di carboidrati nell'alimentazione vegana?
     - Quali cibi vegani contengono carboidrati?
-    - Cosa posso mangiare per assumere abbastanza carboidrati nella dieta vegana?
-    - Quali sono le opzioni vegane per aumentare l'apporto di carboidrati?
-    - Puoi suggerirmi alcune fonti di carboidrati per la dieta vegana?
 
 - intent: vegan_sources_of_fats
   examples: |
     - Quali sono le fonti di grassi nell'alimentazione vegana?
     - Quali cibi vegani contengono grassi?
-    - Cosa posso mangiare per assumere abbastanza grassi nella dieta vegana?
-    - Quali sono le opzioni vegane per aumentare l'apporto di grassi?
-    - Puoi suggerirmi alcune fonti di grassi per la dieta vegana?
 
 - intent: vegan_high_fat_carb_foods_in_moderation
   examples: |
     - Quali sono i cibi con alti grassi e carboidrati da consumare con moderazione nell'alimentazione vegana?
     - Quali alimenti vegani dovrei evitare se voglio limitare l'assunzione di grassi e carboidrati?
-    - Quali sono i cibi vegani ad alto contenuto di calorie che dovrei mangiare con moderazione?
-    - Come posso limitare l'assunzione di grassi e carboidrati nella dieta vegana?
-    - Quali sono i cibi vegani ad alto contenuto di grassi e carboidrati che non dovrei mangiare troppo spesso?
 
 - intent: choosing_carb_fat_sources_in_vegan_diet
   examples: |
     - Come si dovrebbero scegliere le fonti di carboidrati e grassi nell'alimentazione vegana?
     - Quali sono i criteri per scegliere i cibi con carboidrati e grassi nella dieta vegana?
-    - Come posso bilanciare l'apporto di carboidrati e grassi nella dieta vegana?
-    - Quali sono le fonti di grassi e carboidrati più salutari per la dieta vegana?
-    - Cosa dovrei tenere a mente quando scelgo cibi con carboidrati e grassi nella dieta vegana?
 
 - intent: rule_for_consuming_high_fat_carb_foods_in_vegan_diet
   examples: |
     - Quale regola bisognerebbe seguire per il consumo di cibi con alti grassi e carboidrati nell'alimentazione vegana?
     - Qual è la giusta quantità di cibi ad alto contenuto di grassi e carboidrati che dovrei mangiare nella dieta vegana?
-    - C'è una regola generale per il consumo di alimenti ad alto contenuto di grassi e carboidrati nella dieta vegana?
-    - Come posso gestire l'apporto di grassi e carboidrati nella dieta vegana?
-    - Quali sono le linee guida generali per il consumo di cibi con alti grassi e carboidrati nella dieta vegana?
 
 - intent: natural_sources_of_carbohydrates_in_vegan_diet
   examples: |
     - Quali sono le fonti naturali di carboidrati che rientrano nella dieta vegana?
     - Quali alimenti vegani sono ricchi di carboidrati?
-    - Cosa posso mangiare nella dieta vegana per ottenere un apporto sufficiente di carboidrati?
-    - Quali sono i cibi vegani ad alto contenuto di carboidrati?
-    - Quali sono le fonti naturali di carboidrati che posso includere nella dieta vegana?
 
 - intent: natural_sources_of_fat_in_vegan_diet
   examples: |
     - Quali sono le fonti naturali di grassi nella dieta vegana?
     - Cosa posso mangiare nella dieta vegana per ottenere un apporto sufficiente di grassi?
-    - Quali alimenti vegani sono ricchi di grassi?
-    - Quali sono i cibi vegani ad alto contenuto di grassi?
-    - Quali sono le fonti naturali di grassi che posso includere nella dieta vegana?
 
 - intent: foods_containing_both_fat_and_carbohydrates_in_vegan_diet
   examples: |
     - Quali sono i cibi che contengono sia grassi che carboidrati e come dovrebbero essere consumati nella dieta vegana?
     - Quali alimenti vegani hanno un alto contenuto sia di grassi che di carboidrati e come dovrei mangiarli?
-    - Quali sono i cibi vegani che contengono sia grassi che carboidrati e come posso gestirli nella mia dieta?
-    - Come dovrei consumare i cibi vegani che contengono sia grassi che carboidrati per mantenere una dieta equilibrata?
-    - Quali sono le fonti naturali di cibi che contengono sia grassi che carboidrati nella dieta vegana e come dovrei mangiarli?
 
 - intent: reason_for_body_preference_for_fatty_and_carbohydrate_rich_foods
   examples: |
+    - Qual è il motivo per cui il nostro organismo ha un'ancestrale predilezione per i cibi ricchi di grassi e carboidrati?
     - Perché il nostro corpo preferisce i cibi ricchi di grassi e carboidrati?
-    - Qual è il motivo per cui abbiamo una predilezione ancestrale per i cibi con alto contenuto di grassi e carboidrati?
-    - Cosa rende i cibi ricchi di grassi e carboidrati così attraenti per il nostro organismo?
-    - Come mai il nostro corpo sembra preferire i cibi con alto contenuto di grassi e carboidrati rispetto ad altri tipi di cibo?
-    - Qual è il motivo evolutivo per cui il nostro corpo sembra preferire i cibi con alto contenuto di grassi e carboidrati?

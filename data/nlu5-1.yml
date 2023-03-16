@@ -5,366 +5,229 @@ nlu:
   examples: |
     - Perché le proteine sono così importanti nella dieta vegana?
     - Qual è l'importanza delle proteine nell'alimentazione vegana?
-    - Ho bisogno di mangiare molte proteine sulla mia dieta vegana?
-    - Quali cibi vegani sono ricchi di proteine?
-    - Cosa succede se non si assume abbastanza proteine nella dieta vegana?
 
 - intent: protein_problem
   examples: |
     - Perché gli apporti proteici non ottimali sono un problema per i vegani?
     - Cosa succede se non si assume abbastanza proteine sulla dieta vegana?
-    - Quali sono i rischi di una carenza proteica per i vegani?
-    - Come posso sapere se sto assumendo abbastanza proteine sulla mia dieta vegana?
-    - Quali sono le conseguenze di un apporto proteico eccessivo sulla dieta vegana?
 
 - intent: protein_sources
   examples: |
     - Da dove si possono ottenere le proteine in una dieta vegana?
     - Quali sono le fonti proteiche in una dieta vegana?
-    - Cosa posso mangiare per ottenere abbastanza proteine sulla mia dieta vegana?
-    - Quali cibi vegani sono ricchi di proteine?
-    - Posso ottenere abbastanza proteine con una dieta vegana?
 
 - intent: protein_biovalue
   examples: |
     - Cosa significa "valore biologico" delle proteine?
     - Qual è il concetto di "valore biologico" delle proteine?
-    - Come si applica il "valore biologico" alle proteine vegetali?
-    - Le proteine vegetali hanno un "valore biologico" inferiore rispetto alle proteine animali?
-    - Quali sono le differenze di "valore biologico" tra le proteine vegetali e animali?
 
 - intent: plant_protein_categories
   examples: |
     - Quali sono le categorie di proteine vegetali?
     - Cosa sono le proteine vegetali e quali sono le loro categorie?
-    - Quali alimenti sono ricchi di proteine vegetali?
-    - Quali sono i principali tipi di proteine vegetali?
-    - Cosa differenzia le proteine vegetali delle diverse categorie?
+
 
 - intent: amino_acids_role
   examples: |
     - Quali sono i principali aminoacidi presenti nelle proteine?
     - Cosa sono gli aminoacidi e quale è il loro ruolo nelle proteine?
-    - Perché gli aminoacidi sono importanti per la salute?
-    - Qual è la differenza tra aminoacidi essenziali e non essenziali?
-    - Cosa succede se non si assume abbastanza aminoacidi con la dieta? 
 
 - intent: protein_deficiency_risks
   examples: |
     - Quali sono i rischi di una dieta vegana povera di proteine?
     - Cosa succede se si assume poche proteine sulla dieta vegana?
-    - Come una carenza proteica può influire sulla salute?
-    - Quali sono i sintomi di una carenza proteica sulla dieta vegana?
-    - Quali sono le complicazioni che possono insorgere a causa di una dieta vegana povera di proteine?
 
 - intent: combine_plant_protein_sources
   examples: |
     - Come combinare le fonti proteiche vegetali per ottenere un valore biologico completo?
     - Quali alimenti vegetali devo abbinare per ottenere proteine complete?
-    - Quali sono le combinazioni di cibi vegani che assicurano un apporto proteico adeguato?
-    - Cosa significa "combinare le proteine" nella dieta vegana?
-    - Come posso fare per ottenere abbastanza proteine sulla mia dieta vegana?
 
 - intent: ensure_protein_intake
   examples: |
     - Come assicurarsi di assumere abbastanza proteine in una dieta vegana?
     - Quali sono le quantità di proteine consigliate per una dieta vegana?
-    - Come posso fare per monitorare il mio apporto proteico sulla dieta vegana?
-    - Cosa succede se si assume troppo poche proteine sulla dieta vegana?
-    - Quali sono i modi migliori per aumentare l'apporto proteico sulla dieta vegana?
 
 - intent: vegetable_protein_biologic_value
   examples: |
     - Qual è il valore biologico delle proteine vegetali?
     - Come si valuta la qualità delle proteine vegetali?
-    - Le proteine vegetali sono complete?
-    - Quali sono i fattori che influenzano il valore biologico delle proteine vegetali?
-    - Quali sono le fonti proteiche vegetali con il valore biologico più alto?
 
 - intent: common_protein_sources_cereals
   examples: |
     - Quali sono le fonti proteiche più comuni tra i cereali?
     - Quali sono i cereali più ricchi di proteine?
-    - Come posso aggiungere proteine alla mia dieta a base di cereali?
-    - Quali sono i cereali vegani che forniscono un alto contenuto di proteine?
-    - Come posso usare i cereali per aumentare l'apporto proteico sulla mia dieta vegana?
 
 - intent: soy_derivatives
   examples: |
     - Quali sono i principali derivati della soia e in cosa consistono?
     - Cosa sono i prodotti a base di soia?
-    - Quali sono i cibi vegani a base di soia più popolari?
-    - Quali sono le proteine vegetali più usate come alternativa alla carne?
-    - Come posso sostituire la carne con i prodotti a base di soia nella mia dieta vegana?
 
 - intent: low_carb_legumes
   examples: |
     - Quali sono i principali legumi a basso contenuto di carboidrati?
     - Quali sono i legumi vegani più ricchi di proteine e a basso contenuto di carboidrati?
-    - Come posso aggiungere proteine alla mia dieta vegana a basso contenuto di carboidrati?
-    - Quali sono i legumi più salutari per una dieta a basso contenuto di carboidrati?
-    - Quali sono i legumi vegani con il contenuto di carboidrati più basso?
 
 - intent: combine_cereals_legumes
   examples: |
     - Come si può combinare cereali e legumi per ottenere un apporto proteico completo?
     - Quali sono le combinazioni di cereali e legumi che assicurano un apporto proteico adeguato?
-    - Quali sono i cibi vegani che forniscono proteine complete?
-    - Cosa significa "proteine complete" nella dieta vegana?
-    - Quali sono i modi migliori per combinare i cereali e i legumi per ottenere un valore biologico completo?
 
 - intent: common_vegetable_protein_powders
   examples: |
     - Quali sono le proteine in polvere a base vegetale più comuni?
     - Quali sono i tipi di proteine in polvere vegane più popolari?
-    - Quali sono le migliori marche di proteine in polvere vegetali?
-    - Cosa sono le proteine in polvere a base vegetale e come si usano?
-    - Quali sono le differenze tra le proteine in polvere a base vegetale e quelle a base animale?
 
 - intent: low_carb_low_fat_vegetable_protein_sources
   examples: |
     - Quali sono le fonti proteiche vegetali a basso contenuto di carboidrati e grassi?
     - Quali sono gli alimenti vegetali con un basso contenuto di carboidrati e grassi ma ricchi di proteine?
-    - Quali sono le migliori fonti di proteine vegetali per una dieta a basso contenuto di carboidrati e grassi?
-    - Come posso ottenere abbastanza proteine da una dieta vegetariana a basso contenuto di carboidrati e grassi?
-    - Quali sono i cibi vegetali che contengono proteine e pochi carboidrati o grassi?
 
 - intent: enough_protein_vegetarian_diet
   examples: |
     - È possibile ottenere abbastanza proteine da una dieta vegetariana?
     - Quali sono le quantità di proteine consigliate per una dieta vegetariana?
-    - Come posso ottenere abbastanza proteine sulla mia dieta vegetariana?
-    - Quali sono i rischi di una dieta vegetariana carente di proteine?
-    - Cosa succede se non si assume abbastanza proteine sulla dieta vegetariana?
 
 - intent: hard_to_digest_vegetable_proteins
   examples: |
     - Quali sono le proteine vegetali che possono causare problemi di digestione?
     - Quali sono le fonti proteiche vegetali che possono causare gonfiore o problemi intestinali?
-    - Quali sono i cibi vegetali più difficili da digerire a causa del loro contenuto proteico?
-    - Come posso evitare problemi di digestione sulla dieta vegana?
-    - Quali sono i sintomi di un'intolleranza alle proteine vegetali?
 
 - intent: vegan_protein_deficiency_risks
   examples: |
     - Quali sono i rischi di una dieta vegana carente di proteine?
     - Cosa succede se non si assume abbastanza proteine sulla dieta vegana?
-    - Come una carenza proteica può influire sulla salute dei vegani?
-    - Quali sono i sintomi di una carenza proteica sulla dieta vegana?
-    - Quali sono le complicazioni che possono insorgere a causa di una dieta vegana povera di proteine?
 
 - intent: vegan_protein_concern
   examples: |
     - Qual è la preoccupazione principale dei vegani riguardo alle proteine nella loro alimentazione?
     - I vegani sono a rischio di carenza proteica?
-    - Perché i vegani sono preoccupati per le proteine nella loro alimentazione?
-    - Quali sono i timori dei vegani riguardo alle proteine nella loro dieta?
-    - I vegani possono ottenere abbastanza proteine dalla loro dieta?
 
 - intent: vegan_protein_intake
   examples: |
     - È possibile assumere abbastanza proteine con una dieta vegana?
     - I vegani possono soddisfare il loro fabbisogno proteico con la loro dieta?
-    - Quali sono le fonti di proteine vegetali consigliate per i vegani?
-    - Come si può garantire un'assunzione proteica adeguata sulla dieta vegana?
-    - Cosa succede se non si assume abbastanza proteine sulla dieta vegana?
 
 - intent: protein_deficiency_consequences
   examples: |
     - Quali sono le conseguenze di un'assunzione non ottimale di proteine nella dieta vegana?
     - Cosa succede se si assume troppo poche proteine sulla dieta vegana?
-    - Come una carenza proteica può influire sulla salute?
-    - Quali sono i sintomi di una carenza proteica sulla dieta vegana?
-    - Quali sono le complicazioni che possono insorgere a causa di una dieta vegana povera di proteine?
 
 - intent: concentrated_protein_sources
   examples: |
     - Quali sono le fonti proteiche concentrate nella dieta vegana?
     - Quali sono i cibi vegetali più ricchi di proteine per porzione?
-    - Quali sono le fonti proteiche vegetali più dense in termini di nutrienti?
-    - Cosa significa "proteine concentrate" nella dieta vegana?
-    - Quali sono i cibi vegani che forniscono un alto contenuto di proteine per unità di peso?
 
 - intent: protein_concerns_for_vegans
   examples: |
     - Perché le proteine sono una preoccupazione per i vegani?
     - Quali sono le sfide nell'assumere proteine nella dieta vegana?
-    - Come si può assicurare un adeguato apporto di proteine in una dieta vegana?
-    - Quali sono le principali preoccupazioni riguardo alle proteine nella dieta vegana?
-    - Perché è importante fare attenzione all'apporto proteico nella dieta vegana?
 
 - intent: concentrated_protein_sources_for_vegan_diet
   examples: |
     - Quali sono le fonti proteiche concentrate ideali per una dieta vegana?
     - Quali sono i cibi vegani più ricchi di proteine?
-    - Quali sono i cibi vegani con un alto contenuto di proteine per porzione?
-    - Come posso fare per assumere abbastanza proteine sulla dieta vegana?
-    - Quali sono i cibi vegetali che offrono un alto contenuto di proteine?
 
 - intent: protein_deficiency_consequences_for_vegans
   examples: |
     - Quali sono le conseguenze di un'assunzione proteica non ottimale per i vegani?
     - Cosa succede se non si assume abbastanza proteine sulla dieta vegana?
-    - Quali sono i rischi per la salute di una dieta vegana povera di proteine?
-    - Come una carenza proteica può influire sulla salute dei vegani?
-    - Quali sono i sintomi di una carenza proteica sulla dieta vegana?
 
 - intent: biological_value_of_proteins
   examples: |
     - Cosa significa "valore biologico" delle proteine?
     - Come si valuta il valore biologico delle proteine?
-    - Quali sono i fattori che influenzano il valore biologico delle proteine?
-    - Perché il valore biologico delle proteine è importante?
-    - Qual è il valore biologico delle proteine vegetali rispetto a quelle animali?
 
 - intent: unbalanced_protein_intake_problems
   examples: |
     - Quali sono i problemi associati a un'assunzione proteica non bilanciata?
     - Cosa succede se si assume troppa o troppo poca proteina sulla dieta vegana?
-    - Come una carenza o un eccesso di proteine può influire sulla salute?
-    - Quali sono i sintomi di una carenza proteica sulla dieta vegana?
-    - Quali sono i rischi per la salute di una dieta vegana povera o eccessiva di proteine?
 
 - intent: intuitive_eating_protein_sources
   examples: |
     - Quali sono i cibi che dovrebbero comporre la seconda parte dei pasti principali nella dieta intuitiva?
     - Cosa si intende per "seconda parte del pasto" nella dieta intuitiva?
-    - Quali sono i cibi che dovrebbero accompagnare la fonte proteica nella dieta intuitiva?
-    - Come combinare i cibi nella dieta intuitiva per ottenere un pasto equilibrato?
-    - Quali sono le linee guida per comporre un pasto completo nella dieta intuitiva?
 
 - intent: recommended_protein_intake
   examples: |
     - Quanta proteina dovrebbe rappresentare questa parte del pasto?
     - Qual è la quantità di proteine raccomandata per pasto nella dieta vegana?
-    - Quanto deve essere grande la porzione di proteine nella dieta vegana?
-    - Come calcolare la quantità di proteine che si dovrebbero assumere nella dieta vegana?
-    - Quanto proteine devo assumere al giorno sulla dieta vegana?
 
 - intent: recommended_protein_sources
   examples: |
     - Quali sono le fonti proteiche consigliate?
     - Quali sono i cibi vegetali che contengono più proteine?
-    - Quali alimenti vegani sono più ricchi di proteine?
-    - Come posso aumentare il mio apporto di proteine sulla dieta vegana?
-    - Quali sono i modi migliori per ottenere proteine sulla dieta vegana?
 
 - intent: importance_of_variety_in_protein_sources
   examples: |
     - Perché è importante variare le fonti proteiche nella dieta?
     - Quali sono i benefici di consumare proteine provenienti da fonti diverse?
-    - Cosa succede se si assume sempre le stesse fonti proteiche?
-    - Come posso variare le fonti proteiche nella mia dieta vegana?
-    - Quali sono gli effetti collaterali di non variare le fonti proteiche?
 
 - intent: effects_of_protein_intake_on_health
   examples: |
     - Quali sono gli effetti dell'assunzione di proteine sulla salute?
     - Qual è il ruolo delle proteine nell'organismo?
-    - Cosa succede se si assume troppa proteina?
-    - Quali sono i benefici di un apporto proteico adeguato?
-    - Quali sono i rischi associati ad un apporto proteico eccessivo?
 
 - intent: insufficient_protein_intake
   examples: |
     - Cosa succede se non si assume una quantità sufficiente di proteine?
     - Quali sono i sintomi di una carenza proteica?
-    - Come posso capire se sto assumendo abbastanza proteine?
-    - Qual è la quantità di proteine minima necessaria per una salute ottimale?
-    - Come posso evitare una carenza proteica sulla dieta vegana?
     
 - intent: protein_intake_variations
   examples: |
     - Come varia l'apporto proteico in base al peso e allo stile di vita?
     - Qual è l'apporto proteico raccomandato in base all'età?
-    - Quanto proteine dovrei assumere se faccio attività fisica?
-    - Qual è la quantità di proteine raccomandata per una persona sedentaria?
-    - Qual è la quantità di proteine raccomandata per un atleta?
 
 - intent: gender_differences_in_protein_intake
   examples: |
     - Qual è la differenza nell'apporto proteico necessario tra uomini e donne?
     - Qual è la quantità di proteine raccomandata per le donne?
-    - Qual è la quantità di proteine raccomandata per gli uomini?
-    - Quali sono le differenze tra l'apporto proteico raccomandato per uomini e donne?
-    - Come posso calcolare il mio fabbisogno proteico in base al genere?
 
 - intent: low_protein_intake_for_women
   examples: |
     - Perché le donne potrebbero avere bisogno di un apporto proteico più basso?
     - Come l'apporto proteico dovrebbe differire tra uomini e donne?
-    - Quali sono i rischi di un'eccessiva assunzione proteica per le donne?
-    - Quali sono i vantaggi di un'assunzione proteica moderata per le donne?
-    - Quanto dovrebbe essere l'apporto proteico giornaliero raccomandato per le donne?
 
 - intent: meeting_protein_needs_for_athletes
   examples: |
     - Come possono gli sportivi soddisfare il loro fabbisogno proteico?
     - Quanta proteina hanno bisogno gli atleti per sviluppare i muscoli?
-    - Quali sono i migliori cibi vegani ad alto contenuto proteico per gli atleti?
-    - Quali sono le migliori fonti di proteine per gli atleti vegani?
-    - Qual è il rapporto ideale tra proteine e carboidrati per gli atleti?
 
 - intent: protein_intake_variation_based_on_goal
   examples: |
     - Come varia l'apporto proteico in base all'obiettivo?
     - Quanta proteina dovrei mangiare se voglio aumentare la massa muscolare?
-    - Quanto proteine devo assumere se voglio perdere peso?
-    - Qual è la quantità di proteine necessaria per il mantenimento del peso corporeo?
-    - Come l'apporto proteico dovrebbe variare a seconda dei diversi obiettivi di fitness?
 
 - intent: protein_intake_modification_for_maintenance
   examples: |
     - Serve fare modifiche all'obiettivo mantenimento per quanto riguarda l'apporto proteico?
     - Qual è l'apporto proteico raccomandato per chi vuole solo mantenere il proprio peso?
-    - Cosa succede se mangio troppo poche proteine durante la fase di mantenimento del peso?
-    - Quali sono i vantaggi di un'assunzione proteica moderata durante la fase di mantenimento del peso?
-    - Come l'apporto proteico dovrebbe variare durante la fase di mantenimento del peso?
 
 - intent: factors_affecting_protein_intake
   examples: |
     - Quali sono i principali fattori che influenzano l'apporto proteico?
     - Come l'età e il sesso influenzano l'assunzione proteica?
-    - Qual è l'impatto dell'attività fisica sull'apporto proteico?
-    - Come lo stile di vita influisce sull'apporto proteico raccomandato?
-    - Quali sono le condizioni mediche che possono influenzare il fabbisogno proteico?
 
 - intent: less_protein_women
   examples: |
     - Perché le donne necessitano di meno proteine rispetto agli uomini?
     - Quali sono le differenze tra il fabbisogno proteico delle donne e degli uomini?
-    - Come varia il fabbisogno proteico a seconda del sesso?
-    - Cosa accade se una donna assume troppe proteine?
-    - Qual è l'apporto proteico raccomandato per le donne?
 
 - intent: protein_needs_athletes
   examples: |
     - Come possono gli sportivi soddisfare il loro fabbisogno proteico?
     - Qual è l'apporto proteico raccomandato per gli atleti?
-    - Come la dieta influisce sulle prestazioni sportive?
-    - Quali alimenti sono più indicati per gli atleti?
-    - Come varia l'apporto proteico a seconda del tipo di sport praticato?
 
 - intent: calorie_deficit_protein_intake
   examples: |
     - In che modo il deficit calorico influisce sull'apporto proteico?
     - Qual è l'apporto proteico consigliato in caso di dieta ipocalorica?
-    - Come assicurarsi di assumere abbastanza proteine quando si segue una dieta dimagrante?
-    - Quali sono le conseguenze di un'assunzione insufficiente di proteine in una dieta dimagrante?
-    - Come l'apporto proteico influisce sulla perdita di peso?
 
 - intent: protein_intake_muscle_mass
   examples: |
     - Qual è l'apporto proteico consigliato per chi cerca di aumentare la massa muscolare?
     - Cosa succede se si assume troppe proteine per aumentare la massa muscolare?
-    - Quali sono i migliori alimenti per aumentare la massa muscolare?
-    - Come combinare le proteine per ottenere una maggiore sintesi proteica?
-    - Qual è la relazione tra l'apporto proteico e l'aumento della massa muscolare?
 
 - intent: protein_intake_weight_maintenance
   examples: |
     - È necessario modificare l'apporto proteico per chi cerca di mantenere il peso?
     - Come influisce l'apporto proteico sulla manutenzione del peso corporeo?
-    - Qual è l'apporto proteico raccomandato per chi vuole mantenere il peso?
-    - Quali sono le fonti proteiche più adatte per mantenere il peso?
-    - Come varia l'apporto proteico in base al livello di attività fisica? 

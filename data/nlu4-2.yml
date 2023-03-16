@@ -5,210 +5,130 @@ nlu:
   examples: |
     - Qual è la differenza tra perdere peso e dimagrire?
     - Cosa vuol dire dimagrire rispetto a perdere peso?
-    - Quali sono le differenze tra la perdita di peso e il dimagrimento?
-    - Mi puoi spiegare la differenza tra dimagrire e perdere peso?
-    - Quali sono le differenze tra perdere peso e bruciare grassi?
-    - Perché non ho perso peso nonostante abbia perso centimetri?
 
 - intent: weight_loss_difference
   examples: |
     - Cosa significa che perdere peso non sempre equivale a dimagrire?
     - Mi spieghi la differenza tra perdere peso e dimagrire?
-    - Qual è la differenza tra perdere peso e dimagrire?
-    - Perché non ho perso peso nonostante abbia perso centimetri?
-    - Come posso sapere se sto perdendo peso o sto dimagrendo?
 
 - intent: weight_loss_factors
   examples: |
     - Qual è l'influenza di insulina, ormoni e metabolismo sulla perdita di peso?
     - Come influiscono l'insulina, gli ormoni e il metabolismo sulla perdita di peso?
-    - Perché alcuni ormoni ostacolano la perdita di peso?
-    - Quali fattori possono influire sulla perdita di peso oltre alla dieta e all'esercizio fisico?
-    - Come posso migliorare il mio metabolismo per perdere peso più velocemente?
+
 
 - intent: rapid_weight_loss_consequences
   examples: |
     - Quali sono le conseguenze di una perdita di peso troppo rapida?
     - Perché la perdita di peso troppo rapida può essere pericolosa?
-    - Come posso evitare una perdita di peso troppo rapida?
-    - Qual è il tasso di perdita di peso raccomandato?
-    - Come posso perdere peso in modo sano e sostenibile?
-# Perdita e aumento di peso:
+
 - intent: weight_loss_methods
   examples: |
     - Come posso perdere peso in modo efficace?
     - Quali sono i migliori modi per perdere peso?
-    - Cosa devo fare per perdere peso?
-    - Quali sono le strategie più efficaci per perdere peso?
-    - Come posso impostare un piano per la perdita di peso?
 
 - intent: weight_gain_methods
   examples: |
     - Come posso aumentare di peso in modo sano?
     - Quali sono i migliori modi per aumentare di peso?
-    - Cosa devo fare per aumentare di peso?
-    - Quali sono le strategie più efficaci per aumentare di peso?
-    - Come posso impostare un piano per l'aumento di peso?
 
 - intent: calorie_deficit_for_weight_loss
   examples: |
     - Qual è il deficit calorico adeguato per dimagrire?
     - Quanto devo ridurre le calorie per perdere peso?
-    - Come posso calcolare il mio deficit calorico?
-    - Quale dovrebbe essere il mio apporto calorico giornaliero per perdere peso?
-    - Qual è il rapporto tra il deficit calorico e la perdita di peso?
+
 
 - intent: calorie_surplus_for_muscle_gain
   examples: |
     - Qual è il surplus calorico consigliato per aumentare la massa muscolare?
     - Quanto devo aumentare le calorie per guadagnare massa muscolare?
-    - Come posso calcolare il mio surplus calorico?
-    - Quale dovrebbe essere il mio apporto calorico giornaliero per aumentare la massa muscolare?
-    - Qual è il rapporto tra il surplus calorico e l'aumento della massa muscolare?
 
 - intent: physiological_times_of_fat_mobilization
   examples: |
     - Quali sono i tempi fisiologici della mobilizzazione del grasso dai suoi depositi?
     - Quanto tempo ci vuole per iniziare a bruciare i grassi durante l'esercizio fisico?
-    - Quando inizio a perdere grasso dopo aver iniziato una dieta?
-    - Quanto tempo ci vuole per vedere i risultati della perdita di peso?
-    - Qual è il tempo ideale per un allenamento per bruciare grassi?
 
 - intent: effects_of_switching_to_vegetarian_diet
   examples: |
     - Cosa si verifica di solito quando si passa a una dieta vegetale?
     - Quali sono gli effetti di una dieta vegetariana?
-    - Cosa devo aspettarmi quando inizio una dieta vegetale?
-    - Come cambia il mio corpo quando divento vegetariano?
-    - Quali sono i benefici per la salute di una dieta vegetariana?
 
-#Alimentazione e dieta:
 - intent: role_of_proteins_in_nutrition
   examples: |
     - Quale è il ruolo delle proteine nell'alimentazione?
     - Perché le proteine sono importanti nella nostra dieta?
-    - Quali sono i benefici per la salute delle proteine?
-    - Come le proteine aiutano a costruire i muscoli?
-    - Quali sono le fonti alimentari più ricche di proteine?
 
 - intent: role_of_carbohydrates_in_nutrition
   examples: |
     - Quale è il ruolo dei carboidrati nell'alimentazione?
     - Perché i carboidrati sono importanti nella nostra dieta?
-    - Quali sono i benefici per la salute dei carboidrati?
-    - Come i carboidrati forniscono energia al nostro corpo?
-    - Quali sono le fonti alimentari più ricche di carboidrati?
 
 - intent: role_of_fats_in_nutrition
   examples: |
     - Quale è il ruolo dei grassi nell'alimentazione?
     - Perché i grassi sono importanti nella nostra dieta?
-    - Quali sono i benefici per la salute dei grassi?
-    - Come i grassi aiutano a mantenere il nostro corpo sano?
-    - Quali sono le fonti alimentari più ricche di grassi?
 
 - intent: role_of_vegetables_in_nutrition
   examples: |
     - Quale è il ruolo delle verdure nell'alimentazione?
     - Perché le verdure sono importanti nella nostra dieta?
-    - Quali sono i benefici per la salute delle verdure?
-    - Come le verdure possono aiutare a prevenire le malattie?
-    - Quali sono le verdure più nutrienti?
 
 - intent: role_of_fruit_in_nutrition
   examples: |
     - Quale è il ruolo della frutta nell'alimentazione?
     - Perché la frutta è importante nella nostra dieta?
-    - Quali sono i benefici per la salute della frutta?
-    - Come la frutta può aiutare a prevenire le malattie?
-    - Quali sono le frutte più nutrienti?
 
 - intent: category-based_approach
   examples: |
     - Che cosa si intende per approccio basato sulle categorie alimentari?
     - Qual è l'idea dietro l'approccio basato sulle categorie alimentari?
-    - Come funziona l'approccio basato sulle categorie alimentari?
-    - Quali sono le categorie alimentari principali?
-    - Come scegliere gli alimenti in base all'approccio basato sulle categorie?
 
 - intent: food_categories
   examples: |
     - Quali sono le categorie alimentari dell'approccio basato sulle categorie?
     - Quali sono le categorie di alimenti che dovrei includere nella mia dieta?
-    - Cosa sono i carboidrati complessi e in che categoria alimentare si trovano?
-    - Gli alimenti ad alto contenuto di grassi fanno parte di quale categoria?
-    - Posso mangiare la frutta come contorno nella categoria delle verdure?
 
 - intent: customize_food_categories
   examples: |
     - Come posso adattare l'approccio basato sulle categorie alimentari alla mia dieta?
     - Quali categorie alimentari dovrei scegliere per la mia dieta?
-    - Come posso personalizzare l'approccio basato sulle categorie alimentari per soddisfare le mie preferenze alimentari?
-    - Quante porzioni di carboidrati dovrei includere nella mia dieta?
-    - Posso modificare le categorie alimentari dell'approccio basato sulle categorie per adattarle alle mie esigenze specifiche?
-# Quantità e qualità del cibo:
 
 - intent: how_much_to_eat
   examples: |
     - Come si può capire quanto mangiare?
     - Qual è la porzione giusta per me?
-    - Cosa devo fare per non mangiare troppo?
-    - Quanto devo mangiare per stare in forma?
-    - Come posso calcolare le calorie dei miei pasti?
 
 - intent: ask_nutrition
   examples: |
     - Come faccio a capire se sto mangiando troppo o troppo poco?
     - Quali sono i segnali che indicano che sto mangiando troppo o troppo poco?
-    - Esiste un modo per capire se sto seguendo una dieta equilibrata?
-    - Come posso sapere se sto mangiando abbastanza proteine e fibre?
-    - Ci sono degli indicatori che posso osservare per capire se sto mangiando correttamente?
 
 - intent: ask_portions
   examples: |
     - Quali fattori devo considerare per adattare le porzioni di cibo alla mia situazione?
     - Come posso capire quanto cibo dovrei mangiare per soddisfare il mio fabbisogno calorico?
-    - Quali sono le variabili che influenzano la quantità di cibo che dovrei mangiare?
-    - Come posso adattare le porzioni di cibo in base alla mia età, altezza e peso?
-    - Ci sono altri fattori che devo considerare per adattare le porzioni di cibo al mio caso?
 
 - intent: ask_calorie_intake
   examples: |
     - Come posso verificare se sto mangiando abbastanza calorie rispetto al mio fabbisogno?
     - Quali strumenti posso utilizzare per calcolare la mia quantità di calorie giornaliera?
-    - Come posso sapere se sono in deficit calorico o in surplus?
-    - Quali indicatori posso osservare per capire se sto mangiando troppo o troppo poco?
-    - Come posso regolare la mia alimentazione in base al mio fabbisogno calorico?
-#Mantenimento della massa magra:
 
 - intent: ask_body_composition
   examples: |
     - Qual è il modo migliore per capire se sto perdendo massa grassa o massa magra?
     - Esiste un metodo per sapere se il mio dimagrimento è dovuto alla perdita di grasso o muscolo?
-    - Come posso valutare la mia composizione corporea e capire se sto perdendo peso in modo sano?
-    - Quali sono gli strumenti più affidabili per valutare la mia percentuale di massa grassa e massa magra?
-    - Come posso capire se sto bruciando grasso o muscolo durante l'allenamento?
 
 - intent: prevent_muscle_loss
   examples: |
     - Quali alimenti dovrei mangiare per evitare di perdere massa muscolare durante la dieta?
     - Come posso bilanciare la mia dieta per perdere grasso senza perdere muscolo?
-    - Quali sono gli esercizi più efficaci per preservare la massa muscolare durante la dieta?
-    - Ci sono integratori che posso prendere per evitare la perdita di massa magra durante la dieta?
-    - Come posso regolare la mia attività fisica per prevenire la perdita di massa muscolare durante la dieta?
-#Terminologia:
+
 - intent: define_calorie_surplus
   examples: |
     - Cosa significa "surplus calorico"?
     - Qual è la definizione di "calorie in surplus"?
-    - Cosa implica avere un surplus calorico?
-    - Come si ottiene un surplus calorico?
-    - Quali sono gli effetti di un surplus calorico sul nostro corpo?
 
 - intent: define_calorie_deficit
   examples: |
     - Cosa significa "deficit calorico"?
     - Qual è la definizione di "calorie in deficit"?
-    - Cosa implica avere un deficit calorico?
-    - Come si ottiene un deficit calorico?
-    - Quali sono gli effetti di un deficit calorico sul nostro corpo?

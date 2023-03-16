@@ -5,46 +5,28 @@ nlu:
   examples: |
     - Che cos'è l'integrazione con gli aminoacidi essenziali (EAA)?
     - Cosa si intende per integrare con gli EAA?
-    - Qual è il significato di "aminoacidi essenziali" nell'integrazione con gli EAA?
-    - Come funziona l'integrazione con gli aminoacidi essenziali (EAA)?
-    - In cosa consiste l'integrazione con gli EAA nella dieta?
-
+    
 - intent: advantages_of_eaa_supplementation
   examples: |
     - Quali sono i vantaggi dell'integrazione con gli EAA?
     - Perché integrare con gli aminoacidi essenziali (EAA)?
-    - Quali sono i benefici dell'assunzione di EAA sulla dieta?
-    - In che modo l'integrazione con gli EAA può migliorare la performance fisica?
-    - Come l'integrazione con gli EAA può favorire la crescita muscolare?
 
 - intent: how_to_supplement_with_eaa
   examples: |
     - Come si fa l'integrazione con gli EAA?
     - Qual è il modo migliore per integrare con gli aminoacidi essenziali?
-    - Quali sono i prodotti consigliati per l'integrazione con gli EAA?
-    - Come si calcolano le dosi di EAA da assumere?
-    - Quali sono i tempi di assunzione ottimali per gli EAA?
 
 - intent: protein_eaa_ratio_in_diet
   examples: |
     - Qual è il rapporto tra proteine e EAA nella dieta?
     - Come si calcola il rapporto tra proteine e EAA nella dieta?
-    - Qual è la quantità di EAA che si dovrebbe assumere rispetto alle proteine?
-    - Quali sono i cibi vegani che contengono gli EAA?
-    - Qual è la quantità di EAA raccomandata per una dieta vegana?
 
 - intent: vegan_diet_disadvantages
   examples: |
     - Quali sono i principali svantaggi delle diete vegetali?
     - Ci sono svantaggi nell'adozione di una dieta vegana?
-    - Quali sono i potenziali svantaggi di un'alimentazione basata solo su vegetali?
-    - Quali sono gli aspetti negativi delle diete a base di piante?
-    - Ci sono svantaggi per la salute nell'eliminazione dei prodotti animali dalla dieta?
 
 - intent: reasons_for_diet_failure
   examples: |
     - Quali sono i motivi per cui le diete falliscono spesso?
     - Perché le persone non riescono a seguire le diete vegane?
-    - Quali sono le cause più comuni di fallimento nella dieta vegana?
-    - Perché le persone smettono di seguire le diete a base di piante?
-    - Quali sono i motivi per cui è difficile mantenere una dieta vegana a lungo termine?
